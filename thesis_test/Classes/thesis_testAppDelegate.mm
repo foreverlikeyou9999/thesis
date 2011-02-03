@@ -75,7 +75,7 @@
 	
 	if (loc){
 		NSLog(@"Yes, loc is there; this shit should start now");
-		
+	
 		
 	}
 	

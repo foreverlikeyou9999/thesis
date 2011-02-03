@@ -15,10 +15,16 @@
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		718CDB4912F7BB14008198FA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 718CDB4812F7BB14008198FA /* QuartzCore.framework */; };
 		718CDBF212F7D9DB008198FA /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 718CDBF112F7D9DB008198FA /* MediaPlayer.framework */; };
+		718CDC8112F8A31D008198FA /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 718CDC8012F8A31D008198FA /* AVFoundation.framework */; };
 		71AF0A3512F5D18B003EA637 /* thesis_testAppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 71AF0A3212F5D18B003EA637 /* thesis_testAppDelegate.mm */; };
 		71AF0A3612F5D18B003EA637 /* thesis_testViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71AF0A3412F5D18B003EA637 /* thesis_testViewController.m */; };
 		71AF0A3E12F5D1BC003EA637 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71AF0A3D12F5D1BC003EA637 /* CoreLocation.framework */; };
 		71AF0A4212F5D1C4003EA637 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71AF0A4112F5D1C4003EA637 /* MapKit.framework */; };
+		71B11FD812F9D9DA00E37EEC /* audioPlayback.m in Sources */ = {isa = PBXBuildFile; fileRef = 71B11FD712F9D9DA00E37EEC /* audioPlayback.m */; };
+		71B11FE612F9DA1000E37EEC /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71B11FE512F9DA1000E37EEC /* OpenAL.framework */; };
+		71B11FEF12F9DAF100E37EEC /* 03 Building Fully Sprinkled.aif in Resources */ = {isa = PBXBuildFile; fileRef = 71B11FEE12F9DAF100E37EEC /* 03 Building Fully Sprinkled.aif */; };
+		71B11FF112FA00CB00E37EEC /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71B11FF012FA00CB00E37EEC /* AudioToolbox.framework */; };
+		71B1204012FA0A1F00E37EEC /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71B1203F12FA0A1F00E37EEC /* CoreAudio.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,12 +38,19 @@
 		32CA4F630368D1EE00C91783 /* thesis_test_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = thesis_test_Prefix.pch; sourceTree = "<group>"; };
 		718CDB4812F7BB14008198FA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		718CDBF112F7D9DB008198FA /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		718CDC8012F8A31D008198FA /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		71AF0A3112F5D18B003EA637 /* thesis_testAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = thesis_testAppDelegate.h; sourceTree = "<group>"; };
 		71AF0A3212F5D18B003EA637 /* thesis_testAppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = thesis_testAppDelegate.mm; sourceTree = "<group>"; };
 		71AF0A3312F5D18B003EA637 /* thesis_testViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = thesis_testViewController.h; sourceTree = "<group>"; };
 		71AF0A3412F5D18B003EA637 /* thesis_testViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = thesis_testViewController.m; sourceTree = "<group>"; };
 		71AF0A3D12F5D1BC003EA637 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		71AF0A4112F5D1C4003EA637 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		71B11FD612F9D9DA00E37EEC /* audioPlayback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = audioPlayback.h; sourceTree = "<group>"; };
+		71B11FD712F9D9DA00E37EEC /* audioPlayback.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = audioPlayback.m; sourceTree = "<group>"; };
+		71B11FE512F9DA1000E37EEC /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
+		71B11FEE12F9DAF100E37EEC /* 03 Building Fully Sprinkled.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "03 Building Fully Sprinkled.aif"; sourceTree = "<group>"; };
+		71B11FF012FA00CB00E37EEC /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		71B1203F12FA0A1F00E37EEC /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
 		8D1107310486CEB800E47090 /* thesis_test-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "thesis_test-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -53,6 +66,10 @@
 				71AF0A4212F5D1C4003EA637 /* MapKit.framework in Frameworks */,
 				718CDB4912F7BB14008198FA /* QuartzCore.framework in Frameworks */,
 				718CDBF212F7D9DB008198FA /* MediaPlayer.framework in Frameworks */,
+				718CDC8112F8A31D008198FA /* AVFoundation.framework in Frameworks */,
+				71B11FE612F9DA1000E37EEC /* OpenAL.framework in Frameworks */,
+				71B11FF112FA00CB00E37EEC /* AudioToolbox.framework in Frameworks */,
+				71B1204012FA0A1F00E37EEC /* CoreAudio.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +83,8 @@
 				71AF0A3212F5D18B003EA637 /* thesis_testAppDelegate.mm */,
 				71AF0A3312F5D18B003EA637 /* thesis_testViewController.h */,
 				71AF0A3412F5D18B003EA637 /* thesis_testViewController.m */,
+				71B11FD612F9D9DA00E37EEC /* audioPlayback.h */,
+				71B11FD712F9D9DA00E37EEC /* audioPlayback.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -102,6 +121,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				71B11FEE12F9DAF100E37EEC /* 03 Building Fully Sprinkled.aif */,
 				2899E5210DE3E06400AC0155 /* thesis_testViewController.xib */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* thesis_test-Info.plist */,
@@ -119,6 +139,10 @@
 				71AF0A4112F5D1C4003EA637 /* MapKit.framework */,
 				718CDB4812F7BB14008198FA /* QuartzCore.framework */,
 				718CDBF112F7D9DB008198FA /* MediaPlayer.framework */,
+				718CDC8012F8A31D008198FA /* AVFoundation.framework */,
+				71B11FE512F9DA1000E37EEC /* OpenAL.framework */,
+				71B11FF012FA00CB00E37EEC /* AudioToolbox.framework */,
+				71B1203F12FA0A1F00E37EEC /* CoreAudio.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -167,6 +191,7 @@
 			files = (
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
 				2899E5220DE3E06400AC0155 /* thesis_testViewController.xib in Resources */,
+				71B11FEF12F9DAF100E37EEC /* 03 Building Fully Sprinkled.aif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,6 +205,7 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				71AF0A3512F5D18B003EA637 /* thesis_testAppDelegate.mm in Sources */,
 				71AF0A3612F5D18B003EA637 /* thesis_testViewController.m in Sources */,
+				71B11FD812F9D9DA00E37EEC /* audioPlayback.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,7 +251,7 @@
 				ONLY_ACTIVE_ARCH = NO;
 				PREBINDING = NO;
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
-				SDKROOT = iphoneos3.2;
+				SDKROOT = iphoneos4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -242,7 +268,7 @@
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PREBINDING = NO;
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
-				SDKROOT = iphoneos3.2;
+				SDKROOT = iphoneos4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
