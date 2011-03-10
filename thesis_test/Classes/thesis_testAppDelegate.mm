@@ -3,14 +3,19 @@
 #import "thesis_testAppDelegate.h"
 #import "thesis_testViewController.h"
 #import <MapKit/MapKit.h>
+#import "Annotation.h"
+#import "CombinedViewController.h"
  
  
 
 @implementation thesis_testAppDelegate
 
 @synthesize window;
-@synthesize viewController;
+//@synthesize viewController;
 @synthesize locationManager;
+
+@synthesize combinedView;
+
 
 
  
@@ -25,7 +30,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
     
-	[window addSubview:viewController.view]; 
+	//[window addSubview:viewController.view]; 
+	[window addSubview:combinedView.view];
     [window makeKeyAndVisible];
 	
 	self.locationManager = [[[CLLocationManager alloc] init] autorelease]; //for retain count 
@@ -41,7 +47,7 @@
 		// more accurate results with GPS, but more polls take longer to populate 
 		
 		
-		self.locationManager.desiredAccuracy = kCLLocationAccuracyBest; //O'Reilly example says use this (or kCLLocationAccuracyNearest x Meters; 
+		self.locationManager.desiredAccuracy = kCLLocationAccuracyBest; //Best accuracy, most battery intensive. 
 		
 		
 		[self.locationManager startUpdatingLocation]; //get location, send back to delegate 
@@ -51,7 +57,9 @@
 	
 	else {
 		
-		viewController.whereabouts.text=@"This application cannot function without Location Services. Please relaunch and enable.";
+		
+	//	combinedView.whereabouts.text = @"This application cannot function without Location Services. Please relaunch and enable.";
+		//viewController.whereabouts.text=@"This application cannot function without Location Services. Please relaunch and enable.";
 		//.applicationWillTerminate;
 		exit(0);
 	}
@@ -71,10 +79,12 @@
 	NSLog(@"%s %i %s", "Your orientation is", o, "degrees."); 
 	
 	NSString* loc = [NSString stringWithFormat:@"Your orientation is %d, %d", x, y];
-	viewController.whereabouts.text= loc;
+	
+combinedView.whereabouts.text = loc;
+	//viewController.whereabouts.text= loc;
 	
 	if (loc){
-		NSLog(@"Yes, loc is there; this shit should start now");
+		NSLog(@"Yes, loc is there.");
 	
 		
 	}
@@ -95,9 +105,13 @@
 		
 		//This nil kills the mapview and all methods that depend on a CLLocation manager. Commented out for testing on 3G.
 		
-		UIAlertView *noCompassAlert = [[UIAlertView alloc] initWithTitle:@"No Compass!" message:@"This device does not have the ability to measure magnetic fields." delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
+		UIAlertView *noCompassAlert = [[UIAlertView alloc] initWithTitle:@"Not gonna work here anymore!" 
+							message:@"This device does not have a compass. Orientation tracking will not function properly and this application may not make sense." 
+									delegate:nil cancelButtonTitle:@"I'm sorry!" otherButtonTitles:nil];
+		noCompassAlert.cancelButtonIndex = 0; 
 		[noCompassAlert show];
 		[noCompassAlert release];
+	
 		
 	} 
 	
@@ -128,6 +142,11 @@
 	
 	// need to account for mapness, meaning greater distance from equator 
 	
+	/* Refuse updates more than a minute old - Stack Overflow suggestion */
+    if (abs([newLocation.timestamp timeIntervalSinceNow]) > 60.0) {
+        return;
+	}
+	
 	double size = 10.0;
 	double scaling = ABS(cos(2*M_PI*newLocation.coordinate.latitude/360.0)); //this scales views properly
 	
@@ -140,18 +159,47 @@
 	region.span = span; 
 	region.center = newLocation.coordinate; 
 	
-	[viewController.map setRegion:region animated:YES]; //animates to map
-	viewController.map.showsUserLocation = YES; //shows a dot
 	
-		
+
 	 
+	// [combinedView.map setRegion:region animated:YES]; //animates to map
+	// combinedView.map.showsUserLocation = YES; //shows a dot
+	
+	//[viewController.map setRegion:region animated:YES]; //animates to map
+	//viewController.map.showsUserLocation = YES; //shows a dot
+	
+	/*
 	
 	
+	NSMutableArray *coordinates = [[NSMutableArray array] autorelease];
+	
+	Annotation * testAnnotation;
+	testAnnotation.latitude = 40.72;
+	testAnnotation.longitude = -74.04;
+	[testAnnotation setCoordinate:(CLLocationCoordinate2D)testAnnotation.coordinate];
+	NSLog (@"coordintates are %f", testAnnotation.coordinate); 
+	
+	//Use NSMutableArray if annotating more than one location
+	
+	[coordinates addObject:testAnnotation];
+	
+	//Right now is just a single annotation. When using the addAnnotations method, takes an array as argument. 
+	//[viewController.map addAnnotations:coordinates];
+	
+	[viewController.map addAnnotation:testAnnotation];
+	
+	*/
 }
 
+
+
+
 - (void)locationManager:(CLLocationManager *)locationManager didUpdateHeading:(CLHeading *)heading {
-	
-	[viewController.map setTransform:CGAffineTransformMakeRotation(-1 * heading.magneticHeading * 3.14159 / 180)];
+
+
+//	[combinedView.map setTransform:CGAffineTransformMakeRotation(-1 * heading.magneticHeading * 3.14159 / 180)];
+
+	//[viewController.map setTransform:CGAffineTransformMakeRotation(-1 * heading.magneticHeading * 3.14159 / 180)];
 	
 	// From stack overflow example. The heading information should be passed by this method, and the transform should be a rotation 
 	// that converts from degrees to radians.
@@ -196,6 +244,7 @@
      Called when the application is about to terminate.
      See also applicationDidEnterBackground:.
      */
+	
 }
 
 
@@ -210,7 +259,9 @@
 
 
 - (void)dealloc {
-    [viewController release];
+	
+	[combinedView release];
+//  [viewController release];
     [window release];
     [super dealloc];
 }

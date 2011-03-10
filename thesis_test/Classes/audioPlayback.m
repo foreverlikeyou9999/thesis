@@ -6,10 +6,14 @@
 //  Copyright 2011 __MyCompanyName__. All rights reserved.
 //
 
+
+
 #import "audioPlayback.h"
 
 
-@implementation audioPlayback /*
+@implementation audioPlayback 
+
+@synthesize mContext, mDevice, soundDictionary, bufferStorageArray;
 
 
 // start up openAL
@@ -17,25 +21,50 @@
 {
 	// Initialization
 	mDevice = alcOpenDevice(NULL); // select the "preferred device"
+	
 	if (mDevice) {
 		// use the device to make a context
 		mContext=alcCreateContext(mDevice,NULL);
+		
+		NSLog(@"Device opened successsfully");
+		
+		if (mContext)
+		{
+			NSLog(@"Created AL context");
+		}
+		
 		// set my context to the currently active one
+		
 		alcMakeContextCurrent(mContext);
 	}
 }
 
+-(void) prepareOpenAL 
+
+
+
+{ 
+	
+	/*
 
 // get the full path of the file
-NSString* fileName = [[NSBundle mainBundle] pathForResource:@"03 Building Fully Sprinkled" ofType:@"aif"];
+NSString* fileName = [[NSBundle mainBundle] pathForResource:@"Timmony" ofType:@"aif"];
+	
+	if (fileName) {
+		NSLog(@"The filename was created. Presumably, the path exists too.");
+	}
+	
 
 // first, open the file
 AudioFileID fileID = [self openAudioFile:fileName];
+		if (fileID) {
+			NSLog(@"The file ID is open");
+		}
 
 
 // find out how big the actual audio data is
 UInt32 fileSize = [self audioFileSize:fileID];
-
+			NSLog(@"The filesize is %@", sizeof(fileSize));
 
 
 // this is where the audio data will live for the moment
@@ -63,7 +92,7 @@ alBufferData(bufferID,AL_FORMAT_STEREO16,outData,fileSize,44100);
 [bufferStorageArray addObject:[NSNumber numberWithUnsignedInteger:bufferID]];
 
 
-
+	NSUInteger sourceID;
 
 // grab a source ID from openAL
 alGenSources(1, &sourceID); 
@@ -73,10 +102,10 @@ alSourcei(sourceID, AL_BUFFER, bufferID);
 // set some basic source prefs
 alSourcef(sourceID, AL_PITCH, 1.0f);
 alSourcef(sourceID, AL_GAIN, 1.0f);
-if (loops) alSourcei(sourceID, AL_LOOPING, AL_TRUE);
+//if (loops) alSourcei(sourceID, AL_LOOPING, AL_TRUE);
 
 // store this for future use
-[soundDictionary setObject:[NSNumber numberWithUnsignedInt:sourceID] forKey:@"03 Building Fully Sprinkled"];	
+[soundDictionary setObject:[NSNumber numberWithUnsignedInt:sourceID] forKey:@"test"];	
 
 // clean up the buffer
 if (outData)
@@ -84,17 +113,27 @@ if (outData)
 	free(outData);
 	outData = NULL;
 }
+ 
+ */
+
+}
+
+ 
 
 
 
 // the main method: grab the sound ID from the library
 // and start the source playing
-- (void)playSound:(NSString*)soundKey
+- (void) playSound:(NSString*)soundKey
 {
 	NSNumber * numVal = [soundDictionary objectForKey:soundKey];
+	
+	NSLog(@"Here are the soundKey values: %@",[soundDictionary allValues]);
+	 
 	if (numVal == nil) return;
 	NSUInteger sourceID = [numVal unsignedIntValue];
 	alSourcePlay(sourceID);
+	NSLog(@"Play sound method completed");
 }
 
 
@@ -106,6 +145,7 @@ if (outData)
 	if (numVal == nil) return;
 	NSUInteger sourceID = [numVal unsignedIntValue];
 	alSourceStop(sourceID);
+	
 }
 
 
@@ -134,5 +174,35 @@ if (outData)
 }
 
 
-*/
+
+-(AudioFileID)openAudioFile:(NSString*)filePath
+{
+	
+	AudioFileID outAFID;
+	// use the NSURl instead of a cfurlref cuz it is easier
+	NSURL * afUrl = [NSURL fileURLWithPath:filePath];
+	
+	// do some platform specific stuff..
+#if TARGET_OS_IPHONE
+	OSStatus result = AudioFileOpenURL((CFURLRef)afUrl, kAudioFileReadPermission, 0, &outAFID);
+#else
+	OSStatus result = AudioFileOpenURL((CFURLRef)afUrl, fsRdPerm, 0, &outAFID);
+#endif
+	if (result != 0) NSLog(@"cannot openf file: %@",filePath);
+	return outAFID;
+}
+
+  
+// find the audio portion of the file
+// return the size in bytes
+-(UInt32)audioFileSize:(AudioFileID)fileDescriptor
+{
+	UInt64 outDataSize = 0;
+	UInt32 thePropSize = sizeof(UInt64);
+	OSStatus result = AudioFileGetProperty(fileDescriptor, kAudioFilePropertyAudioDataByteCount, &thePropSize, &outDataSize);
+	if(result != 0) NSLog(@"cannot find file size");
+	return (UInt32)outDataSize;
+}
+
+
 @end
