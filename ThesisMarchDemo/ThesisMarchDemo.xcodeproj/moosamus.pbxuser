@@ -1,0 +1,245 @@
+// !$*UTF8*$!
+{
+	1D6058900D05DD3D006BFB54 /* ThesisMarchDemo */ = {
+		activeExec = 0;
+		executables = (
+			71A3C67E133A4C2300E4DFF2 /* ThesisMarchDemo */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 71A3C67E133A4C2300E4DFF2 /* ThesisMarchDemo */;
+		activeSDKPreference = iphoneos4.2;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* ThesisMarchDemo */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* ThesisMarchDemo */,
+		);
+		codeSenseManager = 71A3C68A133A4C2F00E4DFF2 /* Code sense */;
+		executables = (
+			71A3C67E133A4C2300E4DFF2 /* ThesisMarchDemo */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					686,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 322598389;
+			PBXWorkspaceStateSaveDate = 322598389;
+		};
+		perUserProjectItems = {
+			71593E9F133A75B70013E89E = 71593E9F133A75B70013E89E /* PBXTextBookmark */;
+			71593EAC133A75E70013E89E = 71593EAC133A75E70013E89E /* PBXTextBookmark */;
+			71593EAD133A75E70013E89E = 71593EAD133A75E70013E89E /* PBXTextBookmark */;
+			71593EAF133A75E90013E89E = 71593EAF133A75E90013E89E /* PBXTextBookmark */;
+			71666F60133A73630067567A = 71666F60133A73630067567A /* PBXTextBookmark */;
+			71672DB2133A75FC000F5A3F /* PBXTextBookmark */ = 71672DB2133A75FC000F5A3F /* PBXTextBookmark */;
+			71A3C6F3133A5DA100E4DFF2 = 71A3C6F3133A5DA100E4DFF2 /* PBXTextBookmark */;
+			71A3C6F4133A5DA100E4DFF2 = 71A3C6F4133A5DA100E4DFF2 /* PBXTextBookmark */;
+			71A3C759133A628500E4DFF2 = 71A3C759133A628500E4DFF2 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 71A3C689133A4C2F00E4DFF2 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	71593E9F133A75B70013E89E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 71666F18133A68160067567A /* ThesisMarchDemoAppDelegate.m */;
+		name = "ThesisMarchDemoAppDelegate.m: 182";
+		rLen = 0;
+		rLoc = 5113;
+		rType = 0;
+		vrLen = 1193;
+		vrLoc = 4705;
+	};
+	71593EAC133A75E70013E89E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 71666F1A133A68160067567A /* ThesisMarchDemoViewController.m */;
+		name = "ThesisMarchDemoViewController.m: 172";
+		rLen = 0;
+		rLoc = 4690;
+		rType = 0;
+		vrLen = 1229;
+		vrLoc = 4228;
+	};
+	71593EAD133A75E70013E89E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 71666F19133A68160067567A /* ThesisMarchDemoViewController.h */;
+		name = "ThesisMarchDemoViewController.h: 25";
+		rLen = 0;
+		rLoc = 507;
+		rType = 0;
+		vrLen = 673;
+		vrLoc = 0;
+	};
+	71593EAF133A75E90013E89E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 71666F19133A68160067567A /* ThesisMarchDemoViewController.h */;
+		name = "ThesisMarchDemoViewController.h: 16";
+		rLen = 0;
+		rLoc = 333;
+		rType = 0;
+		vrLen = 687;
+		vrLoc = 140;
+	};
+	71666F18133A68160067567A /* ThesisMarchDemoAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1027, 3432}}";
+			sepNavSelRange = "{5113, 0}";
+			sepNavVisRange = "{4705, 1193}";
+		};
+	};
+	71666F19133A68160067567A /* ThesisMarchDemoViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {901, 1430}}";
+			sepNavSelRange = "{305, 0}";
+			sepNavVisRange = "{283, 612}";
+		};
+	};
+	71666F1A133A68160067567A /* ThesisMarchDemoViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1426, 16406}}";
+			sepNavSelRange = "{3144, 887}";
+			sepNavVisRange = "{0, 952}";
+		};
+	};
+	71666F60133A73630067567A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 71A3C6AF133A515D00E4DFF2 /* thesisMarchDemoAppDelegate.h */;
+		name = "thesisMarchDemoAppDelegate.h: 27";
+		rLen = 0;
+		rLoc = 696;
+		rType = 0;
+		vrLen = 771;
+		vrLoc = 0;
+	};
+	71672DB2133A75FC000F5A3F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 71666F19133A68160067567A /* ThesisMarchDemoViewController.h */;
+		name = "ThesisMarchDemoViewController.h: 16";
+		rLen = 0;
+		rLoc = 333;
+		rType = 0;
+		vrLen = 667;
+		vrLoc = 140;
+	};
+	71A3C67E133A4C2300E4DFF2 /* ThesisMarchDemo */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = ThesisMarchDemo;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	71A3C688133A4C2F00E4DFF2 /* Annotation.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {927, 460}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 605}";
+		};
+	};
+	71A3C689133A4C2F00E4DFF2 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	71A3C68A133A4C2F00E4DFF2 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	71A3C68B133A4C3A00E4DFF2 /* Annotation.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {927, 460}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 444}";
+		};
+	};
+	71A3C6AF133A515D00E4DFF2 /* thesisMarchDemoAppDelegate.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = thesisMarchDemoAppDelegate.h;
+		path = "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/Classes/thesisMarchDemoAppDelegate.h";
+		sourceTree = "<absolute>";
+	};
+	71A3C6F3133A5DA100E4DFF2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 71A3C688133A4C2F00E4DFF2 /* Annotation.h */;
+		name = "Annotation.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 605;
+		vrLoc = 0;
+	};
+	71A3C6F4133A5DA100E4DFF2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 71A3C68B133A4C3A00E4DFF2 /* Annotation.m */;
+		name = "Annotation.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 444;
+		vrLoc = 0;
+	};
+	71A3C6FC133A5DA100E4DFF2 /* thesisMarchDemoViewController.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = thesisMarchDemoViewController.h;
+		path = "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/Classes/thesisMarchDemoViewController.h";
+		sourceTree = "<absolute>";
+	};
+	71A3C759133A628500E4DFF2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 71A3C6FC133A5DA100E4DFF2 /* thesisMarchDemoViewController.h */;
+		name = "thesisMarchDemoViewController.h: 89";
+		rLen = 0;
+		rLoc = 2189;
+		rType = 0;
+		vrLen = 1060;
+		vrLoc = 1137;
+	};
+}

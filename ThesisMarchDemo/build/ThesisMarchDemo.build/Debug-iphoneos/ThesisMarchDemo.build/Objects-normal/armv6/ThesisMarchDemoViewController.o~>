@@ -1,0 +1,10 @@
+/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/../ThesisMarchDemo/Classes/ThesisMarchDemoViewController.m: In function '-[ThesisMarchDemoViewController locationManager:didUpdateHeading:]':
+/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/../ThesisMarchDemo/Classes/ThesisMarchDemoViewController.m:180: warning: local declaration of 'heading' hides instance variable
+/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/../ThesisMarchDemo/Classes/ThesisMarchDemoViewController.m: At top level:
+/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/../ThesisMarchDemo/Classes/ThesisMarchDemoViewController.m:1276: warning: property 'jerk' requires method '-jerk' to be defined - use @synthesize, @dynamic or provide a method implementation
+/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/../ThesisMarchDemo/Classes/ThesisMarchDemoViewController.m:1276: warning: property 'jerk' requires the method 'setJerk:' to be defined - use @synthesize, @dynamic or provide a method implementation
+/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/../ThesisMarchDemo/Classes/ThesisMarchDemoViewController.m:1276: warning: incomplete implementation of class 'ThesisMarchDemoViewController'
+/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/../ThesisMarchDemo/Classes/ThesisMarchDemoViewController.m:1276: warning: method definition for '-showInfo:' not found
+/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/../ThesisMarchDemo/Classes/ThesisMarchDemoViewController.m:1276: warning: method definition for '-updateGainFloor' not found
+/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/../ThesisMarchDemo/Classes/ThesisMarchDemoViewController.m:1276: warning: method definition for '-updateAngleWidth' not found
+/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/../ThesisMarchDemo/Classes/ThesisMarchDemoViewController.m:1276: warning: method definition for '-toggleTracking' not found
