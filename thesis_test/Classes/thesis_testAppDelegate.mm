@@ -159,7 +159,7 @@ combinedView.whereabouts.text = loc;
 	region.span = span; 
 	region.center = newLocation.coordinate; 
 	
-	
+	NSLog(@"Location updated");
 
 	 
 	// [combinedView.map setRegion:region animated:YES]; //animates to map

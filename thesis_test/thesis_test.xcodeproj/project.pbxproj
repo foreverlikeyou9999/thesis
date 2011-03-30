@@ -45,8 +45,8 @@
 		32CA4F630368D1EE00C91783 /* thesis_test_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = thesis_test_Prefix.pch; sourceTree = "<group>"; };
 		7156B4C1132961220087A42B /* thesis_testAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = thesis_testAppDelegate.h; sourceTree = "<group>"; };
 		7156B4C6132962130087A42B /* thesis_testAppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = thesis_testAppDelegate.mm; sourceTree = "<group>"; };
-		7161D2B21313738100163B52 /* audioStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = audioStream.h; sourceTree = "<group>"; };
-		7161D2B31313738100163B52 /* audioStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = audioStream.m; sourceTree = "<group>"; };
+		7161D2B21313738100163B52 /* audioStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = audioStream.h; path = Classes/audioStream.h; sourceTree = "<group>"; };
+		7161D2B31313738100163B52 /* audioStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = audioStream.m; path = Classes/audioStream.m; sourceTree = "<group>"; };
 		7161D3271315AE8D00163B52 /* Annotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Annotation.h; sourceTree = "<group>"; };
 		7161D3281315AE8D00163B52 /* Annotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Annotation.m; sourceTree = "<group>"; };
 		718CDB4812F7BB14008198FA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -65,8 +65,8 @@
 		71AF0A3412F5D18B003EA637 /* thesis_testViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = thesis_testViewController.m; sourceTree = "<group>"; };
 		71AF0A3D12F5D1BC003EA637 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		71AF0A4112F5D1C4003EA637 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		71B11FD612F9D9DA00E37EEC /* audioPlayback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = audioPlayback.h; sourceTree = "<group>"; };
-		71B11FD712F9D9DA00E37EEC /* audioPlayback.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = audioPlayback.m; sourceTree = "<group>"; };
+		71B11FD612F9D9DA00E37EEC /* audioPlayback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = audioPlayback.h; path = Classes/audioPlayback.h; sourceTree = "<group>"; };
+		71B11FD712F9D9DA00E37EEC /* audioPlayback.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = audioPlayback.m; path = Classes/audioPlayback.m; sourceTree = "<group>"; };
 		71B11FE512F9DA1000E37EEC /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
 		71B11FF012FA00CB00E37EEC /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		71B1203F12FA0A1F00E37EEC /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
@@ -106,10 +106,6 @@
 				7156B4C6132962130087A42B /* thesis_testAppDelegate.mm */,
 				7156B4C1132961220087A42B /* thesis_testAppDelegate.h */,
 				71AF0A3412F5D18B003EA637 /* thesis_testViewController.m */,
-				71B11FD612F9D9DA00E37EEC /* audioPlayback.h */,
-				7161D2B21313738100163B52 /* audioStream.h */,
-				7161D2B31313738100163B52 /* audioStream.m */,
-				71B11FD712F9D9DA00E37EEC /* audioPlayback.m */,
 				71ACA8851327FF3C00CCF90D /* CombinedViewController.h */,
 				71ACA8861327FF3C00CCF90D /* CombinedViewController.m */,
 			);
@@ -139,6 +135,10 @@
 		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
+				71B11FD612F9D9DA00E37EEC /* audioPlayback.h */,
+				7161D2B31313738100163B52 /* audioStream.m */,
+				71B11FD712F9D9DA00E37EEC /* audioPlayback.m */,
+				7161D2B21313738100163B52 /* audioStream.h */,
 				32CA4F630368D1EE00C91783 /* thesis_test_Prefix.pch */,
 				29B97316FDCFA39411CA2CEA /* main.m */,
 			);

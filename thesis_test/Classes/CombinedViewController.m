@@ -26,12 +26,17 @@
 	// change positionSliderSurround to a vertical slider
 	//positionSliderSurround.transform = CGAffineTransformRotate(positionSliderSurround.transform, 270.0/180*M_PI);
 	
+	
+	/*
+	
 	// initialize CLLocationManager, set delegate and accuracy
 	locationManager = [[CLLocationManager alloc] init];
 	locationManager.delegate = self;
 	locationManager.desiredAccuracy = kCLLocationAccuracyBest;
 	
 	heading = [[CLHeading alloc] init];
+	 
+	 */
 	
 	// initialize soundLibrary
 	// this NSMutableDictionary holds records, allowing for the lookup of each large file

@@ -1,7 +1,7 @@
 Tthesis_test
 v7
 r0
-t321479855.947273
+t322527837.259316
 cCheck dependencies
 cProcessInfoPlistFile "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/Debug-iphonesimulator/thesis_test.app/Info.plist" thesis_test-Info.plist
 cCompileXIB "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/MainWindow.xib"
@@ -560,9 +560,9 @@ t1299698908
 s25428
 
 N/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/MainWindow.xib
-c000000004D77DE760000000000007366
-t1299701366
-s29542
+c000000004D79319E0000000000006BEA
+t1299788190
+s27626
 
 N/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Timmony.aif
 c000000004C8AA6F50000000002D55E00
@@ -570,7 +570,7 @@ t1284155125
 s47537664
 
 N/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/Debug-iphonesimulator/thesis_test.app
-t1299787055
+t1299788192
 s340
 
 N/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/Debug-iphonesimulator/thesis_test.app.dSYM
@@ -590,8 +590,8 @@ t1297280988
 s607
 
 N/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/Debug-iphonesimulator/thesis_test.app/MainWindow.nib
-t1299701368
-s1638
+t1299788192
+s1681
 
 N/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/Debug-iphonesimulator/thesis_test.app/PkgInfo
 t1297280988
@@ -716,7 +716,7 @@ s909
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies321479855#321479855#0(0"0(0#1#0"8615069696#0"0#
+lSLF07#2@18"Check dependencies322527837#322527837#0(0"0(0#1#0"32651522506817640#0"0#
 
 CCompileC build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/Objects-normal/i386/Annotation.o "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/Annotation.m" normal i386 objective-c com.apple.compilers.gcc.4_2
 s321225685.441813
@@ -920,12 +920,12 @@ x/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/CombinedViewControll
 lSLF07#2@37"CompileXIB CombinedViewController.xib321391740#321391740#0(0"0(0#0#85"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/CombinedViewController.xib8619050848#666"    cd "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/Debug-iphonesimulator/thesis_test.app/CombinedViewController.nib" "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/CombinedViewController.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
 
 CCompileXIB "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/MainWindow.xib"
-s321394168.430253
-e321394168.818211
+s321480991.790023
+e321480992.153023
 r1
 xCompileXIB
 x/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/MainWindow.xib
-lSLF07#2@25"CompileXIB MainWindow.xib321394168#321394168#0(0"0(0#0#73"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/MainWindow.xib8603443136#642"    cd "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/Debug-iphonesimulator/thesis_test.app/MainWindow.nib" "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/MainWindow.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+lSLF07#2@25"CompileXIB MainWindow.xib321480991#321480992#0(0"0(0#0#73"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/MainWindow.xib8615378272#642"    cd "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/Debug-iphonesimulator/thesis_test.app/MainWindow.nib" "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/MainWindow.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
 
 CCompileXIB "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/thesis_testViewController.xib"
 s321383807.787874
@@ -1060,10 +1060,10 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@33"Precompile thesis_test_Prefix.pch318973795#318973797#0(0"0(0#0#81"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/thesis_test_Prefix.pch8622298144#2123"    cd "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++-header -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30102 -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/thesis_test-generated-files.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/thesis_test-own-target-headers.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/thesis_test-all-target-headers.hmap" -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/thesis_test-project-headers.hmap" "-F/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/Debug-iphonesimulator" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/Debug-iphonesimulator/include" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/DerivedSources/i386" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/DerivedSources" -c "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/thesis_test_Prefix.pch" -o /var/folders/MK/MKNp4XzsHt47X4XBj-6yME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/thesis_test_Prefix-frtfdrapagdpqodyzcxtussigfnm/thesis_test_Prefix.pch.gch0#
 
 CTouch "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/Debug-iphonesimulator/thesis_test.app"
-s321479855.944332
-e321479855.946921
+s321480992.155220
+e321480992.157814
 r1
 xTouch
 x/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/Debug-iphonesimulator/thesis_test.app
-lSLF07#2@108"Touch /Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/Debug-iphonesimulator/thesis_test.app321479855#321479855#0(0"0(0#0#0"8615599456#326"    cd "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/Debug-iphonesimulator/thesis_test.app"0#
+lSLF07#2@108"Touch /Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/Debug-iphonesimulator/thesis_test.app321480992#321480992#0(0"0(0#0#0"8604171616#326"    cd "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/Debug-iphonesimulator/thesis_test.app"0#
 
