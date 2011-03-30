@@ -1,2 +1,0 @@
-/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/thesis_testAppDelegate.mm:221: warning: property 'combinedView' requires method '-combinedView' to be defined - use @synthesize, @dynamic or provide a method implementation
-/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/thesis_testAppDelegate.mm:221: warning: property 'combinedView' requires the method 'setCombinedView:' to be defined - use @synthesize, @dynamic or provide a method implementation

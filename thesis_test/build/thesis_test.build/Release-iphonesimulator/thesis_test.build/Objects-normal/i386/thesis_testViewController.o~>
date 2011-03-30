@@ -1,6 +1,0 @@
-/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/thesis_testViewController.m: In function '-[thesis_testViewController playFile:]':
-/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/thesis_testViewController.m:88: warning: 'audioStream' may not respond to '-initializeStreamFromFile:format:freq:'
-/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/thesis_testViewController.m:88: warning: (Messages without a matching method signature
-/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/thesis_testViewController.m:88: warning: will be assumed to return 'id' and accept
-/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/thesis_testViewController.m:88: warning: '...' as arguments.)
-/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/thesis_testViewController.m:88: warning: unused variable 'soundLibrary'

@@ -1,1069 +1,0 @@
-Tthesis_test
-v7
-r0
-t322527837.259316
-cCheck dependencies
-cProcessInfoPlistFile "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/Debug-iphonesimulator/thesis_test.app/Info.plist" thesis_test-Info.plist
-cCompileXIB "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/MainWindow.xib"
-cCompileXIB "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/thesis_testViewController.xib"
-cCpResource build/Debug-iphonesimulator/thesis_test.app/Timmony.aif Timmony.aif
-cCompileXIB "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/CombinedViewController.xib"
-cProcessPCH /var/folders/MK/MKNp4XzsHt47X4XBj-6yME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/thesis_test_Prefix-czmsamqyedtcbpcorkavvnhukjtb/thesis_test_Prefix.pch.gch thesis_test_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-cProcessPCH++ /var/folders/MK/MKNp4XzsHt47X4XBj-6yME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/thesis_test_Prefix-frtfdrapagdpqodyzcxtussigfnm/thesis_test_Prefix.pch.gch thesis_test_Prefix.pch normal i386 objective-c++ com.apple.compilers.gcc.4_2
-cCompileC build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/Objects-normal/i386/main.o "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/Objects-normal/i386/thesis_testViewController.o "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/thesis_testViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/Objects-normal/i386/audioPlayback.o "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/audioPlayback.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/Objects-normal/i386/audioStream.o "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/audioStream.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/Objects-normal/i386/Annotation.o "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/Annotation.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/Objects-normal/i386/AudioTourAppDelegate.o "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/Classes/AudioTourAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/Objects-normal/i386/FlipsideViewController.o "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/Classes/FlipsideViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/Objects-normal/i386/MainViewController.o "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/Classes/MainViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/Objects-normal/i386/CombinedViewController.o "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/CombinedViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/Objects-normal/i386/thesis_testAppDelegate.o "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/thesis_testAppDelegate.mm" normal i386 objective-c++ com.apple.compilers.gcc.4_2
-cLd "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/Debug-iphonesimulator/thesis_test.app/thesis_test" normal i386
-cGenerateDSYMFile "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/Debug-iphonesimulator/thesis_test.app.dSYM" "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/Debug-iphonesimulator/thesis_test.app/thesis_test"
-cTouch "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/Debug-iphonesimulator/thesis_test.app"
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk
-c000000004BD236930000000000000110
-t1272067731
-s272
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
-c000000004BD2005600000000000102F0
-t1272053846
-s66288
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.h
-c000000004BD2005500000000000000EB
-t1272053845
-s235
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
-c000000004BD2001C0000000000193D80
-t1272053788
-s1654144
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.h
-c000000004BD1FFCD0000000000000A22
-t1272053709
-s2594
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/CoreAudio.framework/CoreAudio
-c000000004BD1FF9800000000000B1BB0
-t1272053656
-s727984
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/CoreAudio.framework/Headers/CoreAudioTypes.h
-c000000004BD1FF7F000000000000F342
-t1272053631
-s62274
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004BD1CD90000000000026F020
-t1272040848
-s2551840
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
-c000000004BD1D4D20000000000061790
-t1272042706
-s399248
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.h
-c000000004BD1D4C800000000000001AF
-t1272042696
-s431
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004BD1FFC200000000002A96A0
-t1272053698
-s2791072
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004BD1FF9E0000000000001355
-t1272053662
-s4949
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.h
-c000000004BD1D83E000000000000017D
-t1272043582
-s381
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/MapKit.framework/MapKit
-c000000004BD1D85F0000000000185260
-t1272043615
-s1593952
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/MediaPlayer.framework/MediaPlayer
-c000000004BD2095E00000000001515F0
-t1272056158
-s1381872
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers/al.h
-c000000004BD1CD1000000000000064FD
-t1272040720
-s25853
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers/alc.h
-c000000004BD1CD100000000000001F45
-t1272040720
-s8005
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/OpenAL.framework/OpenAL
-c000000004BD1CD18000000000001EEA0
-t1272040728
-s126624
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
-c000000004BD1D06900000000001294B0
-t1272041577
-s1217712
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004BD20412000000000000098F
-t1272054802
-s2447
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004BD20471000000000222E640
-t1272054897
-s35841600
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk
-c000000004C66D0040000000000000132
-t1281806340
-s306
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
-c000000004C01F5AE00000000000C05A0
-t1275196846
-s787872
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.h
-c000000004C01F5AA000000000000065C
-t1275196842
-s1628
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
-c000000004BFF3B7600000000001C8900
-t1275018102
-s1870080
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.h
-c000000004BFF3B620000000000000A23
-t1275018082
-s2595
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreAudio.framework/CoreAudio
-c000000004BFDFDDC00000000000A8290
-t1274936796
-s688784
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreAudio.framework/Headers/CoreAudioTypes.h
-c000000004BFDFDD3000000000001032E
-t1274936787
-s66350
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004BFDFE39000000000027C7D0
-t1274936889
-s2607056
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
-c000000004BFF44C00000000000068F90
-t1275020480
-s429968
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.h
-c000000004BFF44B600000000000001D0
-t1275020470
-s464
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004BFDFE7C000000000029D5D0
-t1274936956
-s2741712
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004BFDFE6E0000000000001466
-t1274936942
-s5222
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.h
-c000000004C04724700000000000002FE
-t1275359815
-s766
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/MapKit.framework/MapKit
-c000000004C04725B0000000000160350
-t1275359835
-s1442640
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/MediaPlayer.framework/MediaPlayer
-c000000004C0473250000000000155C80
-t1275360037
-s1399936
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/OpenAL.framework/Headers/al.h
-c000000004BFF3B9500000000000064FD
-t1275018133
-s25853
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/OpenAL.framework/Headers/alc.h
-c000000004BFF3B950000000000001F45
-t1275018133
-s8005
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/OpenAL.framework/OpenAL
-c000000004BFF3B9A00000000000244F0
-t1275018138
-s148720
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
-c000000004C0458E90000000000151D30
-t1275353321
-s1383728
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004C0470BB00000000000009CD
-t1275359419
-s2509
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004C0471620000000001D47210
-t1275359586
-s30700048
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
-c000000004CC128950000000000000110
-t1287727253
-s272
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
-c000000004CC1288A00000000000F34A0
-t1287727242
-s996512
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.h
-c000000004CC128840000000000000733
-t1287727236
-s1843
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
-c000000004CC1224600000000001EA9C0
-t1287725638
-s2009536
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.h
-c000000004CC1222F0000000000000A23
-t1287725615
-s2595
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreAudio.framework/CoreAudio
-c000000004CC1220900000000000A8450
-t1287725577
-s689232
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreAudio.framework/Headers/CoreAudioTypes.h
-c000000004CC12203000000000001032E
-t1287725571
-s66350
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004CC12246000000000029B310
-t1287725638
-s2732816
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
-c000000004CC127E80000000000074190
-t1287727080
-s475536
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.h
-c000000004CC127DD00000000000001D0
-t1287727069
-s464
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004CC1226D000000000029D5D0
-t1287725677
-s2741712
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004CC1225F0000000000001466
-t1287725663
-s5222
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.h
-c000000004CC1294D00000000000002FE
-t1287727437
-s766
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/MapKit.framework/MapKit
-c000000004CC12977000000000017E7F0
-t1287727479
-s1566704
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/MediaPlayer.framework/MediaPlayer
-c000000004CC6569800000000001AAD60
-t1288066712
-s1748320
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers/al.h
-c000000004CC1226100000000000064FD
-t1287725665
-s25853
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers/alc.h
-c000000004CC122610000000000001F45
-t1287725665
-s8005
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/OpenAL.framework/OpenAL
-c000000004CC1226400000000000246A0
-t1287725668
-s149152
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
-c000000004CC12431000000000015CDB0
-t1287726129
-s1428912
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004CC1281F0000000000000AA1
-t1287727135
-s2721
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004CC12883000000000074D7B0
-t1287727235
-s7657392
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/math.h
-c000000004A5C14A000000000000004F1
-t1247548576
-s1265
-
-N/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/03 Building Fully Sprinkled.aif
-c000000004C8AA6F400000000038DEBE4
-t1284155124
-s59632612
-
-N/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/Annotation.h
-c000000004D754C4C000000000000025D
-t1299532876
-s605
-i<Foundation/Foundation.h>
-i<MapKit/MapKit.h>
-
-N/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/Annotation.m
-c000000004D7549F900000000000001BC
-t1299532281
-s444
-i"Annotation.h"
-
-N/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/Classes/AudioTourAppDelegate.h
-c000000004CA2B50800000000000001E7
-t1285731592
-s487
-i<UIKit/UIKit.h>
-
-N/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/Classes/AudioTourAppDelegate.m
-c000000004C9D71300000000000000AA3
-t1285386544
-s2723
-i"AudioTourAppDelegate.h"
-i"MainViewController.h"
-
-N/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/Classes/FlipsideViewController.h
-c000000004CC12C9F0000000000000408
-t1287728287
-s1032
-i<UIKit/UIKit.h>
-
-N/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/Classes/FlipsideViewController.m
-c000000004D10B86B00000000000005BA
-t1292941419
-s1466
-i"FlipsideViewController.h"
-
-N/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/Classes/MainViewController.h
-c000000004D77B0490000000000000D4A
-t1299689545
-s3402
-i"FlipsideViewController.h"
-i<UIKit/UIKit.h>
-i<Foundation/Foundation.h>
-i"CoreLocation/CoreLocation.h"
-i"AudioToolbox/AudioToolbox.h"
-i"OpenAL/al.h"
-i"OpenAL/alc.h"
-i<math.h>
-
-N/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/Classes/MainViewController.m
-c000000004D77C876000000000000739C
-t1299695734
-s29596
-i"MainViewController.h"
-
-N/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/CombinedViewController.h
-c000000004D77DC4B00000000000008B0
-t1299700811
-s2224
-i<UIKit/UIKit.h>
-i<Foundation/Foundation.h>
-i"CoreLocation/CoreLocation.h"
-i"AudioToolbox/AudioToolbox.h"
-i"OpenAL/al.h"
-i"OpenAL/alc.h"
-i<math.h>
-i"thesis_testAppDelegate.h"
-i"Annotation.h"
-i<MapKit/MapKit.h>
-
-N/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/CombinedViewController.m
-c000000004D7929340000000000007469
-t1299786036
-s29801
-i"CombinedViewController.h"
-
-N/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/audioPlayback.h
-c000000004D5C1E9A0000000000000401
-t1297882778
-s1025
-i<Foundation/Foundation.h>
-i<OpenAL/al.h>
-i<OpenAL/alc.h>
-i<AudioToolbox/AudioToolbox.h>
-i<CoreAudio/CoreAudioTypes.h>
-
-N/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/audioPlayback.m
-c000000004D655BB40000000000001249
-t1298488244
-s4681
-i"audioPlayback.h"
-
-N/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/audioStream.h
-c000000004D65810700000000000005FB
-t1298497799
-s1531
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-i<MapKit/MapKit.h>
-i<Foundation/Foundation.h>
-i"thesis_testAppDelegate.h"
-i<AVFoundation/AVFoundation.h>
-i<AudioToolbox/AudioToolbox.h>
-i"audioPlayback.h"
-i<OpenAL/al.h>
-i<OpenAL/alc.h>
-i<CoreAudio/CoreAudioTypes.h>
-
-N/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/audioStream.m
-c000000004D6580E10000000000003728
-t1298497761
-s14120
-i"audioStream.h"
-
-N/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/location_testAppDelegate.h
-c000000004D45994D0000000000000316
-t1296406861
-s790
-i<UIKit/UIKit.h>
-i<CoreLocation/CoreLocation.h>
-
-N/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/location_testAppDelegate.m
-c000000004D459D0B0000000000001578
-t1296407819
-s5496
-i"location_testAppDelegate.h"
-i"location_testViewController.h"
-i<MapKit/MapKit.h>
-
-N/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/location_testViewController.h
-c000000004D459983000000000000033F
-t1296406915
-s831
-i<UIKit/UIKit.h>
-i<MapKit/MapKit.h>
-i<Foundation/Foundation.h>
-
-N/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/location_testViewController.m
-c000000004D4599970000000000000758
-t1296406935
-s1880
-i"location_testViewController.h"
-
-N/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/thesis_testAppDelegate.h
-c000000004D792D2F0000000000000396
-t1299787055
-s918
-i<UIKit/UIKit.h>
-i<CoreLocation/CoreLocation.h>
-i<MapKit/MapKit.h>
-i"CombinedViewController.h"
-
-N/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/thesis_testAppDelegate.m
-c000000004D460AB100000000000009A9
-t1296435889
-s2473
-i"thesis_testAppDelegate.h"
-i"thesis_testViewController.h"
-i<MapKit/MapKit.h>
-
-N/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/thesis_testAppDelegate.mm
-c000000004D77DC1E0000000000001EDE
-t1299700766
-s7902
-i"thesis_testAppDelegate.h"
-i"thesis_testViewController.h"
-i<MapKit/MapKit.h>
-i"Annotation.h"
-i"CombinedViewController.h"
-
-N/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/thesis_testAppDelegateDOESNOTWORK.mm
-c000000004D77DC1E0000000000001EDE
-t1299700766
-s7902
-i"thesis_testAppDelegate.h"
-i"thesis_testViewController.h"
-i<MapKit/MapKit.h>
-i"Annotation.h"
-i"CombinedViewController.h"
-
-N/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/thesis_testViewController.h
-c000000004D77C43700000000000007DB
-t1299694647
-s2011
-i<UIKit/UIKit.h>
-i<MapKit/MapKit.h>
-i<Foundation/Foundation.h>
-i"thesis_testAppDelegate.h"
-i<AVFoundation/AVFoundation.h>
-i<AudioToolbox/AudioToolbox.h>
-i"audioPlayback.h"
-i<OpenAL/al.h>
-i<OpenAL/alc.h>
-i<CoreAudio/CoreAudioTypes.h>
-i"audioStream.h"
-i"Annotation.h"
-
-N/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/thesis_testViewController.m
-c000000004D77C8760000000000001EB3
-t1299695734
-s7859
-i"thesis_testViewController.h"
-
-N/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/CombinedViewController.xib
-c000000004D77D4DC0000000000006354
-t1299698908
-s25428
-
-N/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/MainWindow.xib
-c000000004D79319E0000000000006BEA
-t1299788190
-s27626
-
-N/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Timmony.aif
-c000000004C8AA6F50000000002D55E00
-t1284155125
-s47537664
-
-N/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/Debug-iphonesimulator/thesis_test.app
-t1299788192
-s340
-
-N/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/Debug-iphonesimulator/thesis_test.app.dSYM
-t1299787055
-s102
-
-N/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/Debug-iphonesimulator/thesis_test.app/03 Building Fully Sprinkled.aif
-t1297280995
-s59632612
-
-N/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/Debug-iphonesimulator/thesis_test.app/CombinedViewController.nib
-t1299698940
-s2405
-
-N/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/Debug-iphonesimulator/thesis_test.app/Info.plist
-t1297280988
-s607
-
-N/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/Debug-iphonesimulator/thesis_test.app/MainWindow.nib
-t1299788192
-s1681
-
-N/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/Debug-iphonesimulator/thesis_test.app/PkgInfo
-t1297280988
-s8
-
-N/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/Debug-iphonesimulator/thesis_test.app/Timmony.aif
-t1298497868
-s47537664
-
-N/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/Debug-iphonesimulator/thesis_test.app/thesis_test
-t1299787055
-s100288
-
-N/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/Debug-iphonesimulator/thesis_test.app/thesis_testViewController.nib
-t1299691008
-s2493
-
-N/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/Objects-normal/i386/Annotation.o
-t1299532885
-s12416
-
-N/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/Objects-normal/i386/AudioTourAppDelegate.o
-t1299689547
-s53044
-
-N/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/Objects-normal/i386/CombinedViewController.o
-t1299787055
-s95464
-
-N/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/Objects-normal/i386/FlipsideViewController.o
-t1299689493
-s42564
-
-N/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/Objects-normal/i386/MainViewController.o
-t1299695735
-s100608
-
-N/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/Objects-normal/i386/audioPlayback.o
-t1298497878
-s19520
-
-N/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/Objects-normal/i386/audioStream.o
-t1299787055
-s10636
-
-N/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/Objects-normal/i386/location_testAppDelegate.o
-t1296407075
-s58844
-
-N/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/Objects-normal/i386/location_testViewController.o
-t1296407075
-s46188
-
-N/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/Objects-normal/i386/main.o
-t1298497873
-s7888
-
-N/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/Objects-normal/i386/thesis_test.LinkFileList
-c000000004D77DE37000000000000065B
-t1299701303
-s1627
-
-N/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/Objects-normal/i386/thesis_testAppDelegate.o
-t1299787055
-s66640
-
-N/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/Objects-normal/i386/thesis_testAppDelegateDOESNOTWORK.o
-t1299701036
-s67384
-
-N/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/Objects-normal/i386/thesis_testViewController.o
-t1299787055
-s61616
-
-N/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/main.m
-c000000004D5318290000000000000278
-t1297291305
-s632
-i<UIKit/UIKit.h>
-i"audioPlayback.h"
-
-N/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/thesis_testViewController.xib
-c000000004D77B5FC0000000000005935
-t1299691004
-s22837
-
-N/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/thesis_test_Prefix.pch
-c000000004D4599F400000000000000BF
-t1296407028
-s191
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-
-N/var/folders/MK/MKNp4XzsHt47X4XBj-6yME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/thesis_test_Prefix-aqjjiihoqqqxsbdazleipjztvwyx/thesis_test_Prefix.pch.gch
-t1296592003
-s16247696
-
-N/var/folders/MK/MKNp4XzsHt47X4XBj-6yME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/thesis_test_Prefix-cgdyvgekerslqqcevojpysplvwbz/thesis_test_Prefix.pch.gch
-t1296969258
-s14788464
-
-N/var/folders/MK/MKNp4XzsHt47X4XBj-6yME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/thesis_test_Prefix-czmsamqyedtcbpcorkavvnhukjtb/thesis_test_Prefix.pch.gch
-t1297280997
-s15477968
-
-N/var/folders/MK/MKNp4XzsHt47X4XBj-6yME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/thesis_test_Prefix-frtfdrapagdpqodyzcxtussigfnm/thesis_test_Prefix.pch.gch
-t1297280997
-s16510032
-
-N/var/folders/MK/MKNp4XzsHt47X4XBj-6yME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/thesis_test_Prefix-gvlcbngysznxsccjhatzwbugqcoy/thesis_test_Prefix.pch.gch
-t1296407074
-s15232016
-
-N/var/folders/MK/MKNp4XzsHt47X4XBj-6yME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/thesis_test_Prefix-hbxfbyfdjyvkypbchofjhhqytxlj/thesis_test_Prefix.pch.gch
-t1296528264
-s13825936
-
-Nthesis_test-Info.plist
-c000000004D4599F4000000000000038D
-t1296407028
-s909
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies322527837#322527837#0(0"0(0#1#0"32651522506817640#0"0#
-
-CCompileC build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/Objects-normal/i386/Annotation.o "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/Annotation.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s321225685.441813
-e321225685.534677
-r1
-xCompileC
-xbuild/thesis_test.build/Debug-iphonesimulator/thesis_test.build/Objects-normal/i386/Annotation.o
-x/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/Annotation.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@87"Compile /Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/Annotation.m321225685#321225685#0(0"0(0#0#79"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/Annotation.m8617859616#2256"    cd "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30102 -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/thesis_test-generated-files.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/thesis_test-own-target-headers.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/thesis_test-all-target-headers.hmap" -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/thesis_test-project-headers.hmap" "-F/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/Debug-iphonesimulator" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/Debug-iphonesimulator/include" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/DerivedSources/i386" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/DerivedSources" -include /var/folders/MK/MKNp4XzsHt47X4XBj-6yME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/thesis_test_Prefix-czmsamqyedtcbpcorkavvnhukjtb/thesis_test_Prefix.pch -c "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/Annotation.m" -o "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/Objects-normal/i386/Annotation.o"0#
-
-CCompileC build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/Objects-normal/i386/AudioTourAppDelegate.o "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/Classes/AudioTourAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s321382347.572158
-e321382347.753821
-r1
-xCompileC
-xbuild/thesis_test.build/Debug-iphonesimulator/thesis_test.build/Objects-normal/i386/AudioTourAppDelegate.o
-x/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/Classes/AudioTourAppDelegate.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@105"Compile /Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/Classes/AudioTourAppDelegate.m321382347#321382347#0(0"0(0#0#97"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/Classes/AudioTourAppDelegate.m8617802752#2284"    cd "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30102 -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/thesis_test-generated-files.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/thesis_test-own-target-headers.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/thesis_test-all-target-headers.hmap" -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/thesis_test-project-headers.hmap" "-F/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/Debug-iphonesimulator" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/Debug-iphonesimulator/include" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/DerivedSources/i386" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/DerivedSources" -include /var/folders/MK/MKNp4XzsHt47X4XBj-6yME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/thesis_test_Prefix-czmsamqyedtcbpcorkavvnhukjtb/thesis_test_Prefix.pch -c "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/Classes/AudioTourAppDelegate.m" -o "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/Objects-normal/i386/AudioTourAppDelegate.o"0#
-
-CCompileC build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/Objects-normal/i386/CombinedViewController.o "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/CombinedViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s321479855.537080
-e321479855.847280
-r1
-xCompileC
-xbuild/thesis_test.build/Debug-iphonesimulator/thesis_test.build/Objects-normal/i386/CombinedViewController.o
-x/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/CombinedViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-o/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/CombinedViewController.m: In function '-[CombinedViewController viewDidLoad]':
-o/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/CombinedViewController.m:31: warning: class 'CombinedViewController' does not implement the 'CLLocationManagerDelegate' protocol
-o/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/CombinedViewController.m: In function '-[CombinedViewController locationManager:didUpdateHeading:]':
-o/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/CombinedViewController.m:739: warning: unused variable 'test1'
-o/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/CombinedViewController.m: At top level:
-o/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/CombinedViewController.m:1086: warning: incomplete implementation of class 'CombinedViewController'
-o/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/CombinedViewController.m:1086: warning: method definition for '-showInfo:' not found
-o/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/CombinedViewController.m:1086: warning: method definition for '-updateGainFloor' not found
-o/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/CombinedViewController.m:1086: warning: method definition for '-updateAngleWidth' not found
-lSLF07#2@99"Compile /Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/CombinedViewController.m321479855#321479855#0(1383"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/CombinedViewController.m: In function '-[CombinedViewController viewDidLoad]':/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/CombinedViewController.m:31: warning: class 'CombinedViewController' does not implement the 'CLLocationManagerDelegate' protocol/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/CombinedViewController.m: In function '-[CombinedViewController locationManager:didUpdateHeading:]':/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/CombinedViewController.m:739: warning: unused variable 'test1'/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/CombinedViewController.m: At top level:/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/CombinedViewController.m:1086: warning: incomplete implementation of class 'CombinedViewController'/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/CombinedViewController.m:1086: warning: method definition for '-showInfo:' not found/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/CombinedViewController.m:1086: warning: method definition for '-updateGainFloor' not found/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/CombinedViewController.m:1086: warning: method definition for '-updateAngleWidth' not found7(22@90"Class 'CombinedViewController' does not implement the 'CLLocationManagerDelegate' protocol321479855#146#196#0(6@91"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/CombinedViewController.m321478836#31#0#31#0#45"class '*' does not implement the '*' protocol0(22@23"Unused variable 'test1'321479855#510#130#0(6@91"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/CombinedViewController.m321478836#739#0#739#0#19"unused variable '*'0(23@13"At top level:321479855#640#107#0(6@91"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/CombinedViewController.m321478836#0#0#0#0#0"0(22@59"Incomplete implementation of class 'CombinedViewController'321479855#747#167#0(6@91"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/CombinedViewController.m321478836#1086#0#1086#0#38"incomplete implementation of class '*'0(22@44"Method definition for '-showInfo:' not found321479855#914#152#0(6@91"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/CombinedViewController.m321478836#1086#0#1086#0#35"method definition for '*' not found0(22@50"Method definition for '-updateGainFloor' not found321479855#1066#158#0(6@91"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/CombinedViewController.m321478836#1086#0#1086#0#35"method definition for '*' not found0(22@51"Method definition for '-updateAngleWidth' not found321479855#1224#159#0(6@91"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/CombinedViewController.m321478836#1086#0#1086#0#35"method definition for '*' not found0(0#0#91"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/CombinedViewController.m8596091840#2280"    cd "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30102 -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/thesis_test-generated-files.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/thesis_test-own-target-headers.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/thesis_test-all-target-headers.hmap" -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/thesis_test-project-headers.hmap" "-F/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/Debug-iphonesimulator" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/Debug-iphonesimulator/include" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/DerivedSources/i386" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/DerivedSources" -include /var/folders/MK/MKNp4XzsHt47X4XBj-6yME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/thesis_test_Prefix-czmsamqyedtcbpcorkavvnhukjtb/thesis_test_Prefix.pch -c "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/CombinedViewController.m" -o "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/Objects-normal/i386/CombinedViewController.o"0#
-
-CCompileC build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/Objects-normal/i386/FlipsideViewController.o "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/Classes/FlipsideViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s321382293.362847
-e321382293.517826
-r1
-xCompileC
-xbuild/thesis_test.build/Debug-iphonesimulator/thesis_test.build/Objects-normal/i386/FlipsideViewController.o
-x/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/Classes/FlipsideViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@107"Compile /Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/Classes/FlipsideViewController.m321382293#321382293#0(0"0(0#0#99"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/Classes/FlipsideViewController.m8617161216#2288"    cd "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30102 -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/thesis_test-generated-files.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/thesis_test-own-target-headers.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/thesis_test-all-target-headers.hmap" -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/thesis_test-project-headers.hmap" "-F/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/Debug-iphonesimulator" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/Debug-iphonesimulator/include" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/DerivedSources/i386" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/DerivedSources" -include /var/folders/MK/MKNp4XzsHt47X4XBj-6yME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/thesis_test_Prefix-czmsamqyedtcbpcorkavvnhukjtb/thesis_test_Prefix.pch -c "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/Classes/FlipsideViewController.m" -o "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/Objects-normal/i386/FlipsideViewController.o"0#
-
-CCompileC build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/Objects-normal/i386/MainViewController.o "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/Classes/MainViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s321388535.300541
-e321388535.580043
-r1
-xCompileC
-xbuild/thesis_test.build/Debug-iphonesimulator/thesis_test.build/Objects-normal/i386/MainViewController.o
-x/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/Classes/MainViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@103"Compile /Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/Classes/MainViewController.m321388535#321388535#0(0"0(0#0#95"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/Classes/MainViewController.m8617430208#2280"    cd "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30102 -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/thesis_test-generated-files.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/thesis_test-own-target-headers.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/thesis_test-all-target-headers.hmap" -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/thesis_test-project-headers.hmap" "-F/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/Debug-iphonesimulator" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/Debug-iphonesimulator/include" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/DerivedSources/i386" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/DerivedSources" -include /var/folders/MK/MKNp4XzsHt47X4XBj-6yME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/thesis_test_Prefix-czmsamqyedtcbpcorkavvnhukjtb/thesis_test_Prefix.pch -c "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/Classes/MainViewController.m" -o "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/Objects-normal/i386/MainViewController.o"0#
-
-CCompileC build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/Objects-normal/i386/audioPlayback.o "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/audioPlayback.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s320190678.154902
-e320190678.261173
-r1
-xCompileC
-xbuild/thesis_test.build/Debug-iphonesimulator/thesis_test.build/Objects-normal/i386/audioPlayback.o
-x/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/audioPlayback.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@90"Compile /Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/audioPlayback.m320190678#320190678#0(0"0(0#0#82"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/audioPlayback.m8633002816#2262"    cd "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30102 -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/thesis_test-generated-files.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/thesis_test-own-target-headers.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/thesis_test-all-target-headers.hmap" -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/thesis_test-project-headers.hmap" "-F/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/Debug-iphonesimulator" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/Debug-iphonesimulator/include" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/DerivedSources/i386" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/DerivedSources" -include /var/folders/MK/MKNp4XzsHt47X4XBj-6yME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/thesis_test_Prefix-czmsamqyedtcbpcorkavvnhukjtb/thesis_test_Prefix.pch -c "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/audioPlayback.m" -o "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/Objects-normal/i386/audioPlayback.o"0#
-
-CCompileC build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/Objects-normal/i386/audioStream.o "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/audioStream.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s321479855.225203
-e321479855.536580
-r1
-xCompileC
-xbuild/thesis_test.build/Debug-iphonesimulator/thesis_test.build/Objects-normal/i386/audioStream.o
-x/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/audioStream.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@88"Compile /Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/audioStream.m321479855#321479855#0(0"0(0#0#80"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/audioStream.m8603418336#2258"    cd "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30102 -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/thesis_test-generated-files.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/thesis_test-own-target-headers.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/thesis_test-all-target-headers.hmap" -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/thesis_test-project-headers.hmap" "-F/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/Debug-iphonesimulator" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/Debug-iphonesimulator/include" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/DerivedSources/i386" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/DerivedSources" -include /var/folders/MK/MKNp4XzsHt47X4XBj-6yME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/thesis_test_Prefix-czmsamqyedtcbpcorkavvnhukjtb/thesis_test_Prefix.pch -c "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/audioStream.m" -o "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/Objects-normal/i386/audioStream.o"0#
-
-CCompileC build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/Objects-normal/i386/location_testAppDelegate.o "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/location_testAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s318099875.013618
-e318099875.144557
-r1
-xCompileC
-xbuild/thesis_test.build/Debug-iphonesimulator/thesis_test.build/Objects-normal/i386/location_testAppDelegate.o
-x/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/location_testAppDelegate.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@101"Compile /Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/location_testAppDelegate.m318099875#318099875#0(0"0(0#0#93"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/location_testAppDelegate.m8600084192#2271"    cd "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/thesis_test-generated-files.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/thesis_test-own-target-headers.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/thesis_test-all-target-headers.hmap" -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/thesis_test-project-headers.hmap" "-F/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/Debug-iphonesimulator" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/Debug-iphonesimulator/include" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/DerivedSources/i386" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/DerivedSources" -include /var/folders/MK/MKNp4XzsHt47X4XBj-6yME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/thesis_test_Prefix-gvlcbngysznxsccjhatzwbugqcoy/thesis_test_Prefix.pch -c "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/location_testAppDelegate.m" -o "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/Objects-normal/i386/location_testAppDelegate.o"0#
-
-CCompileC build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/Objects-normal/i386/location_testViewController.o "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/location_testViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s318099875.109635
-e318099875.199388
-r1
-xCompileC
-xbuild/thesis_test.build/Debug-iphonesimulator/thesis_test.build/Objects-normal/i386/location_testViewController.o
-x/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/location_testViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@104"Compile /Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/location_testViewController.m318099875#318099875#0(0"0(0#0#96"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/location_testViewController.m8598777760#2277"    cd "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/thesis_test-generated-files.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/thesis_test-own-target-headers.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/thesis_test-all-target-headers.hmap" -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/thesis_test-project-headers.hmap" "-F/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/Debug-iphonesimulator" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/Debug-iphonesimulator/include" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/DerivedSources/i386" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/DerivedSources" -include /var/folders/MK/MKNp4XzsHt47X4XBj-6yME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/thesis_test_Prefix-gvlcbngysznxsccjhatzwbugqcoy/thesis_test_Prefix.pch -c "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/location_testViewController.m" -o "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/Objects-normal/i386/location_testViewController.o"0#
-
-CCompileC build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/Objects-normal/i386/main.o "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s320190668.737200
-e320190673.518986
-r1
-xCompileC
-xbuild/thesis_test.build/Debug-iphonesimulator/thesis_test.build/Objects-normal/i386/main.o
-x/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/main.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@73"Compile /Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/main.m320190668#320190673#0(0"0(0#0#65"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/main.m8634763648#2236"    cd "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30102 -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/thesis_test-generated-files.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/thesis_test-own-target-headers.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/thesis_test-all-target-headers.hmap" -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/thesis_test-project-headers.hmap" "-F/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/Debug-iphonesimulator" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/Debug-iphonesimulator/include" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/DerivedSources/i386" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/DerivedSources" -include /var/folders/MK/MKNp4XzsHt47X4XBj-6yME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/thesis_test_Prefix-czmsamqyedtcbpcorkavvnhukjtb/thesis_test_Prefix.pch -c "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/main.m" -o "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/Objects-normal/i386/main.o"0#
-
-CCompileC build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/Objects-normal/i386/thesis_testAppDelegate.o "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/thesis_testAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s318224946.803803
-e318224946.885403
-r1
-xCompileC
-xbuild/thesis_test.build/Debug-iphonesimulator/thesis_test.build/Objects-normal/i386/thesis_testAppDelegate.o
-x/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/thesis_testAppDelegate.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@99"Compile /Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/thesis_testAppDelegate.m318224946#318224946#0(0"0(0#0#91"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/thesis_testAppDelegate.m8618547904#2267"    cd "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/thesis_test-generated-files.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/thesis_test-own-target-headers.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/thesis_test-all-target-headers.hmap" -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/thesis_test-project-headers.hmap" "-F/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/Debug-iphonesimulator" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/Debug-iphonesimulator/include" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/DerivedSources/i386" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/DerivedSources" -include /var/folders/MK/MKNp4XzsHt47X4XBj-6yME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/thesis_test_Prefix-hbxfbyfdjyvkypbchofjhhqytxlj/thesis_test_Prefix.pch -c "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/thesis_testAppDelegate.m" -o "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/Objects-normal/i386/thesis_testAppDelegate.o"0#
-
-CCompileC build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/Objects-normal/i386/thesis_testAppDelegate.o "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/thesis_testAppDelegate.mm" normal i386 objective-c++ com.apple.compilers.gcc.4_2
-s321479855.575451
-e321479855.862323
-r1
-xCompileC
-xbuild/thesis_test.build/Debug-iphonesimulator/thesis_test.build/Objects-normal/i386/thesis_testAppDelegate.o
-x/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/thesis_testAppDelegate.mm
-xnormal
-xi386
-xobjective-c++
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@100"Compile /Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/thesis_testAppDelegate.mm321479855#321479855#0(0"0(0#0#92"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/thesis_testAppDelegate.mm8615814240#2302"    cd "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30102 -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/thesis_test-generated-files.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/thesis_test-own-target-headers.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/thesis_test-all-target-headers.hmap" -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/thesis_test-project-headers.hmap" "-F/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/Debug-iphonesimulator" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/Debug-iphonesimulator/include" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/DerivedSources/i386" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/DerivedSources" -include /var/folders/MK/MKNp4XzsHt47X4XBj-6yME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/thesis_test_Prefix-frtfdrapagdpqodyzcxtussigfnm/thesis_test_Prefix.pch -c "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/thesis_testAppDelegate.mm" -o "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/Objects-normal/i386/thesis_testAppDelegate.o"0#
-
-CCompileC build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/Objects-normal/i386/thesis_testAppDelegateDOESNOTWORK.o "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/thesis_testAppDelegateDOESNOTWORK.mm" normal i386 objective-c++ com.apple.compilers.gcc.4_2
-s321393836.520555
-e321393836.785728
-r1
-xCompileC
-xbuild/thesis_test.build/Debug-iphonesimulator/thesis_test.build/Objects-normal/i386/thesis_testAppDelegateDOESNOTWORK.o
-x/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/thesis_testAppDelegateDOESNOTWORK.mm
-xnormal
-xi386
-xobjective-c++
-xcom.apple.compilers.gcc.4_2
-o/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/thesis_testAppDelegateDOESNOTWORK.mm:269: warning: property 'viewController' requires method '-viewController' to be defined - use @synthesize, @dynamic or provide a method implementation
-o/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/thesis_testAppDelegateDOESNOTWORK.mm:269: warning: property 'viewController' requires the method 'setViewController:' to be defined - use @synthesize, @dynamic or provide a method implementation
-lSLF07#2@111"Compile /Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/thesis_testAppDelegateDOESNOTWORK.mm321393836#321393836#0(517"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/thesis_testAppDelegateDOESNOTWORK.mm:269: warning: property 'viewController' requires method '-viewController' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/thesis_testAppDelegateDOESNOTWORK.mm:269: warning: property 'viewController' requires the method 'setViewController:' to be defined - use @synthesize, @dynamic or provide a method implementation2(22@136"Property 'viewController' requires method '-viewController' to be defined - use @synthesize, @dynamic or provide a method implementation321393836#0#255#0(6@103"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/thesis_testAppDelegateDOESNOTWORK.mm321393566#269#0#269#0#0"0(22@143"Property 'viewController' requires the method 'setViewController:' to be defined - use @synthesize, @dynamic or provide a method implementation321393836#255#262#0(6@103"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/thesis_testAppDelegateDOESNOTWORK.mm321393566#269#0#269#0#0"0(0#0#103"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/thesis_testAppDelegateDOESNOTWORK.mm8621901280#2324"    cd "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30102 -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/thesis_test-generated-files.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/thesis_test-own-target-headers.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/thesis_test-all-target-headers.hmap" -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/thesis_test-project-headers.hmap" "-F/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/Debug-iphonesimulator" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/Debug-iphonesimulator/include" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/DerivedSources/i386" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/DerivedSources" -include /var/folders/MK/MKNp4XzsHt47X4XBj-6yME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/thesis_test_Prefix-frtfdrapagdpqodyzcxtussigfnm/thesis_test_Prefix.pch -c "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/thesis_testAppDelegateDOESNOTWORK.mm" -o "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/Objects-normal/i386/thesis_testAppDelegateDOESNOTWORK.o"0#
-
-CCompileC build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/Objects-normal/i386/thesis_testViewController.o "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/thesis_testViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s321479855.223884
-e321479855.575347
-r1
-xCompileC
-xbuild/thesis_test.build/Debug-iphonesimulator/thesis_test.build/Objects-normal/i386/thesis_testViewController.o
-x/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/thesis_testViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@102"Compile /Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/thesis_testViewController.m321479855#321479855#0(0"0(0#0#94"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/thesis_testViewController.m7598528495604412416#2286"    cd "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30102 -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/thesis_test-generated-files.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/thesis_test-own-target-headers.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/thesis_test-all-target-headers.hmap" -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/thesis_test-project-headers.hmap" "-F/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/Debug-iphonesimulator" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/Debug-iphonesimulator/include" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/DerivedSources/i386" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/DerivedSources" -include /var/folders/MK/MKNp4XzsHt47X4XBj-6yME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/thesis_test_Prefix-czmsamqyedtcbpcorkavvnhukjtb/thesis_test_Prefix.pch -c "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Classes/thesis_testViewController.m" -o "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/Objects-normal/i386/thesis_testViewController.o"0#
-
-CCompileXIB "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/CombinedViewController.xib"
-s321391740.298745
-e321391740.731489
-r1
-xCompileXIB
-x/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/CombinedViewController.xib
-lSLF07#2@37"CompileXIB CombinedViewController.xib321391740#321391740#0(0"0(0#0#85"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/CombinedViewController.xib8619050848#666"    cd "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/Debug-iphonesimulator/thesis_test.app/CombinedViewController.nib" "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/CombinedViewController.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
-
-CCompileXIB "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/MainWindow.xib"
-s321480991.790023
-e321480992.153023
-r1
-xCompileXIB
-x/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/MainWindow.xib
-lSLF07#2@25"CompileXIB MainWindow.xib321480991#321480992#0(0"0(0#0#73"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/MainWindow.xib8615378272#642"    cd "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/Debug-iphonesimulator/thesis_test.app/MainWindow.nib" "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/MainWindow.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
-
-CCompileXIB "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/thesis_testViewController.xib"
-s321383807.787874
-e321383808.300448
-r1
-xCompileXIB
-x/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/thesis_testViewController.xib
-lSLF07#2@40"CompileXIB thesis_testViewController.xib321383807#321383808#0(0"0(0#0#88"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/thesis_testViewController.xib8621165984#672"    cd "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/Debug-iphonesimulator/thesis_test.app/thesis_testViewController.nib" "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/thesis_testViewController.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
-
-CCpResource "build/Debug-iphonesimulator/thesis_test.app/03 Building Fully Sprinkled.aif" "03 Building Fully Sprinkled.aif"
-s318973792.199150
-e318973795.059227
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/thesis_test.app/03 Building Fully Sprinkled.aif
-x03 Building Fully Sprinkled.aif
-lSLF07#2@36"Copy 03 Building Fully Sprinkled.aif318973792#318973795#0(0"0(0#0#90"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/03 Building Fully Sprinkled.aif8621715808#559"    cd "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/03 Building Fully Sprinkled.aif" "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/Debug-iphonesimulator/thesis_test.app"0#
-
-CCpResource build/Debug-iphonesimulator/thesis_test.app/Timmony.aif Timmony.aif
-s320190657.818284
-e320190668.736836
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/thesis_test.app/Timmony.aif
-xTimmony.aif
-lSLF07#2@16"Copy Timmony.aif320190657#320190668#0(0"0(0#0#70"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Timmony.aif8631969664#539"    cd "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/Timmony.aif" "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/Debug-iphonesimulator/thesis_test.app"0#
-
-CGenerateDSYMFile "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/Debug-iphonesimulator/thesis_test.app.dSYM" "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/Debug-iphonesimulator/thesis_test.app/thesis_test"
-s321479855.912570
-e321479855.944233
-r1
-xGenerateDSYMFile
-x/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/Debug-iphonesimulator/thesis_test.app.dSYM
-x/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/Debug-iphonesimulator/thesis_test.app/thesis_test
-lSLF07#2@121"GenerateDSYMFile build/Debug-iphonesimulator/thesis_test.app.dSYM build/Debug-iphonesimulator/thesis_test.app/thesis_test321479855#321479855#0(0"0(0#0#114"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/Debug-iphonesimulator/thesis_test.app/thesis_test8615860032#461"    cd "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/Debug-iphonesimulator/thesis_test.app/thesis_test" -o "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/Debug-iphonesimulator/thesis_test.app.dSYM"0#
-
-CLd "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/Debug-iphonesimulator/thesis_test.app/thesis_test" normal i386
-s321479855.862432
-e321479855.912463
-r1
-xLd
-x/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/Debug-iphonesimulator/thesis_test.app/thesis_test
-xnormal
-xi386
-lSLF07#2@119"Link /Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/Debug-iphonesimulator/thesis_test.app/thesis_test321479855#321479855#0(0"0(0#0#0"8614941632#1204"    cd "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/g++-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk "-L/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/Debug-iphonesimulator" "-F/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/Debug-iphonesimulator" -filelist "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/Objects-normal/i386/thesis_test.LinkFileList" -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreLocation -framework MapKit -framework QuartzCore -framework MediaPlayer -framework AVFoundation -framework OpenAL -framework AudioToolbox -framework CoreAudio -o "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/Debug-iphonesimulator/thesis_test.app/thesis_test"0#
-
-CProcessInfoPlistFile "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/Debug-iphonesimulator/thesis_test.app/Info.plist" thesis_test-Info.plist
-s318973788.706030
-e318973788.710786
-r1
-xProcessInfoPlistFile
-x/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/Debug-iphonesimulator/thesis_test.app/Info.plist
-xthesis_test-Info.plist
-lSLF07#2@30"Process thesis_test-Info.plist318973788#318973788#0(0"0(0#0#81"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/thesis_test-Info.plist8622952192#557"    cd "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility thesis_test-Info.plist -genpkginfo "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/Debug-iphonesimulator/thesis_test.app/PkgInfo" -expandbuildsettings -format binary -platform iphonesimulator -o "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/Debug-iphonesimulator/thesis_test.app/Info.plist"0#
-
-CProcessPCH /var/folders/MK/MKNp4XzsHt47X4XBj-6yME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/thesis_test_Prefix-czmsamqyedtcbpcorkavvnhukjtb/thesis_test_Prefix.pch.gch thesis_test_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s318973795.059443
-e318973797.294894
-r1
-xProcessPCH
-x/var/folders/MK/MKNp4XzsHt47X4XBj-6yME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/thesis_test_Prefix-czmsamqyedtcbpcorkavvnhukjtb/thesis_test_Prefix.pch.gch
-xthesis_test_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@33"Precompile thesis_test_Prefix.pch318973795#318973797#0(0"0(0#0#81"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/thesis_test_Prefix.pch8614372448#2102"    cd "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30102 -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/thesis_test-generated-files.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/thesis_test-own-target-headers.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/thesis_test-all-target-headers.hmap" -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/thesis_test-project-headers.hmap" "-F/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/Debug-iphonesimulator" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/Debug-iphonesimulator/include" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/DerivedSources/i386" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/DerivedSources" -c "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/thesis_test_Prefix.pch" -o /var/folders/MK/MKNp4XzsHt47X4XBj-6yME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/thesis_test_Prefix-czmsamqyedtcbpcorkavvnhukjtb/thesis_test_Prefix.pch.gch0#
-
-CProcessPCH /var/folders/MK/MKNp4XzsHt47X4XBj-6yME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/thesis_test_Prefix-gvlcbngysznxsccjhatzwbugqcoy/thesis_test_Prefix.pch.gch thesis_test_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s318099874.098673
-e318099875.012395
-r1
-xProcessPCH
-x/var/folders/MK/MKNp4XzsHt47X4XBj-6yME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/thesis_test_Prefix-gvlcbngysznxsccjhatzwbugqcoy/thesis_test_Prefix.pch.gch
-xthesis_test_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@33"Precompile thesis_test_Prefix.pch318099874#318099875#0(0"0(0#0#81"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/thesis_test_Prefix.pch8604002528#2089"    cd "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/thesis_test-generated-files.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/thesis_test-own-target-headers.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/thesis_test-all-target-headers.hmap" -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/thesis_test-project-headers.hmap" "-F/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/Debug-iphonesimulator" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/Debug-iphonesimulator/include" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/DerivedSources/i386" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/DerivedSources" -c "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/thesis_test_Prefix.pch" -o /var/folders/MK/MKNp4XzsHt47X4XBj-6yME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/thesis_test_Prefix-gvlcbngysznxsccjhatzwbugqcoy/thesis_test_Prefix.pch.gch0#
-
-CProcessPCH /var/folders/MK/MKNp4XzsHt47X4XBj-6yME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/thesis_test_Prefix-hbxfbyfdjyvkypbchofjhhqytxlj/thesis_test_Prefix.pch.gch thesis_test_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s318221063.079518
-e318221064.517213
-r1
-xProcessPCH
-x/var/folders/MK/MKNp4XzsHt47X4XBj-6yME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/thesis_test_Prefix-hbxfbyfdjyvkypbchofjhhqytxlj/thesis_test_Prefix.pch.gch
-xthesis_test_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@33"Precompile thesis_test_Prefix.pch318221063#318221064#0(0"0(0#0#81"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/thesis_test_Prefix.pch8600930368#2089"    cd "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/thesis_test-generated-files.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/thesis_test-own-target-headers.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/thesis_test-all-target-headers.hmap" -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/thesis_test-project-headers.hmap" "-F/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/Debug-iphonesimulator" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/Debug-iphonesimulator/include" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/DerivedSources/i386" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/DerivedSources" -c "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/thesis_test_Prefix.pch" -o /var/folders/MK/MKNp4XzsHt47X4XBj-6yME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/thesis_test_Prefix-hbxfbyfdjyvkypbchofjhhqytxlj/thesis_test_Prefix.pch.gch0#
-
-CProcessPCH++ /var/folders/MK/MKNp4XzsHt47X4XBj-6yME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/thesis_test_Prefix-aqjjiihoqqqxsbdazleipjztvwyx/thesis_test_Prefix.pch.gch thesis_test_Prefix.pch normal i386 objective-c++ com.apple.compilers.gcc.4_2
-s318284800.479244
-e318284803.246685
-r1
-xProcessPCH++
-x/var/folders/MK/MKNp4XzsHt47X4XBj-6yME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/thesis_test_Prefix-aqjjiihoqqqxsbdazleipjztvwyx/thesis_test_Prefix.pch.gch
-xthesis_test_Prefix.pch
-xnormal
-xi386
-xobjective-c++
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@33"Precompile thesis_test_Prefix.pch318284800#318284803#0(0"0(0#0#81"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/thesis_test_Prefix.pch8651925120#2110"    cd "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++-header -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/thesis_test-generated-files.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/thesis_test-own-target-headers.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/thesis_test-all-target-headers.hmap" -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/thesis_test-project-headers.hmap" "-F/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/Debug-iphonesimulator" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/Debug-iphonesimulator/include" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/DerivedSources/i386" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/DerivedSources" -c "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/thesis_test_Prefix.pch" -o /var/folders/MK/MKNp4XzsHt47X4XBj-6yME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/thesis_test_Prefix-aqjjiihoqqqxsbdazleipjztvwyx/thesis_test_Prefix.pch.gch0#
-
-CProcessPCH++ /var/folders/MK/MKNp4XzsHt47X4XBj-6yME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/thesis_test_Prefix-cgdyvgekerslqqcevojpysplvwbz/thesis_test_Prefix.pch.gch thesis_test_Prefix.pch normal i386 objective-c++ com.apple.compilers.gcc.4_2
-s318662055.978593
-e318662058.583436
-r1
-xProcessPCH++
-x/var/folders/MK/MKNp4XzsHt47X4XBj-6yME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/thesis_test_Prefix-cgdyvgekerslqqcevojpysplvwbz/thesis_test_Prefix.pch.gch
-xthesis_test_Prefix.pch
-xnormal
-xi386
-xobjective-c++
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@33"Precompile thesis_test_Prefix.pch318662055#318662058#0(0"0(0#0#81"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/thesis_test_Prefix.pch8625513792#2110"    cd "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++-header -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/thesis_test-generated-files.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/thesis_test-own-target-headers.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/thesis_test-all-target-headers.hmap" -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/thesis_test-project-headers.hmap" "-F/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/Debug-iphonesimulator" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/Debug-iphonesimulator/include" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/DerivedSources/i386" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/DerivedSources" -c "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/thesis_test_Prefix.pch" -o /var/folders/MK/MKNp4XzsHt47X4XBj-6yME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/thesis_test_Prefix-cgdyvgekerslqqcevojpysplvwbz/thesis_test_Prefix.pch.gch0#
-
-CProcessPCH++ /var/folders/MK/MKNp4XzsHt47X4XBj-6yME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/thesis_test_Prefix-frtfdrapagdpqodyzcxtussigfnm/thesis_test_Prefix.pch.gch thesis_test_Prefix.pch normal i386 objective-c++ com.apple.compilers.gcc.4_2
-s318973795.061034
-e318973797.491286
-r1
-xProcessPCH++
-x/var/folders/MK/MKNp4XzsHt47X4XBj-6yME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/thesis_test_Prefix-frtfdrapagdpqodyzcxtussigfnm/thesis_test_Prefix.pch.gch
-xthesis_test_Prefix.pch
-xnormal
-xi386
-xobjective-c++
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@33"Precompile thesis_test_Prefix.pch318973795#318973797#0(0"0(0#0#81"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/thesis_test_Prefix.pch8622298144#2123"    cd "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++-header -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30102 -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/thesis_test-generated-files.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/thesis_test-own-target-headers.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/thesis_test-all-target-headers.hmap" -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/thesis_test-project-headers.hmap" "-F/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/Debug-iphonesimulator" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/Debug-iphonesimulator/include" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/DerivedSources/i386" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/thesis_test.build/Debug-iphonesimulator/thesis_test.build/DerivedSources" -c "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/thesis_test_Prefix.pch" -o /var/folders/MK/MKNp4XzsHt47X4XBj-6yME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/thesis_test_Prefix-frtfdrapagdpqodyzcxtussigfnm/thesis_test_Prefix.pch.gch0#
-
-CTouch "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/Debug-iphonesimulator/thesis_test.app"
-s321480992.155220
-e321480992.157814
-r1
-xTouch
-x/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/Debug-iphonesimulator/thesis_test.app
-lSLF07#2@108"Touch /Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/Debug-iphonesimulator/thesis_test.app321480992#321480992#0(0"0(0#0#0"8604171616#326"    cd "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesis_test/build/Debug-iphonesimulator/thesis_test.app"0#
-
