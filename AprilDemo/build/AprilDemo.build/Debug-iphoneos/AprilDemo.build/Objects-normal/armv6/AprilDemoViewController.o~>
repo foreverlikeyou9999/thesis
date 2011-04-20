@@ -1,0 +1,15 @@
+/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m: In function '-[AprilDemoViewController viewDidLoad]':
+/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m:158: warning: 'headingAvailable' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CLLocationManager.h:173)
+/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m:105: warning: 'locationServicesEnabled' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CLLocationManager.h:124)
+/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m: In function '-[AprilDemoViewController locationManager:didUpdateHeading:]':
+/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m:257: warning: local declaration of 'heading' hides instance variable
+/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m: At top level:
+/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m:1353: warning: property 'whereabouts' requires method '-whereabouts' to be defined - use @synthesize, @dynamic or provide a method implementation
+/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m:1353: warning: property 'loadingSounds' requires method '-loadingSounds' to be defined - use @synthesize, @dynamic or provide a method implementation
+/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m:1353: warning: property 'loadingSounds' requires the method 'setLoadingSounds:' to be defined - use @synthesize, @dynamic or provide a method implementation
+/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m:1353: warning: property 'coordinate' requires method '-coordinate' to be defined - use @synthesize, @dynamic or provide a method implementation
+/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m:1353: warning: incomplete implementation of class 'AprilDemoViewController'
+/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m:1353: warning: method definition for '-showInfo:' not found
+/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m:1353: warning: method definition for '-updateGainFloor' not found
+/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m:1353: warning: method definition for '-updateAngleWidth' not found
+/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m:1353: warning: method definition for '-toggleTracking' not found

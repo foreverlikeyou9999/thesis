@@ -1,0 +1,11 @@
+/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioStreamer.m: In function 'audioCallback':
+/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioStreamer.m:89: warning: format '%d' expects type 'int', but argument 2 has type 'AudioQueueBufferRef'
+/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioStreamer.m:89: warning: format '%d' expects type 'int', but argument 3 has type 'CFRunLoopRef'
+/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioStreamer.m: In function '-[AudioStreamer progress]':
+/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioStreamer.m:820: warning: 'return' with no value, in function returning non-void
+/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioStreamer.m: In function '-[AudioStreamer handleReadFromStream:eventType:]':
+/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioStreamer.m:1024: warning: local declaration of 'length' hides instance variable
+/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioStreamer.m:1026: warning: local declaration of 'length' hides instance variable
+/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioStreamer.m:1032: warning: local declaration of 'length' hides instance variable
+/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioStreamer.m:1040: warning: local declaration of 'length' hides instance variable
+/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioStreamer.m:1049: warning: local declaration of 'length' hides instance variable

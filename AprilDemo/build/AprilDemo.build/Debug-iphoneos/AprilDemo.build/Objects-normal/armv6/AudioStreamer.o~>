@@ -1,0 +1,75 @@
+/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioStreamer.m: In function 'audioCallback':
+/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioStreamer.m:89: warning: format '%d' expects type 'int', but argument 2 has type 'AudioQueueBufferRef'
+/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioStreamer.m:89: warning: format '%d' expects type 'int', but argument 3 has type 'CFRunLoopRef'
+/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioStreamer.m: At top level:
+/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioStreamer.m:249: error: no declaration of property 'errorCode' found in the interface
+/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioStreamer.m: In function '-[AudioStreamer runLoopShouldExit]':
+/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioStreamer.m:309: error: expected '{' before 'return'
+/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioStreamer.m: In function '-[AudioStreamer openFileStream]':
+/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioStreamer.m:476: error: 'AS_FILE_STREAM_OPEN_FAILED' undeclared (first use in this function)
+/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioStreamer.m:476: error: (Each undeclared identifier is reported only once
+/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioStreamer.m:476: error: for each function it appears in.)
+/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioStreamer.m:476: warning: 'AudioStreamer' may not respond to '-failWithErrorCode:'
+/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioStreamer.m:476: warning: (Messages without a matching method signature
+/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioStreamer.m:476: warning: will be assumed to return 'id' and accept
+/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioStreamer.m:476: warning: '...' as arguments.)
+/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioStreamer.m: In function '-[AudioStreamer startInternal]':
+/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioStreamer.m:741: error: break statement not within loop or switch
+/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioStreamer.m: In function '-[AudioStreamer progress]':
+/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioStreamer.m:820: error: break statement not within loop or switch
+/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioStreamer.m: In function '-[AudioStreamer pause]':
+/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioStreamer.m:853: error: 'AS_AUDIO_QUEUE_PAUSE_FAILED' undeclared (first use in this function)
+/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioStreamer.m:853: warning: 'AudioStreamer' may not respond to '-failWithErrorCode:'
+/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioStreamer.m:864: error: 'AS_AUDIO_QUEUE_START_FAILED' undeclared (first use in this function)
+/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioStreamer.m:864: warning: 'AudioStreamer' may not respond to '-failWithErrorCode:'
+/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioStreamer.m: At top level:
+/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioStreamer.m:1073: error: expected '{' before 'synchronized'
+/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioStreamer.m:1144: error: expected declaration specifiers or '...' before '&' token
+/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioStreamer.m:1144: warning: data definition has no type or storage class
+/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioStreamer.m:1144: warning: type defaults to 'int' in declaration of 'pthread_mutex_lock'
+/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioStreamer.m:1145: error: expected identifier or '(' before 'while'
+/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioStreamer.m:1149: error: expected declaration specifiers or '...' before '&' token
+/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioStreamer.m:1149: warning: data definition has no type or storage class
+/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioStreamer.m:1149: warning: type defaults to 'int' in declaration of 'pthread_mutex_unlock'
+/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioStreamer.m:1150: error: expected identifier or '(' before '}' token
+/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioStreamer.m: In function '-[AudioStreamer handleBufferCompleteForQueue:buffer:]':
+/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioStreamer.m:1460: error: 'AS_AUDIO_QUEUE_BUFFER_MISMATCH' undeclared (first use in this function)
+/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioStreamer.m:1460: warning: 'AudioStreamer' may not respond to '-failWithErrorCode:'
+/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioStreamer.m: At top level:
+/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioStreamer.m:1559: warning: incomplete implementation of class 'AudioStreamer'
+/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioStreamer.m:1559: warning: method definition for '-enqueueBuffer' not found
+{standard input}:615:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_8" minus "L51"
+{standard input}:615:symbol: "L_OBJC_SELECTOR_REFERENCES_8" can't be undefined in a subtraction expression
+{standard input}:566:non-relocatable subtraction expression, "L_interruptedOnPlayback$non_lazy_ptr" minus "L46"
+{standard input}:566:symbol: "L_interruptedOnPlayback$non_lazy_ptr" can't be undefined in a subtraction expression
+{standard input}:565:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_7" minus "L45"
+{standard input}:565:symbol: "L_OBJC_SELECTOR_REFERENCES_7" can't be undefined in a subtraction expression
+{standard input}:563:non-relocatable subtraction expression, "L_interruptedOnPlayback$non_lazy_ptr" minus "L41"
+{standard input}:563:symbol: "L_interruptedOnPlayback$non_lazy_ptr" can't be undefined in a subtraction expression
+{standard input}:562:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_6" minus "L40"
+{standard input}:562:symbol: "L_OBJC_SELECTOR_REFERENCES_6" can't be undefined in a subtraction expression
+{standard input}:439:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_5" minus "L32"
+{standard input}:439:symbol: "L_OBJC_SELECTOR_REFERENCES_5" can't be undefined in a subtraction expression
+{standard input}:372:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_4" minus "L26"
+{standard input}:372:symbol: "L_OBJC_SELECTOR_REFERENCES_4" can't be undefined in a subtraction expression
+{standard input}:323:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L21"
+{standard input}:323:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression
+{standard input}:274:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_2" minus "L16"
+{standard input}:274:symbol: "L_OBJC_SELECTOR_REFERENCES_2" can't be undefined in a subtraction expression
+{standard input}:215:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L11"
+{standard input}:215:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression
+{standard input}:unknown:Undefined local symbol L_NSLog$stub
+{standard input}:unknown:Undefined local symbol L_CFRunLoopGetCurrent$stub
+{standard input}:unknown:Undefined local symbol L_printf$stub
+{standard input}:unknown:Undefined local symbol L_AudioQueueEnqueueBuffer$stub
+{standard input}:unknown:Undefined local symbol L_objc_msgSend$stub
+{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_1
+{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_2
+{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_3
+{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_4
+{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_5
+{standard input}:unknown:Undefined local symbol L_AudioSessionSetActive$stub
+{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_6
+{standard input}:unknown:Undefined local symbol L_interruptedOnPlayback$non_lazy_ptr
+{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_7
+{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_8

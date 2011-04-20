@@ -1,0 +1,15 @@
+In file included from /Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioConversion.m:9:
+/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioConversion.h:11:27: error: CoreAudioTypes.h: No such file or directory
+In file included from /Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioConversion.m:9:
+/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioConversion.h:18: error: expected ':', ',', ';', '}' or '__attribute__' before '=' token
+/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioConversion.m:19: error: expected declaration specifiers or '...' before 'OBJC_STRING' token
+/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioConversion.m:19: error: expected declaration specifiers or '...' before 'size'
+/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioConversion.m:19: warning: data definition has no type or storage class
+/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioConversion.m:19: warning: type defaults to 'int' in declaration of 'NSLog'
+/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioConversion.m:19: error: conflicting types for 'NSLog'
+/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObjCRuntime.h:260: error: previous declaration of 'NSLog' was here
+/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioConversion.m:20: warning: data definition has no type or storage class
+/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioConversion.m:20: warning: type defaults to 'int' in declaration of 'err'
+/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioConversion.m:21: error: expected expression before 'const'
+/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioConversion.m:24: error: too few arguments to function 'AudioConverterNew'
+/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioConversion.m:26: error: 'kAQMaxPacketDescs' undeclared here (not in a function)

@@ -1,0 +1,698 @@
+TAprilDemo
+v7
+r0
+t324500003.234805
+cCheck dependencies
+cCpResource build/Release-iphoneos/AprilDemo.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+cProcessInfoPlistFile "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/Release-iphoneos/AprilDemo.app/Info.plist" AprilDemo-Info.plist
+cCompileXIB "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/MainWindow.xib"
+cCompileXIB "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/AprilDemoViewController.xib"
+cProcessPCH /var/folders/MK/MKNp4XzsHt47X4XBj-6yME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AprilDemo_Prefix-gpsaaxricbknhpbmjnhyilyoezuv/AprilDemo_Prefix.pch.gch AprilDemo_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/MK/MKNp4XzsHt47X4XBj-6yME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AprilDemo_Prefix-ccrsklqgndntrnchwdfowfnjrdcg/AprilDemo_Prefix.pch.gch AprilDemo_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AprilDemo.build/Release-iphoneos/AprilDemo.build/Objects-normal/armv6/main.o "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/main.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AprilDemo.build/Release-iphoneos/AprilDemo.build/Objects-normal/armv6/AprilDemoAppDelegate.o "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoAppDelegate.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AprilDemo.build/Release-iphoneos/AprilDemo.build/Objects-normal/armv6/AprilDemoViewController.o "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AprilDemo.build/Release-iphoneos/AprilDemo.build/Objects-normal/armv6/Annotation.o "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/Annotation.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AprilDemo.build/Release-iphoneos/AprilDemo.build/Objects-normal/armv6/AudioStreamer.o "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioStreamer.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AprilDemo.build/Release-iphoneos/AprilDemo.build/Objects-normal/armv7/main.o "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/main.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AprilDemo.build/Release-iphoneos/AprilDemo.build/Objects-normal/armv7/AprilDemoAppDelegate.o "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoAppDelegate.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AprilDemo.build/Release-iphoneos/AprilDemo.build/Objects-normal/armv7/AprilDemoViewController.o "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Release-iphoneos/AprilDemo.build/Objects-normal/armv6/AprilDemo" normal armv6
+cCompileC build/AprilDemo.build/Release-iphoneos/AprilDemo.build/Objects-normal/armv7/Annotation.o "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/Annotation.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AprilDemo.build/Release-iphoneos/AprilDemo.build/Objects-normal/armv7/AudioStreamer.o "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioStreamer.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Release-iphoneos/AprilDemo.build/Objects-normal/armv7/AprilDemo" normal armv7
+cProcessProductPackaging "/Users/moosamus/Library/MobileDevice/Provisioning Profiles/56F999EF-6BA8-431F-B377-C6D4E653E7CE.mobileprovision" "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/Release-iphoneos/AprilDemo.app/embedded.mobileprovision"
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Release-iphoneos/AprilDemo.build/AprilDemo.xcent"
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk
+c000000004CC7DC9E0000000000000110
+t1288166558
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+c000000004CB3DFCF00000000000001A7
+t1286856655
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+c000000004CB3DFCF00000000000001E5
+t1286856655
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004CC10EF400000000003B8CB0
+t1287720692
+s3902640
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.h
+c000000004CC10EB60000000000000A23
+t1287720630
+s2595
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CFNetwork.framework/Headers/CFNetwork.h
+c000000004CC10EAD00000000000004CF
+t1287720621
+s1231
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC10EF500000000003532B0
+t1287720693
+s3486384
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c000000004CC11B5300000000000D96F0
+t1287723859
+s890608
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.h
+c000000004CC11B4300000000000001D0
+t1287723843
+s464
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC10F4700000000003E1F20
+t1287720775
+s4071200
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC10F1C0000000000001466
+t1287720732
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.h
+c000000004CC11D4800000000000002FE
+t1287724360
+s766
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/MapKit.framework/MapKit
+c000000004CC11D62000000000029CFA0
+t1287724386
+s2740128
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers/al.h
+c000000004CC10F3300000000000064FD
+t1287720755
+s25853
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers/alc.h
+c000000004CC10F330000000000001F45
+t1287720755
+s8005
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/OpenAL.framework/OpenAL
+c000000004CC10F3800000000000459B0
+t1287720760
+s285104
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004CC1111C00000000000000C4
+t1287721244
+s196
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC11AE60000000000000AA1
+t1287723750
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC11B750000000000C769F0
+t1287723893
+s13068784
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/math.h
+c000000004CB3E44400000000000004F1
+t1286857796
+s1265
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/pthread.h
+c000000004CB3E4B800000000000038F0
+t1286857912
+s14576
+
+N/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/AprilDemoViewController.xib
+c000000004DA73DFE0000000000005E3D
+t1302806014
+s24125
+
+N/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/AprilDemo_Prefix.pch
+c000000004DA7374400000000000000BB
+t1302804292
+s187
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/Annotation.h
+c000000004D754C4C000000000000025D
+t1299532876
+s605
+i<Foundation/Foundation.h>
+i<MapKit/MapKit.h>
+
+N/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/Annotation.m
+c000000004D7549F900000000000001BC
+t1299532281
+s444
+i"Annotation.h"
+
+N/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoAppDelegate.h
+c000000004DA73A980000000000000353
+t1302805144
+s851
+i<UIKit/UIKit.h>
+i<CoreLocation/CoreLocation.h>
+i<MapKit/MapKit.h>
+i"AprilDemoViewController.h"
+i<QuartzCore/QuartzCore.h>
+
+N/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoAppDelegate.m
+c000000004DA73AF40000000000001FCE
+t1302805236
+s8142
+i"AprilDemoAppDelegate.h"
+i"AprilDemoViewController.h"
+i<MapKit/MapKit.h>
+i<QuartzCore/QuartzCore.h>
+i"Annotation.h"
+
+N/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.h
+c000000004DA741D40000000000000C12
+t1302806996
+s3090
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+i"CoreLocation/CoreLocation.h"
+i"AudioToolbox/AudioToolbox.h"
+i"OpenAL/al.h"
+i"OpenAL/alc.h"
+i<math.h>
+i"AprilDemoAppDelegate.h"
+i"Annotation.h"
+i<MapKit/MapKit.h>
+i"AudioStreamer.h"
+
+N/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m
+c000000004DA742050000000000008FCB
+t1302807045
+s36811
+i"AprilDemoViewController.h"
+
+N/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioStreamer.h
+c000000004D8A409700000000000010E3
+t1300906135
+s4323
+i<UIKit/UIKit.h>
+i<Cocoa/Cocoa.h>
+i<pthread.h>
+i<AudioToolbox/AudioToolbox.h>
+
+N/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioStreamer.m
+c000000004D4869A2000000000000B3A3
+t1296591266
+s45987
+i"AudioStreamer.h"
+i<CFNetwork/CFNetwork.h>
+
+N/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/MainWindow.xib
+c000000004DA737440000000000004E41
+t1302804292
+s20033
+
+N/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Release-iphoneos/AprilDemo.build/AprilDemo.xcent
+t1302807203
+s424
+
+N/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Release-iphoneos/AprilDemo.build/Objects-normal/armv6/Annotation.o
+t1302807201
+s12144
+
+N/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Release-iphoneos/AprilDemo.build/Objects-normal/armv6/AprilDemo
+t2
+s0
+
+N/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Release-iphoneos/AprilDemo.build/Objects-normal/armv6/AprilDemo.LinkFileList
+c000000004DA7429F00000000000002CB
+t1302807199
+s715
+
+N/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Release-iphoneos/AprilDemo.build/Objects-normal/armv6/AprilDemoAppDelegate.o
+t1302807201
+s56804
+
+N/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Release-iphoneos/AprilDemo.build/Objects-normal/armv6/AprilDemoViewController.o
+t1302807201
+s94204
+
+N/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Release-iphoneos/AprilDemo.build/Objects-normal/armv6/AudioStreamer.o
+t1302807202
+s110612
+
+N/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Release-iphoneos/AprilDemo.build/Objects-normal/armv6/main.o
+t1302807201
+s6532
+
+N/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Release-iphoneos/AprilDemo.build/Objects-normal/armv7/Annotation.o
+t1302807202
+s12116
+
+N/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Release-iphoneos/AprilDemo.build/Objects-normal/armv7/AprilDemo
+t2
+s0
+
+N/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Release-iphoneos/AprilDemo.build/Objects-normal/armv7/AprilDemo.LinkFileList
+c000000004DA7429F00000000000002CB
+t1302807199
+s715
+
+N/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Release-iphoneos/AprilDemo.build/Objects-normal/armv7/AprilDemoAppDelegate.o
+t1302807201
+s56812
+
+N/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Release-iphoneos/AprilDemo.build/Objects-normal/armv7/AprilDemoViewController.o
+t1302807202
+s92876
+
+N/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Release-iphoneos/AprilDemo.build/Objects-normal/armv7/AudioStreamer.o
+t1302807202
+s110156
+
+N/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Release-iphoneos/AprilDemo.build/Objects-normal/armv7/main.o
+t1302807201
+s6512
+
+N/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Release-iphoneos/AprilDemo.build/com.apple.build-tools.platform.validate
+t2
+s0
+
+N/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/Release-iphoneos/AprilDemo.app
+t2
+s0
+
+N/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/Release-iphoneos/AprilDemo.app.dSYM
+t2
+s0
+
+N/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/Release-iphoneos/AprilDemo.app/AprilDemo
+t2
+s0
+
+N/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/Release-iphoneos/AprilDemo.app/AprilDemoViewController.nib
+t1302807199
+s1179
+
+N/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/Release-iphoneos/AprilDemo.app/Info.plist
+t1302807199
+s789
+
+N/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/Release-iphoneos/AprilDemo.app/MainWindow.nib
+t1302807199
+s1127
+
+N/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/Release-iphoneos/AprilDemo.app/PkgInfo
+t1302807199
+s8
+
+N/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/Release-iphoneos/AprilDemo.app/ResourceRules.plist
+t1302807199
+s485
+
+N/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/Release-iphoneos/AprilDemo.app/embedded.mobileprovision
+t1302807203
+s7242
+
+N/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/main.m
+c000000004DA73744000000000000016F
+t1302804292
+s367
+i<UIKit/UIKit.h>
+
+N/Users/moosamus/Library/MobileDevice/Provisioning Profiles/56F999EF-6BA8-431F-B377-C6D4E653E7CE.mobileprovision
+c000000004D50B6050000000000001C4A
+t1297135109
+s7242
+
+N/var/folders/MK/MKNp4XzsHt47X4XBj-6yME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AprilDemo_Prefix-ccrsklqgndntrnchwdfowfnjrdcg/AprilDemo_Prefix.pch.gch
+t1302807200
+s10249944
+
+N/var/folders/MK/MKNp4XzsHt47X4XBj-6yME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AprilDemo_Prefix-gpsaaxricbknhpbmjnhyilyoezuv/AprilDemo_Prefix.pch.gch
+t1302807200
+s9783000
+
+NAprilDemo-Info.plist
+c000000004DA73744000000000000038D
+t1302804292
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies324499999#324499999#0(0"0(0#1#0"8636913952#0"0#
+
+CCodeSign "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/Release-iphoneos/AprilDemo.app"
+r0
+
+CCompileC build/AprilDemo.build/Release-iphoneos/AprilDemo.build/Objects-normal/armv6/Annotation.o "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/Annotation.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s324500001.173879
+e324500001.281727
+r1
+xCompileC
+xbuild/AprilDemo.build/Release-iphoneos/AprilDemo.build/Objects-normal/armv6/Annotation.o
+x/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/Annotation.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/Annotation.m324500001#324500001#0(0"0(0#0#70"/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/Annotation.m8634363520#1969"    cd "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Release-iphoneos/AprilDemo.build/AprilDemo-generated-files.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Release-iphoneos/AprilDemo.build/AprilDemo-own-target-headers.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Release-iphoneos/AprilDemo.build/AprilDemo-all-target-headers.hmap" -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Release-iphoneos/AprilDemo.build/AprilDemo-project-headers.hmap" "-F/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/Release-iphoneos" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/Release-iphoneos/include" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Release-iphoneos/AprilDemo.build/DerivedSources/armv6" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Release-iphoneos/AprilDemo.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/MK/MKNp4XzsHt47X4XBj-6yME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AprilDemo_Prefix-gpsaaxricbknhpbmjnhyilyoezuv/AprilDemo_Prefix.pch -c "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/Annotation.m" -o "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Release-iphoneos/AprilDemo.build/Objects-normal/armv6/Annotation.o"0#
+
+CCompileC build/AprilDemo.build/Release-iphoneos/AprilDemo.build/Objects-normal/armv6/AprilDemoAppDelegate.o "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoAppDelegate.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s324500000.988922
+e324500001.173775
+r1
+xCompileC
+xbuild/AprilDemo.build/Release-iphoneos/AprilDemo.build/Objects-normal/armv6/AprilDemoAppDelegate.o
+x/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoAppDelegate.m: In function '-[AprilDemoAppDelegate application:didFinishLaunchingWithOptions:]':
+o/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoAppDelegate.m:205: warning: control reaches end of non-void function
+lSLF07#2@88"Compile /Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoAppDelegate.m324500000#324500001#0(300"/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoAppDelegate.m: In function '-[AprilDemoAppDelegate application:didFinishLaunchingWithOptions:]':/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoAppDelegate.m:205: warning: control reaches end of non-void function1(22@40"Control reaches end of non-void function324500001#164#136#0(6@80"/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoAppDelegate.m324498036#205#0#205#0#40"control reaches end of non-void function0(0#0#80"/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoAppDelegate.m8633969120#1989"    cd "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Release-iphoneos/AprilDemo.build/AprilDemo-generated-files.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Release-iphoneos/AprilDemo.build/AprilDemo-own-target-headers.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Release-iphoneos/AprilDemo.build/AprilDemo-all-target-headers.hmap" -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Release-iphoneos/AprilDemo.build/AprilDemo-project-headers.hmap" "-F/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/Release-iphoneos" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/Release-iphoneos/include" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Release-iphoneos/AprilDemo.build/DerivedSources/armv6" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Release-iphoneos/AprilDemo.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/MK/MKNp4XzsHt47X4XBj-6yME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AprilDemo_Prefix-gpsaaxricbknhpbmjnhyilyoezuv/AprilDemo_Prefix.pch -c "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoAppDelegate.m" -o "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Release-iphoneos/AprilDemo.build/Objects-normal/armv6/AprilDemoAppDelegate.o"0#
+
+CCompileC build/AprilDemo.build/Release-iphoneos/AprilDemo.build/Objects-normal/armv6/AprilDemoViewController.o "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s324500001.064645
+e324500001.743676
+r1
+xCompileC
+xbuild/AprilDemo.build/Release-iphoneos/AprilDemo.build/Objects-normal/armv6/AprilDemoViewController.o
+x/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m: In function '-[AprilDemoViewController viewDidLoad]':
+o/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m:147: warning: 'headingAvailable' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CLLocationManager.h:173)
+o/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m:94: warning: 'locationServicesEnabled' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CLLocationManager.h:124)
+o/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m: In function '-[AprilDemoViewController locationManager:didUpdateHeading:]':
+o/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m:247: warning: local declaration of 'heading' hides instance variable
+o/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m: At top level:
+o/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m:1343: warning: property 'whereabouts' requires method '-whereabouts' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m:1343: warning: property 'loadingSounds' requires method '-loadingSounds' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m:1343: warning: property 'loadingSounds' requires the method 'setLoadingSounds:' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m:1343: warning: incomplete implementation of class 'AprilDemoViewController'
+o/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m:1343: warning: method definition for '-showInfo:' not found
+o/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m:1343: warning: method definition for '-updateGainFloor' not found
+o/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m:1343: warning: method definition for '-updateAngleWidth' not found
+o/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m:1343: warning: method definition for '-toggleTracking' not found
+lSLF07#2@91"Compile /Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m324500001#324500001#0(2609"/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m: In function '-[AprilDemoViewController viewDidLoad]':/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m:147: warning: 'headingAvailable' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CLLocationManager.h:173)/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m:94: warning: 'locationServicesEnabled' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CLLocationManager.h:124)/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m: In function '-[AprilDemoViewController locationManager:didUpdateHeading:]':/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m:247: warning: local declaration of 'heading' hides instance variable/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m: At top level:/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m:1343: warning: property 'whereabouts' requires method '-whereabouts' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m:1343: warning: property 'loadingSounds' requires method '-loadingSounds' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m:1343: warning: property 'loadingSounds' requires the method 'setLoadingSounds:' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m:1343: warning: incomplete implementation of class 'AprilDemoViewController'/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m:1343: warning: method definition for '-showInfo:' not found/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m:1343: warning: method definition for '-updateGainFloor' not found/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m:1343: warning: method definition for '-updateAngleWidth' not found/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m:1343: warning: method definition for '-toggleTracking' not found12(22@197"'headingAvailable' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CLLocationManager.h:173)324500001#139#296#0(6@83"/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m324499845#147#0#147#0#33"'*' is deprecated (declared at *)0(22@204"'locationServicesEnabled' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CLLocationManager.h:124)324500001#435#302#0(6@83"/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m324499845#94#0#94#0#33"'*' is deprecated (declared at *)0(22@54"Local declaration of 'heading' hides instance variable324500001#898#153#0(6@83"/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m324499845#247#0#247#0#0"0(23@13"At top level:324500001#1051#99#0(6@83"/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m324499845#0#0#0#0#0"0(22@130"Property 'whereabouts' requires method '-whereabouts' to be defined - use @synthesize, @dynamic or provide a method implementation324500001#1150#230#0(6@83"/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m324499845#1343#0#1343#0#0"0(22@134"Property 'loadingSounds' requires method '-loadingSounds' to be defined - use @synthesize, @dynamic or provide a method implementation324500001#1380#234#0(6@83"/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m324499845#1343#0#1343#0#0"0(22@141"Property 'loadingSounds' requires the method 'setLoadingSounds:' to be defined - use @synthesize, @dynamic or provide a method implementation324500001#1614#241#0(6@83"/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m324499845#1343#0#1343#0#0"0(22@60"Incomplete implementation of class 'AprilDemoViewController'324500001#1855#160#0(6@83"/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m324499845#1343#0#1343#0#38"incomplete implementation of class '*'0(22@44"Method definition for '-showInfo:' not found324500001#2015#144#0(6@83"/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m324499845#1343#0#1343#0#35"method definition for '*' not found0(22@50"Method definition for '-updateGainFloor' not found324500001#2159#150#0(6@83"/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m324499845#1343#0#1343#0#35"method definition for '*' not found0(22@51"Method definition for '-updateAngleWidth' not found324500001#2309#151#0(6@83"/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m324499845#1343#0#1343#0#35"method definition for '*' not found0(22@49"Method definition for '-toggleTracking' not found324500001#2460#149#0(6@83"/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m324499845#1343#0#1343#0#35"method definition for '*' not found0(0#0#83"/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m8636757120#1995"    cd "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Release-iphoneos/AprilDemo.build/AprilDemo-generated-files.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Release-iphoneos/AprilDemo.build/AprilDemo-own-target-headers.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Release-iphoneos/AprilDemo.build/AprilDemo-all-target-headers.hmap" -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Release-iphoneos/AprilDemo.build/AprilDemo-project-headers.hmap" "-F/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/Release-iphoneos" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/Release-iphoneos/include" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Release-iphoneos/AprilDemo.build/DerivedSources/armv6" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Release-iphoneos/AprilDemo.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/MK/MKNp4XzsHt47X4XBj-6yME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AprilDemo_Prefix-gpsaaxricbknhpbmjnhyilyoezuv/AprilDemo_Prefix.pch -c "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m" -o "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Release-iphoneos/AprilDemo.build/Objects-normal/armv6/AprilDemoViewController.o"0#
+
+CCompileC build/AprilDemo.build/Release-iphoneos/AprilDemo.build/Objects-normal/armv6/AudioStreamer.o "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioStreamer.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s324500001.281827
+e324500002.096916
+r1
+xCompileC
+xbuild/AprilDemo.build/Release-iphoneos/AprilDemo.build/Objects-normal/armv6/AudioStreamer.o
+x/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioStreamer.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioStreamer.m: In function 'audioCallback':
+o/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioStreamer.m:98: warning: format '%d' expects type 'int', but argument 2 has type 'AudioQueueBufferRef'
+o/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioStreamer.m:98: warning: format '%d' expects type 'int', but argument 3 has type 'CFRunLoopRef'
+lSLF07#2@81"Compile /Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioStreamer.m324500001#324500002#0(427"/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioStreamer.m: In function 'audioCallback':/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioStreamer.m:98: warning: format '%d' expects type 'int', but argument 2 has type 'AudioQueueBufferRef'/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioStreamer.m:98: warning: format '%d' expects type 'int', but argument 3 has type 'CFRunLoopRef'2(22@77"Format '%d' expects type 'int', but argument 2 has type 'AudioQueueBufferRef'324500001#104#165#0(6@73"/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioStreamer.m318284066#98#0#98#0#56"format '*' expects type '*', but argument * has type '*'0(22@70"Format '%d' expects type 'int', but argument 3 has type 'CFRunLoopRef'324500001#269#158#0(6@73"/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioStreamer.m318284066#98#0#98#0#56"format '*' expects type '*', but argument * has type '*'0(0#0#73"/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioStreamer.m8633303072#1975"    cd "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Release-iphoneos/AprilDemo.build/AprilDemo-generated-files.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Release-iphoneos/AprilDemo.build/AprilDemo-own-target-headers.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Release-iphoneos/AprilDemo.build/AprilDemo-all-target-headers.hmap" -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Release-iphoneos/AprilDemo.build/AprilDemo-project-headers.hmap" "-F/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/Release-iphoneos" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/Release-iphoneos/include" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Release-iphoneos/AprilDemo.build/DerivedSources/armv6" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Release-iphoneos/AprilDemo.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/MK/MKNp4XzsHt47X4XBj-6yME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AprilDemo_Prefix-gpsaaxricbknhpbmjnhyilyoezuv/AprilDemo_Prefix.pch -c "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioStreamer.m" -o "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Release-iphoneos/AprilDemo.build/Objects-normal/armv6/AudioStreamer.o"0#
+
+CCompileC build/AprilDemo.build/Release-iphoneos/AprilDemo.build/Objects-normal/armv6/main.o "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/main.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s324500000.987903
+e324500001.064531
+r1
+xCompileC
+xbuild/AprilDemo.build/Release-iphoneos/AprilDemo.build/Objects-normal/armv6/main.o
+x/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@64"Compile /Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/main.m324500000#324500001#0(0"0(0#0#56"/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/main.m8636906880#1949"    cd "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Release-iphoneos/AprilDemo.build/AprilDemo-generated-files.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Release-iphoneos/AprilDemo.build/AprilDemo-own-target-headers.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Release-iphoneos/AprilDemo.build/AprilDemo-all-target-headers.hmap" -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Release-iphoneos/AprilDemo.build/AprilDemo-project-headers.hmap" "-F/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/Release-iphoneos" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/Release-iphoneos/include" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Release-iphoneos/AprilDemo.build/DerivedSources/armv6" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Release-iphoneos/AprilDemo.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/MK/MKNp4XzsHt47X4XBj-6yME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AprilDemo_Prefix-gpsaaxricbknhpbmjnhyilyoezuv/AprilDemo_Prefix.pch -c "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/main.m" -o "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Release-iphoneos/AprilDemo.build/Objects-normal/armv6/main.o"0#
+
+CCompileC build/AprilDemo.build/Release-iphoneos/AprilDemo.build/Objects-normal/armv7/Annotation.o "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/Annotation.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s324500002.155449
+e324500002.236544
+r1
+xCompileC
+xbuild/AprilDemo.build/Release-iphoneos/AprilDemo.build/Objects-normal/armv7/Annotation.o
+x/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/Annotation.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/Annotation.m324500002#324500002#0(0"0(0#0#70"/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/Annotation.m8634826944#1969"    cd "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Release-iphoneos/AprilDemo.build/AprilDemo-generated-files.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Release-iphoneos/AprilDemo.build/AprilDemo-own-target-headers.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Release-iphoneos/AprilDemo.build/AprilDemo-all-target-headers.hmap" -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Release-iphoneos/AprilDemo.build/AprilDemo-project-headers.hmap" "-F/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/Release-iphoneos" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/Release-iphoneos/include" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Release-iphoneos/AprilDemo.build/DerivedSources/armv7" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Release-iphoneos/AprilDemo.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/MK/MKNp4XzsHt47X4XBj-6yME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AprilDemo_Prefix-ccrsklqgndntrnchwdfowfnjrdcg/AprilDemo_Prefix.pch -c "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/Annotation.m" -o "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Release-iphoneos/AprilDemo.build/Objects-normal/armv7/Annotation.o"0#
+
+CCompileC build/AprilDemo.build/Release-iphoneos/AprilDemo.build/Objects-normal/armv7/AprilDemoAppDelegate.o "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoAppDelegate.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s324500001.814198
+e324500001.994201
+r1
+xCompileC
+xbuild/AprilDemo.build/Release-iphoneos/AprilDemo.build/Objects-normal/armv7/AprilDemoAppDelegate.o
+x/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoAppDelegate.m: In function '-[AprilDemoAppDelegate application:didFinishLaunchingWithOptions:]':
+o/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoAppDelegate.m:205: warning: control reaches end of non-void function
+lSLF07#2@88"Compile /Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoAppDelegate.m324500001#324500002#0(300"/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoAppDelegate.m: In function '-[AprilDemoAppDelegate application:didFinishLaunchingWithOptions:]':/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoAppDelegate.m:205: warning: control reaches end of non-void function1(22@40"Control reaches end of non-void function324500001#164#136#0(6@80"/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoAppDelegate.m324498036#205#0#205#0#40"control reaches end of non-void function0(0#0#80"/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoAppDelegate.m8633744704#1989"    cd "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Release-iphoneos/AprilDemo.build/AprilDemo-generated-files.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Release-iphoneos/AprilDemo.build/AprilDemo-own-target-headers.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Release-iphoneos/AprilDemo.build/AprilDemo-all-target-headers.hmap" -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Release-iphoneos/AprilDemo.build/AprilDemo-project-headers.hmap" "-F/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/Release-iphoneos" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/Release-iphoneos/include" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Release-iphoneos/AprilDemo.build/DerivedSources/armv7" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Release-iphoneos/AprilDemo.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/MK/MKNp4XzsHt47X4XBj-6yME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AprilDemo_Prefix-ccrsklqgndntrnchwdfowfnjrdcg/AprilDemo_Prefix.pch -c "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoAppDelegate.m" -o "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Release-iphoneos/AprilDemo.build/Objects-normal/armv7/AprilDemoAppDelegate.o"0#
+
+CCompileC build/AprilDemo.build/Release-iphoneos/AprilDemo.build/Objects-normal/armv7/AprilDemoViewController.o "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s324500001.994291
+e324500002.757376
+r1
+xCompileC
+xbuild/AprilDemo.build/Release-iphoneos/AprilDemo.build/Objects-normal/armv7/AprilDemoViewController.o
+x/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m: In function '-[AprilDemoViewController viewDidLoad]':
+o/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m:147: warning: 'headingAvailable' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CLLocationManager.h:173)
+o/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m:94: warning: 'locationServicesEnabled' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CLLocationManager.h:124)
+o/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m: In function '-[AprilDemoViewController locationManager:didUpdateHeading:]':
+o/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m:247: warning: local declaration of 'heading' hides instance variable
+o/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m: At top level:
+o/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m:1343: warning: property 'whereabouts' requires method '-whereabouts' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m:1343: warning: property 'loadingSounds' requires method '-loadingSounds' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m:1343: warning: property 'loadingSounds' requires the method 'setLoadingSounds:' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m:1343: warning: incomplete implementation of class 'AprilDemoViewController'
+o/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m:1343: warning: method definition for '-showInfo:' not found
+o/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m:1343: warning: method definition for '-updateGainFloor' not found
+o/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m:1343: warning: method definition for '-updateAngleWidth' not found
+o/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m:1343: warning: method definition for '-toggleTracking' not found
+lSLF07#2@91"Compile /Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m324500001#324500002#0(2609"/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m: In function '-[AprilDemoViewController viewDidLoad]':/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m:147: warning: 'headingAvailable' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CLLocationManager.h:173)/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m:94: warning: 'locationServicesEnabled' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CLLocationManager.h:124)/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m: In function '-[AprilDemoViewController locationManager:didUpdateHeading:]':/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m:247: warning: local declaration of 'heading' hides instance variable/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m: At top level:/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m:1343: warning: property 'whereabouts' requires method '-whereabouts' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m:1343: warning: property 'loadingSounds' requires method '-loadingSounds' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m:1343: warning: property 'loadingSounds' requires the method 'setLoadingSounds:' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m:1343: warning: incomplete implementation of class 'AprilDemoViewController'/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m:1343: warning: method definition for '-showInfo:' not found/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m:1343: warning: method definition for '-updateGainFloor' not found/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m:1343: warning: method definition for '-updateAngleWidth' not found/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m:1343: warning: method definition for '-toggleTracking' not found12(22@197"'headingAvailable' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CLLocationManager.h:173)324500002#139#296#0(6@83"/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m324499845#147#0#147#0#33"'*' is deprecated (declared at *)0(22@204"'locationServicesEnabled' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CLLocationManager.h:124)324500002#435#302#0(6@83"/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m324499845#94#0#94#0#33"'*' is deprecated (declared at *)0(22@54"Local declaration of 'heading' hides instance variable324500002#898#153#0(6@83"/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m324499845#247#0#247#0#0"0(23@13"At top level:324500002#1051#99#0(6@83"/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m324499845#0#0#0#0#0"0(22@130"Property 'whereabouts' requires method '-whereabouts' to be defined - use @synthesize, @dynamic or provide a method implementation324500002#1150#230#0(6@83"/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m324499845#1343#0#1343#0#0"0(22@134"Property 'loadingSounds' requires method '-loadingSounds' to be defined - use @synthesize, @dynamic or provide a method implementation324500002#1380#234#0(6@83"/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m324499845#1343#0#1343#0#0"0(22@141"Property 'loadingSounds' requires the method 'setLoadingSounds:' to be defined - use @synthesize, @dynamic or provide a method implementation324500002#1614#241#0(6@83"/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m324499845#1343#0#1343#0#0"0(22@60"Incomplete implementation of class 'AprilDemoViewController'324500002#1855#160#0(6@83"/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m324499845#1343#0#1343#0#38"incomplete implementation of class '*'0(22@44"Method definition for '-showInfo:' not found324500002#2015#144#0(6@83"/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m324499845#1343#0#1343#0#35"method definition for '*' not found0(22@50"Method definition for '-updateGainFloor' not found324500002#2159#150#0(6@83"/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m324499845#1343#0#1343#0#35"method definition for '*' not found0(22@51"Method definition for '-updateAngleWidth' not found324500002#2309#151#0(6@83"/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m324499845#1343#0#1343#0#35"method definition for '*' not found0(22@49"Method definition for '-toggleTracking' not found324500002#2460#149#0(6@83"/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m324499845#1343#0#1343#0#35"method definition for '*' not found0(0#0#83"/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m8631930624#1995"    cd "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Release-iphoneos/AprilDemo.build/AprilDemo-generated-files.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Release-iphoneos/AprilDemo.build/AprilDemo-own-target-headers.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Release-iphoneos/AprilDemo.build/AprilDemo-all-target-headers.hmap" -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Release-iphoneos/AprilDemo.build/AprilDemo-project-headers.hmap" "-F/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/Release-iphoneos" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/Release-iphoneos/include" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Release-iphoneos/AprilDemo.build/DerivedSources/armv7" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Release-iphoneos/AprilDemo.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/MK/MKNp4XzsHt47X4XBj-6yME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AprilDemo_Prefix-ccrsklqgndntrnchwdfowfnjrdcg/AprilDemo_Prefix.pch -c "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m" -o "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Release-iphoneos/AprilDemo.build/Objects-normal/armv7/AprilDemoViewController.o"0#
+
+CCompileC build/AprilDemo.build/Release-iphoneos/AprilDemo.build/Objects-normal/armv7/AudioStreamer.o "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioStreamer.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s324500002.236643
+e324500002.983792
+r1
+xCompileC
+xbuild/AprilDemo.build/Release-iphoneos/AprilDemo.build/Objects-normal/armv7/AudioStreamer.o
+x/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioStreamer.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioStreamer.m: In function 'audioCallback':
+o/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioStreamer.m:98: warning: format '%d' expects type 'int', but argument 2 has type 'AudioQueueBufferRef'
+o/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioStreamer.m:98: warning: format '%d' expects type 'int', but argument 3 has type 'CFRunLoopRef'
+lSLF07#2@81"Compile /Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioStreamer.m324500002#324500002#0(427"/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioStreamer.m: In function 'audioCallback':/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioStreamer.m:98: warning: format '%d' expects type 'int', but argument 2 has type 'AudioQueueBufferRef'/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioStreamer.m:98: warning: format '%d' expects type 'int', but argument 3 has type 'CFRunLoopRef'2(22@77"Format '%d' expects type 'int', but argument 2 has type 'AudioQueueBufferRef'324500002#104#165#0(6@73"/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioStreamer.m318284066#98#0#98#0#56"format '*' expects type '*', but argument * has type '*'0(22@70"Format '%d' expects type 'int', but argument 3 has type 'CFRunLoopRef'324500002#269#158#0(6@73"/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioStreamer.m318284066#98#0#98#0#56"format '*' expects type '*', but argument * has type '*'0(0#0#73"/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioStreamer.m8634374304#1975"    cd "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Release-iphoneos/AprilDemo.build/AprilDemo-generated-files.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Release-iphoneos/AprilDemo.build/AprilDemo-own-target-headers.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Release-iphoneos/AprilDemo.build/AprilDemo-all-target-headers.hmap" -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Release-iphoneos/AprilDemo.build/AprilDemo-project-headers.hmap" "-F/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/Release-iphoneos" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/Release-iphoneos/include" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Release-iphoneos/AprilDemo.build/DerivedSources/armv7" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Release-iphoneos/AprilDemo.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/MK/MKNp4XzsHt47X4XBj-6yME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AprilDemo_Prefix-ccrsklqgndntrnchwdfowfnjrdcg/AprilDemo_Prefix.pch -c "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioStreamer.m" -o "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Release-iphoneos/AprilDemo.build/Objects-normal/armv7/AudioStreamer.o"0#
+
+CCompileC build/AprilDemo.build/Release-iphoneos/AprilDemo.build/Objects-normal/armv7/main.o "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/main.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s324500001.743775
+e324500001.814097
+r1
+xCompileC
+xbuild/AprilDemo.build/Release-iphoneos/AprilDemo.build/Objects-normal/armv7/main.o
+x/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@64"Compile /Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/main.m324500001#324500001#0(0"0(0#0#56"/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/main.m8634906688#1949"    cd "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Release-iphoneos/AprilDemo.build/AprilDemo-generated-files.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Release-iphoneos/AprilDemo.build/AprilDemo-own-target-headers.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Release-iphoneos/AprilDemo.build/AprilDemo-all-target-headers.hmap" -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Release-iphoneos/AprilDemo.build/AprilDemo-project-headers.hmap" "-F/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/Release-iphoneos" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/Release-iphoneos/include" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Release-iphoneos/AprilDemo.build/DerivedSources/armv7" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Release-iphoneos/AprilDemo.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/MK/MKNp4XzsHt47X4XBj-6yME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AprilDemo_Prefix-ccrsklqgndntrnchwdfowfnjrdcg/AprilDemo_Prefix.pch -c "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/main.m" -o "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Release-iphoneos/AprilDemo.build/Objects-normal/armv7/main.o"0#
+
+CCompileXIB "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/AprilDemoViewController.xib"
+s324499999.218343
+e324499999.749300
+r1
+xCompileXIB
+x/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/AprilDemoViewController.xib
+lSLF07#2@38"CompileXIB AprilDemoViewController.xib324499999#324499999#0(0"0(0#0#77"/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/AprilDemoViewController.xib8637200800#611"    cd "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/Release-iphoneos/AprilDemo.app/AprilDemoViewController.nib" "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/AprilDemoViewController.xib" --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/MainWindow.xib"
+s324499999.217615
+e324499999.730338
+r1
+xCompileXIB
+x/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib324499999#324499999#0(0"0(0#0#64"/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/MainWindow.xib8637332736#585"    cd "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/Release-iphoneos/AprilDemo.app/MainWindow.nib" "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/MainWindow.xib" --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCpResource build/Release-iphoneos/AprilDemo.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+s324499999.122633
+e324499999.217529
+r1
+xCpResource
+xbuild/Release-iphoneos/AprilDemo.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist324499999#324499999#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist8637382208#545"    cd "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/Release-iphoneos/AprilDemo.app"0#
+
+CCreateUniversalBinary "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/Release-iphoneos/AprilDemo.app/AprilDemo" normal "armv6 armv7"
+r0
+
+CGenerateDSYMFile "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/Release-iphoneos/AprilDemo.app.dSYM" "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/Release-iphoneos/AprilDemo.app/AprilDemo"
+r0
+
+CLd "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Release-iphoneos/AprilDemo.build/Objects-normal/armv6/AprilDemo" normal armv6
+s324500002.097013
+e324500002.155346
+r0
+xLd
+x/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Release-iphoneos/AprilDemo.build/Objects-normal/armv6/AprilDemo
+xnormal
+xarmv6
+oUndefined symbols:
+o  "_kCFStreamSSLPeerName", referenced from:
+o      _kCFStreamSSLPeerName$non_lazy_ptr in AudioStreamer.o
+o     (maybe you meant: _kCFStreamSSLPeerName$non_lazy_ptr)
+o  "_kCFStreamPropertySSLSettings", referenced from:
+o      _kCFStreamPropertySSLSettings$non_lazy_ptr in AudioStreamer.o
+o     (maybe you meant: _kCFStreamPropertySSLSettings$non_lazy_ptr)
+o  "_kCFStreamSSLLevel", referenced from:
+o      _kCFStreamSSLLevel$non_lazy_ptr in AudioStreamer.o
+o     (maybe you meant: _kCFStreamSSLLevel$non_lazy_ptr)
+o  "_kCFStreamPropertyHTTPShouldAutoredirect", referenced from:
+o      _kCFStreamPropertyHTTPShouldAutoredirect$non_lazy_ptr in AudioStreamer.o
+o     (maybe you meant: _kCFStreamPropertyHTTPShouldAutoredirect$non_lazy_ptr)
+o  "_kCFStreamSSLAllowsExpiredRoots", referenced from:
+o      _kCFStreamSSLAllowsExpiredRoots$non_lazy_ptr in AudioStreamer.o
+o     (maybe you meant: _kCFStreamSSLAllowsExpiredRoots$non_lazy_ptr)
+o  "_CFHTTPMessageCreateRequest", referenced from:
+o      -[AudioStreamer openFileStream] in AudioStreamer.o
+o  "_kCFStreamSSLAllowsAnyRoot", referenced from:
+o      _kCFStreamSSLAllowsAnyRoot$non_lazy_ptr in AudioStreamer.o
+o     (maybe you meant: _kCFStreamSSLAllowsAnyRoot$non_lazy_ptr)
+o  "_kCFStreamSSLAllowsExpiredCertificates", referenced from:
+o      _kCFStreamSSLAllowsExpiredCertificates$non_lazy_ptr in AudioStreamer.o
+o     (maybe you meant: _kCFStreamSSLAllowsExpiredCertificates$non_lazy_ptr)
+o  "_kCFStreamSSLValidatesCertificateChain", referenced from:
+o      _kCFStreamSSLValidatesCertificateChain$non_lazy_ptr in AudioStreamer.o
+o     (maybe you meant: _kCFStreamSSLValidatesCertificateChain$non_lazy_ptr)
+o  "_CFReadStreamCreateForHTTPRequest", referenced from:
+o      -[AudioStreamer openFileStream] in AudioStreamer.o
+o  "_kCFHTTPVersion1_1", referenced from:
+o      _kCFHTTPVersion1_1$non_lazy_ptr in AudioStreamer.o
+o     (maybe you meant: _kCFHTTPVersion1_1$non_lazy_ptr)
+old: symbol(s) not found
+ocollect2: ld returned 1 exit status
+lSLF07#2@140"Link /Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Release-iphoneos/AprilDemo.build/Objects-normal/armv6/AprilDemo324500002#324500002#0(1976"Undefined symbols:  "_kCFStreamSSLPeerName", referenced from:      _kCFStreamSSLPeerName$non_lazy_ptr in AudioStreamer.o     (maybe you meant: _kCFStreamSSLPeerName$non_lazy_ptr)  "_kCFStreamPropertySSLSettings", referenced from:      _kCFStreamPropertySSLSettings$non_lazy_ptr in AudioStreamer.o     (maybe you meant: _kCFStreamPropertySSLSettings$non_lazy_ptr)  "_kCFStreamSSLLevel", referenced from:      _kCFStreamSSLLevel$non_lazy_ptr in AudioStreamer.o     (maybe you meant: _kCFStreamSSLLevel$non_lazy_ptr)  "_kCFStreamPropertyHTTPShouldAutoredirect", referenced from:      _kCFStreamPropertyHTTPShouldAutoredirect$non_lazy_ptr in AudioStreamer.o     (maybe you meant: _kCFStreamPropertyHTTPShouldAutoredirect$non_lazy_ptr)  "_kCFStreamSSLAllowsExpiredRoots", referenced from:      _kCFStreamSSLAllowsExpiredRoots$non_lazy_ptr in AudioStreamer.o     (maybe you meant: _kCFStreamSSLAllowsExpiredRoots$non_lazy_ptr)  "_CFHTTPMessageCreateRequest", referenced from:      -[AudioStreamer openFileStream] in AudioStreamer.o  "_kCFStreamSSLAllowsAnyRoot", referenced from:      _kCFStreamSSLAllowsAnyRoot$non_lazy_ptr in AudioStreamer.o     (maybe you meant: _kCFStreamSSLAllowsAnyRoot$non_lazy_ptr)  "_kCFStreamSSLAllowsExpiredCertificates", referenced from:      _kCFStreamSSLAllowsExpiredCertificates$non_lazy_ptr in AudioStreamer.o     (maybe you meant: _kCFStreamSSLAllowsExpiredCertificates$non_lazy_ptr)  "_kCFStreamSSLValidatesCertificateChain", referenced from:      _kCFStreamSSLValidatesCertificateChain$non_lazy_ptr in AudioStreamer.o     (maybe you meant: _kCFStreamSSLValidatesCertificateChain$non_lazy_ptr)  "_CFReadStreamCreateForHTTPRequest", referenced from:      -[AudioStreamer openFileStream] in AudioStreamer.o  "_kCFHTTPVersion1_1", referenced from:      _kCFHTTPVersion1_1$non_lazy_ptr in AudioStreamer.o     (maybe you meant: _kCFHTTPVersion1_1$non_lazy_ptr)ld: symbol(s) not foundcollect2: ld returned 1 exit status33(4@41""_kCFStreamSSLPeerName", referenced from:324500002#19#44#0(6@0"324500002#0#0#0#0#0"0(13@53"_kCFStreamSSLPeerName$non_lazy_ptr in AudioStreamer.o324500002#63#60#0(6@0"324500002#0#0#0#0#0"0(13@53"(maybe you meant: _kCFStreamSSLPeerName$non_lazy_ptr)324500002#123#59#0(6@0"324500002#0#0#0#0#0"0(4@49""_kCFStreamPropertySSLSettings", referenced from:324500002#182#52#0(6@0"324500002#0#0#0#0#0"0(13@61"_kCFStreamPropertySSLSettings$non_lazy_ptr in AudioStreamer.o324500002#234#68#0(6@0"324500002#0#0#0#0#0"0(13@61"(maybe you meant: _kCFStreamPropertySSLSettings$non_lazy_ptr)324500002#302#67#0(6@0"324500002#0#0#0#0#0"0(4@38""_kCFStreamSSLLevel", referenced from:324500002#369#41#0(6@0"324500002#0#0#0#0#0"0(13@50"_kCFStreamSSLLevel$non_lazy_ptr in AudioStreamer.o324500002#410#57#0(6@0"324500002#0#0#0#0#0"0(13@50"(maybe you meant: _kCFStreamSSLLevel$non_lazy_ptr)324500002#467#56#0(6@0"324500002#0#0#0#0#0"0(4@60""_kCFStreamPropertyHTTPShouldAutoredirect", referenced from:324500002#523#63#0(6@0"324500002#0#0#0#0#0"0(13@72"_kCFStreamPropertyHTTPShouldAutoredirect$non_lazy_ptr in AudioStreamer.o324500002#586#79#0(6@0"324500002#0#0#0#0#0"0(13@72"(maybe you meant: _kCFStreamPropertyHTTPShouldAutoredirect$non_lazy_ptr)324500002#665#78#0(6@0"324500002#0#0#0#0#0"0(4@51""_kCFStreamSSLAllowsExpiredRoots", referenced from:324500002#743#54#0(6@0"324500002#0#0#0#0#0"0(13@63"_kCFStreamSSLAllowsExpiredRoots$non_lazy_ptr in AudioStreamer.o324500002#797#70#0(6@0"324500002#0#0#0#0#0"0(13@63"(maybe you meant: _kCFStreamSSLAllowsExpiredRoots$non_lazy_ptr)324500002#867#69#0(6@0"324500002#0#0#0#0#0"0(4@47""_CFHTTPMessageCreateRequest", referenced from:324500002#936#50#0(6@0"324500002#0#0#0#0#0"0(13@50"-[AudioStreamer openFileStream] in AudioStreamer.o324500002#986#57#0(6@0"324500002#0#0#0#0#0"0(4@46""_kCFStreamSSLAllowsAnyRoot", referenced from:324500002#1043#49#0(6@0"324500002#0#0#0#0#0"0(13@58"_kCFStreamSSLAllowsAnyRoot$non_lazy_ptr in AudioStreamer.o324500002#1092#65#0(6@0"324500002#0#0#0#0#0"0(13@58"(maybe you meant: _kCFStreamSSLAllowsAnyRoot$non_lazy_ptr)324500002#1157#64#0(6@0"324500002#0#0#0#0#0"0(4@58""_kCFStreamSSLAllowsExpiredCertificates", referenced from:324500002#1221#61#0(6@0"324500002#0#0#0#0#0"0(13@70"_kCFStreamSSLAllowsExpiredCertificates$non_lazy_ptr in AudioStreamer.o324500002#1282#77#0(6@0"324500002#0#0#0#0#0"0(13@70"(maybe you meant: _kCFStreamSSLAllowsExpiredCertificates$non_lazy_ptr)324500002#1359#76#0(6@0"324500002#0#0#0#0#0"0(4@58""_kCFStreamSSLValidatesCertificateChain", referenced from:324500002#1435#61#0(6@0"324500002#0#0#0#0#0"0(13@70"_kCFStreamSSLValidatesCertificateChain$non_lazy_ptr in AudioStreamer.o324500002#1496#77#0(6@0"324500002#0#0#0#0#0"0(13@70"(maybe you meant: _kCFStreamSSLValidatesCertificateChain$non_lazy_ptr)324500002#1573#76#0(6@0"324500002#0#0#0#0#0"0(4@53""_CFReadStreamCreateForHTTPRequest", referenced from:324500002#1649#56#0(6@0"324500002#0#0#0#0#0"0(13@50"-[AudioStreamer openFileStream] in AudioStreamer.o324500002#1705#57#0(6@0"324500002#0#0#0#0#0"0(4@38""_kCFHTTPVersion1_1", referenced from:324500002#1762#41#0(6@0"324500002#0#0#0#0#0"0(13@50"_kCFHTTPVersion1_1$non_lazy_ptr in AudioStreamer.o324500002#1803#57#0(6@0"324500002#0#0#0#0#0"0(13@50"(maybe you meant: _kCFHTTPVersion1_1$non_lazy_ptr)324500002#1860#56#0(6@0"324500002#0#0#0#0#0"0(13@19"Symbol(s) not found324500002#1916#24#0(6@0"324500002#0#0#0#0#0"0(13@35"Collect2: ld returned 1 exit status324500002#1940#36#0(6@0"324500002#0#0#0#0#0"0(0#0#0"8636936800#1028"    cd "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo"    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk "-L/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/Release-iphoneos" "-F/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/Release-iphoneos" -filelist "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Release-iphoneos/AprilDemo.build/Objects-normal/armv6/AprilDemo.LinkFileList" -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -framework OpenAL -framework AudioToolbox -framework CoreLocation -framework MapKit -o "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Release-iphoneos/AprilDemo.build/Objects-normal/armv6/AprilDemo"1#
+
+CLd "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Release-iphoneos/AprilDemo.build/Objects-normal/armv7/AprilDemo" normal armv7
+s324500002.983924
+e324500003.030517
+r0
+xLd
+x/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Release-iphoneos/AprilDemo.build/Objects-normal/armv7/AprilDemo
+xnormal
+xarmv7
+oUndefined symbols:
+o  "_kCFStreamSSLPeerName", referenced from:
+o      _kCFStreamSSLPeerName$non_lazy_ptr in AudioStreamer.o
+o     (maybe you meant: _kCFStreamSSLPeerName$non_lazy_ptr)
+o  "_kCFStreamPropertySSLSettings", referenced from:
+o      _kCFStreamPropertySSLSettings$non_lazy_ptr in AudioStreamer.o
+o     (maybe you meant: _kCFStreamPropertySSLSettings$non_lazy_ptr)
+o  "_kCFStreamSSLLevel", referenced from:
+o      _kCFStreamSSLLevel$non_lazy_ptr in AudioStreamer.o
+o     (maybe you meant: _kCFStreamSSLLevel$non_lazy_ptr)
+o  "_kCFStreamPropertyHTTPShouldAutoredirect", referenced from:
+o      _kCFStreamPropertyHTTPShouldAutoredirect$non_lazy_ptr in AudioStreamer.o
+o     (maybe you meant: _kCFStreamPropertyHTTPShouldAutoredirect$non_lazy_ptr)
+o  "_kCFStreamSSLAllowsExpiredRoots", referenced from:
+o      _kCFStreamSSLAllowsExpiredRoots$non_lazy_ptr in AudioStreamer.o
+o     (maybe you meant: _kCFStreamSSLAllowsExpiredRoots$non_lazy_ptr)
+o  "_CFHTTPMessageCreateRequest", referenced from:
+o      -[AudioStreamer openFileStream] in AudioStreamer.o
+o  "_kCFStreamSSLAllowsAnyRoot", referenced from:
+o      _kCFStreamSSLAllowsAnyRoot$non_lazy_ptr in AudioStreamer.o
+o     (maybe you meant: _kCFStreamSSLAllowsAnyRoot$non_lazy_ptr)
+o  "_kCFStreamSSLAllowsExpiredCertificates", referenced from:
+o      _kCFStreamSSLAllowsExpiredCertificates$non_lazy_ptr in AudioStreamer.o
+o     (maybe you meant: _kCFStreamSSLAllowsExpiredCertificates$non_lazy_ptr)
+o  "_kCFStreamSSLValidatesCertificateChain", referenced from:
+o      _kCFStreamSSLValidatesCertificateChain$non_lazy_ptr in AudioStreamer.o
+o     (maybe you meant: _kCFStreamSSLValidatesCertificateChain$non_lazy_ptr)
+o  "_CFReadStreamCreateForHTTPRequest", referenced from:
+o      -[AudioStreamer openFileStream] in AudioStreamer.o
+o  "_kCFHTTPVersion1_1", referenced from:
+o      _kCFHTTPVersion1_1$non_lazy_ptr in AudioStreamer.o
+o     (maybe you meant: _kCFHTTPVersion1_1$non_lazy_ptr)
+old: symbol(s) not found
+ocollect2: ld returned 1 exit status
+lSLF07#2@140"Link /Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Release-iphoneos/AprilDemo.build/Objects-normal/armv7/AprilDemo324500002#324500003#0(1976"Undefined symbols:  "_kCFStreamSSLPeerName", referenced from:      _kCFStreamSSLPeerName$non_lazy_ptr in AudioStreamer.o     (maybe you meant: _kCFStreamSSLPeerName$non_lazy_ptr)  "_kCFStreamPropertySSLSettings", referenced from:      _kCFStreamPropertySSLSettings$non_lazy_ptr in AudioStreamer.o     (maybe you meant: _kCFStreamPropertySSLSettings$non_lazy_ptr)  "_kCFStreamSSLLevel", referenced from:      _kCFStreamSSLLevel$non_lazy_ptr in AudioStreamer.o     (maybe you meant: _kCFStreamSSLLevel$non_lazy_ptr)  "_kCFStreamPropertyHTTPShouldAutoredirect", referenced from:      _kCFStreamPropertyHTTPShouldAutoredirect$non_lazy_ptr in AudioStreamer.o     (maybe you meant: _kCFStreamPropertyHTTPShouldAutoredirect$non_lazy_ptr)  "_kCFStreamSSLAllowsExpiredRoots", referenced from:      _kCFStreamSSLAllowsExpiredRoots$non_lazy_ptr in AudioStreamer.o     (maybe you meant: _kCFStreamSSLAllowsExpiredRoots$non_lazy_ptr)  "_CFHTTPMessageCreateRequest", referenced from:      -[AudioStreamer openFileStream] in AudioStreamer.o  "_kCFStreamSSLAllowsAnyRoot", referenced from:      _kCFStreamSSLAllowsAnyRoot$non_lazy_ptr in AudioStreamer.o     (maybe you meant: _kCFStreamSSLAllowsAnyRoot$non_lazy_ptr)  "_kCFStreamSSLAllowsExpiredCertificates", referenced from:      _kCFStreamSSLAllowsExpiredCertificates$non_lazy_ptr in AudioStreamer.o     (maybe you meant: _kCFStreamSSLAllowsExpiredCertificates$non_lazy_ptr)  "_kCFStreamSSLValidatesCertificateChain", referenced from:      _kCFStreamSSLValidatesCertificateChain$non_lazy_ptr in AudioStreamer.o     (maybe you meant: _kCFStreamSSLValidatesCertificateChain$non_lazy_ptr)  "_CFReadStreamCreateForHTTPRequest", referenced from:      -[AudioStreamer openFileStream] in AudioStreamer.o  "_kCFHTTPVersion1_1", referenced from:      _kCFHTTPVersion1_1$non_lazy_ptr in AudioStreamer.o     (maybe you meant: _kCFHTTPVersion1_1$non_lazy_ptr)ld: symbol(s) not foundcollect2: ld returned 1 exit status33(4@41""_kCFStreamSSLPeerName", referenced from:324500003#19#44#0(6@0"324500003#0#0#0#0#0"0(13@53"_kCFStreamSSLPeerName$non_lazy_ptr in AudioStreamer.o324500003#63#60#0(6@0"324500003#0#0#0#0#0"0(13@53"(maybe you meant: _kCFStreamSSLPeerName$non_lazy_ptr)324500003#123#59#0(6@0"324500003#0#0#0#0#0"0(4@49""_kCFStreamPropertySSLSettings", referenced from:324500003#182#52#0(6@0"324500003#0#0#0#0#0"0(13@61"_kCFStreamPropertySSLSettings$non_lazy_ptr in AudioStreamer.o324500003#234#68#0(6@0"324500003#0#0#0#0#0"0(13@61"(maybe you meant: _kCFStreamPropertySSLSettings$non_lazy_ptr)324500003#302#67#0(6@0"324500003#0#0#0#0#0"0(4@38""_kCFStreamSSLLevel", referenced from:324500003#369#41#0(6@0"324500003#0#0#0#0#0"0(13@50"_kCFStreamSSLLevel$non_lazy_ptr in AudioStreamer.o324500003#410#57#0(6@0"324500003#0#0#0#0#0"0(13@50"(maybe you meant: _kCFStreamSSLLevel$non_lazy_ptr)324500003#467#56#0(6@0"324500003#0#0#0#0#0"0(4@60""_kCFStreamPropertyHTTPShouldAutoredirect", referenced from:324500003#523#63#0(6@0"324500003#0#0#0#0#0"0(13@72"_kCFStreamPropertyHTTPShouldAutoredirect$non_lazy_ptr in AudioStreamer.o324500003#586#79#0(6@0"324500003#0#0#0#0#0"0(13@72"(maybe you meant: _kCFStreamPropertyHTTPShouldAutoredirect$non_lazy_ptr)324500003#665#78#0(6@0"324500003#0#0#0#0#0"0(4@51""_kCFStreamSSLAllowsExpiredRoots", referenced from:324500003#743#54#0(6@0"324500003#0#0#0#0#0"0(13@63"_kCFStreamSSLAllowsExpiredRoots$non_lazy_ptr in AudioStreamer.o324500003#797#70#0(6@0"324500003#0#0#0#0#0"0(13@63"(maybe you meant: _kCFStreamSSLAllowsExpiredRoots$non_lazy_ptr)324500003#867#69#0(6@0"324500003#0#0#0#0#0"0(4@47""_CFHTTPMessageCreateRequest", referenced from:324500003#936#50#0(6@0"324500003#0#0#0#0#0"0(13@50"-[AudioStreamer openFileStream] in AudioStreamer.o324500003#986#57#0(6@0"324500003#0#0#0#0#0"0(4@46""_kCFStreamSSLAllowsAnyRoot", referenced from:324500003#1043#49#0(6@0"324500003#0#0#0#0#0"0(13@58"_kCFStreamSSLAllowsAnyRoot$non_lazy_ptr in AudioStreamer.o324500003#1092#65#0(6@0"324500003#0#0#0#0#0"0(13@58"(maybe you meant: _kCFStreamSSLAllowsAnyRoot$non_lazy_ptr)324500003#1157#64#0(6@0"324500003#0#0#0#0#0"0(4@58""_kCFStreamSSLAllowsExpiredCertificates", referenced from:324500003#1221#61#0(6@0"324500003#0#0#0#0#0"0(13@70"_kCFStreamSSLAllowsExpiredCertificates$non_lazy_ptr in AudioStreamer.o324500003#1282#77#0(6@0"324500003#0#0#0#0#0"0(13@70"(maybe you meant: _kCFStreamSSLAllowsExpiredCertificates$non_lazy_ptr)324500003#1359#76#0(6@0"324500003#0#0#0#0#0"0(4@58""_kCFStreamSSLValidatesCertificateChain", referenced from:324500003#1435#61#0(6@0"324500003#0#0#0#0#0"0(13@70"_kCFStreamSSLValidatesCertificateChain$non_lazy_ptr in AudioStreamer.o324500003#1496#77#0(6@0"324500003#0#0#0#0#0"0(13@70"(maybe you meant: _kCFStreamSSLValidatesCertificateChain$non_lazy_ptr)324500003#1573#76#0(6@0"324500003#0#0#0#0#0"0(4@53""_CFReadStreamCreateForHTTPRequest", referenced from:324500003#1649#56#0(6@0"324500003#0#0#0#0#0"0(13@50"-[AudioStreamer openFileStream] in AudioStreamer.o324500003#1705#57#0(6@0"324500003#0#0#0#0#0"0(4@38""_kCFHTTPVersion1_1", referenced from:324500003#1762#41#0(6@0"324500003#0#0#0#0#0"0(13@50"_kCFHTTPVersion1_1$non_lazy_ptr in AudioStreamer.o324500003#1803#57#0(6@0"324500003#0#0#0#0#0"0(13@50"(maybe you meant: _kCFHTTPVersion1_1$non_lazy_ptr)324500003#1860#56#0(6@0"324500003#0#0#0#0#0"0(13@19"Symbol(s) not found324500003#1916#24#0(6@0"324500003#0#0#0#0#0"0(13@35"Collect2: ld returned 1 exit status324500003#1940#36#0(6@0"324500003#0#0#0#0#0"0(0#0#0"8633867808#1028"    cd "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo"    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk "-L/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/Release-iphoneos" "-F/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/Release-iphoneos" -filelist "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Release-iphoneos/AprilDemo.build/Objects-normal/armv7/AprilDemo.LinkFileList" -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -framework OpenAL -framework AudioToolbox -framework CoreLocation -framework MapKit -o "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Release-iphoneos/AprilDemo.build/Objects-normal/armv7/AprilDemo"1#
+
+CProcessInfoPlistFile "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/Release-iphoneos/AprilDemo.app/Info.plist" AprilDemo-Info.plist
+s324499999.126741
+e324499999.210269
+r1
+xProcessInfoPlistFile
+x/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/Release-iphoneos/AprilDemo.app/Info.plist
+xAprilDemo-Info.plist
+lSLF07#2@28"Process AprilDemo-Info.plist324499999#324499999#0(0"0(0#0#70"/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/AprilDemo-Info.plist8637358336#628"    cd "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility AprilDemo-Info.plist -genpkginfo "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/Release-iphoneos/AprilDemo.app/PkgInfo" -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/Release-iphoneos/AprilDemo.app/ResourceRules.plist" -o "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/Release-iphoneos/AprilDemo.app/Info.plist"0#
+
+CProcessPCH /var/folders/MK/MKNp4XzsHt47X4XBj-6yME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AprilDemo_Prefix-ccrsklqgndntrnchwdfowfnjrdcg/AprilDemo_Prefix.pch.gch AprilDemo_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s324499999.750540
+e324500000.959320
+r1
+xProcessPCH
+x/var/folders/MK/MKNp4XzsHt47X4XBj-6yME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AprilDemo_Prefix-ccrsklqgndntrnchwdfowfnjrdcg/AprilDemo_Prefix.pch.gch
+xAprilDemo_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@31"Precompile AprilDemo_Prefix.pch324499999#324500000#0(0"0(0#0#70"/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/AprilDemo_Prefix.pch8635445120#1830"    cd "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Release-iphoneos/AprilDemo.build/AprilDemo-generated-files.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Release-iphoneos/AprilDemo.build/AprilDemo-own-target-headers.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Release-iphoneos/AprilDemo.build/AprilDemo-all-target-headers.hmap" -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Release-iphoneos/AprilDemo.build/AprilDemo-project-headers.hmap" "-F/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/Release-iphoneos" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/Release-iphoneos/include" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Release-iphoneos/AprilDemo.build/DerivedSources/armv7" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Release-iphoneos/AprilDemo.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -c "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/AprilDemo_Prefix.pch" -o /var/folders/MK/MKNp4XzsHt47X4XBj-6yME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AprilDemo_Prefix-ccrsklqgndntrnchwdfowfnjrdcg/AprilDemo_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/MK/MKNp4XzsHt47X4XBj-6yME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AprilDemo_Prefix-gpsaaxricbknhpbmjnhyilyoezuv/AprilDemo_Prefix.pch.gch AprilDemo_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s324499999.749438
+e324500000.987795
+r1
+xProcessPCH
+x/var/folders/MK/MKNp4XzsHt47X4XBj-6yME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AprilDemo_Prefix-gpsaaxricbknhpbmjnhyilyoezuv/AprilDemo_Prefix.pch.gch
+xAprilDemo_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@31"Precompile AprilDemo_Prefix.pch324499999#324500000#0(0"0(0#0#70"/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/AprilDemo_Prefix.pch8635492000#1830"    cd "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Release-iphoneos/AprilDemo.build/AprilDemo-generated-files.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Release-iphoneos/AprilDemo.build/AprilDemo-own-target-headers.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Release-iphoneos/AprilDemo.build/AprilDemo-all-target-headers.hmap" -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Release-iphoneos/AprilDemo.build/AprilDemo-project-headers.hmap" "-F/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/Release-iphoneos" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/Release-iphoneos/include" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Release-iphoneos/AprilDemo.build/DerivedSources/armv6" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Release-iphoneos/AprilDemo.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -c "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/AprilDemo_Prefix.pch" -o /var/folders/MK/MKNp4XzsHt47X4XBj-6yME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AprilDemo_Prefix-gpsaaxricbknhpbmjnhyilyoezuv/AprilDemo_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/moosamus/Library/MobileDevice/Provisioning Profiles/56F999EF-6BA8-431F-B377-C6D4E653E7CE.mobileprovision" "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/Release-iphoneos/AprilDemo.app/embedded.mobileprovision"
+s324500003.030612
+e324500003.199773
+r1
+xProcessProductPackaging
+x/Users/moosamus/Library/MobileDevice/Provisioning Profiles/56F999EF-6BA8-431F-B377-C6D4E653E7CE.mobileprovision
+x/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/Release-iphoneos/AprilDemo.app/embedded.mobileprovision
+lSLF07#2@199"ProcessProductPackaging "/Users/moosamus/Library/MobileDevice/Provisioning Profiles/56F999EF-6BA8-431F-B377-C6D4E653E7CE.mobileprovision" build/Release-iphoneos/AprilDemo.app/embedded.mobileprovision324500003#324500003#0(0"0(0#0#111"/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/Release-iphoneos/AprilDemo.app/embedded.mobileprovision8631575584#456"    cd "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/moosamus/Library/MobileDevice/Provisioning Profiles/56F999EF-6BA8-431F-B377-C6D4E653E7CE.mobileprovision" -o "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/Release-iphoneos/AprilDemo.app/embedded.mobileprovision"0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Release-iphoneos/AprilDemo.build/AprilDemo.xcent"
+s324500003.199857
+e324500003.234742
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+x/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Release-iphoneos/AprilDemo.build/AprilDemo.xcent
+lSLF07#2@183"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist build/AprilDemo.build/Release-iphoneos/AprilDemo.build/AprilDemo.xcent324500003#324500003#0(0"0(0#0#120"/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Release-iphoneos/AprilDemo.build/AprilDemo.xcent8635809920#466"    cd "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist -entitlements -format xml -o "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Release-iphoneos/AprilDemo.build/AprilDemo.xcent"0#
+
+CTouch "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/Release-iphoneos/AprilDemo.app"
+r0
+
+CValidate "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/Release-iphoneos/AprilDemo.app"
+r0
+

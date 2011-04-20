@@ -1,0 +1,589 @@
+TAprilDemo
+v7
+r0
+t325010596.771176
+cCheck dependencies
+cProcessInfoPlistFile "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/Debug-iphonesimulator/AprilDemo.app/Info.plist" AprilDemo-Info.plist
+cCompileXIB "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/MainWindow.xib"
+cCompileXIB "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/AprilDemoViewController.xib"
+cProcessPCH /var/folders/MK/MKNp4XzsHt47X4XBj-6yME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AprilDemo_Prefix-fdhwhpkgaroymidqtoiqwfxortro/AprilDemo_Prefix.pch.gch AprilDemo_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AprilDemo.build/Debug-iphonesimulator/AprilDemo.build/Objects-normal/i386/main.o "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AprilDemo.build/Debug-iphonesimulator/AprilDemo.build/Objects-normal/i386/AprilDemoAppDelegate.o "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AprilDemo.build/Debug-iphonesimulator/AprilDemo.build/Objects-normal/i386/AprilDemoViewController.o "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AprilDemo.build/Debug-iphonesimulator/AprilDemo.build/Objects-normal/i386/Annotation.o "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/Annotation.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AprilDemo.build/Debug-iphonesimulator/AprilDemo.build/Objects-normal/i386/AudioStreamer.o "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioStreamer.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AprilDemo.build/Debug-iphonesimulator/AprilDemo.build/Objects-normal/i386/AudioConversion.o "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioConversion.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AprilDemo.build/Debug-iphonesimulator/AprilDemo.build/Objects-normal/i386/AudioTourAppDelegate.o "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/Classes/Classes/AudioTourAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AprilDemo.build/Debug-iphonesimulator/AprilDemo.build/Objects-normal/i386/FlipsideViewController.o "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/Classes/Classes/FlipsideViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AprilDemo.build/Debug-iphonesimulator/AprilDemo.build/Objects-normal/i386/MainViewController.o "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/Classes/Classes/MainViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004CC1224600000000001EA9C0
+t1287725638
+s2009536
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.h
+c000000004CC1222F0000000000000A23
+t1287725615
+s2595
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+c000000004CC1224400000000001C3D40
+t1287725636
+s1850688
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CFNetwork.framework/Headers/CFNetwork.h
+c000000004CC1221800000000000004CF
+t1287725592
+s1231
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreAudio.framework/CoreAudio
+c000000004CC1220900000000000A8450
+t1287725577
+s689232
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c000000004CC127E80000000000074190
+t1287727080
+s475536
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.h
+c000000004CC127DD00000000000001D0
+t1287727069
+s464
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.h
+c000000004CC1294D00000000000002FE
+t1287727437
+s766
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/MapKit.framework/MapKit
+c000000004CC12977000000000017E7F0
+t1287727479
+s1566704
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers/al.h
+c000000004CC1226100000000000064FD
+t1287725665
+s25853
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers/alc.h
+c000000004CC122610000000000001F45
+t1287725665
+s8005
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/OpenAL.framework/OpenAL
+c000000004CC1226400000000000246A0
+t1287725668
+s149152
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004CC1233C00000000000000C4
+t1287725884
+s196
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/math.h
+c000000004A5C14A000000000000004F1
+t1247548576
+s1265
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/pthread.h
+c000000004CB3E48600000000000038F0
+t1286857862
+s14576
+
+N/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/AprilDemoViewController.xib
+c000000004DA75EB500000000000066F0
+t1302814389
+s26352
+
+N/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/AprilDemo_Prefix.pch
+c000000004DA7374400000000000000BB
+t1302804292
+s187
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/Annotation.h
+c000000004DA75A0C000000000000029E
+t1302813196
+s670
+i<Foundation/Foundation.h>
+i<MapKit/MapKit.h>
+
+N/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/Annotation.m
+c000000004DA7598F0000000000000251
+t1302813071
+s593
+i"Annotation.h"
+
+N/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoAppDelegate.h
+c000000004DA73A980000000000000353
+t1302805144
+s851
+i<UIKit/UIKit.h>
+i<CoreLocation/CoreLocation.h>
+i<MapKit/MapKit.h>
+i"AprilDemoViewController.h"
+i<QuartzCore/QuartzCore.h>
+
+N/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoAppDelegate.m
+c000000004DA73AF40000000000001FCE
+t1302805236
+s8142
+i"AprilDemoAppDelegate.h"
+i"AprilDemoViewController.h"
+i<MapKit/MapKit.h>
+i<QuartzCore/QuartzCore.h>
+i"Annotation.h"
+
+N/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.h
+c000000004DA7639D0000000000000CA2
+t1302815645
+s3234
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+i"CoreLocation/CoreLocation.h"
+i"AudioToolbox/AudioToolbox.h"
+i"OpenAL/al.h"
+i"OpenAL/alc.h"
+i<math.h>
+i"AprilDemoAppDelegate.h"
+i"Annotation.h"
+i<MapKit/MapKit.h>
+i"AudioStreamer.h"
+
+N/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m
+c000000004DA764C50000000000008FFB
+t1302815941
+s36859
+i"AprilDemoViewController.h"
+
+N/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioConversion.h
+c000000004DAF0C0D00000000000005C6
+t1303317517
+s1478
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+i<AudioToolbox/AudioToolbox.h>
+i<pthread.h>
+
+N/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioConversion.m
+c000000004DAF0CBE0000000000004369
+t1303317694
+s17257
+i"AudioConversion.h"
+
+N/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioStreamer.h
+c000000004DAEF35B0000000000000DF7
+t1303311195
+s3575
+i<UIKit/UIKit.h>
+i<Cocoa/Cocoa.h>
+i<pthread.h>
+i<AudioToolbox/AudioToolbox.h>
+
+N/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioStreamer.m
+c000000004DAEF1A2000000000000901D
+t1303310754
+s36893
+i"AudioStreamer.h"
+i"AprilDemoViewController.h"
+i"AprilDemoAppDelegate.h"
+i<CFNetwork/CFNetwork.h>
+
+N/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/Classes/Classes/AudioTourAppDelegate.h
+c000000004CA2B50800000000000001E7
+t1285731592
+s487
+i<UIKit/UIKit.h>
+
+N/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/Classes/Classes/AudioTourAppDelegate.m
+c000000004C9D71300000000000000AA3
+t1285386544
+s2723
+i"AudioTourAppDelegate.h"
+i"MainViewController.h"
+
+N/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/Classes/Classes/FlipsideViewController.h
+c000000004CC12C9F0000000000000408
+t1287728287
+s1032
+i<UIKit/UIKit.h>
+
+N/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/Classes/Classes/FlipsideViewController.m
+c000000004D10B86B00000000000005BA
+t1292941419
+s1466
+i"FlipsideViewController.h"
+
+N/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/Classes/Classes/MainViewController.h
+c000000004DA486360000000000000D49
+t1302627894
+s3401
+i"FlipsideViewController.h"
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+i"CoreLocation/CoreLocation.h"
+i"AudioToolbox/AudioToolbox.h"
+i"OpenAL/al.h"
+i"OpenAL/alc.h"
+i<math.h>
+
+N/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/Classes/Classes/MainViewController.m
+c000000004DA4864C000000000000739C
+t1302627916
+s29596
+i"MainViewController.h"
+
+N/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/MainWindow.xib
+c000000004DA737440000000000004E41
+t1302804292
+s20033
+
+N/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Debug-iphonesimulator/AprilDemo.build/Objects-normal/i386/Annotation.o
+t1302987593
+s12556
+
+N/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Debug-iphonesimulator/AprilDemo.build/Objects-normal/i386/AprilDemo.LinkFileList
+c000000004DAA0346000000000000053E
+t1302987590
+s1342
+
+N/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Debug-iphonesimulator/AprilDemo.build/Objects-normal/i386/AprilDemoAppDelegate.o
+t1303311195
+s56992
+
+N/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Debug-iphonesimulator/AprilDemo.build/Objects-normal/i386/AprilDemoViewController.o
+t1303311196
+s99404
+
+N/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Debug-iphonesimulator/AprilDemo.build/Objects-normal/i386/AudioConversion.o
+t2
+s0
+
+N/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Debug-iphonesimulator/AprilDemo.build/Objects-normal/i386/AudioStreamer.o
+t1303311196
+s105096
+
+N/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Debug-iphonesimulator/AprilDemo.build/Objects-normal/i386/AudioTourAppDelegate.o
+t1302987593
+s53040
+
+N/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Debug-iphonesimulator/AprilDemo.build/Objects-normal/i386/FlipsideViewController.o
+t1302987594
+s42564
+
+N/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Debug-iphonesimulator/AprilDemo.build/Objects-normal/i386/MainViewController.o
+t1302987594
+s100608
+
+N/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Debug-iphonesimulator/AprilDemo.build/Objects-normal/i386/main.o
+t1302987593
+s6324
+
+N/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/Debug-iphonesimulator/AprilDemo.app
+t1302987591
+s204
+
+N/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/Debug-iphonesimulator/AprilDemo.app.dSYM
+t2
+s0
+
+N/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/Debug-iphonesimulator/AprilDemo.app/AprilDemo
+t2
+s0
+
+N/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/Debug-iphonesimulator/AprilDemo.app/AprilDemoViewController.nib
+t1302987591
+s1831
+
+N/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/Debug-iphonesimulator/AprilDemo.app/Info.plist
+t1302987590
+s599
+
+N/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/Debug-iphonesimulator/AprilDemo.app/MainWindow.nib
+t1302987590
+s1127
+
+N/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/Debug-iphonesimulator/AprilDemo.app/PkgInfo
+t1302987590
+s8
+
+N/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/main.m
+c000000004DA73744000000000000016F
+t1302804292
+s367
+i<UIKit/UIKit.h>
+
+N/var/folders/MK/MKNp4XzsHt47X4XBj-6yME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AprilDemo_Prefix-fdhwhpkgaroymidqtoiqwfxortro/AprilDemo_Prefix.pch.gch
+t1302987593
+s15453392
+
+NAprilDemo-Info.plist
+c000000004DA73744000000000000038D
+t1302804292
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies325010596#325010596#0(0"0(0#1#0"8626102176#0"0#
+
+CCompileC build/AprilDemo.build/Debug-iphonesimulator/AprilDemo.build/Objects-normal/i386/Annotation.o "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/Annotation.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s324680393.508004
+e324680393.588640
+r1
+xCompileC
+xbuild/AprilDemo.build/Debug-iphonesimulator/AprilDemo.build/Objects-normal/i386/Annotation.o
+x/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/Annotation.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/Annotation.m:37: warning: property 'coordinate' requires method '-coordinate' to be defined - use @synthesize, @dynamic or provide a method implementation
+lSLF07#2@78"Compile /Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/Annotation.m324680393#324680393#0(213"/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/Annotation.m:37: warning: property 'coordinate' requires method '-coordinate' to be defined - use @synthesize, @dynamic or provide a method implementation1(22@128"Property 'coordinate' requires method '-coordinate' to be defined - use @synthesize, @dynamic or provide a method implementation324680393#0#213#0(6@70"/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/Annotation.m324505871#37#0#37#0#0"0(0#0#70"/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/Annotation.m8652573216#2117"    cd "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Debug-iphonesimulator/AprilDemo.build/AprilDemo-generated-files.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Debug-iphonesimulator/AprilDemo.build/AprilDemo-own-target-headers.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Debug-iphonesimulator/AprilDemo.build/AprilDemo-all-target-headers.hmap" -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Debug-iphonesimulator/AprilDemo.build/AprilDemo-project-headers.hmap" "-F/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/Debug-iphonesimulator" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/Debug-iphonesimulator/include" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Debug-iphonesimulator/AprilDemo.build/DerivedSources/i386" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Debug-iphonesimulator/AprilDemo.build/DerivedSources" -include /var/folders/MK/MKNp4XzsHt47X4XBj-6yME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AprilDemo_Prefix-fdhwhpkgaroymidqtoiqwfxortro/AprilDemo_Prefix.pch -c "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/Annotation.m" -o "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Debug-iphonesimulator/AprilDemo.build/Objects-normal/i386/Annotation.o"0#
+
+CCompileC build/AprilDemo.build/Debug-iphonesimulator/AprilDemo.build/Objects-normal/i386/AprilDemoAppDelegate.o "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s325003995.728604
+e325003995.983203
+r1
+xCompileC
+xbuild/AprilDemo.build/Debug-iphonesimulator/AprilDemo.build/Objects-normal/i386/AprilDemoAppDelegate.o
+x/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoAppDelegate.m: In function '-[AprilDemoAppDelegate application:didFinishLaunchingWithOptions:]':
+o/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoAppDelegate.m:205: warning: control reaches end of non-void function
+lSLF07#2@88"Compile /Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoAppDelegate.m325003995#325003995#0(300"/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoAppDelegate.m: In function '-[AprilDemoAppDelegate application:didFinishLaunchingWithOptions:]':/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoAppDelegate.m:205: warning: control reaches end of non-void function1(22@40"Control reaches end of non-void function325003995#164#136#0(6@80"/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoAppDelegate.m324498036#205#0#205#0#40"control reaches end of non-void function0(0#0#80"/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoAppDelegate.m8102047676472050688#2137"    cd "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Debug-iphonesimulator/AprilDemo.build/AprilDemo-generated-files.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Debug-iphonesimulator/AprilDemo.build/AprilDemo-own-target-headers.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Debug-iphonesimulator/AprilDemo.build/AprilDemo-all-target-headers.hmap" -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Debug-iphonesimulator/AprilDemo.build/AprilDemo-project-headers.hmap" "-F/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/Debug-iphonesimulator" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/Debug-iphonesimulator/include" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Debug-iphonesimulator/AprilDemo.build/DerivedSources/i386" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Debug-iphonesimulator/AprilDemo.build/DerivedSources" -include /var/folders/MK/MKNp4XzsHt47X4XBj-6yME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AprilDemo_Prefix-fdhwhpkgaroymidqtoiqwfxortro/AprilDemo_Prefix.pch -c "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoAppDelegate.m" -o "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Debug-iphonesimulator/AprilDemo.build/Objects-normal/i386/AprilDemoAppDelegate.o"0#
+
+CCompileC build/AprilDemo.build/Debug-iphonesimulator/AprilDemo.build/Objects-normal/i386/AprilDemoViewController.o "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s325003995.775831
+e325003996.100153
+r1
+xCompileC
+xbuild/AprilDemo.build/Debug-iphonesimulator/AprilDemo.build/Objects-normal/i386/AprilDemoViewController.o
+x/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m: In function '-[AprilDemoViewController viewDidLoad]':
+o/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m:158: warning: 'headingAvailable' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CLLocationManager.h:173)
+o/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m:105: warning: 'locationServicesEnabled' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CLLocationManager.h:124)
+o/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m: In function '-[AprilDemoViewController locationManager:didUpdateHeading:]':
+o/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m:257: warning: local declaration of 'heading' hides instance variable
+o/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m: At top level:
+o/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m:1353: warning: property 'whereabouts' requires method '-whereabouts' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m:1353: warning: property 'loadingSounds' requires method '-loadingSounds' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m:1353: warning: property 'loadingSounds' requires the method 'setLoadingSounds:' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m:1353: warning: property 'coordinate' requires method '-coordinate' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m:1353: warning: incomplete implementation of class 'AprilDemoViewController'
+o/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m:1353: warning: method definition for '-showInfo:' not found
+o/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m:1353: warning: method definition for '-updateGainFloor' not found
+o/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m:1353: warning: method definition for '-updateAngleWidth' not found
+o/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m:1353: warning: method definition for '-toggleTracking' not found
+lSLF07#2@91"Compile /Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m325003995#325003996#0(2866"/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m: In function '-[AprilDemoViewController viewDidLoad]':/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m:158: warning: 'headingAvailable' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CLLocationManager.h:173)/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m:105: warning: 'locationServicesEnabled' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CLLocationManager.h:124)/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m: In function '-[AprilDemoViewController locationManager:didUpdateHeading:]':/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m:257: warning: local declaration of 'heading' hides instance variable/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m: At top level:/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m:1353: warning: property 'whereabouts' requires method '-whereabouts' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m:1353: warning: property 'loadingSounds' requires method '-loadingSounds' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m:1353: warning: property 'loadingSounds' requires the method 'setLoadingSounds:' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m:1353: warning: property 'coordinate' requires method '-coordinate' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m:1353: warning: incomplete implementation of class 'AprilDemoViewController'/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m:1353: warning: method definition for '-showInfo:' not found/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m:1353: warning: method definition for '-updateGainFloor' not found/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m:1353: warning: method definition for '-updateAngleWidth' not found/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m:1353: warning: method definition for '-toggleTracking' not found13(22@211"'headingAvailable' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CLLocationManager.h:173)325003995#139#310#0(6@83"/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m324508741#158#0#158#0#33"'*' is deprecated (declared at *)0(22@218"'locationServicesEnabled' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CLLocationManager.h:124)325003995#449#317#0(6@83"/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m324508741#105#0#105#0#33"'*' is deprecated (declared at *)0(22@54"Local declaration of 'heading' hides instance variable325003995#927#153#0(6@83"/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m324508741#257#0#257#0#0"0(23@13"At top level:325003996#1080#99#0(6@83"/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m324508741#0#0#0#0#0"0(22@130"Property 'whereabouts' requires method '-whereabouts' to be defined - use @synthesize, @dynamic or provide a method implementation325003996#1179#230#0(6@83"/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m324508741#1353#0#1353#0#0"0(22@134"Property 'loadingSounds' requires method '-loadingSounds' to be defined - use @synthesize, @dynamic or provide a method implementation325003996#1409#234#0(6@83"/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m324508741#1353#0#1353#0#0"0(22@141"Property 'loadingSounds' requires the method 'setLoadingSounds:' to be defined - use @synthesize, @dynamic or provide a method implementation325003996#1643#241#0(6@83"/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m324508741#1353#0#1353#0#0"0(22@128"Property 'coordinate' requires method '-coordinate' to be defined - use @synthesize, @dynamic or provide a method implementation325003996#1884#228#0(6@83"/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m324508741#1353#0#1353#0#0"0(22@60"Incomplete implementation of class 'AprilDemoViewController'325003996#2112#160#0(6@83"/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m324508741#1353#0#1353#0#38"incomplete implementation of class '*'0(22@44"Method definition for '-showInfo:' not found325003996#2272#144#0(6@83"/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m324508741#1353#0#1353#0#35"method definition for '*' not found0(22@50"Method definition for '-updateGainFloor' not found325003996#2416#150#0(6@83"/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m324508741#1353#0#1353#0#35"method definition for '*' not found0(22@51"Method definition for '-updateAngleWidth' not found325003996#2566#151#0(6@83"/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m324508741#1353#0#1353#0#35"method definition for '*' not found0(22@49"Method definition for '-toggleTracking' not found325003996#2717#149#0(6@83"/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m324508741#1353#0#1353#0#35"method definition for '*' not found0(0#0#83"/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m8624367072#2143"    cd "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Debug-iphonesimulator/AprilDemo.build/AprilDemo-generated-files.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Debug-iphonesimulator/AprilDemo.build/AprilDemo-own-target-headers.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Debug-iphonesimulator/AprilDemo.build/AprilDemo-all-target-headers.hmap" -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Debug-iphonesimulator/AprilDemo.build/AprilDemo-project-headers.hmap" "-F/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/Debug-iphonesimulator" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/Debug-iphonesimulator/include" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Debug-iphonesimulator/AprilDemo.build/DerivedSources/i386" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Debug-iphonesimulator/AprilDemo.build/DerivedSources" -include /var/folders/MK/MKNp4XzsHt47X4XBj-6yME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AprilDemo_Prefix-fdhwhpkgaroymidqtoiqwfxortro/AprilDemo_Prefix.pch -c "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m" -o "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Debug-iphonesimulator/AprilDemo.build/Objects-normal/i386/AprilDemoViewController.o"0#
+
+CCompileC build/AprilDemo.build/Debug-iphonesimulator/AprilDemo.build/Objects-normal/i386/AudioConversion.o "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioConversion.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s325010596.693534
+e325010596.771102
+r0
+xCompileC
+xbuild/AprilDemo.build/Debug-iphonesimulator/AprilDemo.build/Objects-normal/i386/AudioConversion.o
+x/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioConversion.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioConversion.m: In function 'audioConverterCallback':
+o/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioConversion.m:41: error: 'MyAudioConverterSettings' undeclared (first use in this function)
+o/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioConversion.m:41: error: (Each undeclared identifier is reported only once
+o/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioConversion.m:41: error: for each function it appears in.)
+o/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioConversion.m:41: error: 'audioConverterSettings' undeclared (first use in this function)
+o/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioConversion.m: In function '-[AudioConversion startConversion]':
+o/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioConversion.m:176: warning: 'AudioConversion' may not respond to '-isFinishing'
+o/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioConversion.m:176: warning: (Messages without a matching method signature
+o/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioConversion.m:176: warning: will be assumed to return 'id' and accept
+o/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioConversion.m:176: warning: '...' as arguments.)
+o/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioConversion.m:243: warning: assignment makes integer from pointer without a cast
+o/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioConversion.m:254: warning: assignment makes pointer from integer without a cast
+o/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioConversion.m:257: error: 'mySettings' undeclared (first use in this function)
+o/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioConversion.m:257: warning: passing argument 2 of 'AudioConverterFillComplexBuffer' from incompatible pointer type
+o/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioConversion.m:245: warning: unused variable 'outputFilePacketPosition'
+o/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioConversion.m: In function '-[AudioConversion streamProperties:fileStreamPropertyID:ioFlags:]':
+o/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioConversion.m:302: warning: 'AudioConversion' may not respond to '-isFinishing'
+o/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioConversion.m:314: error: 'audioConverterSettings' undeclared (first use in this function)
+o/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioConversion.m: In function '-[AudioConversion audioToConverter:numberBytes:numberPackets:packetDescriptions:]':
+o/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioConversion.m:378: warning: 'AudioConversion' may not respond to '-isFinishing'
+o/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioConversion.m:386: error: 'audioFileStream' undeclared (first use in this function)
+o/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioConversion.m:414: warning: unused variable 'bufSpaceRemaining'
+o/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioConversion.m:413: warning: unused variable 'packetSize'
+o/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioConversion.m:412: warning: unused variable 'packetOffset'
+o/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioConversion.m:506: error: accessing unknown 'setBytesPerBuffer:' class method
+o/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioConversion.m:506: error: object cannot be set - either readonly property or no setter found
+o/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioConversion.m:508: error: 'audioConverterSettings' undeclared (first use in this function)
+lSLF07#2@83"Compile /Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioConversion.m325010596#325010596#0(3793"/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioConversion.m: In function 'audioConverterCallback':/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioConversion.m:41: error: 'MyAudioConverterSettings' undeclared (first use in this function)/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioConversion.m:41: error: (Each undeclared identifier is reported only once/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioConversion.m:41: error: for each function it appears in.)/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioConversion.m:41: error: 'audioConverterSettings' undeclared (first use in this function)/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioConversion.m: In function '-[AudioConversion startConversion]':/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioConversion.m:176: warning: 'AudioConversion' may not respond to '-isFinishing'/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioConversion.m:176: warning: (Messages without a matching method signature/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioConversion.m:176: warning: will be assumed to return 'id' and accept/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioConversion.m:176: warning: '...' as arguments.)/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioConversion.m:243: warning: assignment makes integer from pointer without a cast/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioConversion.m:254: warning: assignment makes pointer from integer without a cast/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioConversion.m:257: error: 'mySettings' undeclared (first use in this function)/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioConversion.m:257: warning: passing argument 2 of 'AudioConverterFillComplexBuffer' from incompatible pointer type/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioConversion.m:245: warning: unused variable 'outputFilePacketPosition'/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioConversion.m: In function '-[AudioConversion streamProperties:fileStreamPropertyID:ioFlags:]':/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioConversion.m:302: warning: 'AudioConversion' may not respond to '-isFinishing'/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioConversion.m:314: error: 'audioConverterSettings' undeclared (first use in this function)/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioConversion.m: In function '-[AudioConversion audioToConverter:numberBytes:numberPackets:packetDescriptions:]':/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioConversion.m:378: warning: 'AudioConversion' may not respond to '-isFinishing'/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioConversion.m:386: error: 'audioFileStream' undeclared (first use in this function)/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioConversion.m:414: warning: unused variable 'bufSpaceRemaining'/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioConversion.m:413: warning: unused variable 'packetSize'/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioConversion.m:412: warning: unused variable 'packetOffset'/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioConversion.m:506: error: accessing unknown 'setBytesPerBuffer:' class method/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioConversion.m:506: error: object cannot be set - either readonly property or no setter found/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioConversion.m:508: error: 'audioConverterSettings' undeclared (first use in this function)19(4@66"'MyAudioConverterSettings' undeclared (first use in this function)325010596#115#154#0(6@75"/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioConversion.m325010494#41#0#41#0#43"'*' undeclared (first use in this function)0(4@64"'audioConverterSettings' undeclared (first use in this function)325010596#527#152#0(6@75"/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioConversion.m325010494#41#0#41#0#43"'*' undeclared (first use in this function)0(22@51"'AudioConversion' may not respond to '-isFinishing'325010596#806#142#0(6@75"/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioConversion.m325010494#176#0#176#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)325010596#948#136#0(6@75"/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioConversion.m325010494#176#0#176#0#0"0(22@52"Assignment makes integer from pointer without a cast325010596#1327#143#0(6@75"/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioConversion.m325010494#243#0#243#0#0"0(22@52"Assignment makes pointer from integer without a cast325010596#1470#143#0(6@75"/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioConversion.m325010494#254#0#254#0#0"0(4@52"'mySettings' undeclared (first use in this function)325010596#1613#141#0(6@75"/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioConversion.m325010494#257#0#257#0#43"'*' undeclared (first use in this function)0(22@86"Passing argument 2 of 'AudioConverterFillComplexBuffer' from incompatible pointer type325010596#1754#177#0(6@75"/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioConversion.m325010494#257#0#257#0#56"passing argument * of '*' from incompatible pointer type0(22@42"Unused variable 'outputFilePacketPosition'325010596#1931#133#0(6@75"/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioConversion.m325010494#245#0#245#0#19"unused variable '*'0(22@51"'AudioConversion' may not respond to '-isFinishing'325010596#2222#142#0(6@75"/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioConversion.m325010494#302#0#302#0#26"'*' may not respond to '*'0(4@64"'audioConverterSettings' undeclared (first use in this function)325010596#2364#153#0(6@75"/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioConversion.m325010494#314#0#314#0#43"'*' undeclared (first use in this function)0(22@51"'AudioConversion' may not respond to '-isFinishing'325010596#2691#142#0(6@75"/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioConversion.m325010494#378#0#378#0#26"'*' may not respond to '*'0(4@57"'audioFileStream' undeclared (first use in this function)325010596#2833#146#0(6@75"/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioConversion.m325010494#386#0#386#0#43"'*' undeclared (first use in this function)0(22@35"Unused variable 'bufSpaceRemaining'325010596#2979#126#0(6@75"/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioConversion.m325010494#414#0#414#0#19"unused variable '*'0(22@28"Unused variable 'packetSize'325010596#3105#119#0(6@75"/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioConversion.m325010494#413#0#413#0#19"unused variable '*'0(22@30"Unused variable 'packetOffset'325010596#3224#121#0(6@75"/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioConversion.m325010494#412#0#412#0#19"unused variable '*'0(4@51"Accessing unknown 'setBytesPerBuffer:' class method325010596#3345#140#0(6@75"/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioConversion.m325010494#506#0#506#0#0"0(4@66"Object cannot be set - either readonly property or no setter found325010596#3485#155#0(6@75"/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioConversion.m325010494#506#0#506#0#0"0(4@64"'audioConverterSettings' undeclared (first use in this function)325010596#3640#153#0(6@75"/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioConversion.m325010494#508#0#508#0#43"'*' undeclared (first use in this function)0(0#0#75"/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioConversion.m8625727648#2127"    cd "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Debug-iphonesimulator/AprilDemo.build/AprilDemo-generated-files.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Debug-iphonesimulator/AprilDemo.build/AprilDemo-own-target-headers.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Debug-iphonesimulator/AprilDemo.build/AprilDemo-all-target-headers.hmap" -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Debug-iphonesimulator/AprilDemo.build/AprilDemo-project-headers.hmap" "-F/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/Debug-iphonesimulator" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/Debug-iphonesimulator/include" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Debug-iphonesimulator/AprilDemo.build/DerivedSources/i386" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Debug-iphonesimulator/AprilDemo.build/DerivedSources" -include /var/folders/MK/MKNp4XzsHt47X4XBj-6yME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AprilDemo_Prefix-fdhwhpkgaroymidqtoiqwfxortro/AprilDemo_Prefix.pch -c "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioConversion.m" -o "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Debug-iphonesimulator/AprilDemo.build/Objects-normal/i386/AudioConversion.o"1#
+
+CCompileC build/AprilDemo.build/Debug-iphonesimulator/AprilDemo.build/Objects-normal/i386/AudioStreamer.o "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioStreamer.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s325003995.983478
+e325003996.265010
+r1
+xCompileC
+xbuild/AprilDemo.build/Debug-iphonesimulator/AprilDemo.build/Objects-normal/i386/AudioStreamer.o
+x/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioStreamer.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioStreamer.m: In function 'audioCallback':
+o/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioStreamer.m:89: warning: format '%d' expects type 'int', but argument 2 has type 'AudioQueueBufferRef'
+o/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioStreamer.m:89: warning: format '%d' expects type 'int', but argument 3 has type 'CFRunLoopRef'
+o/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioStreamer.m: In function '-[AudioStreamer progress]':
+o/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioStreamer.m:820: warning: 'return' with no value, in function returning non-void
+lSLF07#2@81"Compile /Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioStreamer.m325003995#325003996#0(686"/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioStreamer.m: In function 'audioCallback':/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioStreamer.m:89: warning: format '%d' expects type 'int', but argument 2 has type 'AudioQueueBufferRef'/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioStreamer.m:89: warning: format '%d' expects type 'int', but argument 3 has type 'CFRunLoopRef'/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioStreamer.m: In function '-[AudioStreamer progress]':/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioStreamer.m:820: warning: 'return' with no value, in function returning non-void3(22@77"Format '%d' expects type 'int', but argument 2 has type 'AudioQueueBufferRef'325003996#104#165#0(6@73"/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioStreamer.m325003554#89#0#89#0#56"format '*' expects type '*', but argument * has type '*'0(22@70"Format '%d' expects type 'int', but argument 3 has type 'CFRunLoopRef'325003996#269#158#0(6@73"/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioStreamer.m325003554#89#0#89#0#56"format '*' expects type '*', but argument * has type '*'0(22@54"'return' with no value, in function returning non-void325003996#543#143#0(6@73"/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioStreamer.m325003554#820#0#820#0#54"'return' with no value, in function returning non-void0(0#0#73"/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioStreamer.m8631944832#2123"    cd "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Debug-iphonesimulator/AprilDemo.build/AprilDemo-generated-files.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Debug-iphonesimulator/AprilDemo.build/AprilDemo-own-target-headers.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Debug-iphonesimulator/AprilDemo.build/AprilDemo-all-target-headers.hmap" -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Debug-iphonesimulator/AprilDemo.build/AprilDemo-project-headers.hmap" "-F/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/Debug-iphonesimulator" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/Debug-iphonesimulator/include" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Debug-iphonesimulator/AprilDemo.build/DerivedSources/i386" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Debug-iphonesimulator/AprilDemo.build/DerivedSources" -include /var/folders/MK/MKNp4XzsHt47X4XBj-6yME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AprilDemo_Prefix-fdhwhpkgaroymidqtoiqwfxortro/AprilDemo_Prefix.pch -c "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AudioStreamer.m" -o "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Debug-iphonesimulator/AprilDemo.build/Objects-normal/i386/AudioStreamer.o"0#
+
+CCompileC build/AprilDemo.build/Debug-iphonesimulator/AprilDemo.build/Objects-normal/i386/AudioTourAppDelegate.o "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/Classes/Classes/AudioTourAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s324680393.834536
+e324680393.958810
+r1
+xCompileC
+xbuild/AprilDemo.build/Debug-iphonesimulator/AprilDemo.build/Objects-normal/i386/AudioTourAppDelegate.o
+x/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/Classes/Classes/AudioTourAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@104"Compile /Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/Classes/Classes/AudioTourAppDelegate.m324680393#324680394#0(0"0(0#0#96"/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/Classes/Classes/AudioTourAppDelegate.m8676022272#2153"    cd "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Debug-iphonesimulator/AprilDemo.build/AprilDemo-generated-files.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Debug-iphonesimulator/AprilDemo.build/AprilDemo-own-target-headers.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Debug-iphonesimulator/AprilDemo.build/AprilDemo-all-target-headers.hmap" -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Debug-iphonesimulator/AprilDemo.build/AprilDemo-project-headers.hmap" "-F/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/Debug-iphonesimulator" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/Debug-iphonesimulator/include" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Debug-iphonesimulator/AprilDemo.build/DerivedSources/i386" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Debug-iphonesimulator/AprilDemo.build/DerivedSources" -include /var/folders/MK/MKNp4XzsHt47X4XBj-6yME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AprilDemo_Prefix-fdhwhpkgaroymidqtoiqwfxortro/AprilDemo_Prefix.pch -c "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/Classes/Classes/AudioTourAppDelegate.m" -o "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Debug-iphonesimulator/AprilDemo.build/Objects-normal/i386/AudioTourAppDelegate.o"0#
+
+CCompileC build/AprilDemo.build/Debug-iphonesimulator/AprilDemo.build/Objects-normal/i386/FlipsideViewController.o "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/Classes/Classes/FlipsideViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s324680393.920504
+e324680394.014315
+r1
+xCompileC
+xbuild/AprilDemo.build/Debug-iphonesimulator/AprilDemo.build/Objects-normal/i386/FlipsideViewController.o
+x/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/Classes/Classes/FlipsideViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@106"Compile /Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/Classes/Classes/FlipsideViewController.m324680393#324680394#0(0"0(0#0#98"/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/Classes/Classes/FlipsideViewController.m8633470112#2157"    cd "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Debug-iphonesimulator/AprilDemo.build/AprilDemo-generated-files.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Debug-iphonesimulator/AprilDemo.build/AprilDemo-own-target-headers.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Debug-iphonesimulator/AprilDemo.build/AprilDemo-all-target-headers.hmap" -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Debug-iphonesimulator/AprilDemo.build/AprilDemo-project-headers.hmap" "-F/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/Debug-iphonesimulator" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/Debug-iphonesimulator/include" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Debug-iphonesimulator/AprilDemo.build/DerivedSources/i386" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Debug-iphonesimulator/AprilDemo.build/DerivedSources" -include /var/folders/MK/MKNp4XzsHt47X4XBj-6yME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AprilDemo_Prefix-fdhwhpkgaroymidqtoiqwfxortro/AprilDemo_Prefix.pch -c "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/Classes/Classes/FlipsideViewController.m" -o "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Debug-iphonesimulator/AprilDemo.build/Objects-normal/i386/FlipsideViewController.o"0#
+
+CCompileC build/AprilDemo.build/Debug-iphonesimulator/AprilDemo.build/Objects-normal/i386/MainViewController.o "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/Classes/Classes/MainViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s324680393.958922
+e324680394.245060
+r1
+xCompileC
+xbuild/AprilDemo.build/Debug-iphonesimulator/AprilDemo.build/Objects-normal/i386/MainViewController.o
+x/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/Classes/Classes/MainViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@102"Compile /Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/Classes/Classes/MainViewController.m324680393#324680394#0(0"0(0#0#94"/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/Classes/Classes/MainViewController.m8618912512#2149"    cd "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Debug-iphonesimulator/AprilDemo.build/AprilDemo-generated-files.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Debug-iphonesimulator/AprilDemo.build/AprilDemo-own-target-headers.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Debug-iphonesimulator/AprilDemo.build/AprilDemo-all-target-headers.hmap" -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Debug-iphonesimulator/AprilDemo.build/AprilDemo-project-headers.hmap" "-F/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/Debug-iphonesimulator" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/Debug-iphonesimulator/include" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Debug-iphonesimulator/AprilDemo.build/DerivedSources/i386" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Debug-iphonesimulator/AprilDemo.build/DerivedSources" -include /var/folders/MK/MKNp4XzsHt47X4XBj-6yME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AprilDemo_Prefix-fdhwhpkgaroymidqtoiqwfxortro/AprilDemo_Prefix.pch -c "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/Classes/Classes/MainViewController.m" -o "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Debug-iphonesimulator/AprilDemo.build/Objects-normal/i386/MainViewController.o"0#
+
+CCompileC build/AprilDemo.build/Debug-iphonesimulator/AprilDemo.build/Objects-normal/i386/main.o "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s324680393.357779
+e324680393.473884
+r1
+xCompileC
+xbuild/AprilDemo.build/Debug-iphonesimulator/AprilDemo.build/Objects-normal/i386/main.o
+x/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@64"Compile /Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/main.m324680393#324680393#0(0"0(0#0#56"/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/main.m8695540000#2097"    cd "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Debug-iphonesimulator/AprilDemo.build/AprilDemo-generated-files.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Debug-iphonesimulator/AprilDemo.build/AprilDemo-own-target-headers.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Debug-iphonesimulator/AprilDemo.build/AprilDemo-all-target-headers.hmap" -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Debug-iphonesimulator/AprilDemo.build/AprilDemo-project-headers.hmap" "-F/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/Debug-iphonesimulator" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/Debug-iphonesimulator/include" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Debug-iphonesimulator/AprilDemo.build/DerivedSources/i386" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Debug-iphonesimulator/AprilDemo.build/DerivedSources" -include /var/folders/MK/MKNp4XzsHt47X4XBj-6yME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AprilDemo_Prefix-fdhwhpkgaroymidqtoiqwfxortro/AprilDemo_Prefix.pch -c "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/main.m" -o "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Debug-iphonesimulator/AprilDemo.build/Objects-normal/i386/main.o"0#
+
+CCompileXIB "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/AprilDemoViewController.xib"
+s324680390.448285
+e324680391.351893
+r1
+xCompileXIB
+x/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/AprilDemoViewController.xib
+lSLF07#2@38"CompileXIB AprilDemoViewController.xib324680390#324680391#0(0"0(0#0#77"/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/AprilDemoViewController.xib8721363872#637"    cd "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/Debug-iphonesimulator/AprilDemo.app/AprilDemoViewController.nib" "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/AprilDemoViewController.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/MainWindow.xib"
+s324680390.447484
+e324680390.885104
+r1
+xCompileXIB
+x/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib324680390#324680390#0(0"0(0#0#64"/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/MainWindow.xib8726092608#611"    cd "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/Debug-iphonesimulator/AprilDemo.app/MainWindow.nib" "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/MainWindow.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CGenerateDSYMFile "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/Debug-iphonesimulator/AprilDemo.app.dSYM" "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/Debug-iphonesimulator/AprilDemo.app/AprilDemo"
+r0
+
+CLd "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/Debug-iphonesimulator/AprilDemo.app/AprilDemo" normal i386
+s324684200.873151
+e324684200.910579
+r0
+xLd
+x/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/Debug-iphonesimulator/AprilDemo.app/AprilDemo
+xnormal
+xi386
+oUndefined symbols:
+o  "_ASStatusChangedNotification", referenced from:
+o      _ASStatusChangedNotification$non_lazy_ptr in AprilDemoViewController.o
+o      _ASStatusChangedNotification$non_lazy_ptr in AudioStreamer.o
+o     (maybe you meant: _ASStatusChangedNotification$non_lazy_ptr)
+old: symbol(s) not found
+ocollect2: ld returned 1 exit status
+lSLF07#2@106"Link /Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/Debug-iphonesimulator/AprilDemo.app/AprilDemo324684200#324684200#0(340"Undefined symbols:  "_ASStatusChangedNotification", referenced from:      _ASStatusChangedNotification$non_lazy_ptr in AprilDemoViewController.o      _ASStatusChangedNotification$non_lazy_ptr in AudioStreamer.o     (maybe you meant: _ASStatusChangedNotification$non_lazy_ptr)ld: symbol(s) not foundcollect2: ld returned 1 exit status6(4@48""_ASStatusChangedNotification", referenced from:324684200#19#51#0(6@0"324684200#0#0#0#0#0"0(13@70"_ASStatusChangedNotification$non_lazy_ptr in AprilDemoViewController.o324684200#70#77#0(6@0"324684200#0#0#0#0#0"0(13@60"_ASStatusChangedNotification$non_lazy_ptr in AudioStreamer.o324684200#147#67#0(6@0"324684200#0#0#0#0#0"0(13@60"(maybe you meant: _ASStatusChangedNotification$non_lazy_ptr)324684200#214#66#0(6@0"324684200#0#0#0#0#0"0(13@19"Symbol(s) not found324684200#280#24#0(6@0"324684200#0#0#0#0#0"0(13@35"Collect2: ld returned 1 exit status324684200#304#36#0(6@0"324684200#0#0#0#0#0"0(0#0#0"8680534400#1101"    cd "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk "-L/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/Debug-iphonesimulator" "-F/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/Debug-iphonesimulator" -filelist "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Debug-iphonesimulator/AprilDemo.build/Objects-normal/i386/AprilDemo.LinkFileList" -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework OpenAL -framework AudioToolbox -framework CoreLocation -framework MapKit -framework CFNetwork -framework CoreAudio -o "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/Debug-iphonesimulator/AprilDemo.app/AprilDemo"1#
+
+CProcessInfoPlistFile "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/Debug-iphonesimulator/AprilDemo.app/Info.plist" AprilDemo-Info.plist
+s324680390.351186
+e324680390.447354
+r1
+xProcessInfoPlistFile
+x/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/Debug-iphonesimulator/AprilDemo.app/Info.plist
+xAprilDemo-Info.plist
+lSLF07#2@28"Process AprilDemo-Info.plist324680390#324680390#0(0"0(0#0#70"/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/AprilDemo-Info.plist8676636640#524"    cd "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility AprilDemo-Info.plist -genpkginfo "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/Debug-iphonesimulator/AprilDemo.app/PkgInfo" -expandbuildsettings -format binary -platform iphonesimulator -o "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/Debug-iphonesimulator/AprilDemo.app/Info.plist"0#
+
+CProcessPCH /var/folders/MK/MKNp4XzsHt47X4XBj-6yME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AprilDemo_Prefix-fdhwhpkgaroymidqtoiqwfxortro/AprilDemo_Prefix.pch.gch AprilDemo_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s324680391.352070
+e324680393.357545
+r1
+xProcessPCH
+x/var/folders/MK/MKNp4XzsHt47X4XBj-6yME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AprilDemo_Prefix-fdhwhpkgaroymidqtoiqwfxortro/AprilDemo_Prefix.pch.gch
+xAprilDemo_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@31"Precompile AprilDemo_Prefix.pch324680391#324680393#0(0"0(0#0#70"/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/AprilDemo_Prefix.pch8616498720#1974"    cd "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Debug-iphonesimulator/AprilDemo.build/AprilDemo-generated-files.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Debug-iphonesimulator/AprilDemo.build/AprilDemo-own-target-headers.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Debug-iphonesimulator/AprilDemo.build/AprilDemo-all-target-headers.hmap" -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Debug-iphonesimulator/AprilDemo.build/AprilDemo-project-headers.hmap" "-F/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/Debug-iphonesimulator" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/Debug-iphonesimulator/include" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Debug-iphonesimulator/AprilDemo.build/DerivedSources/i386" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Debug-iphonesimulator/AprilDemo.build/DerivedSources" -c "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/AprilDemo_Prefix.pch" -o /var/folders/MK/MKNp4XzsHt47X4XBj-6yME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AprilDemo_Prefix-fdhwhpkgaroymidqtoiqwfxortro/AprilDemo_Prefix.pch.gch0#
+
+CTouch "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/Debug-iphonesimulator/AprilDemo.app"
+r0
+

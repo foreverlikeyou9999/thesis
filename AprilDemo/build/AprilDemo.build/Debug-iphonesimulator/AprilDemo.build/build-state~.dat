@@ -1,0 +1,237 @@
+TAprilDemo
+v7
+r1
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004CC1224600000000001EA9C0
+t1287725638
+s2009536
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.h
+c000000004CC1222F0000000000000A23
+t1287725615
+s2595
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c000000004CC127E80000000000074190
+t1287727080
+s475536
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.h
+c000000004CC127DD00000000000001D0
+t1287727069
+s464
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.h
+c000000004CC1294D00000000000002FE
+t1287727437
+s766
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/MapKit.framework/MapKit
+c000000004CC12977000000000017E7F0
+t1287727479
+s1566704
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers/al.h
+c000000004CC1226100000000000064FD
+t1287725665
+s25853
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/OpenAL.framework/Headers/alc.h
+c000000004CC122610000000000001F45
+t1287725665
+s8005
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/OpenAL.framework/OpenAL
+c000000004CC1226400000000000246A0
+t1287725668
+s149152
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004CC1233C00000000000000C4
+t1287725884
+s196
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/math.h
+c000000004A5C14A000000000000004F1
+t1247548576
+s1265
+
+N/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/AprilDemoViewController.xib
+c000000004DA73B9C0000000000005D7E
+t1302805404
+s23934
+
+N/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/AprilDemo_Prefix.pch
+c000000004DA7374400000000000000BB
+t1302804292
+s187
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoAppDelegate.h
+c000000004DA73A980000000000000353
+t1302805144
+s851
+i<UIKit/UIKit.h>
+i<CoreLocation/CoreLocation.h>
+i<MapKit/MapKit.h>
+i"AprilDemoViewController.h"
+i<QuartzCore/QuartzCore.h>
+
+N/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoAppDelegate.m
+c000000004DA73AF40000000000001FCE
+t1302805236
+s8142
+i"AprilDemoAppDelegate.h"
+i"AprilDemoViewController.h"
+i<MapKit/MapKit.h>
+i<QuartzCore/QuartzCore.h>
+i"Annotation.h"
+
+N/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.h
+c000000004DA73AA70000000000000A23
+t1302805159
+s2595
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+i"CoreLocation/CoreLocation.h"
+i"AudioToolbox/AudioToolbox.h"
+i"OpenAL/al.h"
+i"OpenAL/alc.h"
+i<math.h>
+i"AprilDemoAppDelegate.h"
+i"Annotation.h"
+i<MapKit/MapKit.h>
+
+N/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m
+c000000004DA73CAC00000000000089C3
+t1302805676
+s35267
+i"AprilDemoViewController.h"
+
+N/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/MainWindow.xib
+c000000004DA737440000000000004E41
+t1302804292
+s20033
+
+N/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Debug-iphonesimulator/AprilDemo.build/Objects-normal/i386/AprilDemo.LinkFileList
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Debug-iphonesimulator/AprilDemo.build/Objects-normal/i386/AprilDemoAppDelegate.o
+t2
+s0
+
+N/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Debug-iphonesimulator/AprilDemo.build/Objects-normal/i386/AprilDemoViewController.o
+t2
+s0
+
+N/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/AprilDemo.build/Debug-iphonesimulator/AprilDemo.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/Debug-iphonesimulator/AprilDemo.app
+t2
+s0
+
+N/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/Debug-iphonesimulator/AprilDemo.app.dSYM
+t2
+s0
+
+N/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/Debug-iphonesimulator/AprilDemo.app/AprilDemo
+t2
+s0
+
+N/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/Debug-iphonesimulator/AprilDemo.app/AprilDemoViewController.nib
+t2
+s0
+
+N/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/Debug-iphonesimulator/AprilDemo.app/Info.plist
+t2
+s0
+
+N/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/Debug-iphonesimulator/AprilDemo.app/MainWindow.nib
+t2
+s0
+
+N/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/Debug-iphonesimulator/AprilDemo.app/PkgInfo
+t2
+s0
+
+N/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/main.m
+c000000004DA73744000000000000016F
+t1302804292
+s367
+i<UIKit/UIKit.h>
+
+N/var/folders/MK/MKNp4XzsHt47X4XBj-6yME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AprilDemo_Prefix-fdhwhpkgaroymidqtoiqwfxortro/AprilDemo_Prefix.pch.gch
+t2
+s0
+
+NAprilDemo-Info.plist
+c000000004DA73744000000000000038D
+t1302804292
+s909
+
+CCompileC build/AprilDemo.build/Debug-iphonesimulator/AprilDemo.build/Objects-normal/i386/AprilDemoAppDelegate.o "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/AprilDemo.build/Debug-iphonesimulator/AprilDemo.build/Objects-normal/i386/AprilDemoViewController.o "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/Classes/AprilDemoViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/AprilDemo.build/Debug-iphonesimulator/AprilDemo.build/Objects-normal/i386/main.o "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileXIB "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/AprilDemoViewController.xib"
+r0
+
+CCompileXIB "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/MainWindow.xib"
+r0
+
+CGenerateDSYMFile "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/Debug-iphonesimulator/AprilDemo.app.dSYM" "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/Debug-iphonesimulator/AprilDemo.app/AprilDemo"
+r0
+
+CLd "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/Debug-iphonesimulator/AprilDemo.app/AprilDemo" normal i386
+r0
+
+CProcessInfoPlistFile "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/Debug-iphonesimulator/AprilDemo.app/Info.plist" AprilDemo-Info.plist
+r0
+
+CProcessPCH /var/folders/MK/MKNp4XzsHt47X4XBj-6yME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AprilDemo_Prefix-fdhwhpkgaroymidqtoiqwfxortro/AprilDemo_Prefix.pch.gch AprilDemo_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CTouch "/Users/moosamus/Desktop/nyu/Thesis 2011/AprilDemo/build/Debug-iphonesimulator/AprilDemo.app"
+r0
+
