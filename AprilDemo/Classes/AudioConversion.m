@@ -11,6 +11,9 @@
 
 #pragma mark callbacks 
 
+void ASReadStreamCallBack  (CFReadStreamRef aStream,
+							CFStreamEventType eventType,
+							void* inClientInfo);
 
 OSStatus audioConverterCallback (AudioConverterRef converter, 
 								 UInt32 *ioNumberDataPackets, 
@@ -21,16 +24,25 @@ OSStatus audioConverterCallback (AudioConverterRef converter,
 
  
 
-void MyPropertyListenerProc (	void *							inClientData,
+void MyPropertyListenerProc (	void *							inClientData, //whatever you want back 
 								AudioFileStreamID				inAudioFileStream,
 								AudioFileStreamPropertyID		inPropertyID,
 								UInt32 *						ioFlags);
 
-void MyPacketsProc(				void *							inClientData,
+void MyPacketsProc(				void *							inClientData, //whatever you want back
 								UInt32							inNumberBytes,
 								UInt32							inNumberPackets,
 								const void *					inInputData,
 								AudioStreamPacketDescription	*inPacketDescriptions);
+
+
+void ASReadStreamCallBack  (CFReadStreamRef aStream,
+							CFStreamEventType eventType,
+							void* inClientInfo)
+{
+	AudioConversion* converter = (AudioConversion *)inClientInfo;
+	[converter handleReadFromStream:aStream eventType:eventType];
+}
 
 
 OSStatus audioConverterCallback (AudioConverterRef converter, UInt32 *ioNumberDataPackets, AudioBufferList *ioData,
@@ -90,7 +102,10 @@ void MyPacketsProc(				void *							inClientData,
 
 {
 	// this is called by audio file stream when it finds packets of audio
-	// Here I am making the callback defer to this instance method
+	// Here I am making the callback defer to this instance method. 
+
+	
+	
 	
 	AudioConversion* convert = (AudioConversion *)inClientData;
 	[convert
@@ -133,8 +148,6 @@ typedef struct MyAudioConverterSettings {
 {
 	
 	AudioConverterRef converter;	
-	//AudioStreamBasicDescription inASBD;
-	//AudioStreamBasicDescription outASBD;
 	//AudioBufferList inAudioBuffers; 
 	AudioBufferList convertedData;
 	AudioFileStreamID audioFileStream;
@@ -142,7 +155,7 @@ typedef struct MyAudioConverterSettings {
 	
 	
 	
-	audioConverterSettings.inASBD.mSampleRate = 44100.0;
+	audioConverterSettings.inASBD.mSampleRate;
 	audioConverterSettings.inASBD.mFormatID = kAudioFormatMPEGLayer3;
 	audioConverterSettings.inASBD.mFormatFlags = 0;
 	audioConverterSettings.inASBD.mBytesPerPacket = audioConverterSettings.bytesPerPacket;
@@ -152,69 +165,16 @@ typedef struct MyAudioConverterSettings {
 	audioConverterSettings.inASBD.mBitsPerChannel = 16;
 	audioConverterSettings.inASBD.mReserved = 0;
 	
-	audioConverterSettings.inASBD.mSampleRate = 44100.0;
-	audioConverterSettings.inASBD.mFormatID = kAudioFormatLinearPCM;
-	audioConverterSettings.inASBD.mFormatFlags = kAudioFormatFlagIsBigEndian | kAudioFormatFlagIsSignedInteger |kAudioFormatFlagIsPacked;
-	audioConverterSettings.inASBD.mBytesPerPacket = 4;
-	audioConverterSettings.inASBD.mFramesPerPacket = 1; 
-	audioConverterSettings.inASBD.mBytesPerFrame = 4;
-	audioConverterSettings.inASBD.mChannelsPerFrame = 1;
-	audioConverterSettings.inASBD.mBitsPerChannel = 16;
-	audioConverterSettings.inASBD.mReserved = 0;
-	
-	
-	
-	// ----------CFURLRef and AudioFileStream Initialization ----------//
-	
-	
-	if (kCFStreamEventHasBytesAvailable)
-	{
-		UInt8 bytes[2048];
-		CFIndex length;
-		@synchronized(self)
-		{
-			if ([self isFinishing])
-			{
-				return;
-			}
-			
-			//
-			// Read the bytes from the stream
-			//
-			length = CFReadStreamRead(stream, bytes, 2048); // Reads data from stream into buffer of specified size. 
-			
-			if (length == -1)
-			{
-				//nothing there
-				return;
-			}
-			
-			if (length == 0)
-			{
-				//nothing there
-				return;
-			}
-		}
-		
-		if (discontinuous)
-		{
-			err = AudioFileStreamParseBytes(audioFileStream, length, bytes, kAudioFileStreamParseFlag_Discontinuity);
-			if (err)
-			{
-				
-				return;
-			}
-		}
-		else
-		{
-			err = AudioFileStreamParseBytes(audioFileStream, length, bytes, 0);
-			if (err)
-			{
-				
-				return;
-			}
-		}
-		
+	audioConverterSettings.outASBD.mSampleRate = 44100.0;
+	audioConverterSettings.outASBD.mFormatID = kAudioFormatLinearPCM;
+	audioConverterSettings.outASBD.mFormatFlags = kAudioFormatFlagIsBigEndian | kAudioFormatFlagIsSignedInteger |kAudioFormatFlagIsPacked;
+	audioConverterSettings.outASBD.mBytesPerPacket = 4;
+	audioConverterSettings.outASBD.mFramesPerPacket = 1; 
+	audioConverterSettings.outASBD.mBytesPerFrame = 4;
+	audioConverterSettings.outASBD.mChannelsPerFrame = 1;
+	audioConverterSettings.outASBD.mBitsPerChannel = 16;
+	audioConverterSettings.outASBD.mReserved = 0;
+
 		
 		
 		// Get a new Audio Converter and begin to get properties for it. 
@@ -254,7 +214,7 @@ typedef struct MyAudioConverterSettings {
 			convertedData.mBuffers[0].mData = outputBuffer; // The data itself. 
 			
 			UInt32 ioOutputDataPackets = packetsPerBuffer; 
-			OSStatus error = AudioConverterFillComplexBuffer(converter, audioConverterCallback, mySettings, &ioOutputDataPackets, &convertedData, NULL);
+			OSStatus error = AudioConverterFillComplexBuffer(converter, audioConverterCallback, &audioConverterSettings, &ioOutputDataPackets, &convertedData, NULL);
 			if (error || !ioOutputDataPackets) 
 			{
 				break;	// This is the termination condition
@@ -263,7 +223,7 @@ typedef struct MyAudioConverterSettings {
 			// AudioConverterFillComplexBuffer takes the following parameters:
 			// 1. A previously-created AudioConverterRef	
 			// 2. A callback function, conforming to AudioConverterComplexInputDataProc, which provides the input data for conversion
-			// 3. A user data pointer (WTF exactly?)
+			// 3. A user data pointer - the data you want back to do stuff in callback function.
 			// 4. The maximum size of the output buffer, as a packet count
 			// 5. A pointer to an output buffer, where the converted data is received. Is an Audio Buffer List. 
 			// 6. A pointer an array of packet descriptions, if needed for the output buffer (i.e., if converting to a variable-bi- trate format)	
@@ -276,7 +236,6 @@ typedef struct MyAudioConverterSettings {
 	
 	// --------------End of Core Audio Book Sample. ------------------//		
 	
-}
 
 
 			
@@ -500,10 +459,11 @@ typedef struct MyAudioConverterSettings {
 						 
 						 
 			else
+				
 			{
 				//If CBR data, then create source buffer, and copy data from stream parser callback to converter buffer.
 				
-				AudioConversion.bytesPerBuffer = inNumberBytes;
+				bytesPerBuffer = inNumberBytes;
 				
 				audioConverterSettings.sourceBuffer = (void *) calloc(1, inNumberBytes);
 				UInt32 bufferSize = sizeof(audioConverterSettings.sourceBuffer);
@@ -571,7 +531,106 @@ typedef struct MyAudioConverterSettings {
 			}
 		}
 
+
+// handleReadFromStream:eventType:data:
+//
+// Reads data from the network file stream into the AudioFileStream
+//
+// Parameters:
+//    aStream - the network file stream
+//    eventType - the event which triggered this method
+//
+- (void)handleReadFromStream:(CFReadStreamRef)aStream
+				   eventType:(CFStreamEventType)eventType
+{
+	if (eventType == kCFStreamEventErrorOccurred)
+	{
+		NSLog(@"No audio data");
+	}
+	else if (eventType == kCFStreamEventEndEncountered)
+	{
+		@synchronized(self)
+		{
+			if ([self isFinishing])
+			{
+				return;
+			}
+		}
 		
+		@synchronized(self)
+		
+		{
+			if (state == AS_WAITING_FOR_DATA)
+			{
+				
+			}
+			
+			//
+			// We left the synchronized section to enqueue the buffer so we
+			// must check that we are !finished again before touching the
+			// audioQueue
+			//
+			else if (![self isFinishing])
+			{
+				
+			}
+				else
+				{
+					self.state = AS_STOPPED;
+					
+				}
+			}
+		}
+	
+	else if (eventType == kCFStreamEventHasBytesAvailable)
+	{
+		UInt8 bytes[2048];
+		CFIndex length; 
+		@synchronized(self)
+		{
+			if ([self isFinishing])
+			{
+				return;
+			}
+			
+			//
+			// Read the bytes from the stream
+			//
+			length = CFReadStreamRead(stream, bytes, 2048); // Reads data from stream into buffer of specified size. 
+			
+			if (length == -1)
+			{
+				
+				return;
+			}
+			
+			if (length == 0)
+			{
+				return;
+			}
+		}
+		
+		if (discontinuous)
+		{
+			err = AudioFileStreamParseBytes(audioFileStream, length, bytes, kAudioFileStreamParseFlag_Discontinuity);
+			if (err)
+			{
+				
+				return;
+			}
+		}
+		else
+		{
+			err = AudioFileStreamParseBytes(audioFileStream, length, bytes, 0);
+			if (err)
+			{
+				
+				return;
+			}
+		}
+	}
+}
+
 
 //-----------------------Audio Streamer bool and state methods---------------------------//
 

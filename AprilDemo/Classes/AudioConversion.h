@@ -46,7 +46,6 @@ typedef enum
 	
 	AudioStreamerState state;
 
-	
 }
 
 - (BOOL)isPlaying;
