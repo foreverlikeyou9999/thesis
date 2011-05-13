@@ -58,7 +58,7 @@
 		
 	}
 	
-	@property (nonatomic, retain) IBOutlet UIBarButtonItem *done;
+
 	@property (nonatomic, retain) IBOutlet MKMapView *map;
 	@property (nonatomic, retain) NSMutableArray *coordinates;
 	@property (nonatomic, readonly) CLLocationCoordinate2D coordinate;

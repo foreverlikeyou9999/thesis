@@ -13,7 +13,7 @@
 
 @synthesize table, done;
 @synthesize arryData;
-@synthesize mapness;
+
 
 
 - (IBAction) sourceSelect: (id)sender {
@@ -23,14 +23,11 @@
 	//[convert start];
 	//NSLog(@"Sources selected");
 	
-	if (self.mapness == nil)
-	{
-		MapViewController *mappy = [[MapViewController alloc] initWithNibName: @"MapViewController" bundle: [NSBundle mainBundle]];
-		self.mapness = mappy;
-		[mappy release];
-	}
+
+
+		mapness = [[MapViewController alloc] initWithNibName: @"MapViewController" bundle: nil];
 	
-	[self.navigationController pushViewController:self.mapness animated: YES];
+	[self.view addSubview:mapness.view];
 	
 	
 }
@@ -77,6 +74,8 @@
 	// e.g. self.myOutlet = nil;
 }
 //------------------TEST TABLE CODE---------------//
+
+
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
 	return 1;
@@ -127,5 +126,7 @@
     }
 	
 }
+ 
+ 
 @end
 

@@ -20,7 +20,7 @@
 }
 
 @property (nonatomic, retain) IBOutlet UIBarButtonItem *done;	
-@property (nonatomic, retain) MapViewController *mapness;
+
 
 // ---------------TABLE TEST------------//
 @property (nonatomic, retain) NSArray *arryData;

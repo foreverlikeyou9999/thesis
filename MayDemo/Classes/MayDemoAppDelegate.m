@@ -13,7 +13,7 @@
 
 @synthesize window;
 @synthesize viewController;
-@synthesize navigationController;
+//@synthesize navigationController;
 
 #pragma mark -
 #pragma mark Application lifecycle
@@ -23,8 +23,9 @@
     // Override point for customization after application launch.
 
     // Add the view controller's view to the window and display.
+	
     [self.window addSubview:viewController.view];
-	[self.window addSubview:navigationController.view];
+	//[self.window addSubview:navigationController.view];
     [self.window makeKeyAndVisible];
 
     return YES;
@@ -81,7 +82,7 @@
 
 - (void)dealloc {
     [viewController release];
-	[navigationController release];
+	//[navigationController release];
     [window release];
     [super dealloc];
 }

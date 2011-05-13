@@ -8,18 +8,19 @@
 
 #import <UIKit/UIKit.h>
 
+
 @class MayDemoViewController;
 
 @interface MayDemoAppDelegate : NSObject <UIApplicationDelegate> {
 	
     UIWindow *window;
     MayDemoViewController *viewController;
-	UINavigationController *navigationController;
+	//UINavigationController *navigationController;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
 @property (nonatomic, retain) IBOutlet MayDemoViewController *viewController;
-@property (nonatomic, retain) UINavigationController *navigationController;
+//@property (nonatomic, retain) UINavigationController *navigationController;
 
 
 
