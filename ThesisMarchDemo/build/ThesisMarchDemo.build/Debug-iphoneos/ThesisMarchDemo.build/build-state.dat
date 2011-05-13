@@ -1,7 +1,7 @@
 TThesisMarchDemo
 v7
 r0
-t322601449.790211
+t324320663.418703
 cCheck dependencies
 cCpResource build/Debug-iphoneos/ThesisMarchDemo.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
 cProcessInfoPlistFile "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/build/Debug-iphoneos/ThesisMarchDemo.app/Info.plist" ThesisMarchDemo-Info.plist
@@ -11,26 +11,20 @@ cProcessPCH /var/folders/MK/MKNp4XzsHt47X4XBj-6yME+++TI/-Caches-/com.apple.Xcode
 cProcessPCH /var/folders/MK/MKNp4XzsHt47X4XBj-6yME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ThesisMarchDemo_Prefix-breshmaenqnpvnhewbeceubolrkc/ThesisMarchDemo_Prefix.pch.gch ThesisMarchDemo_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/thesisMarchDemo.build/Debug-iphoneos/ThesisMarchDemo.build/Objects-normal/armv6/main.o "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/main.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/thesisMarchDemo.build/Debug-iphoneos/ThesisMarchDemo.build/Objects-normal/armv6/Annotation.o "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/Classes/Annotation.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/thesisMarchDemo.build/Debug-iphoneos/ThesisMarchDemo.build/Objects-normal/armv6/AudioTourAppDelegate.o "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/Classes/Classes/AudioTourAppDelegate.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/thesisMarchDemo.build/Debug-iphoneos/ThesisMarchDemo.build/Objects-normal/armv6/FlipsideViewController.o "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/Classes/Classes/FlipsideViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/thesisMarchDemo.build/Debug-iphoneos/ThesisMarchDemo.build/Objects-normal/armv6/MainViewController.o "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/Classes/Classes/MainViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/thesisMarchDemo.build/Debug-iphoneos/ThesisMarchDemo.build/Objects-normal/armv6/ThesisMarchDemoAppDelegate.o "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/../ThesisMarchDemo/Classes/ThesisMarchDemoAppDelegate.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/thesisMarchDemo.build/Debug-iphoneos/ThesisMarchDemo.build/Objects-normal/armv6/ThesisMarchDemoViewController.o "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/../ThesisMarchDemo/Classes/ThesisMarchDemoViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/thesisMarchDemo.build/Debug-iphoneos/ThesisMarchDemo.build/Objects-normal/armv6/AudioTourAppDelegate.o "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/Classes/Classes/Classes/AudioTourAppDelegate.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/thesisMarchDemo.build/Debug-iphoneos/ThesisMarchDemo.build/Objects-normal/armv6/FlipsideViewController.o "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/Classes/Classes/Classes/FlipsideViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/thesisMarchDemo.build/Debug-iphoneos/ThesisMarchDemo.build/Objects-normal/armv6/MainViewController.o "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/Classes/Classes/Classes/MainViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/thesisMarchDemo.build/Debug-iphoneos/ThesisMarchDemo.build/Objects-normal/armv7/main.o "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/main.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/thesisMarchDemo.build/Debug-iphoneos/ThesisMarchDemo.build/Objects-normal/armv7/Annotation.o "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/Classes/Annotation.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/thesisMarchDemo.build/Debug-iphoneos/ThesisMarchDemo.build/Objects-normal/armv7/AudioTourAppDelegate.o "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/Classes/Classes/AudioTourAppDelegate.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/thesisMarchDemo.build/Debug-iphoneos/ThesisMarchDemo.build/Objects-normal/armv7/FlipsideViewController.o "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/Classes/Classes/FlipsideViewController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/thesisMarchDemo.build/Debug-iphoneos/ThesisMarchDemo.build/Objects-normal/armv7/MainViewController.o "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/Classes/Classes/MainViewController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/thesisMarchDemo.build/Debug-iphoneos/ThesisMarchDemo.build/Objects-normal/armv7/ThesisMarchDemoAppDelegate.o "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/../ThesisMarchDemo/Classes/ThesisMarchDemoAppDelegate.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/thesisMarchDemo.build/Debug-iphoneos/ThesisMarchDemo.build/Objects-normal/armv7/ThesisMarchDemoViewController.o "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/../ThesisMarchDemo/Classes/ThesisMarchDemoViewController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
-cLd "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/build/thesisMarchDemo.build/Debug-iphoneos/ThesisMarchDemo.build/Objects-normal/armv6/ThesisMarchDemo" normal armv6
-cLd "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/build/thesisMarchDemo.build/Debug-iphoneos/ThesisMarchDemo.build/Objects-normal/armv7/ThesisMarchDemo" normal armv7
-cCreateUniversalBinary "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/build/Debug-iphoneos/ThesisMarchDemo.app/ThesisMarchDemo" normal "armv6 armv7"
-cGenerateDSYMFile "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/build/Debug-iphoneos/ThesisMarchDemo.app.dSYM" "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/build/Debug-iphoneos/ThesisMarchDemo.app/ThesisMarchDemo"
+cCompileC build/thesisMarchDemo.build/Debug-iphoneos/ThesisMarchDemo.build/Objects-normal/armv7/AudioTourAppDelegate.o "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/Classes/Classes/Classes/AudioTourAppDelegate.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/thesisMarchDemo.build/Debug-iphoneos/ThesisMarchDemo.build/Objects-normal/armv7/FlipsideViewController.o "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/Classes/Classes/Classes/FlipsideViewController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/thesisMarchDemo.build/Debug-iphoneos/ThesisMarchDemo.build/Objects-normal/armv7/MainViewController.o "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/Classes/Classes/Classes/MainViewController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
 cProcessProductPackaging "/Users/moosamus/Library/MobileDevice/Provisioning Profiles/56F999EF-6BA8-431F-B377-C6D4E653E7CE.mobileprovision" "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/build/Debug-iphoneos/ThesisMarchDemo.app/embedded.mobileprovision"
-cTouch "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/build/Debug-iphoneos/ThesisMarchDemo.app"
 cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/build/thesisMarchDemo.build/Debug-iphoneos/ThesisMarchDemo.build/ThesisMarchDemo.xcent"
-cCodeSign "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/build/Debug-iphoneos/ThesisMarchDemo.app"
 
 N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk
 c000000004CC7DC9E0000000000000110
@@ -455,6 +449,52 @@ s2723
 i"AudioTourAppDelegate.h"
 i"MainViewController.h"
 
+N/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/Classes/Classes/Classes/AudioTourAppDelegate.h
+c000000004CA2B50800000000000001E7
+t1285731592
+s487
+i<UIKit/UIKit.h>
+
+N/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/Classes/Classes/Classes/AudioTourAppDelegate.m
+c000000004C9D71300000000000000AA3
+t1285386544
+s2723
+i"AudioTourAppDelegate.h"
+i"MainViewController.h"
+
+N/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/Classes/Classes/Classes/FlipsideViewController.h
+c000000004CC12C9F0000000000000408
+t1287728287
+s1032
+i<UIKit/UIKit.h>
+
+N/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/Classes/Classes/Classes/FlipsideViewController.m
+c000000004D10B86B00000000000005BA
+t1292941419
+s1466
+i"FlipsideViewController.h"
+
+N/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/Classes/Classes/Classes/MainViewController.h
+c000000004D099DA90000000000000D47
+t1292475817
+s3399
+i"MainView.h"
+i"FlipsideViewController.h"
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+i"CoreLocation/CoreLocation.h"
+i"AudioToolbox/AudioToolbox.h"
+i"OpenAL/al.h"
+i"OpenAL/alc.h"
+i<math.h>
+
+N/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/Classes/Classes/Classes/MainViewController.m
+c000000004D10B614000000000000739A
+t1292940820
+s29594
+i"MainViewController.h"
+i"MainView.h"
+
 N/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/Classes/Classes/FlipsideViewController.h
 c000000004CC12C9F0000000000000408
 t1287728287
@@ -538,9 +578,9 @@ t1300904927
 s28422
 
 N/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/ThesisMarchDemoViewController.xib
-c000000004D8A3E9E00000000000065E2
-t1300905630
-s26082
+c000000004DA4860C000000000000700C
+t1302627852
+s28684
 
 N/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/ThesisMarchDemo_Prefix.pch
 c000000004D8A14A300000000000000C7
@@ -555,7 +595,7 @@ t1284155125
 s47537664
 
 N/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/build/Debug-iphoneos/ThesisMarchDemo.app
-t1300908649
+t1302627859
 s408
 
 N/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/build/Debug-iphoneos/ThesisMarchDemo.app.dSYM
@@ -580,15 +620,15 @@ s485
 
 N/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/build/Debug-iphoneos/ThesisMarchDemo.app/ThesisMarchDemo
 t1300908647
-s161280
+s175664
 
 N/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/build/Debug-iphoneos/ThesisMarchDemo.app/ThesisMarchDemoViewController .nib
 t2
 s0
 
 N/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/build/Debug-iphoneos/ThesisMarchDemo.app/ThesisMarchDemoViewController.nib
-t1300905669
-s3148
+t1302627859
+s2416
 
 N/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/build/Debug-iphoneos/ThesisMarchDemo.app/Timmony.aif
 t1300896211
@@ -603,24 +643,24 @@ t1300900920
 s12600
 
 N/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/build/thesisMarchDemo.build/Debug-iphoneos/ThesisMarchDemo.build/Objects-normal/armv6/AudioTourAppDelegate.o
-t1300900920
-s52600
+t2
+s0
 
 N/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/build/thesisMarchDemo.build/Debug-iphoneos/ThesisMarchDemo.build/Objects-normal/armv6/FlipsideViewController.o
-t1300900920
-s42388
+t1302627861
+s42404
 
 N/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/build/thesisMarchDemo.build/Debug-iphoneos/ThesisMarchDemo.build/Objects-normal/armv6/MainViewController.o
-t1300900920
-s100140
+t2
+s0
 
 N/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/build/thesisMarchDemo.build/Debug-iphoneos/ThesisMarchDemo.build/Objects-normal/armv6/ThesisMarchDemo
 t1300908647
 s80384
 
 N/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/build/thesisMarchDemo.build/Debug-iphoneos/ThesisMarchDemo.build/Objects-normal/armv6/ThesisMarchDemo.LinkFileList
-c000000004D8A30A200000000000004A9
-t1300902050
+c000000004DA4861200000000000004A9
+t1302627858
 s1193
 
 N/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/build/thesisMarchDemo.build/Debug-iphoneos/ThesisMarchDemo.build/Objects-normal/armv6/ThesisMarchDemoAppDelegate.o
@@ -648,24 +688,24 @@ t1300900921
 s12468
 
 N/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/build/thesisMarchDemo.build/Debug-iphoneos/ThesisMarchDemo.build/Objects-normal/armv7/AudioTourAppDelegate.o
-t1300900921
-s52520
+t2
+s0
 
 N/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/build/thesisMarchDemo.build/Debug-iphoneos/ThesisMarchDemo.build/Objects-normal/armv7/FlipsideViewController.o
-t1300900921
-s42308
+t1302627863
+s42324
 
 N/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/build/thesisMarchDemo.build/Debug-iphoneos/ThesisMarchDemo.build/Objects-normal/armv7/MainViewController.o
-t1300900921
-s97264
+t2
+s0
 
 N/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/build/thesisMarchDemo.build/Debug-iphoneos/ThesisMarchDemo.build/Objects-normal/armv7/ThesisMarchDemo
 t1300908647
 s75264
 
 N/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/build/thesisMarchDemo.build/Debug-iphoneos/ThesisMarchDemo.build/Objects-normal/armv7/ThesisMarchDemo.LinkFileList
-c000000004D8A30A200000000000004A9
-t1300902050
+c000000004DA4861200000000000004A9
+t1302627858
 s1193
 
 N/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/build/thesisMarchDemo.build/Debug-iphoneos/ThesisMarchDemo.build/Objects-normal/armv7/ThesisMarchDemoAppDelegate.o
@@ -734,7 +774,7 @@ s909
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies322601444#322601444#0(0"0(0#1#0"8623122112#0"0#
+lSLF07#2@18"Check dependencies324320658#324320658#0(0"0(0#1#0"31244212048494624#0"0#
 
 CCodeSign "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/ThesisMarchDemo/build/Debug-iphoneos/ThesisMarchDemo.app"
 s322593682.929167
@@ -970,6 +1010,34 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@109"Compile /Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/Classes/Classes/AudioTourAppDelegate.m322593720#322593720#0(0"0(0#0#101"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/Classes/Classes/AudioTourAppDelegate.m8604472480#2220"    cd "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/build/thesisMarchDemo.build/Debug-iphoneos/ThesisMarchDemo.build/ThesisMarchDemo-generated-files.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/build/thesisMarchDemo.build/Debug-iphoneos/ThesisMarchDemo.build/ThesisMarchDemo-own-target-headers.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/build/thesisMarchDemo.build/Debug-iphoneos/ThesisMarchDemo.build/ThesisMarchDemo-all-target-headers.hmap" -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/build/thesisMarchDemo.build/Debug-iphoneos/ThesisMarchDemo.build/ThesisMarchDemo-project-headers.hmap" "-F/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/build/Debug-iphoneos" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/build/Debug-iphoneos/include" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/build/thesisMarchDemo.build/Debug-iphoneos/ThesisMarchDemo.build/DerivedSources/armv6" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/build/thesisMarchDemo.build/Debug-iphoneos/ThesisMarchDemo.build/DerivedSources" -include /var/folders/MK/MKNp4XzsHt47X4XBj-6yME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ThesisMarchDemo_Prefix-dqlcaicmluldssdngkyeyaobshhy/ThesisMarchDemo_Prefix.pch -c "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/Classes/Classes/AudioTourAppDelegate.m" -o "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/build/thesisMarchDemo.build/Debug-iphoneos/ThesisMarchDemo.build/Objects-normal/armv6/AudioTourAppDelegate.o"0#
 
+CCompileC build/thesisMarchDemo.build/Debug-iphoneos/ThesisMarchDemo.build/Objects-normal/armv6/AudioTourAppDelegate.o "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/Classes/Classes/Classes/AudioTourAppDelegate.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s324320659.616563
+e324320661.392520
+r0
+xCompileC
+xbuild/thesisMarchDemo.build/Debug-iphoneos/ThesisMarchDemo.build/Objects-normal/armv6/AudioTourAppDelegate.o
+x/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/Classes/Classes/Classes/AudioTourAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/Classes/Classes/Classes/AudioTourAppDelegate.m:10:
+o/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/Classes/Classes/Classes/MainViewController.h:9:21: error: MainView.h: No such file or directory
+lSLF07#2@117"Compile /Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/Classes/Classes/Classes/AudioTourAppDelegate.m324320659#324320661#0(295"In file included from /Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/Classes/Classes/Classes/AudioTourAppDelegate.m:10:/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/Classes/Classes/Classes/MainViewController.h:9:21: error: MainView.h: No such file or directory1(4@37"MainView.h: No such file or directory324320661#136#159#2(7@131"In file included from /Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/Classes/Classes/Classes/AudioTourAppDelegate.m324320661#18446744073709551615#0#0(6@109"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/Classes/Classes/Classes/AudioTourAppDelegate.m307079344#10#0#10#0#0"0(13@148"MainView.h: No such file or directory in /Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/Classes/Classes/Classes/MainViewController.h324320661#18446744073709551615#0#0(6@107"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/Classes/Classes/Classes/MainViewController.h314168617#9#0#9#0#0"0(6@107"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/Classes/Classes/Classes/MainViewController.h314168617#9#0#9#0#28"*: No such file or directory0(0#0#109"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/Classes/Classes/Classes/AudioTourAppDelegate.m8607285952#2228"    cd "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/build/thesisMarchDemo.build/Debug-iphoneos/ThesisMarchDemo.build/ThesisMarchDemo-generated-files.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/build/thesisMarchDemo.build/Debug-iphoneos/ThesisMarchDemo.build/ThesisMarchDemo-own-target-headers.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/build/thesisMarchDemo.build/Debug-iphoneos/ThesisMarchDemo.build/ThesisMarchDemo-all-target-headers.hmap" -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/build/thesisMarchDemo.build/Debug-iphoneos/ThesisMarchDemo.build/ThesisMarchDemo-project-headers.hmap" "-F/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/build/Debug-iphoneos" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/build/Debug-iphoneos/include" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/build/thesisMarchDemo.build/Debug-iphoneos/ThesisMarchDemo.build/DerivedSources/armv6" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/build/thesisMarchDemo.build/Debug-iphoneos/ThesisMarchDemo.build/DerivedSources" -include /var/folders/MK/MKNp4XzsHt47X4XBj-6yME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ThesisMarchDemo_Prefix-dqlcaicmluldssdngkyeyaobshhy/ThesisMarchDemo_Prefix.pch -c "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/Classes/Classes/Classes/AudioTourAppDelegate.m" -o "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/build/thesisMarchDemo.build/Debug-iphoneos/ThesisMarchDemo.build/Objects-normal/armv6/AudioTourAppDelegate.o"1#
+
+CCompileC build/thesisMarchDemo.build/Debug-iphoneos/ThesisMarchDemo.build/Objects-normal/armv6/FlipsideViewController.o "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/Classes/Classes/Classes/FlipsideViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s324320659.617575
+e324320661.361227
+r1
+xCompileC
+xbuild/thesisMarchDemo.build/Debug-iphoneos/ThesisMarchDemo.build/Objects-normal/armv6/FlipsideViewController.o
+x/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/Classes/Classes/Classes/FlipsideViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@119"Compile /Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/Classes/Classes/Classes/FlipsideViewController.m324320659#324320661#0(0"0(0#0#111"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/Classes/Classes/Classes/FlipsideViewController.m8606523840#2232"    cd "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/build/thesisMarchDemo.build/Debug-iphoneos/ThesisMarchDemo.build/ThesisMarchDemo-generated-files.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/build/thesisMarchDemo.build/Debug-iphoneos/ThesisMarchDemo.build/ThesisMarchDemo-own-target-headers.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/build/thesisMarchDemo.build/Debug-iphoneos/ThesisMarchDemo.build/ThesisMarchDemo-all-target-headers.hmap" -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/build/thesisMarchDemo.build/Debug-iphoneos/ThesisMarchDemo.build/ThesisMarchDemo-project-headers.hmap" "-F/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/build/Debug-iphoneos" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/build/Debug-iphoneos/include" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/build/thesisMarchDemo.build/Debug-iphoneos/ThesisMarchDemo.build/DerivedSources/armv6" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/build/thesisMarchDemo.build/Debug-iphoneos/ThesisMarchDemo.build/DerivedSources" -include /var/folders/MK/MKNp4XzsHt47X4XBj-6yME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ThesisMarchDemo_Prefix-dqlcaicmluldssdngkyeyaobshhy/ThesisMarchDemo_Prefix.pch -c "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/Classes/Classes/Classes/FlipsideViewController.m" -o "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/build/thesisMarchDemo.build/Debug-iphoneos/ThesisMarchDemo.build/Objects-normal/armv6/FlipsideViewController.o"0#
+
 CCompileC build/thesisMarchDemo.build/Debug-iphoneos/ThesisMarchDemo.build/Objects-normal/armv6/FlipsideViewController.o "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/Classes/Classes/FlipsideViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
 s322593720.532072
 e322593720.620944
@@ -982,6 +1050,21 @@ xarmv6
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@111"Compile /Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/Classes/Classes/FlipsideViewController.m322593720#322593720#0(0"0(0#0#103"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/Classes/Classes/FlipsideViewController.m8604000768#2224"    cd "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/build/thesisMarchDemo.build/Debug-iphoneos/ThesisMarchDemo.build/ThesisMarchDemo-generated-files.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/build/thesisMarchDemo.build/Debug-iphoneos/ThesisMarchDemo.build/ThesisMarchDemo-own-target-headers.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/build/thesisMarchDemo.build/Debug-iphoneos/ThesisMarchDemo.build/ThesisMarchDemo-all-target-headers.hmap" -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/build/thesisMarchDemo.build/Debug-iphoneos/ThesisMarchDemo.build/ThesisMarchDemo-project-headers.hmap" "-F/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/build/Debug-iphoneos" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/build/Debug-iphoneos/include" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/build/thesisMarchDemo.build/Debug-iphoneos/ThesisMarchDemo.build/DerivedSources/armv6" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/build/thesisMarchDemo.build/Debug-iphoneos/ThesisMarchDemo.build/DerivedSources" -include /var/folders/MK/MKNp4XzsHt47X4XBj-6yME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ThesisMarchDemo_Prefix-dqlcaicmluldssdngkyeyaobshhy/ThesisMarchDemo_Prefix.pch -c "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/Classes/Classes/FlipsideViewController.m" -o "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/build/thesisMarchDemo.build/Debug-iphoneos/ThesisMarchDemo.build/Objects-normal/armv6/FlipsideViewController.o"0#
+
+CCompileC build/thesisMarchDemo.build/Debug-iphoneos/ThesisMarchDemo.build/Objects-normal/armv6/MainViewController.o "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/Classes/Classes/Classes/MainViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s324320661.361439
+e324320661.635980
+r0
+xCompileC
+xbuild/thesisMarchDemo.build/Debug-iphoneos/ThesisMarchDemo.build/Objects-normal/armv6/MainViewController.o
+x/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/Classes/Classes/Classes/MainViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/Classes/Classes/Classes/MainViewController.m:10:
+o/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/Classes/Classes/Classes/MainViewController.h:9:21: error: MainView.h: No such file or directory
+lSLF07#2@115"Compile /Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/Classes/Classes/Classes/MainViewController.m324320661#324320661#0(293"In file included from /Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/Classes/Classes/Classes/MainViewController.m:10:/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/Classes/Classes/Classes/MainViewController.h:9:21: error: MainView.h: No such file or directory1(4@37"MainView.h: No such file or directory324320661#134#159#2(7@129"In file included from /Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/Classes/Classes/Classes/MainViewController.m324320661#18446744073709551615#0#0(6@107"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/Classes/Classes/Classes/MainViewController.m314633620#10#0#10#0#0"0(13@148"MainView.h: No such file or directory in /Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/Classes/Classes/Classes/MainViewController.h324320661#18446744073709551615#0#0(6@107"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/Classes/Classes/Classes/MainViewController.h314168617#9#0#9#0#0"0(6@107"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/Classes/Classes/Classes/MainViewController.h314168617#9#0#9#0#28"*: No such file or directory0(0#0#107"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/Classes/Classes/Classes/MainViewController.m8606946816#2224"    cd "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/build/thesisMarchDemo.build/Debug-iphoneos/ThesisMarchDemo.build/ThesisMarchDemo-generated-files.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/build/thesisMarchDemo.build/Debug-iphoneos/ThesisMarchDemo.build/ThesisMarchDemo-own-target-headers.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/build/thesisMarchDemo.build/Debug-iphoneos/ThesisMarchDemo.build/ThesisMarchDemo-all-target-headers.hmap" -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/build/thesisMarchDemo.build/Debug-iphoneos/ThesisMarchDemo.build/ThesisMarchDemo-project-headers.hmap" "-F/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/build/Debug-iphoneos" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/build/Debug-iphoneos/include" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/build/thesisMarchDemo.build/Debug-iphoneos/ThesisMarchDemo.build/DerivedSources/armv6" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/build/thesisMarchDemo.build/Debug-iphoneos/ThesisMarchDemo.build/DerivedSources" -include /var/folders/MK/MKNp4XzsHt47X4XBj-6yME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ThesisMarchDemo_Prefix-dqlcaicmluldssdngkyeyaobshhy/ThesisMarchDemo_Prefix.pch -c "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/Classes/Classes/Classes/MainViewController.m" -o "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/build/thesisMarchDemo.build/Debug-iphoneos/ThesisMarchDemo.build/Objects-normal/armv6/MainViewController.o"1#
 
 CCompileC build/thesisMarchDemo.build/Debug-iphoneos/ThesisMarchDemo.build/Objects-normal/armv6/MainViewController.o "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/Classes/Classes/MainViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
 s322593720.621053
@@ -1133,6 +1216,34 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@109"Compile /Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/Classes/Classes/AudioTourAppDelegate.m322593721#322593721#0(0"0(0#0#101"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/Classes/Classes/AudioTourAppDelegate.m8600972384#2220"    cd "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/build/thesisMarchDemo.build/Debug-iphoneos/ThesisMarchDemo.build/ThesisMarchDemo-generated-files.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/build/thesisMarchDemo.build/Debug-iphoneos/ThesisMarchDemo.build/ThesisMarchDemo-own-target-headers.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/build/thesisMarchDemo.build/Debug-iphoneos/ThesisMarchDemo.build/ThesisMarchDemo-all-target-headers.hmap" -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/build/thesisMarchDemo.build/Debug-iphoneos/ThesisMarchDemo.build/ThesisMarchDemo-project-headers.hmap" "-F/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/build/Debug-iphoneos" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/build/Debug-iphoneos/include" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/build/thesisMarchDemo.build/Debug-iphoneos/ThesisMarchDemo.build/DerivedSources/armv7" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/build/thesisMarchDemo.build/Debug-iphoneos/ThesisMarchDemo.build/DerivedSources" -include /var/folders/MK/MKNp4XzsHt47X4XBj-6yME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ThesisMarchDemo_Prefix-breshmaenqnpvnhewbeceubolrkc/ThesisMarchDemo_Prefix.pch -c "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/Classes/Classes/AudioTourAppDelegate.m" -o "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/build/thesisMarchDemo.build/Debug-iphoneos/ThesisMarchDemo.build/Objects-normal/armv7/AudioTourAppDelegate.o"0#
 
+CCompileC build/thesisMarchDemo.build/Debug-iphoneos/ThesisMarchDemo.build/Objects-normal/armv7/AudioTourAppDelegate.o "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/Classes/Classes/Classes/AudioTourAppDelegate.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s324320661.393125
+e324320663.241698
+r0
+xCompileC
+xbuild/thesisMarchDemo.build/Debug-iphoneos/ThesisMarchDemo.build/Objects-normal/armv7/AudioTourAppDelegate.o
+x/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/Classes/Classes/Classes/AudioTourAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/Classes/Classes/Classes/AudioTourAppDelegate.m:10:
+o/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/Classes/Classes/Classes/MainViewController.h:9:21: error: MainView.h: No such file or directory
+lSLF07#2@117"Compile /Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/Classes/Classes/Classes/AudioTourAppDelegate.m324320661#324320663#0(295"In file included from /Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/Classes/Classes/Classes/AudioTourAppDelegate.m:10:/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/Classes/Classes/Classes/MainViewController.h:9:21: error: MainView.h: No such file or directory1(4@37"MainView.h: No such file or directory324320663#136#159#2(7@131"In file included from /Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/Classes/Classes/Classes/AudioTourAppDelegate.m324320663#18446744073709551615#0#0(6@109"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/Classes/Classes/Classes/AudioTourAppDelegate.m307079344#10#0#10#0#0"0(13@148"MainView.h: No such file or directory in /Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/Classes/Classes/Classes/MainViewController.h324320663#18446744073709551615#0#0(6@107"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/Classes/Classes/Classes/MainViewController.h314168617#9#0#9#0#0"0(6@107"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/Classes/Classes/Classes/MainViewController.h314168617#9#0#9#0#28"*: No such file or directory0(0#0#109"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/Classes/Classes/Classes/AudioTourAppDelegate.m8606049760#2228"    cd "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/build/thesisMarchDemo.build/Debug-iphoneos/ThesisMarchDemo.build/ThesisMarchDemo-generated-files.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/build/thesisMarchDemo.build/Debug-iphoneos/ThesisMarchDemo.build/ThesisMarchDemo-own-target-headers.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/build/thesisMarchDemo.build/Debug-iphoneos/ThesisMarchDemo.build/ThesisMarchDemo-all-target-headers.hmap" -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/build/thesisMarchDemo.build/Debug-iphoneos/ThesisMarchDemo.build/ThesisMarchDemo-project-headers.hmap" "-F/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/build/Debug-iphoneos" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/build/Debug-iphoneos/include" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/build/thesisMarchDemo.build/Debug-iphoneos/ThesisMarchDemo.build/DerivedSources/armv7" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/build/thesisMarchDemo.build/Debug-iphoneos/ThesisMarchDemo.build/DerivedSources" -include /var/folders/MK/MKNp4XzsHt47X4XBj-6yME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ThesisMarchDemo_Prefix-breshmaenqnpvnhewbeceubolrkc/ThesisMarchDemo_Prefix.pch -c "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/Classes/Classes/Classes/AudioTourAppDelegate.m" -o "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/build/thesisMarchDemo.build/Debug-iphoneos/ThesisMarchDemo.build/Objects-normal/armv7/AudioTourAppDelegate.o"1#
+
+CCompileC build/thesisMarchDemo.build/Debug-iphoneos/ThesisMarchDemo.build/Objects-normal/armv7/FlipsideViewController.o "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/Classes/Classes/Classes/FlipsideViewController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s324320661.636097
+e324320663.232386
+r1
+xCompileC
+xbuild/thesisMarchDemo.build/Debug-iphoneos/ThesisMarchDemo.build/Objects-normal/armv7/FlipsideViewController.o
+x/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/Classes/Classes/Classes/FlipsideViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@119"Compile /Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/Classes/Classes/Classes/FlipsideViewController.m324320661#324320663#0(0"0(0#0#111"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/Classes/Classes/Classes/FlipsideViewController.m8601463392#2232"    cd "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/build/thesisMarchDemo.build/Debug-iphoneos/ThesisMarchDemo.build/ThesisMarchDemo-generated-files.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/build/thesisMarchDemo.build/Debug-iphoneos/ThesisMarchDemo.build/ThesisMarchDemo-own-target-headers.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/build/thesisMarchDemo.build/Debug-iphoneos/ThesisMarchDemo.build/ThesisMarchDemo-all-target-headers.hmap" -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/build/thesisMarchDemo.build/Debug-iphoneos/ThesisMarchDemo.build/ThesisMarchDemo-project-headers.hmap" "-F/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/build/Debug-iphoneos" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/build/Debug-iphoneos/include" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/build/thesisMarchDemo.build/Debug-iphoneos/ThesisMarchDemo.build/DerivedSources/armv7" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/build/thesisMarchDemo.build/Debug-iphoneos/ThesisMarchDemo.build/DerivedSources" -include /var/folders/MK/MKNp4XzsHt47X4XBj-6yME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ThesisMarchDemo_Prefix-breshmaenqnpvnhewbeceubolrkc/ThesisMarchDemo_Prefix.pch -c "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/Classes/Classes/Classes/FlipsideViewController.m" -o "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/build/thesisMarchDemo.build/Debug-iphoneos/ThesisMarchDemo.build/Objects-normal/armv7/FlipsideViewController.o"0#
+
 CCompileC build/thesisMarchDemo.build/Debug-iphoneos/ThesisMarchDemo.build/Objects-normal/armv7/FlipsideViewController.o "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/Classes/Classes/FlipsideViewController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
 s322593721.127880
 e322593721.242229
@@ -1145,6 +1256,21 @@ xarmv7
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@111"Compile /Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/Classes/Classes/FlipsideViewController.m322593721#322593721#0(0"0(0#0#103"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/Classes/Classes/FlipsideViewController.m8603135552#2224"    cd "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/build/thesisMarchDemo.build/Debug-iphoneos/ThesisMarchDemo.build/ThesisMarchDemo-generated-files.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/build/thesisMarchDemo.build/Debug-iphoneos/ThesisMarchDemo.build/ThesisMarchDemo-own-target-headers.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/build/thesisMarchDemo.build/Debug-iphoneos/ThesisMarchDemo.build/ThesisMarchDemo-all-target-headers.hmap" -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/build/thesisMarchDemo.build/Debug-iphoneos/ThesisMarchDemo.build/ThesisMarchDemo-project-headers.hmap" "-F/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/build/Debug-iphoneos" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/build/Debug-iphoneos/include" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/build/thesisMarchDemo.build/Debug-iphoneos/ThesisMarchDemo.build/DerivedSources/armv7" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/build/thesisMarchDemo.build/Debug-iphoneos/ThesisMarchDemo.build/DerivedSources" -include /var/folders/MK/MKNp4XzsHt47X4XBj-6yME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ThesisMarchDemo_Prefix-breshmaenqnpvnhewbeceubolrkc/ThesisMarchDemo_Prefix.pch -c "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/Classes/Classes/FlipsideViewController.m" -o "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/build/thesisMarchDemo.build/Debug-iphoneos/ThesisMarchDemo.build/Objects-normal/armv7/FlipsideViewController.o"0#
+
+CCompileC build/thesisMarchDemo.build/Debug-iphoneos/ThesisMarchDemo.build/Objects-normal/armv7/MainViewController.o "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/Classes/Classes/Classes/MainViewController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s324320663.232603
+e324320663.418515
+r0
+xCompileC
+xbuild/thesisMarchDemo.build/Debug-iphoneos/ThesisMarchDemo.build/Objects-normal/armv7/MainViewController.o
+x/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/Classes/Classes/Classes/MainViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/Classes/Classes/Classes/MainViewController.m:10:
+o/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/Classes/Classes/Classes/MainViewController.h:9:21: error: MainView.h: No such file or directory
+lSLF07#2@115"Compile /Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/Classes/Classes/Classes/MainViewController.m324320663#324320663#0(293"In file included from /Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/Classes/Classes/Classes/MainViewController.m:10:/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/Classes/Classes/Classes/MainViewController.h:9:21: error: MainView.h: No such file or directory1(4@37"MainView.h: No such file or directory324320663#134#159#2(7@129"In file included from /Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/Classes/Classes/Classes/MainViewController.m324320663#18446744073709551615#0#0(6@107"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/Classes/Classes/Classes/MainViewController.m314633620#10#0#10#0#0"0(13@148"MainView.h: No such file or directory in /Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/Classes/Classes/Classes/MainViewController.h324320663#18446744073709551615#0#0(6@107"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/Classes/Classes/Classes/MainViewController.h314168617#9#0#9#0#0"0(6@107"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/Classes/Classes/Classes/MainViewController.h314168617#9#0#9#0#28"*: No such file or directory0(0#0#107"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/Classes/Classes/Classes/MainViewController.m8599298208#2224"    cd "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/build/thesisMarchDemo.build/Debug-iphoneos/ThesisMarchDemo.build/ThesisMarchDemo-generated-files.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/build/thesisMarchDemo.build/Debug-iphoneos/ThesisMarchDemo.build/ThesisMarchDemo-own-target-headers.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/build/thesisMarchDemo.build/Debug-iphoneos/ThesisMarchDemo.build/ThesisMarchDemo-all-target-headers.hmap" -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/build/thesisMarchDemo.build/Debug-iphoneos/ThesisMarchDemo.build/ThesisMarchDemo-project-headers.hmap" "-F/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/build/Debug-iphoneos" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/build/Debug-iphoneos/include" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/build/thesisMarchDemo.build/Debug-iphoneos/ThesisMarchDemo.build/DerivedSources/armv7" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/build/thesisMarchDemo.build/Debug-iphoneos/ThesisMarchDemo.build/DerivedSources" -include /var/folders/MK/MKNp4XzsHt47X4XBj-6yME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ThesisMarchDemo_Prefix-breshmaenqnpvnhewbeceubolrkc/ThesisMarchDemo_Prefix.pch -c "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/Classes/Classes/Classes/MainViewController.m" -o "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/build/thesisMarchDemo.build/Debug-iphoneos/ThesisMarchDemo.build/Objects-normal/armv7/MainViewController.o"1#
 
 CCompileC build/thesisMarchDemo.build/Debug-iphoneos/ThesisMarchDemo.build/Objects-normal/armv7/MainViewController.o "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/Classes/Classes/MainViewController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
 s322593721.213881
@@ -1293,12 +1419,21 @@ CCompileXIB "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/Thes
 r0
 
 CCompileXIB "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/ThesisMarchDemoViewController.xib"
-s322598469.191002
-e322598469.631155
+s324320658.725069
+e324320659.615791
 r1
 xCompileXIB
 x/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/ThesisMarchDemoViewController.xib
-lSLF07#2@44"CompileXIB ThesisMarchDemoViewController.xib322598469#322598469#0(0"0(0#0#96"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/ThesisMarchDemoViewController.xib7307218141446221824#668"    cd "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/build/Debug-iphoneos/ThesisMarchDemo.app/ThesisMarchDemoViewController.nib" "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/ThesisMarchDemoViewController.xib" --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@44"CompileXIB ThesisMarchDemoViewController.xib324320658#324320659#0(756"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#96"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/ThesisMarchDemoViewController.xib7307218141446221824#668"    cd "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/build/Debug-iphoneos/ThesisMarchDemo.app/ThesisMarchDemoViewController.nib" "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/thesisMarchDemo/ThesisMarchDemoViewController.xib" --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
 
 CCpResource build/Debug-iphoneos/ThesisMarchDemo.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
 s322589008.914222

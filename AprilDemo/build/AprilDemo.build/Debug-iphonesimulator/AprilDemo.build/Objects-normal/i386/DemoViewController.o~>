@@ -1,0 +1,7 @@
+/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/AprilDemo/Classes/DemoViewController.m: In function '-[DemoViewController sourceSelect:]':
+/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/AprilDemo/Classes/DemoViewController.m:24: error: 'MapViewController' undeclared (first use in this function)
+/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/AprilDemo/Classes/DemoViewController.m:24: error: (Each undeclared identifier is reported only once
+/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/AprilDemo/Classes/DemoViewController.m:24: error: for each function it appears in.)
+/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/AprilDemo/Classes/DemoViewController.m:24: error: 'mappy' undeclared (first use in this function)
+/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/AprilDemo/Classes/DemoViewController.m: In function '-[DemoViewController tableView:cellForRowAtIndexPath:]':
+/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/AprilDemo/Classes/DemoViewController.m:103: warning: 'setText:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:211)

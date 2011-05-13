@@ -7,16 +7,12 @@
 //
 
 #import "AprilDemoAppDelegate.h"
-#import "AprilDemoViewController.h"
-#import <MapKit/MapKit.h>
-#import <QuartzCore/QuartzCore.h>
-#import "Annotation.h"
 
 @implementation AprilDemoAppDelegate
 
 @synthesize window;
-@synthesize viewController;
-//@synthesize locationManager;
+//@synthesize viewController;
+
 
 #pragma mark -
 #pragma mark Application lifecycle
@@ -25,7 +21,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
     
-	[window addSubview:viewController.view]; 
+	[window addSubview:navigationController.view]; 
+	[window addSubview:viewController.view];
     [window makeKeyAndVisible];
 	
 	/*
@@ -202,6 +199,8 @@
 	 //}
 	 
 	 */
+	
+	return YES;
 }
 
 
@@ -259,7 +258,7 @@
 - (void)dealloc {
 	
 	//[locationManager release];
-	[viewController release];
+	[navigationController release];
     [window release];
     [super dealloc];
 }

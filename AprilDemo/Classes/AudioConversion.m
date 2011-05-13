@@ -35,13 +35,14 @@ void MyPacketsProc(				void *							inClientData, //whatever you want back
 								const void *					inInputData,
 								AudioStreamPacketDescription	*inPacketDescriptions);
 
+void interruptionListenerCallback (void *inUserData, 
+								   UInt32 interruptionState);
 
-void ASReadStreamCallBack  (CFReadStreamRef aStream,
-							CFStreamEventType eventType,
-							void* inClientInfo)
+
+void ASReadStreamCallBack  (CFReadStreamRef aStream, CFStreamEventType eventType, void* inClientInfo)
 {
-	AudioConversion* converter = (AudioConversion *)inClientInfo;
-	[converter handleReadFromStream:aStream eventType:eventType];
+	AudioConversion* convert = (AudioConversion *)inClientInfo;
+	[convert handleReadFromStream:aStream eventType:eventType];
 }
 
 
@@ -50,6 +51,14 @@ OSStatus audioConverterCallback (AudioConverterRef converter, UInt32 *ioNumberDa
 
 {
 	
+	AudioConversion* convert = (AudioConversion *)inUserData;
+	[convert
+	 provideAudio:converter 
+	 inputData:ioData
+	 numberPackets:ioNumberDataPackets]; //the audio converter calls an instance method, which has access to instance variables, etc...)	
+	
+	/*
+	
 	MyAudioConverterSettings *audioConverterSettings = (MyAudioConverterSettings) * inUserData;
 
 	UInt32 ioPackets = 2048 / audioConverterSettings.bytesPerPacket;
@@ -57,7 +66,7 @@ OSStatus audioConverterCallback (AudioConverterRef converter, UInt32 *ioNumberDa
 	
 	ioNumberDataPackets = &ioPackets;
 	
-	*ioData = audioConverterSettings.sourceBuffer;
+	*ioData = sourceBuffer;
 		
 	// use a static instance of ASPD for callback input
 	AudioStreamPacketDescription aspdesc;
@@ -66,8 +75,12 @@ OSStatus audioConverterCallback (AudioConverterRef converter, UInt32 *ioNumberDa
    	//aspdesc.mStartOffset = &AudioConversion.offset;
 	aspdesc.mStartOffset = 0;
    	aspdesc.mVariableFramesInPacket = 1;
-	
+
+	*/ 
+	 
 	return noErr;
+	 
+
 	
 }
 
@@ -117,30 +130,225 @@ void MyPacketsProc(				void *							inClientData,
 
 
 
-
-typedef struct MyAudioConverterSettings {
-	AudioStreamBasicDescription inASBD; 
-	AudioStreamBasicDescription outASBD;
-	AudioFileID inputFile; 
-	AudioFileID outputFile;
+void interruptionListenerCallback (void *inUserData, UInt32 interruptionState) {
 	
-	UInt64 inputFilePacketIndex; 
-	UInt64 inputFilePacketCount; 
-	UInt32 inputFilePacketMaxSize;
-	AudioStreamPacketDescription *inputFilePacketDescriptions;
+	// This callback, being outside the implementation block, needs a reference 
+	//to the AudioPlayer object
+	AudioConversion *convert = (AudioConversion *)inUserData;
 	
-	UInt32 bytesPerPacket;
-	
-	void *sourceBuffer; 
-	
-} MyAudioConverterSettings;
+	if (interruptionState == kAudioSessionBeginInterruption) {
+		NSLog(@"kAudioSessionBeginInterruption");
+		[convert dealloc];
+	}
+
+	else if (interruptionState == kAudioSessionEndInterruption) {
+		NSLog(@"kAudioSessionEndInterruption");
+		AudioSessionSetActive( true );
+
+	}
+}
 
 
-//-------------streamer state structure----------------------
 
-
+// ---------END OF CALLBACKS------------------//
 
 @implementation AudioConversion
+
+
+@synthesize state, bitRate;
+
+
+- (void)start
+{
+	pool = [[NSAutoreleasePool alloc] init];
+
+
+	NSLog(@"starting");
+	
+	
+	@synchronized (self)
+	{
+		if (state == AS_PAUSED)
+		{
+			NSLog(@"starting; was paused");
+			return;
+			
+		}
+		else if (state == AS_INITIALIZED)
+		{
+			NSLog(@"starting; was initialized");
+			
+			NSAssert([[NSThread currentThread] isEqual:[NSThread mainThread]],
+					 @"Playback can only be started from the main thread.");
+			self.state = AS_STARTING_FILE_THREAD;
+			[NSThread
+			 detachNewThreadSelector:@selector(startConversion)
+			 toTarget:self
+			 withObject:nil];
+		}
+	}
+}
+
+
+- (id)initWithURL:(NSURL *)someURL
+{
+	self = [super init];
+	if (self != nil)
+	{
+		url = [someURL retain];
+	}
+		
+	AudioSessionInitialize( NULL, NULL, interruptionListenerCallback, self );
+	AudioSessionSetActive( true );
+		return self;
+}
+
+
+//
+// openFileStream
+//
+// Open the audioFileStream to parse data and the fileHandle as the data
+// source.
+//
+- (BOOL)openFileStream
+{
+
+	@synchronized(self)
+	{
+		NSAssert(stream == nil && audioFileStream == nil,
+				 @"audioFileStream already initialized");
+		
+		//
+		// Attempt to guess the file type from the URL. Reading the MIME type
+		// from the CFReadStream would be a better approach since lots of
+		// URL's don't have the right extension.
+		//
+		// If you have a fixed file-type, you may want to hardcode this.
+		//
+		
+		
+		//AudioFileTypeID fileTypeHint = kAudioFileAAC_ADTSType;
+		AudioFileTypeID fileTypeHint = kAudioFileMP3Type;
+		
+		NSString *fileExtension = [[url path] pathExtension];
+		if ([fileExtension isEqual:@"mp3"])
+		{
+			fileTypeHint = kAudioFileMP3Type;
+		}
+		else if ([fileExtension isEqual:@"m4a"])
+		{
+			fileTypeHint = kAudioFileM4AType;
+		}
+		else if ([fileExtension isEqual:@"mp4"])
+		{
+			fileTypeHint = kAudioFileMPEG4Type;
+		}
+		else if ([fileExtension isEqual:@"aac"])
+		{
+			fileTypeHint = kAudioFileAAC_ADTSType;
+		}
+		
+		// create an audio file stream parser
+		err = AudioFileStreamOpen(self, MyPropertyListenerProc, MyPacketsProc, 
+								  fileTypeHint, &audioFileStream);
+		if (err)
+		{
+			NSLog (@"File stream parser did not open properly");
+			return NO;
+		}
+		
+		//
+		// Create the GET request
+		//
+		CFHTTPMessageRef message= CFHTTPMessageCreateRequest(NULL, (CFStringRef)@"GET", (CFURLRef)url, kCFHTTPVersion1_1);
+		stream = CFReadStreamCreateForHTTPRequest(NULL, message);
+		CFRelease(message);
+		
+		//
+		// Enable stream redirection
+		//
+		if (CFReadStreamSetProperty(
+									stream,
+									kCFStreamPropertyHTTPShouldAutoredirect,
+									kCFBooleanTrue) == false)
+		{
+#ifdef TARGET_OS_IPHONE
+			UIAlertView *alert =
+			[[UIAlertView alloc]
+			 initWithTitle:NSLocalizedStringFromTable(@"File Error", @"Errors", nil)
+			 message:NSLocalizedStringFromTable(@"Unable to configure network read stream.", @"Errors", nil)
+			 delegate:self
+			 cancelButtonTitle:@"OK"
+			 otherButtonTitles: nil];
+			[alert
+			 performSelector:@selector(show)
+			 onThread:[NSThread mainThread]
+			 withObject:nil
+			 waitUntilDone:YES];
+			[alert release];
+#endif
+			return NO;
+		}
+		
+		//
+		// Handle SSL connections
+		//
+		if( [[url absoluteString] rangeOfString:@"https"].location != NSNotFound )
+		{
+			NSDictionary *sslSettings =
+			[NSDictionary dictionaryWithObjectsAndKeys:
+			 (NSString *)kCFStreamSocketSecurityLevelNegotiatedSSL, kCFStreamSSLLevel,
+			 [NSNumber numberWithBool:YES], kCFStreamSSLAllowsExpiredCertificates,
+			 [NSNumber numberWithBool:YES], kCFStreamSSLAllowsExpiredRoots,
+			 [NSNumber numberWithBool:YES], kCFStreamSSLAllowsAnyRoot,
+			 [NSNumber numberWithBool:NO], kCFStreamSSLValidatesCertificateChain,
+			 [NSNull null], kCFStreamSSLPeerName,
+			 nil];
+			
+			CFReadStreamSetProperty(stream, kCFStreamPropertySSLSettings, sslSettings);
+		}
+		
+		//
+		// Open the stream
+		//
+		if (!CFReadStreamOpen(stream))
+		{
+			CFRelease(stream);
+#ifdef TARGET_OS_IPHONE
+			UIAlertView *alert =
+			[[UIAlertView alloc]
+			 initWithTitle:NSLocalizedStringFromTable(@"File Error", @"Errors", nil)
+			 message:NSLocalizedStringFromTable(@"Unable to configure network read stream.", @"Errors", nil)
+			 delegate:self
+			 cancelButtonTitle:@"OK"
+			 otherButtonTitles: nil];
+			
+			[alert
+			 performSelector:@selector(show) 
+			 onThread:[NSThread mainThread]
+			 withObject:nil
+			 waitUntilDone:YES];
+			[alert release];
+#endif
+			return NO;
+		}
+		
+		//
+		// Set our callback function to receive the data
+		//
+		//This invokes the callback whenever these three properties have a value. 
+		
+		CFStreamClientContext context = {0, self, NULL, NULL, NULL};
+		CFReadStreamSetClient(
+							  stream,
+							  kCFStreamEventHasBytesAvailable | kCFStreamEventErrorOccurred | kCFStreamEventEndEncountered,
+							  ASReadStreamCallBack,
+							  &context);
+		CFReadStreamScheduleWithRunLoop(stream, CFRunLoopGetCurrent(), kCFRunLoopCommonModes);
+	}
+	
+	return YES;
+}
 
 
 - (void) startConversion
@@ -150,15 +358,15 @@ typedef struct MyAudioConverterSettings {
 	AudioConverterRef converter;	
 	//AudioBufferList inAudioBuffers; 
 	AudioBufferList convertedData;
-	AudioFileStreamID audioFileStream;
-	MyAudioConverterSettings audioConverterSettings;
+	//AudioFileStreamID audioFileStream;
+	//MyAudioConverterSettings audioConverterSettings;
 	
 	
 	
-	audioConverterSettings.inASBD.mSampleRate;
+	audioConverterSettings.inASBD.mSampleRate = 44100.0;
 	audioConverterSettings.inASBD.mFormatID = kAudioFormatMPEGLayer3;
 	audioConverterSettings.inASBD.mFormatFlags = 0;
-	audioConverterSettings.inASBD.mBytesPerPacket = audioConverterSettings.bytesPerPacket;
+	audioConverterSettings.inASBD.mBytesPerPacket = bytesPerPacket;
 	audioConverterSettings.inASBD.mFramesPerPacket = 1; 
 	audioConverterSettings.inASBD.mBytesPerFrame = 0;
 	audioConverterSettings.inASBD.mChannelsPerFrame = 1;
@@ -175,6 +383,19 @@ typedef struct MyAudioConverterSettings {
 	audioConverterSettings.outASBD.mBitsPerChannel = 16;
 	audioConverterSettings.outASBD.mReserved = 0;
 
+	//--------------FROM AUDIOSTREAMER STARTINTERNAL METHOD-----------//
+	
+	self.state = AS_WAITING_FOR_DATA;
+	
+	// initialize a mutex and condition so that we can block on buffers in use.
+	pthread_mutex_init(&queueBuffersMutex, NULL);
+	pthread_cond_init(&queueBufferReadyCondition, NULL);
+	
+	[self openFileStream];
+				
+		
+//-------------------END ---------------------------//
+		
 		
 		
 		// Get a new Audio Converter and begin to get properties for it. 
@@ -184,6 +405,7 @@ typedef struct MyAudioConverterSettings {
 		if (err) 
 		{
 			NSLog (@"WTF");
+			NSLog (@"%i", err); 
 		}
 		
 		UInt32  complexity = kAudioConverterSampleRateConverterComplexity_Linear;
@@ -198,11 +420,17 @@ typedef struct MyAudioConverterSettings {
 		
 		packetsPerBuffer = 0; 
 		outputBufferSize = 32 * 2048; // 32 KB is a good starting point. I'm using 64 KB.  
-		packetsPerBuffer = outputBufferSize / audioConverterSettings.bytesPerPacket;
+	
+		//------Added on May 11 for test---------//
+	
+	if (bytesPerPacket == 0) {
+		bytesPerPacket = 1254;
+	}
+		packetsPerBuffer = outputBufferSize / bytesPerPacket;
 		
-		outputBuffer = (UInt8 *)malloc(sizeof(UInt8 *) * outputBufferSize);
+		outputBuffer = (UInt32 *) malloc(sizeof(UInt32 *) * outputBufferSize); 
 		
-		UInt32 outputFilePacketPosition = 0; 
+		//UInt32 outputFilePacketPosition = 0; 
 		
 		while(1) 
 		{
@@ -214,7 +442,7 @@ typedef struct MyAudioConverterSettings {
 			convertedData.mBuffers[0].mData = outputBuffer; // The data itself. 
 			
 			UInt32 ioOutputDataPackets = packetsPerBuffer; 
-			OSStatus error = AudioConverterFillComplexBuffer(converter, audioConverterCallback, &audioConverterSettings, &ioOutputDataPackets, &convertedData, NULL);
+			OSStatus error = AudioConverterFillComplexBuffer(converter, audioConverterCallback, self, &ioOutputDataPackets, &convertedData, NULL);
 			if (error || !ioOutputDataPackets) 
 			{
 				break;	// This is the termination condition
@@ -240,9 +468,9 @@ typedef struct MyAudioConverterSettings {
 
 			
 // ---------Methods called from property and audio data callback functions. -------------//
-	
-		
-		
+	/* -----Callbacks themselves are basically wrappers for Objective-C methods. 
+			Programming methodology taken from Matt Gallagher streaming example----- */
+ 		
 		//
 		// Object method which handles implementation of MyPropertyListenerProc
 		//
@@ -292,7 +520,7 @@ typedef struct MyAudioConverterSettings {
 				
 				else if (inPropertyID == kAudioFileStreamProperty_AverageBytesPerPacket)
 						 {
-							UInt32 bPP = sizeof (audioConverterSettings.bytesPerPacket);
+							UInt32 bPP = sizeof (bytesPerPacket);
 							 err = AudioFileStreamGetProperty(inAudioFileStream, kAudioFileStreamProperty_AverageBytesPerPacket,&bPP, &bytesPerPacket);
 							 if (err)
 							 {
@@ -332,6 +560,8 @@ typedef struct MyAudioConverterSettings {
 	numberPackets:(UInt32)inNumberPackets
 	packetDescriptions:(AudioStreamPacketDescription *)inPacketDescriptions
 		{
+			
+			
 			@synchronized(self)
 			{
 				if ([self isFinishing])
@@ -368,9 +598,9 @@ typedef struct MyAudioConverterSettings {
 				
 				for (int i = 0; i < inNumberPackets; ++i)
 				{
-					SInt64 packetOffset = inPacketDescriptions[i].mStartOffset;
-					SInt64 packetSize   = inPacketDescriptions[i].mDataByteSize;
-					size_t bufSpaceRemaining;
+					//SInt64 packetOffset = inPacketDescriptions[i].mStartOffset;
+					//SInt64 packetSize   = inPacketDescriptions[i].mDataByteSize;
+					//size_t bufSpaceRemaining;
 					
 					/*
 					
@@ -465,12 +695,12 @@ typedef struct MyAudioConverterSettings {
 				
 				bytesPerBuffer = inNumberBytes;
 				
-				audioConverterSettings.sourceBuffer = (void *) calloc(1, inNumberBytes);
-				UInt32 bufferSize = sizeof(audioConverterSettings.sourceBuffer);
+				sourceBuffer = (void *) calloc(1, inNumberBytes);
+				UInt32 bufferSize = sizeof(sourceBuffer);
 				NSLog(@"Buffer created at size %i", bufferSize);
 			
 		
-				memcpy (audioConverterSettings.sourceBuffer, (const char*)(inInputData), bytesPerBuffer);
+				memcpy (sourceBuffer, (const char*)(inInputData), bytesPerBuffer);
 				
 				/*
 				
@@ -576,7 +806,7 @@ typedef struct MyAudioConverterSettings {
 			}
 				else
 				{
-					self.state = AS_STOPPED;
+					state = AS_STOPPED;
 					
 				}
 			}
@@ -631,6 +861,32 @@ typedef struct MyAudioConverterSettings {
 	}
 }
 
+
+- (void) provideAudio:(AudioConverterRef) converter 
+				inputData:(AudioBufferList)ioData
+				numberPackets:(UInt32)ioNumberDataPackets
+			  outASPD:(AudioStreamPacketDescription)outDataPacketDescription
+
+
+{
+	
+	UInt32 ioPackets = 2048 / bytesPerPacket;
+	NSLog(@"packet size is %i", ioPackets);
+	
+	ioNumberDataPackets = &ioPackets;
+	
+	ioData.mBuffers[0].mData = sourceBuffer;
+	
+	// use a static instance of ASPD for callback input
+	AudioStreamPacketDescription aspdesc;
+   //	outDataPacketDescription = &aspdesc;
+   	aspdesc.mDataByteSize = &bytesPerPacket;
+   	//aspdesc.mStartOffset = &AudioConversion.offset;
+	aspdesc.mStartOffset = 0;
+   	aspdesc.mVariableFramesInPacket = 1;
+	
+}
+	
 
 //-----------------------Audio Streamer bool and state methods---------------------------//
 
@@ -725,6 +981,16 @@ typedef struct MyAudioConverterSettings {
 	}
 	
 	return NO;
+}
+
+
+
+- (void) dealloc 
+{
+	[url release];
+	[super dealloc];
+	[pool release];
+
 }
 
 

@@ -6,11 +6,19 @@
 	<dict>
 		<key>AprilDemoViewController.nib</key>
 		<data>
-		rMyuGNAz9oXBIpDUcwAWyWYfTn4=
+		YPyxwjqZbVPcZsgFoThyYEBIl50=
+		</data>
+		<key>DemoViewController.nib</key>
+		<data>
+		OzD3KnBPT8M5KoFJ+/A4hG1TCnc=
 		</data>
 		<key>MainWindow.nib</key>
 		<data>
-		m89OS9tuG4MFb8LWNXfZmwxwO4k=
+		bYKjA2eCSE4WesNy5FANbSqQpn8=
+		</data>
+		<key>MapViewController.nib</key>
+		<data>
+		TD68tDIesAvSy5PatmzK/sSO8rM=
 		</data>
 		<key>PkgInfo</key>
 		<data>

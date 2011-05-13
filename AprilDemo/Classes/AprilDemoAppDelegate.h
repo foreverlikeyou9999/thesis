@@ -8,10 +8,10 @@
 #import <UIKit/UIKit.h>
 #import <CoreLocation/CoreLocation.h>
 #import <MapKit/MapKit.h>
-#import "AprilDemoViewController.h" 
+#import "DemoViewController.h" 
 #import <QuartzCore/QuartzCore.h>
 
-@class AprilDemoViewController;
+@class DemoViewController;
 
 @interface AprilDemoAppDelegate : NSObject <UIApplicationDelegate> 
 
@@ -20,15 +20,15 @@
 	//Conforms to both the UIApplicationDelegate and CLLocationManagerDelegate protocols
 	
     UIWindow *window;
-	//CLLocationManager *locationManager;
-	//CLHeading *heading;
-	AprilDemoViewController *viewController;
+	UINavigationController *navigationController;
+
+	DemoViewController *viewController;
 	
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
-@property (nonatomic, retain) IBOutlet AprilDemoViewController *viewController;
-//@property (nonatomic, retain) CLLocationManager *locationManager;
+@property (nonatomic, retain) IBOutlet DemoViewController *viewController;
+@property (nonatomic, retain) UINavigationController *navigationController;
 
 
 

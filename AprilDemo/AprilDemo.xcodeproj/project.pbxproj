@@ -14,19 +14,21 @@
 		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
 		2899E5220DE3E06400AC0155 /* AprilDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* AprilDemoViewController.xib */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
-		28D7ACF80DDB3853001CB0EB /* AprilDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* AprilDemoViewController.m */; };
+		71018848137CD800003EA334 /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71018846137CD800003EA334 /* DemoViewController.m */; };
+		71018857137CD936003EA334 /* DemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71018856137CD936003EA334 /* DemoViewController.xib */; };
 		710E9BB013576F1700782A56 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 710E9BAF13576F1700782A56 /* OpenAL.framework */; };
 		710E9BB413576F1E00782A56 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 710E9BB313576F1E00782A56 /* AudioToolbox.framework */; };
 		710E9BB813576F2600782A56 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 710E9BB713576F2600782A56 /* CoreLocation.framework */; };
 		710E9BBC13576F3300782A56 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 710E9BBB13576F3300782A56 /* MapKit.framework */; };
 		710E9BDC135774AE00782A56 /* Annotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 710E9BDA135774AE00782A56 /* Annotation.m */; };
-		710E9BF01357760800782A56 /* AudioStreamer.m in Sources */ = {isa = PBXBuildFile; fileRef = 710E9BEE1357760800782A56 /* AudioStreamer.m */; };
 		710E9C3713577CB200782A56 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 710E9C3613577CB200782A56 /* CFNetwork.framework */; };
 		710E9E5A1358B53F00782A56 /* AudioConversion.m in Sources */ = {isa = PBXBuildFile; fileRef = 710E9E591358B53F00782A56 /* AudioConversion.m */; };
 		710E9E9C1358E31000782A56 /* AudioTourAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 710E9E971358E31000782A56 /* AudioTourAppDelegate.m */; };
 		710E9E9D1358E31000782A56 /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 710E9E991358E31000782A56 /* FlipsideViewController.m */; };
 		710E9E9E1358E31000782A56 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 710E9E9B1358E31000782A56 /* MainViewController.m */; };
 		710E9EDE135A36DA00782A56 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 710E9EDD135A36DA00782A56 /* CoreAudio.framework */; };
+		71374743137CC84E00636CF6 /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71374742137CC84E00636CF6 /* MapViewController.xib */; };
+		71374748137CC8FF00636CF6 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71374746137CC8FF00636CF6 /* MapViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,18 +40,17 @@
 		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		2899E5210DE3E06400AC0155 /* AprilDemoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AprilDemoViewController.xib; sourceTree = "<group>"; };
 		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
-		28D7ACF60DDB3853001CB0EB /* AprilDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AprilDemoViewController.h; sourceTree = "<group>"; };
-		28D7ACF70DDB3853001CB0EB /* AprilDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AprilDemoViewController.m; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* AprilDemo_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AprilDemo_Prefix.pch; sourceTree = "<group>"; };
+		71018845137CD800003EA334 /* DemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
+		71018846137CD800003EA334 /* DemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
+		71018856137CD936003EA334 /* DemoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DemoViewController.xib; sourceTree = "<group>"; };
 		710E9BAF13576F1700782A56 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
 		710E9BB313576F1E00782A56 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		710E9BB713576F2600782A56 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		710E9BBB13576F3300782A56 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		710E9BDA135774AE00782A56 /* Annotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Annotation.m; sourceTree = "<group>"; };
 		710E9BDB135774AE00782A56 /* Annotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Annotation.h; sourceTree = "<group>"; };
-		710E9BEE1357760800782A56 /* AudioStreamer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioStreamer.m; sourceTree = "<group>"; };
-		710E9BEF1357760800782A56 /* AudioStreamer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioStreamer.h; sourceTree = "<group>"; };
 		710E9C3613577CB200782A56 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		710E9E581358B53F00782A56 /* AudioConversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioConversion.h; sourceTree = "<group>"; };
 		710E9E591358B53F00782A56 /* AudioConversion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioConversion.m; sourceTree = "<group>"; };
@@ -60,6 +61,9 @@
 		710E9E9A1358E31000782A56 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		710E9E9B1358E31000782A56 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		710E9EDD135A36DA00782A56 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		71374742137CC84E00636CF6 /* MapViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MapViewController.xib; sourceTree = "<group>"; };
+		71374745137CC8FF00636CF6 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		71374746137CC8FF00636CF6 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* AprilDemo-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "AprilDemo-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -87,16 +91,16 @@
 			isa = PBXGroup;
 			children = (
 				710E9E941358E31000782A56 /* Classes */,
-				710E9BEE1357760800782A56 /* AudioStreamer.m */,
-				710E9BEF1357760800782A56 /* AudioStreamer.h */,
 				710E9E581358B53F00782A56 /* AudioConversion.h */,
 				710E9E591358B53F00782A56 /* AudioConversion.m */,
 				710E9BDA135774AE00782A56 /* Annotation.m */,
 				710E9BDB135774AE00782A56 /* Annotation.h */,
 				1D3623240D0F684500981E51 /* AprilDemoAppDelegate.h */,
 				1D3623250D0F684500981E51 /* AprilDemoAppDelegate.m */,
-				28D7ACF60DDB3853001CB0EB /* AprilDemoViewController.h */,
-				28D7ACF70DDB3853001CB0EB /* AprilDemoViewController.m */,
+				71374745137CC8FF00636CF6 /* MapViewController.h */,
+				71374746137CC8FF00636CF6 /* MapViewController.m */,
+				71018845137CD800003EA334 /* DemoViewController.h */,
+				71018846137CD800003EA334 /* DemoViewController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -134,6 +138,8 @@
 			isa = PBXGroup;
 			children = (
 				2899E5210DE3E06400AC0155 /* AprilDemoViewController.xib */,
+				71018856137CD936003EA334 /* DemoViewController.xib */,
+				71374742137CC84E00636CF6 /* MapViewController.xib */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* AprilDemo-Info.plist */,
 			);
@@ -228,6 +234,8 @@
 			files = (
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
 				2899E5220DE3E06400AC0155 /* AprilDemoViewController.xib in Resources */,
+				71374743137CC84E00636CF6 /* MapViewController.xib in Resources */,
+				71018857137CD936003EA334 /* DemoViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,13 +248,13 @@
 			files = (
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* AprilDemoAppDelegate.m in Sources */,
-				28D7ACF80DDB3853001CB0EB /* AprilDemoViewController.m in Sources */,
 				710E9BDC135774AE00782A56 /* Annotation.m in Sources */,
-				710E9BF01357760800782A56 /* AudioStreamer.m in Sources */,
 				710E9E5A1358B53F00782A56 /* AudioConversion.m in Sources */,
 				710E9E9C1358E31000782A56 /* AudioTourAppDelegate.m in Sources */,
 				710E9E9D1358E31000782A56 /* FlipsideViewController.m in Sources */,
 				710E9E9E1358E31000782A56 /* MainViewController.m in Sources */,
+				71374748137CC8FF00636CF6 /* MapViewController.m in Sources */,
+				71018848137CD800003EA334 /* DemoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,11 +292,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Russell de Moose";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "FB87D4E5-A2B1-41DD-83D9-5A37B7EE92F2";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -297,12 +306,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Russell de Moose";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "FB87D4E5-A2B1-41DD-83D9-5A37B7EE92F2";
 				SDKROOT = iphoneos;
 			};
 			name = Release;
