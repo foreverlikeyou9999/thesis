@@ -12,6 +12,7 @@
 #import <pthread.h>
 
 #define kAQMaxPacketDescs 512	// Number of packet descriptions in our array
+#define kBufSize 2048	
 
 
 typedef enum
@@ -48,16 +49,13 @@ typedef struct MyAudioConverterSettings {
 
 @interface AudioConversion : NSObject {
 	
-	NSAutoreleasePool * pool;
-
-	
 	
 	OSStatus err;	
 	UInt32 packetsPerBuffer;
 	UInt32 outputBufferSize;
 	SInt64 offset;
-	//UInt8 bytes;
-	UInt32 outputBuffer;
+	UInt8 bytes[kBufSize];
+	UInt32 * outputBuffer;
 	
 	//------Stream variables--------//
 	
@@ -80,7 +78,7 @@ typedef struct MyAudioConverterSettings {
 	
 	//--------Input to audio converter----------//
 	
-	void *sourceBuffer; //April 27. Moving this buffer to an instance variable, rather than member of structure. 
+	AudioBufferList sourceBuffer; //Moved to iVar so instance methods can use it.
 	
 	MyAudioConverterSettings audioConverterSettings;
 }
@@ -97,6 +95,8 @@ typedef struct MyAudioConverterSettings {
 - (void)startConversion;
 - (BOOL)isFinishing;
 - (BOOL)openFileStream;
+- (void)startInternal;
+- (BOOL)runLoopShouldExit;
 
 - (id) initWithURL:(NSURL *) someURL;
 

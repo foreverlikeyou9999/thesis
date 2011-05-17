@@ -35,9 +35,9 @@ void MyPacketsProc(				void *							inClientData, //whatever you want back
 								const void *					inInputData,
 								AudioStreamPacketDescription	*inPacketDescriptions);
 
-void interruptionListenerCallback (void *inUserData, 
+void interruptionListenerCallback (void *inUserData,  
 								   UInt32 interruptionState);
-
+ 
 
 void ASReadStreamCallBack  (CFReadStreamRef aStream, CFStreamEventType eventType, void* inClientInfo)
 {
@@ -161,7 +161,7 @@ void interruptionListenerCallback (void *inUserData, UInt32 interruptionState) {
 
 - (void)start
 {
-	pool = [[NSAutoreleasePool alloc] init];
+	NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
 
 
 	NSLog(@"starting");
@@ -183,11 +183,123 @@ void interruptionListenerCallback (void *inUserData, UInt32 interruptionState) {
 					 @"Playback can only be started from the main thread.");
 			self.state = AS_STARTING_FILE_THREAD;
 			[NSThread
-			 detachNewThreadSelector:@selector(startConversion)
+			 detachNewThreadSelector:@selector(startInternal)
 			 toTarget:self
 			 withObject:nil];
 		}
 	}
+}
+
+
+- (void)startInternal
+{
+	NSLog(@"StartInternal called");
+	
+	NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
+	
+	@synchronized(self)
+	{
+		if (state != AS_STARTING_FILE_THREAD)
+		{
+			if (state != AS_STOPPING &&
+				state != AS_STOPPED)
+			{
+				NSLog(@"### Not starting audio thread. State code is: %ld", state);
+			}
+			self.state = AS_INITIALIZED;
+			[pool release];
+			return;
+		}
+		
+#ifdef TARGET_OS_IPHONE			
+		//
+		// Set the audio session category so that we continue to play if the
+		// iPhone/iPod auto-locks.
+		//
+		AudioSessionInitialize (
+								NULL,                          // 'NULL' to use the default (main) run loop
+								NULL,                          // 'NULL' to use the default run loop mode
+								interruptionListenerCallback,  // a reference to your interruption callback
+								self                       // data to pass to your interruption listener callback
+								);
+		UInt32 sessionCategory = kAudioSessionCategory_MediaPlayback;
+		AudioSessionSetProperty (
+								 kAudioSessionProperty_AudioCategory,
+								 sizeof (sessionCategory),
+								 &sessionCategory
+								 );			
+		
+
+		AudioSessionSetActive(true);
+		NSLog(@"AudioSession is active");
+		
+#endif
+		
+		self.state = AS_WAITING_FOR_DATA;
+		
+		// initialize a mutex and condition so that we can block on buffers in use.
+		pthread_mutex_init(&queueBuffersMutex, NULL);
+		pthread_cond_init(&queueBufferReadyCondition, NULL);
+		
+		if (![self openFileStream])
+		{
+			goto cleanup;
+		}
+	}
+	
+	//
+	// Process the run loop until playback is finished or failed.
+	//
+	BOOL isRunning = YES;
+	do
+	{
+		isRunning = [[NSRunLoop currentRunLoop]
+					 runMode:NSDefaultRunLoopMode
+					 beforeDate:[NSDate dateWithTimeIntervalSinceNow:0.25]];
+		
+	} while (isRunning && ![self runLoopShouldExit]);
+		
+cleanup:
+	
+	@synchronized(self)
+	{
+		//
+		// Cleanup the read stream if it is still open
+		//
+		if (stream)
+		{
+			CFReadStreamClose(stream);
+			CFRelease(stream);
+			stream = nil;
+		}
+		
+		//
+		// Close the audio file strea,
+		//
+		if (audioFileStream)
+		{
+			err = AudioFileStreamClose(audioFileStream);
+			audioFileStream = nil;
+			if (err)
+			{
+				NSLog(@"Failed to close");
+			}
+		}
+		
+		pthread_mutex_destroy(&queueBuffersMutex);
+		pthread_cond_destroy(&queueBufferReadyCondition);
+		
+#ifdef TARGET_OS_IPHONE			
+		AudioSessionSetActive(false);
+#endif
+		
+		bytesFilled = 0;
+		packetsFilled = 0;
+		self.state = AS_INITIALIZED;
+	}
+	
+	[pool release];
+	
 }
 
 
@@ -213,7 +325,8 @@ void interruptionListenerCallback (void *inUserData, UInt32 interruptionState) {
 //
 - (BOOL)openFileStream
 {
-
+	NSLog(@"openFileStream called");
+	
 	@synchronized(self)
 	{
 		NSAssert(stream == nil && audioFileStream == nil,
@@ -258,11 +371,21 @@ void interruptionListenerCallback (void *inUserData, UInt32 interruptionState) {
 			return NO;
 		}
 		
+		if (!err)
+		{
+			NSLog(@"Parser created");
+		}
+		
 		//
 		// Create the GET request
 		//
 		CFHTTPMessageRef message= CFHTTPMessageCreateRequest(NULL, (CFStringRef)@"GET", (CFURLRef)url, kCFHTTPVersion1_1);
 		stream = CFReadStreamCreateForHTTPRequest(NULL, message);
+			if (stream)
+			{
+				NSLog(@"Stream created with HTTP request");
+			}
+				
 		CFRelease(message);
 		
 		//
@@ -346,6 +469,7 @@ void interruptionListenerCallback (void *inUserData, UInt32 interruptionState) {
 							  ASReadStreamCallBack,
 							  &context);
 		CFReadStreamScheduleWithRunLoop(stream, CFRunLoopGetCurrent(), kCFRunLoopCommonModes);
+				NSLog(@"Run loop scheduled");
 	}
 	
 	return YES;
@@ -434,20 +558,26 @@ void interruptionListenerCallback (void *inUserData, UInt32 interruptionState) {
 		//UInt32 outputFilePacketPosition = 0; 
 		
 		while(1) 
-		{
+		{ 
 			//convertedData represents the buffer list of data out of the converter, and into OpenAL. Will have to see how this actually works. 
 			
-			convertedData.mNumberBuffers = 1;  //Only one buffer in BufferList receiving converted data. May have to change.
-			convertedData.mBuffers[0].mNumberChannels = audioConverterSettings.inASBD.mChannelsPerFrame; //Number of channels of that buffer [0], the first and only buffer.
-			convertedData.mBuffers[0].mDataByteSize = outputBufferSize;  // Its size; 
-			convertedData.mBuffers[0].mData = outputBuffer; // The data itself. 
+			int i = 0;
+			
+			convertedData.mNumberBuffers;  //Only one buffer in BufferList receiving converted data. May have to change.
+			convertedData.mBuffers[i].mNumberChannels = audioConverterSettings.inASBD.mChannelsPerFrame; //Number of channels of that buffer [0], the first and only buffer.
+			convertedData.mBuffers[i].mDataByteSize = outputBufferSize;  // Its size; 
+			convertedData.mBuffers[i].mData = outputBuffer; // The data itself. 
 			
 			UInt32 ioOutputDataPackets = packetsPerBuffer; 
 			OSStatus error = AudioConverterFillComplexBuffer(converter, audioConverterCallback, self, &ioOutputDataPackets, &convertedData, NULL);
 			if (error || !ioOutputDataPackets) 
 			{
 				break;	// This is the termination condition
+				NSLog(@"Conversion error from Fill Complex Buffer");
 			}
+			
+			i++;
+		}
 			
 			// AudioConverterFillComplexBuffer takes the following parameters:
 			// 1. A previously-created AudioConverterRef	
@@ -458,7 +588,7 @@ void interruptionListenerCallback (void *inUserData, UInt32 interruptionState) {
 			// 6. A pointer an array of packet descriptions, if needed for the output buffer (i.e., if converting to a variable-bi- trate format)	
 			// for CBR (since I am going to .caf LPCM and the mp3 stream is CBR. 
 			
-		}
+	
 		
 		AudioConverterDispose (converter);
 	}
@@ -572,6 +702,8 @@ void interruptionListenerCallback (void *inUserData, UInt32 interruptionState) {
 				
 				if (bitRate == 0)
 				{
+					NSLog(@"Bitrate currently 0.");
+					
 					UInt32 dataRateDataSize = sizeof(UInt32);
 					err = AudioFileStreamGetProperty(audioFileStream, kAudioFileStreamProperty_BitRate, &dataRateDataSize, &bitRate);
 					
@@ -595,13 +727,38 @@ void interruptionListenerCallback (void *inUserData, UInt32 interruptionState) {
 			
 			// the following code assumes we're streaming VBR data. for CBR data, the second branch is used.
 			if (inPacketDescriptions)
+				
 			{
+				NSLog(@"There are packet descriptions. This means we have VBR data.");
+				
+				@synchronized(self)
+				{
 				
 				for (int i = 0; i < inNumberPackets; ++i)
 				{
 					//SInt64 packetOffset = inPacketDescriptions[i].mStartOffset;
 					//SInt64 packetSize   = inPacketDescriptions[i].mDataByteSize;
 					//size_t bufSpaceRemaining;
+					
+					//-----------Pulled from CBR else, but on 5/17, stream appears to have VBR data. -------//
+					
+					
+					int i = 0;
+					
+					bytesPerBuffer = inNumberBytes;
+					
+					sourceBuffer.mBuffers[i].mData = (void *) calloc(1, inNumberBytes);
+					UInt32 bufferSize = sizeof(sourceBuffer);
+					NSLog(@"Buffer created at size %i", bufferSize);
+					
+					
+					memcpy (sourceBuffer.mBuffers[i].mData, (const void*)(inInputData), bytesPerBuffer);
+					//memcpy (sourceBuffer, (const char*)(inInputData), bytesPerBuffer);
+					
+					// copies bytesPerBuffer's worth of data to sourceBuffer from inInputData 
+					
+					i++;
+				}
 					
 					/*
 					
@@ -694,14 +851,24 @@ void interruptionListenerCallback (void *inUserData, UInt32 interruptionState) {
 			{
 				//If CBR data, then create source buffer, and copy data from stream parser callback to converter buffer.
 				
+				int i = 0;
+				
 				bytesPerBuffer = inNumberBytes;
 				
-				sourceBuffer = (void *) calloc(1, inNumberBytes);
+				sourceBuffer.mBuffers[i].mData = (void *) calloc(1, inNumberBytes);
 				UInt32 bufferSize = sizeof(sourceBuffer);
 				NSLog(@"Buffer created at size %i", bufferSize);
 			
 		
-				memcpy (sourceBuffer, (const char*)(inInputData), bytesPerBuffer);
+				memcpy (sourceBuffer.mBuffers[i].mData, (const void*)(inInputData), bytesPerBuffer);
+				//memcpy (sourceBuffer, (const char*)(inInputData), bytesPerBuffer);
+				
+				// copies bytesPerBuffer's worth of data to sourceBuffer from inInputData 
+					
+				i++;
+					
+				}
+				
 				
 				/*
 				
@@ -760,7 +927,6 @@ void interruptionListenerCallback (void *inUserData, UInt32 interruptionState) {
 				 
 				 */
 			}
-		}
 
 
 // handleReadFromStream:eventType:data:
@@ -774,6 +940,8 @@ void interruptionListenerCallback (void *inUserData, UInt32 interruptionState) {
 - (void)handleReadFromStream:(CFReadStreamRef)aStream
 				   eventType:(CFStreamEventType)eventType
 {
+	NSLog(@"handleReadFromStream called by callback.");
+	
 	if (eventType == kCFStreamEventErrorOccurred)
 	{
 		NSLog(@"No audio data");
@@ -815,8 +983,11 @@ void interruptionListenerCallback (void *inUserData, UInt32 interruptionState) {
 	
 	else if (eventType == kCFStreamEventHasBytesAvailable)
 	{
-		UInt8 bytes[2048];
+		NSLog(@"Bytes available");
+		
+
 		CFIndex length; 
+
 		@synchronized(self)
 		{
 			if ([self isFinishing])
@@ -827,16 +998,19 @@ void interruptionListenerCallback (void *inUserData, UInt32 interruptionState) {
 			//
 			// Read the bytes from the stream
 			//
-			length = CFReadStreamRead(stream, bytes, 2048); // Reads data from stream into buffer of specified size. 
+			length = CFReadStreamRead(stream, bytes, kBufSize); // Reads data from stream into buffer of specified size. 
+			
+			NSLog(@"Reading from network stream");
 			
 			if (length == -1)
 			{
-				
+				NSLog(@"CFReadStream problem");
 				return;
 			}
 			
 			if (length == 0)
 			{
+				NSLog(@"Read stream success.");
 				return;
 			}
 		}
@@ -846,16 +1020,18 @@ void interruptionListenerCallback (void *inUserData, UInt32 interruptionState) {
 			err = AudioFileStreamParseBytes(audioFileStream, length, bytes, kAudioFileStreamParseFlag_Discontinuity);
 			if (err)
 			{
-				
+				NSLog(@"DOH! Parse error.");
 				return;
 			}
 		}
 		else
 		{
+			
 			err = AudioFileStreamParseBytes(audioFileStream, length, bytes, 0);
+			NSLog(@"Audio file stream parser active.");
 			if (err)
 			{
-				
+				NSLog(@"DOH! Parse error.");
 				return;
 			}
 		}
@@ -876,7 +1052,11 @@ void interruptionListenerCallback (void *inUserData, UInt32 interruptionState) {
 	
 	ioNumberDataPackets = ioPackets;
 	
-	ioData.mBuffers[0].mData = sourceBuffer;
+	int i = 0;
+	
+	ioData.mBuffers[i].mData = sourceBuffer.mBuffers[i].mData;
+	
+	i++;
 	
 	// use a static instance of ASPD for callback input
 	AudioStreamPacketDescription aspdesc;
@@ -990,7 +1170,6 @@ void interruptionListenerCallback (void *inUserData, UInt32 interruptionState) {
 {
 	[url release];
 	[super dealloc];
-	[pool release];
 
 }
 

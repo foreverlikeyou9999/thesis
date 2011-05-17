@@ -5,7 +5,7 @@
 	<key>application-identifier</key>
 	<string>4D3U3X58EC.com.yourcompany.MayDemo</string>
 	<key>get-task-allow</key>
-	<false/>
+	<true/>
 	<key>keychain-access-groups</key>
 	<array>
 		<string>4D3U3X58EC.com.yourcompany.MayDemo</string>

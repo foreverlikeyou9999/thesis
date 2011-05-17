@@ -30,8 +30,8 @@
 	[(NSString *)CFURLCreateStringByAddingPercentEscapes(
 														 nil,
 														 //(CFStringRef)@"http://www.jiwok.com/uploads/staticworkouts/french/AE_RUN_30_8L_1000000.mp3",
-														 //(CFStringRef)@"http://204.93.192.135:80/q2.aac",
-														 (CFStringRef)@"http://wfuv-onair.streamguys.org:80/onair-hi",
+														 (CFStringRef)@"http://204.93.192.135:80/q2.aac",
+														 //(CFStringRef)@"http://wfuv-onair.streamguys.org:80/onair-hi",
 														 NULL,
 														 NULL,
 														 kCFStringEncodingUTF8) 
@@ -43,6 +43,8 @@
 			NSLog(@"Conversion object created");
 	
 		}
+		
+		[convert start];
 	}
 	
 }	

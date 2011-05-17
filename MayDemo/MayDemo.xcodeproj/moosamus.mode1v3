@@ -277,8 +277,8 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>25</integer>
-									<integer>24</integer>
+									<integer>10</integer>
+									<integer>1</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -318,7 +318,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>MapViewController.m</string>
+								<string>AudioConversion.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -326,11 +326,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>MapViewController.m</string>
+										<string>AudioConversion.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>7179E36A138221E9002412CA</string>
+										<string>7179E4C61382BF65002412CA</string>
 										<key>history</key>
 										<array>
 											<string>71014C86137D08D300758CD8</string>
@@ -339,19 +339,19 @@
 											<string>7192CC241380743D00B3E6DC</string>
 											<string>710F80F01380CA600098119D</string>
 											<string>710F80F11380CA600098119D</string>
-											<string>714F02541380E4AD00653F8E</string>
 											<string>714F02551380E4AD00653F8E</string>
 											<string>714F029D1380E9C900653F8E</string>
-											<string>7179E2E613820C99002412CA</string>
 											<string>7179E2E813820C99002412CA</string>
-											<string>7179E2FF13820EEA002412CA</string>
-											<string>7179E35113822028002412CA</string>
-											<string>7179E364138221E9002412CA</string>
-											<string>7179E365138221E9002412CA</string>
-											<string>7179E366138221E9002412CA</string>
 											<string>7179E367138221E9002412CA</string>
-											<string>7179E368138221E9002412CA</string>
-											<string>7179E369138221E9002412CA</string>
+											<string>7179E3901382A9D3002412CA</string>
+											<string>7179E3911382A9D3002412CA</string>
+											<string>7179E3921382A9D3002412CA</string>
+											<string>7179E3931382A9D3002412CA</string>
+											<string>7179E3941382A9D3002412CA</string>
+											<string>7179E4941382BB76002412CA</string>
+											<string>7179E4951382BB76002412CA</string>
+											<string>7179E4C41382BF65002412CA</string>
+											<string>7179E4C51382BF65002412CA</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -549,7 +549,6 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>7179E36B138221E9002412CA</string>
 		<string>7179E34213821813002412CA</string>
 		<string>7179E2F313820C99002412CA</string>
 		<string>7179E2F413820C99002412CA</string>
@@ -580,7 +579,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>Annotation.m</string>
+								<string>AudioConversion.m</string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
@@ -907,7 +906,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {650, 209}}</string>
 								<key>RubberWindowFrame</key>
-								<string>41 505 650 250 0 0 1280 778 </string>
+								<string>242 468 650 250 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXDebugCLIModule</string>
@@ -936,7 +935,7 @@
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.consoleV3</string>
 			<key>WindowString</key>
-			<string>41 505 650 250 0 0 1280 778 </string>
+			<string>242 468 650 250 0 0 1280 778 </string>
 			<key>WindowToolGUID</key>
 			<string>1C78EAAD065D492600B07095</string>
 			<key>WindowToolIsVisible</key>

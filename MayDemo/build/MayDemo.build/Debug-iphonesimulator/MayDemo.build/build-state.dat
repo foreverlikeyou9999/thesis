@@ -1,12 +1,14 @@
 TMayDemo
 v7
 r0
-t326958871.046463
+t327333223.082163
 cCheck dependencies
 cProcessInfoPlistFile "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/Debug-iphonesimulator/MayDemo.app/Info.plist" MayDemo-Info.plist
 cCompileXIB "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/MainWindow.xib"
 cCompileXIB "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/MayDemoViewController.xib"
 cCompileXIB "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/MapViewController.xib"
+cCompileXIB "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/MapView.xib"
+cCompileXIB "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/Options.xib"
 cProcessPCH /var/folders/MK/MKNp4XzsHt47X4XBj-6yME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MayDemo_Prefix-djpzwxzbaodwlqdcxuheuqwgoyjw/MayDemo_Prefix.pch.gch MayDemo_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/Objects-normal/i386/main.o "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/Objects-normal/i386/MayDemoAppDelegate.o "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/MayDemoAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
@@ -17,6 +19,7 @@ cCompileC build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/Objects-normal
 cCompileC build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/Objects-normal/i386/FlipsideViewController.o "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/Classes/FlipsideViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/Objects-normal/i386/MainViewController.o "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/Classes/MainViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/Objects-normal/i386/MapViewController.o "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/MapViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/Objects-normal/i386/Options.o "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/Options.m" normal i386 objective-c com.apple.compilers.gcc.4_2
 cLd "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/Debug-iphonesimulator/MayDemo.app/MayDemo" normal i386
 cGenerateDSYMFile "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/Debug-iphonesimulator/MayDemo.app.dSYM" "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/Debug-iphonesimulator/MayDemo.app/MayDemo"
 cTouch "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/Debug-iphonesimulator/MayDemo.app"
@@ -122,31 +125,31 @@ t1286857862
 s14576
 
 N/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/Annotation.h
-c000000004DCCB5C5000000000000029F
-t1305261509
-s671
+c000000004DD1D686000000000000027A
+t1305597574
+s634
 i<Foundation/Foundation.h>
 i<MapKit/MapKit.h>
 
 N/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/Annotation.m
-c000000004DCCB5CE0000000000000252
-t1305261518
-s594
+c000000004DD1DC680000000000000214
+t1305599080
+s532
 i"Annotation.h"
 
 N/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/AudioConversion.h
-c000000004DCCB5D40000000000000B4C
-t1305261524
-s2892
+c000000004DD27AC20000000000000B6E
+t1305639618
+s2926
 i<Foundation/Foundation.h>
 i<UIKit/UIKit.h>
 i<AudioToolbox/AudioToolbox.h>
 i<pthread.h>
 
 N/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/AudioConversion.m
-c000000004DCCB64100000000000061CD
-t1305261633
-s25037
+c000000004DD27DE30000000000006C8A
+t1305640419
+s27786
 i"AudioConversion.h"
 
 N/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/Classes/AudioTourAppDelegate.h
@@ -193,10 +196,15 @@ t1302627916
 s29596
 i"MainViewController.h"
 
+N/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/MapView.xib
+c000000004DD1D4F7000000000000749F
+t1305597175
+s29855
+
 N/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/MapViewController.h
-c000000004DCCC0380000000000000CE6
-t1305264184
-s3302
+c000000004DD1D1CC0000000000000F50
+t1305596364
+s3920
 i<UIKit/UIKit.h>
 i<Foundation/Foundation.h>
 i"CoreLocation/CoreLocation.h"
@@ -207,46 +215,66 @@ i<math.h>
 i"MayDemoAppDelegate.h"
 i"Annotation.h"
 i<MapKit/MapKit.h>
+i"MayDemoViewController.h"
 i"AudioConversion.h"
+i"Options.h"
 
 N/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/MapViewController.m
-c000000004DCCB48A0000000000008E5C
-t1305261194
-s36444
+c000000004DD263B10000000000008FCF
+t1305633713
+s36815
 i"MapViewController.h"
 
 N/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/MapViewController.xib
-c000000004DCCBE7400000000000067A7
-t1305263732
-s26535
+c000000004DD0924500000000000075F3
+t1305514565
+s30195
 
 N/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/MayDemoAppDelegate.h
-c000000004DCCC3AA0000000000000267
-t1305265066
-s615
+c000000004DD08B0B000000000000026E
+t1305512715
+s622
 i<UIKit/UIKit.h>
 
 N/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/MayDemoAppDelegate.m
-c000000004DCCC3B40000000000000B19
-t1305265076
+c000000004DD05D910000000000000B19
+t1305501073
 s2841
 i"MayDemoAppDelegate.h"
 i"MayDemoViewController.h"
 
 N/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/MayDemoViewController.h
-c000000004DCCC6F700000000000002CC
-t1305265911
-s716
+c000000004DD1AEC300000000000002FF
+t1305587395
+s767
 i<UIKit/UIKit.h>
 i<Foundation/Foundation.h>
 i"MayDemoAppDelegate.h"
 i"MapViewController.h"
+i"Annotation.h"
 
 N/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/MayDemoViewController.m
-c000000004DCCC7BA0000000000000B10
-t1305266106
-s2832
+c000000004DD2701C0000000000000AF3
+t1305636892
+s2803
 i"MayDemoViewController.h"
+
+N/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/Options.h
+c000000004DD092A30000000000000304
+t1305514659
+s772
+i<UIKit/UIKit.h>
+
+N/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/Options.m
+c000000004DD09A2400000000000007FA
+t1305516580
+s2042
+i"Options.h"
+
+N/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/Options.xib
+c000000004DD1EA9800000000000087AE
+t1305602712
+s34734
 
 N/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/MainWindow.xib
 c000000004DCCC4150000000000005F30
@@ -254,9 +282,9 @@ t1305265173
 s24368
 
 N/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/MayDemoViewController.xib
-c000000004DCCC51F00000000000065D8
-t1305265439
-s26072
+c000000004DD03E1B0000000000006342
+t1305493019
+s25410
 
 N/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/MayDemo_Prefix.pch
 c000000004DCCB16C00000000000000B7
@@ -266,11 +294,11 @@ i<Foundation/Foundation.h>
 i<UIKit/UIKit.h>
 
 N/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/Debug-iphonesimulator/MayDemo.app
-t1305266071
-s272
+t1305640423
+s340
 
 N/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/Debug-iphonesimulator/MayDemo.app.dSYM
-t1305266071
+t1305640423
 s102
 
 N/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/Debug-iphonesimulator/MayDemo.app/Info.plist
@@ -281,29 +309,37 @@ N/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/Debug-iphonesimula
 t1305265175
 s1149
 
+N/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/Debug-iphonesimulator/MayDemo.app/MapView.nib
+t1305640421
+s1575
+
 N/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/Debug-iphonesimulator/MayDemo.app/MapViewController.nib
-t1305264185
-s1421
+t1305640420
+s1539
 
 N/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/Debug-iphonesimulator/MayDemo.app/MayDemo
-t1305266071
-s111304
+t1305640423
+s119996
 
 N/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/Debug-iphonesimulator/MayDemo.app/MayDemoViewController.nib
-t1305265442
-s1647
+t1305640420
+s1588
+
+N/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/Debug-iphonesimulator/MayDemo.app/Options.nib
+t1305640421
+s2477
 
 N/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/Debug-iphonesimulator/MayDemo.app/PkgInfo
 t1305261387
 s8
 
 N/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/Objects-normal/i386/Annotation.o
-t1305261530
-s12572
+t1305640422
+s13348
 
 N/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/Objects-normal/i386/AudioConversion.o
-t1305261635
-s87468
+t1305640422
+s92780
 
 N/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/Objects-normal/i386/AudioTourAppDelegate.o
 t1305261390
@@ -318,31 +354,38 @@ t1305261390
 s100608
 
 N/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/Objects-normal/i386/MapViewController.o
-t1305265066
-s97868
+t1305640422
+s106184
 
 N/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/Objects-normal/i386/MayDemo.LinkFileList
-c000000004DCCB54B0000000000000547
-t1305261387
-s1351
+c000000004DD27DE400000000000005D4
+t1305640420
+s1492
 
 N/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/Objects-normal/i386/MayDemoAppDelegate.o
-t1305265911
-s56368
+t1305640422
+s57668
 
 N/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/Objects-normal/i386/MayDemoViewController.o
-t1305266070
-s53208
+t1305640422
+s54604
+
+N/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/Objects-normal/i386/Options.o
+t1305640422
+s43916
 
 N/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/Objects-normal/i386/main.o
-t1305261389
-s6336
+t1305640422
+s6664
 
 N/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/main.m
-c000000004DCCB16C000000000000016D
-t1305260396
-s365
+c000000004DD0A0D700000000000001E6
+t1305518295
+s486
 i<UIKit/UIKit.h>
+i"MapViewController.h"
+i"MayDemoViewController.h"
+i"MayDemoAppDelegate.h"
 
 N/var/folders/MK/MKNp4XzsHt47X4XBj-6yME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MayDemo_Prefix-djpzwxzbaodwlqdcxuheuqwgoyjw/MayDemo_Prefix.pch.gch
 t1305261389
@@ -355,11 +398,11 @@ s909
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies326958870#326958870#0(0"0(0#1#0"8613190112#0"0#
+lSLF07#2@18"Check dependencies327333220#327333220#0(0"0(0#1#0"8659833280#0"0#
 
 CCompileC build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/Objects-normal/i386/Annotation.o "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/Annotation.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s326954330.655208
-e326954330.833168
+s327333222.646945
+e327333222.730238
 r1
 xCompileC
 xbuild/MayDemo.build/Debug-iphonesimulator/MayDemo.build/Objects-normal/i386/Annotation.o
@@ -368,12 +411,11 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-o/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/Annotation.m:37: warning: property 'coordinate' requires method '-coordinate' to be defined - use @synthesize, @dynamic or provide a method implementation
-lSLF07#2@83"Compile /Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/Annotation.m326954330#326954330#0(218"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/Annotation.m:37: warning: property 'coordinate' requires method '-coordinate' to be defined - use @synthesize, @dynamic or provide a method implementation1(22@128"Property 'coordinate' requires method '-coordinate' to be defined - use @synthesize, @dynamic or provide a method implementation326954330#0#218#0(6@75"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/Annotation.m326954318#37#0#37#0#0"0(0#0#75"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/Annotation.m8620759328#2132"    cd "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/MayDemo-generated-files.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/MayDemo-own-target-headers.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/MayDemo-all-target-headers.hmap" -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/MayDemo-project-headers.hmap" "-F/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/Debug-iphonesimulator" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/Debug-iphonesimulator/include" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/DerivedSources/i386" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/DerivedSources" -include /var/folders/MK/MKNp4XzsHt47X4XBj-6yME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MayDemo_Prefix-djpzwxzbaodwlqdcxuheuqwgoyjw/MayDemo_Prefix.pch -c "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/Annotation.m" -o "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/Objects-normal/i386/Annotation.o"0#
+lSLF07#2@83"Compile /Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/Annotation.m327333222#327333222#0(0"0(0#0#75"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/Annotation.m8670779168#2132"    cd "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/MayDemo-generated-files.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/MayDemo-own-target-headers.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/MayDemo-all-target-headers.hmap" -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/MayDemo-project-headers.hmap" "-F/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/Debug-iphonesimulator" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/Debug-iphonesimulator/include" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/DerivedSources/i386" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/DerivedSources" -include /var/folders/MK/MKNp4XzsHt47X4XBj-6yME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MayDemo_Prefix-djpzwxzbaodwlqdcxuheuqwgoyjw/MayDemo_Prefix.pch -c "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/Annotation.m" -o "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/Objects-normal/i386/Annotation.o"0#
 
 CCompileC build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/Objects-normal/i386/AudioConversion.o "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/AudioConversion.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s326954434.860139
-e326954435.080207
+s327333222.507937
+e327333222.710490
 r1
 xCompileC
 xbuild/MayDemo.build/Debug-iphonesimulator/MayDemo.build/Objects-normal/i386/AudioConversion.o
@@ -382,21 +424,20 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-o/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/AudioConversion.m: In function 'ASReadStreamCallBack':
-o/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/AudioConversion.m:45: warning: 'AudioConversion' may not respond to '-handleReadFromStream:eventType:'
-o/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/AudioConversion.m:45: warning: (Messages without a matching method signature
-o/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/AudioConversion.m:45: warning: will be assumed to return 'id' and accept
-o/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/AudioConversion.m:45: warning: '...' as arguments.)
 o/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/AudioConversion.m: In function 'audioConverterCallback':
-o/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/AudioConversion.m:58: warning: 'AudioConversion' may not respond to '-provideAudio:inputData:numberPackets:'
+o/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/AudioConversion.m:59: warning: 'AudioConversion' may not respond to '-provideAudio:inputData:'
+o/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/AudioConversion.m:59: warning: (Messages without a matching method signature
+o/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/AudioConversion.m:59: warning: will be assumed to return 'id' and accept
+o/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/AudioConversion.m:59: warning: '...' as arguments.)
+o/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/AudioConversion.m: In function '-[AudioConversion startInternal]':
+o/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/AudioConversion.m:208: warning: local declaration of 'pool' hides instance variable
+o/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/AudioConversion.m:257: warning: 'AudioConversion' may not respond to '-runLoopShouldExit'
+o/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/AudioConversion.m:298: warning: local declaration of 'pool' hides instance variable
 o/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/AudioConversion.m: In function '-[AudioConversion startConversion]':
-o/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/AudioConversion.m:431: warning: assignment makes integer from pointer without a cast
-o/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/AudioConversion.m:442: warning: assignment makes pointer from integer without a cast
-o/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/AudioConversion.m:445: warning: passing argument 2 of 'AudioConverterFillComplexBuffer' from incompatible pointer type
-o/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/AudioConversion.m: In function '-[AudioConversion provideAudio:inputData:numberPackets:outASPD:]':
-o/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/AudioConversion.m:876: warning: assignment makes integer from pointer without a cast
-o/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/AudioConversion.m:883: warning: assignment makes integer from pointer without a cast
-lSLF07#2@88"Compile /Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/AudioConversion.m326954434#326954435#0(2035"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/AudioConversion.m: In function 'ASReadStreamCallBack':/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/AudioConversion.m:45: warning: 'AudioConversion' may not respond to '-handleReadFromStream:eventType:'/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/AudioConversion.m:45: warning: (Messages without a matching method signature/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/AudioConversion.m:45: warning: will be assumed to return 'id' and accept/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/AudioConversion.m:45: warning: '...' as arguments.)/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/AudioConversion.m: In function 'audioConverterCallback':/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/AudioConversion.m:58: warning: 'AudioConversion' may not respond to '-provideAudio:inputData:numberPackets:'/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/AudioConversion.m: In function '-[AudioConversion startConversion]':/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/AudioConversion.m:431: warning: assignment makes integer from pointer without a cast/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/AudioConversion.m:442: warning: assignment makes pointer from integer without a cast/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/AudioConversion.m:445: warning: passing argument 2 of 'AudioConverterFillComplexBuffer' from incompatible pointer type/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/AudioConversion.m: In function '-[AudioConversion provideAudio:inputData:numberPackets:outASPD:]':/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/AudioConversion.m:876: warning: assignment makes integer from pointer without a cast/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/AudioConversion.m:883: warning: assignment makes integer from pointer without a cast8(22@71"'AudioConversion' may not respond to '-handleReadFromStream:eventType:'326954434#118#166#0(6@80"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/AudioConversion.m326954433#45#0#45#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)326954434#284#140#0(6@80"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/AudioConversion.m326954433#45#0#45#0#0"0(22@77"'AudioConversion' may not respond to '-provideAudio:inputData:numberPackets:'326954434#795#172#0(6@80"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/AudioConversion.m326954433#58#0#58#0#26"'*' may not respond to '*'0(22@52"Assignment makes integer from pointer without a cast326954435#1099#148#0(6@80"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/AudioConversion.m326954433#431#0#431#0#0"0(22@52"Assignment makes pointer from integer without a cast326954435#1247#148#0(6@80"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/AudioConversion.m326954433#442#0#442#0#0"0(22@86"Passing argument 2 of 'AudioConverterFillComplexBuffer' from incompatible pointer type326954435#1395#182#0(6@80"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/AudioConversion.m326954433#445#0#445#0#56"passing argument * of '*' from incompatible pointer type0(22@52"Assignment makes integer from pointer without a cast326954435#1739#148#0(6@80"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/AudioConversion.m326954433#876#0#876#0#0"0(22@52"Assignment makes integer from pointer without a cast326954435#1887#148#0(6@80"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/AudioConversion.m326954433#883#0#883#0#0"0(0#0#80"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/AudioConversion.m8614696736#2142"    cd "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/MayDemo-generated-files.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/MayDemo-own-target-headers.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/MayDemo-all-target-headers.hmap" -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/MayDemo-project-headers.hmap" "-F/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/Debug-iphonesimulator" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/Debug-iphonesimulator/include" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/DerivedSources/i386" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/DerivedSources" -include /var/folders/MK/MKNp4XzsHt47X4XBj-6yME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MayDemo_Prefix-djpzwxzbaodwlqdcxuheuqwgoyjw/MayDemo_Prefix.pch -c "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/AudioConversion.m" -o "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/Objects-normal/i386/AudioConversion.o"0#
+o/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/AudioConversion.m:557: warning: passing argument 2 of 'AudioConverterFillComplexBuffer' from incompatible pointer type
+o/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/AudioConversion.m: In function '-[AudioConversion handleReadFromStream:eventType:]':
+o/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/AudioConversion.m:942: warning: large integer implicitly truncated to unsigned type
+lSLF07#2@88"Compile /Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/AudioConversion.m327333222#327333222#0(1855"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/AudioConversion.m: In function 'audioConverterCallback':/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/AudioConversion.m:59: warning: 'AudioConversion' may not respond to '-provideAudio:inputData:'/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/AudioConversion.m:59: warning: (Messages without a matching method signature/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/AudioConversion.m:59: warning: will be assumed to return 'id' and accept/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/AudioConversion.m:59: warning: '...' as arguments.)/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/AudioConversion.m: In function '-[AudioConversion startInternal]':/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/AudioConversion.m:208: warning: local declaration of 'pool' hides instance variable/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/AudioConversion.m:257: warning: 'AudioConversion' may not respond to '-runLoopShouldExit'/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/AudioConversion.m:298: warning: local declaration of 'pool' hides instance variable/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/AudioConversion.m: In function '-[AudioConversion startConversion]':/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/AudioConversion.m:557: warning: passing argument 2 of 'AudioConverterFillComplexBuffer' from incompatible pointer type/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/AudioConversion.m: In function '-[AudioConversion handleReadFromStream:eventType:]':/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/AudioConversion.m:942: warning: large integer implicitly truncated to unsigned type7(22@63"'AudioConversion' may not respond to '-provideAudio:inputData:'327333222#120#158#0(6@80"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/AudioConversion.m327333219#59#0#59#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)327333222#278#140#0(6@80"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/AudioConversion.m327333219#59#0#59#0#0"0(22@51"Local declaration of 'pool' hides instance variable327333222#799#147#0(6@80"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/AudioConversion.m327333219#208#0#208#0#0"0(22@57"'AudioConversion' may not respond to '-runLoopShouldExit'327333222#946#153#0(6@80"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/AudioConversion.m327333219#257#0#257#0#26"'*' may not respond to '*'0(22@51"Local declaration of 'pool' hides instance variable327333222#1099#147#0(6@80"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/AudioConversion.m327333219#298#0#298#0#0"0(22@86"Passing argument 2 of 'AudioConverterFillComplexBuffer' from incompatible pointer type327333222#1378#182#0(6@80"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/AudioConversion.m327333219#557#0#557#0#56"passing argument * of '*' from incompatible pointer type0(22@51"Large integer implicitly truncated to unsigned type327333222#1708#147#0(6@80"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/AudioConversion.m327333219#942#0#942#0#51"large integer implicitly truncated to unsigned type0(0#0#80"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/AudioConversion.m8672212832#2142"    cd "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/MayDemo-generated-files.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/MayDemo-own-target-headers.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/MayDemo-all-target-headers.hmap" -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/MayDemo-project-headers.hmap" "-F/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/Debug-iphonesimulator" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/Debug-iphonesimulator/include" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/DerivedSources/i386" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/DerivedSources" -include /var/folders/MK/MKNp4XzsHt47X4XBj-6yME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MayDemo_Prefix-djpzwxzbaodwlqdcxuheuqwgoyjw/MayDemo_Prefix.pch -c "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/AudioConversion.m" -o "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/Objects-normal/i386/AudioConversion.o"0#
 
 CCompileC build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/Objects-normal/i386/AudioTourAppDelegate.o "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/Classes/AudioTourAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
 s326954189.900371
@@ -438,8 +479,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@99"Compile /Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/Classes/MainViewController.m326954190#326954190#0(0"0(0#0#91"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/Classes/MainViewController.m8616908672#2156"    cd "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/MayDemo-generated-files.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/MayDemo-own-target-headers.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/MayDemo-all-target-headers.hmap" -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/MayDemo-project-headers.hmap" "-F/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/Debug-iphonesimulator" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/Debug-iphonesimulator/include" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/DerivedSources/i386" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/DerivedSources" -include /var/folders/MK/MKNp4XzsHt47X4XBj-6yME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MayDemo_Prefix-djpzwxzbaodwlqdcxuheuqwgoyjw/MayDemo_Prefix.pch -c "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/Classes/MainViewController.m" -o "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/Objects-normal/i386/MainViewController.o"0#
 
 CCompileC build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/Objects-normal/i386/MapViewController.o "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/MapViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s326957866.686980
-e326957866.903163
+s327333222.710901
+e327333222.931389
 r1
 xCompileC
 xbuild/MayDemo.build/Debug-iphonesimulator/MayDemo.build/Objects-normal/i386/MapViewController.o
@@ -449,21 +490,18 @@ xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 o/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/MapViewController.m: In function '-[MapViewController viewDidLoad]':
-o/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/MapViewController.m:133: warning: 'headingAvailable' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CLLocationManager.h:173)
-o/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/MapViewController.m:80: warning: 'locationServicesEnabled' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CLLocationManager.h:124)
+o/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/MapViewController.m:116: warning: 'headingAvailable' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CLLocationManager.h:173)
+o/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/MapViewController.m:63: warning: 'locationServicesEnabled' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CLLocationManager.h:124)
 o/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/MapViewController.m: In function '-[MapViewController locationManager:didUpdateHeading:]':
-o/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/MapViewController.m:232: warning: local declaration of 'heading' hides instance variable
+o/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/MapViewController.m:225: warning: local declaration of 'heading' hides instance variable
 o/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/MapViewController.m: At top level:
-o/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/MapViewController.m:1329: warning: incomplete implementation of class 'MapViewController'
-o/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/MapViewController.m:1329: warning: method definition for '-showInfo:' not found
-o/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/MapViewController.m:1329: warning: method definition for '-updateGainFloor' not found
-o/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/MapViewController.m:1329: warning: method definition for '-updateAngleWidth' not found
-o/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/MapViewController.m:1329: warning: method definition for '-toggleTracking' not found
-lSLF07#2@90"Compile /Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/MapViewController.m326957866#326957866#0(1903"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/MapViewController.m: In function '-[MapViewController viewDidLoad]':/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/MapViewController.m:133: warning: 'headingAvailable' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CLLocationManager.h:173)/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/MapViewController.m:80: warning: 'locationServicesEnabled' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CLLocationManager.h:124)/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/MapViewController.m: In function '-[MapViewController locationManager:didUpdateHeading:]':/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/MapViewController.m:232: warning: local declaration of 'heading' hides instance variable/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/MapViewController.m: At top level:/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/MapViewController.m:1329: warning: incomplete implementation of class 'MapViewController'/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/MapViewController.m:1329: warning: method definition for '-showInfo:' not found/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/MapViewController.m:1329: warning: method definition for '-updateGainFloor' not found/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/MapViewController.m:1329: warning: method definition for '-updateAngleWidth' not found/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/MapViewController.m:1329: warning: method definition for '-toggleTracking' not found9(22@211"'headingAvailable' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CLLocationManager.h:173)326957866#132#309#0(6@82"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/MapViewController.m326953994#133#0#133#0#33"'*' is deprecated (declared at *)0(22@218"'locationServicesEnabled' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CLLocationManager.h:124)326957866#441#315#0(6@82"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/MapViewController.m326953994#80#0#80#0#33"'*' is deprecated (declared at *)0(22@54"Local declaration of 'heading' hides instance variable326957866#910#152#0(6@82"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/MapViewController.m326953994#232#0#232#0#0"0(23@13"At top level:326957866#1062#98#0(6@82"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/MapViewController.m326953994#0#0#0#0#0"0(22@54"Incomplete implementation of class 'MapViewController'326957866#1160#153#0(6@82"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/MapViewController.m326953994#1329#0#1329#0#38"incomplete implementation of class '*'0(22@44"Method definition for '-showInfo:' not found326957866#1313#143#0(6@82"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/MapViewController.m326953994#1329#0#1329#0#35"method definition for '*' not found0(22@50"Method definition for '-updateGainFloor' not found326957866#1456#149#0(6@82"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/MapViewController.m326953994#1329#0#1329#0#35"method definition for '*' not found0(22@51"Method definition for '-updateAngleWidth' not found326957866#1605#150#0(6@82"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/MapViewController.m326953994#1329#0#1329#0#35"method definition for '*' not found0(22@49"Method definition for '-toggleTracking' not found326957866#1755#148#0(6@82"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/MapViewController.m326953994#1329#0#1329#0#35"method definition for '*' not found0(0#0#82"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/MapViewController.m8603506944#2146"    cd "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/MayDemo-generated-files.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/MayDemo-own-target-headers.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/MayDemo-all-target-headers.hmap" -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/MayDemo-project-headers.hmap" "-F/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/Debug-iphonesimulator" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/Debug-iphonesimulator/include" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/DerivedSources/i386" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/DerivedSources" -include /var/folders/MK/MKNp4XzsHt47X4XBj-6yME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MayDemo_Prefix-djpzwxzbaodwlqdcxuheuqwgoyjw/MayDemo_Prefix.pch -c "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/MapViewController.m" -o "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/Objects-normal/i386/MapViewController.o"0#
+o/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/MapViewController.m:1355: warning: incomplete implementation of class 'MapViewController'
+o/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/MapViewController.m:1355: warning: method definition for '-annotate:' not found
+lSLF07#2@90"Compile /Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/MapViewController.m327333222#327333223#0(1456"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/MapViewController.m: In function '-[MapViewController viewDidLoad]':/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/MapViewController.m:116: warning: 'headingAvailable' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CLLocationManager.h:173)/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/MapViewController.m:63: warning: 'locationServicesEnabled' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CLLocationManager.h:124)/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/MapViewController.m: In function '-[MapViewController locationManager:didUpdateHeading:]':/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/MapViewController.m:225: warning: local declaration of 'heading' hides instance variable/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/MapViewController.m: At top level:/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/MapViewController.m:1355: warning: incomplete implementation of class 'MapViewController'/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/MapViewController.m:1355: warning: method definition for '-annotate:' not found6(22@211"'headingAvailable' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CLLocationManager.h:173)327333222#132#309#0(6@82"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/MapViewController.m327326513#116#0#116#0#33"'*' is deprecated (declared at *)0(22@218"'locationServicesEnabled' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CLLocationManager.h:124)327333222#441#315#0(6@82"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/MapViewController.m327326513#63#0#63#0#33"'*' is deprecated (declared at *)0(22@54"Local declaration of 'heading' hides instance variable327333222#910#152#0(6@82"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/MapViewController.m327326513#225#0#225#0#0"0(23@13"At top level:327333222#1062#98#0(6@82"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/MapViewController.m327326513#0#0#0#0#0"0(22@54"Incomplete implementation of class 'MapViewController'327333222#1160#153#0(6@82"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/MapViewController.m327326513#1355#0#1355#0#38"incomplete implementation of class '*'0(22@44"Method definition for '-annotate:' not found327333222#1313#143#0(6@82"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/MapViewController.m327326513#1355#0#1355#0#35"method definition for '*' not found0(0#0#82"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/MapViewController.m8669695008#2146"    cd "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/MayDemo-generated-files.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/MayDemo-own-target-headers.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/MayDemo-all-target-headers.hmap" -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/MayDemo-project-headers.hmap" "-F/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/Debug-iphonesimulator" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/Debug-iphonesimulator/include" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/DerivedSources/i386" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/DerivedSources" -include /var/folders/MK/MKNp4XzsHt47X4XBj-6yME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MayDemo_Prefix-djpzwxzbaodwlqdcxuheuqwgoyjw/MayDemo_Prefix.pch -c "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/MapViewController.m" -o "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/Objects-normal/i386/MapViewController.o"0#
 
 CCompileC build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/Objects-normal/i386/MayDemoAppDelegate.o "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/MayDemoAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s326958711.201075
-e326958711.392959
+s327333221.343989
+e327333222.505985
 r1
 xCompileC
 xbuild/MayDemo.build/Debug-iphonesimulator/MayDemo.build/Objects-normal/i386/MayDemoAppDelegate.o
@@ -472,11 +510,11 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@91"Compile /Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/MayDemoAppDelegate.m326958711#326958711#0(0"0(0#0#83"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/MayDemoAppDelegate.m8614816768#2148"    cd "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/MayDemo-generated-files.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/MayDemo-own-target-headers.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/MayDemo-all-target-headers.hmap" -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/MayDemo-project-headers.hmap" "-F/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/Debug-iphonesimulator" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/Debug-iphonesimulator/include" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/DerivedSources/i386" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/DerivedSources" -include /var/folders/MK/MKNp4XzsHt47X4XBj-6yME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MayDemo_Prefix-djpzwxzbaodwlqdcxuheuqwgoyjw/MayDemo_Prefix.pch -c "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/MayDemoAppDelegate.m" -o "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/Objects-normal/i386/MayDemoAppDelegate.o"0#
+lSLF07#2@91"Compile /Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/MayDemoAppDelegate.m327333221#327333222#0(0"0(0#0#83"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/MayDemoAppDelegate.m8604132576#2148"    cd "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/MayDemo-generated-files.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/MayDemo-own-target-headers.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/MayDemo-all-target-headers.hmap" -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/MayDemo-project-headers.hmap" "-F/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/Debug-iphonesimulator" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/Debug-iphonesimulator/include" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/DerivedSources/i386" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/DerivedSources" -include /var/folders/MK/MKNp4XzsHt47X4XBj-6yME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MayDemo_Prefix-djpzwxzbaodwlqdcxuheuqwgoyjw/MayDemo_Prefix.pch -c "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/MayDemoAppDelegate.m" -o "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/Objects-normal/i386/MayDemoAppDelegate.o"0#
 
 CCompileC build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/Objects-normal/i386/MayDemoViewController.o "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/MayDemoViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s326958870.773985
-e326958870.964343
+s327333222.506071
+e327333222.646438
 r1
 xCompileC
 xbuild/MayDemo.build/Debug-iphonesimulator/MayDemo.build/Objects-normal/i386/MayDemoViewController.o
@@ -487,11 +525,24 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 o/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/MayDemoViewController.m: In function '-[MayDemoViewController tableView:cellForRowAtIndexPath:]':
 o/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/MayDemoViewController.m:100: warning: 'setText:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:211)
-lSLF07#2@94"Compile /Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/MayDemoViewController.m326958870#326958870#0(457"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/MayDemoViewController.m: In function '-[MayDemoViewController tableView:cellForRowAtIndexPath:]':/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/MayDemoViewController.m:100: warning: 'setText:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:211)1(22@194"'setText:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:211)326958870#161#296#0(6@86"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/MayDemoViewController.m326958870#100#0#100#0#33"'*' is deprecated (declared at *)0(0#0#86"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/MayDemoViewController.m8615747712#2154"    cd "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/MayDemo-generated-files.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/MayDemo-own-target-headers.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/MayDemo-all-target-headers.hmap" -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/MayDemo-project-headers.hmap" "-F/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/Debug-iphonesimulator" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/Debug-iphonesimulator/include" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/DerivedSources/i386" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/DerivedSources" -include /var/folders/MK/MKNp4XzsHt47X4XBj-6yME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MayDemo_Prefix-djpzwxzbaodwlqdcxuheuqwgoyjw/MayDemo_Prefix.pch -c "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/MayDemoViewController.m" -o "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/Objects-normal/i386/MayDemoViewController.o"0#
+lSLF07#2@94"Compile /Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/MayDemoViewController.m327333222#327333222#0(457"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/MayDemoViewController.m: In function '-[MayDemoViewController tableView:cellForRowAtIndexPath:]':/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/MayDemoViewController.m:100: warning: 'setText:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:211)1(22@194"'setText:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:211)327333222#161#296#0(6@86"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/MayDemoViewController.m327329692#100#0#100#0#33"'*' is deprecated (declared at *)0(0#0#86"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/MayDemoViewController.m8672512960#2154"    cd "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/MayDemo-generated-files.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/MayDemo-own-target-headers.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/MayDemo-all-target-headers.hmap" -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/MayDemo-project-headers.hmap" "-F/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/Debug-iphonesimulator" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/Debug-iphonesimulator/include" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/DerivedSources/i386" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/DerivedSources" -include /var/folders/MK/MKNp4XzsHt47X4XBj-6yME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MayDemo_Prefix-djpzwxzbaodwlqdcxuheuqwgoyjw/MayDemo_Prefix.pch -c "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/MayDemoViewController.m" -o "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/Objects-normal/i386/MayDemoViewController.o"0#
+
+CCompileC build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/Objects-normal/i386/Options.o "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/Options.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s327333222.730340
+e327333222.820568
+r1
+xCompileC
+xbuild/MayDemo.build/Debug-iphonesimulator/MayDemo.build/Objects-normal/i386/Options.o
+x/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/Options.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@80"Compile /Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/Options.m327333222#327333222#0(0"0(0#0#72"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/Options.m8668350240#2126"    cd "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/MayDemo-generated-files.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/MayDemo-own-target-headers.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/MayDemo-all-target-headers.hmap" -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/MayDemo-project-headers.hmap" "-F/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/Debug-iphonesimulator" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/Debug-iphonesimulator/include" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/DerivedSources/i386" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/DerivedSources" -include /var/folders/MK/MKNp4XzsHt47X4XBj-6yME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MayDemo_Prefix-djpzwxzbaodwlqdcxuheuqwgoyjw/MayDemo_Prefix.pch -c "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/Options.m" -o "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/Objects-normal/i386/Options.o"0#
 
 CCompileC build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/Objects-normal/i386/main.o "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s326954189.552863
-e326954189.617438
+s327333221.342909
+e327333222.505764
 r1
 xCompileC
 xbuild/MayDemo.build/Debug-iphonesimulator/MayDemo.build/Objects-normal/i386/main.o
@@ -500,15 +551,31 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@69"Compile /Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/main.m326954189#326954189#0(0"0(0#0#61"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/main.m8619007776#2112"    cd "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/MayDemo-generated-files.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/MayDemo-own-target-headers.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/MayDemo-all-target-headers.hmap" -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/MayDemo-project-headers.hmap" "-F/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/Debug-iphonesimulator" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/Debug-iphonesimulator/include" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/DerivedSources/i386" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/DerivedSources" -include /var/folders/MK/MKNp4XzsHt47X4XBj-6yME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MayDemo_Prefix-djpzwxzbaodwlqdcxuheuqwgoyjw/MayDemo_Prefix.pch -c "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/main.m" -o "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/Objects-normal/i386/main.o"0#
+lSLF07#2@69"Compile /Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/main.m327333221#327333222#0(0"0(0#0#61"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/main.m8670115296#2112"    cd "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/MayDemo-generated-files.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/MayDemo-own-target-headers.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/MayDemo-all-target-headers.hmap" -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/MayDemo-project-headers.hmap" "-F/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/Debug-iphonesimulator" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/Debug-iphonesimulator/include" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/DerivedSources/i386" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/DerivedSources" -include /var/folders/MK/MKNp4XzsHt47X4XBj-6yME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MayDemo_Prefix-djpzwxzbaodwlqdcxuheuqwgoyjw/MayDemo_Prefix.pch -c "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/main.m" -o "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/Objects-normal/i386/main.o"0#
+
+CCompileXIB "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/MapView.xib"
+s327333220.828784
+e327333221.321023
+r1
+xCompileXIB
+x/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/MapView.xib
+lSLF07#2@30"CompileXIB Classes/MapView.xib327333220#327333221#0(0"0(0#0#74"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/MapView.xib8673924864#626"    cd "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/Debug-iphonesimulator/MayDemo.app/MapView.nib" "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/MapView.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
 
 CCompileXIB "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/MapViewController.xib"
-s326956984.571199
-e326956985.169084
+s327333220.242401
+e327333220.847236
 r1
 xCompileXIB
 x/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/MapViewController.xib
-lSLF07#2@40"CompileXIB Classes/MapViewController.xib326956984#326956985#0(0"0(0#0#84"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/MapViewController.xib8598064000#646"    cd "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/Debug-iphonesimulator/MayDemo.app/MapViewController.nib" "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/MapViewController.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+lSLF07#2@40"CompileXIB Classes/MapViewController.xib327333220#327333220#0(0"0(0#0#84"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/MapViewController.xib8667892064#646"    cd "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/Debug-iphonesimulator/MayDemo.app/MapViewController.nib" "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/MapViewController.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/Options.xib"
+s327333220.847328
+e327333221.342502
+r1
+xCompileXIB
+x/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/Options.xib
+lSLF07#2@30"CompileXIB Classes/Options.xib327333220#327333221#0(0"0(0#0#74"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/Options.xib8673710304#626"    cd "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/Debug-iphonesimulator/MayDemo.app/Options.nib" "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/Options.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
 
 CCompileXIB "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/MainWindow.xib"
 s326957975.419239
@@ -519,31 +586,31 @@ x/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/MainWindow.xib
 lSLF07#2@25"CompileXIB MainWindow.xib326957975#326957975#0(0"0(0#0#69"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/MainWindow.xib8602117344#624"    cd "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/Debug-iphonesimulator/MayDemo.app/MainWindow.nib" "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/MainWindow.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
 
 CCompileXIB "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/MayDemoViewController.xib"
-s326958241.657617
-e326958242.065778
+s327333220.241449
+e327333220.828687
 r1
 xCompileXIB
 x/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/MayDemoViewController.xib
-lSLF07#2@36"CompileXIB MayDemoViewController.xib326958241#326958242#0(0"0(0#0#80"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/MayDemoViewController.xib8606240672#646"    cd "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/Debug-iphonesimulator/MayDemo.app/MayDemoViewController.nib" "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/MayDemoViewController.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+lSLF07#2@36"CompileXIB MayDemoViewController.xib327333220#327333220#0(0"0(0#0#80"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/MayDemoViewController.xib8668384000#646"    cd "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/Debug-iphonesimulator/MayDemo.app/MayDemoViewController.nib" "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/MayDemoViewController.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
 
 CGenerateDSYMFile "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/Debug-iphonesimulator/MayDemo.app.dSYM" "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/Debug-iphonesimulator/MayDemo.app/MayDemo"
-s326958871.008657
-e326958871.042581
+s327333223.031451
+e327333223.079214
 r1
 xGenerateDSYMFile
 x/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/Debug-iphonesimulator/MayDemo.app.dSYM
 x/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/Debug-iphonesimulator/MayDemo.app/MayDemo
-lSLF07#2@109"GenerateDSYMFile build/Debug-iphonesimulator/MayDemo.app.dSYM build/Debug-iphonesimulator/MayDemo.app/MayDemo326958871#326958871#0(0"0(0#0#102"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/Debug-iphonesimulator/MayDemo.app/MayDemo8604346688#437"    cd "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/Debug-iphonesimulator/MayDemo.app/MayDemo" -o "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/Debug-iphonesimulator/MayDemo.app.dSYM"0#
+lSLF07#2@109"GenerateDSYMFile build/Debug-iphonesimulator/MayDemo.app.dSYM build/Debug-iphonesimulator/MayDemo.app/MayDemo327333223#327333223#0(0"0(0#0#102"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/Debug-iphonesimulator/MayDemo.app/MayDemo8668359488#437"    cd "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/Debug-iphonesimulator/MayDemo.app/MayDemo" -o "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/Debug-iphonesimulator/MayDemo.app.dSYM"0#
 
 CLd "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/Debug-iphonesimulator/MayDemo.app/MayDemo" normal i386
-s326958870.964436
-e326958871.008557
+s327333222.931480
+e327333223.031348
 r1
 xLd
 x/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/Debug-iphonesimulator/MayDemo.app/MayDemo
 xnormal
 xi386
-lSLF07#2@107"Link /Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/Debug-iphonesimulator/MayDemo.app/MayDemo326958870#326958871#0(0"0(0#0#0"8614858176#1138"    cd "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk "-L/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/Debug-iphonesimulator" "-F/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/Debug-iphonesimulator" -filelist "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/Objects-normal/i386/MayDemo.LinkFileList" -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreLocation -framework MapKit -framework OpenAL -framework AudioToolbox -framework CFNetwork -framework QuartzCore -framework CoreAudio -o "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/Debug-iphonesimulator/MayDemo.app/MayDemo"0#
+lSLF07#2@107"Link /Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/Debug-iphonesimulator/MayDemo.app/MayDemo327333222#327333223#0(0"0(0#0#0"8668548608#1138"    cd "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk "-L/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/Debug-iphonesimulator" "-F/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/Debug-iphonesimulator" -filelist "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/Objects-normal/i386/MayDemo.LinkFileList" -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreLocation -framework MapKit -framework OpenAL -framework AudioToolbox -framework CFNetwork -framework QuartzCore -framework CoreAudio -o "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/Debug-iphonesimulator/MayDemo.app/MayDemo"0#
 
 CProcessInfoPlistFile "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/Debug-iphonesimulator/MayDemo.app/Info.plist" MayDemo-Info.plist
 s326954187.925454
@@ -568,10 +635,10 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@29"Precompile MayDemo_Prefix.pch326954188#326954189#0(0"0(0#0#73"/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/MayDemo_Prefix.pch8614712384#1986"    cd "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/MayDemo-generated-files.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/MayDemo-own-target-headers.hmap" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/MayDemo-all-target-headers.hmap" -iquote "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/MayDemo-project-headers.hmap" "-F/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/Debug-iphonesimulator" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/Debug-iphonesimulator/include" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/DerivedSources/i386" "-I/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/MayDemo.build/Debug-iphonesimulator/MayDemo.build/DerivedSources" -c "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/MayDemo_Prefix.pch" -o /var/folders/MK/MKNp4XzsHt47X4XBj-6yME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MayDemo_Prefix-djpzwxzbaodwlqdcxuheuqwgoyjw/MayDemo_Prefix.pch.gch0#
 
 CTouch "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/Debug-iphonesimulator/MayDemo.app"
-s326958871.042663
-e326958871.046418
+s327333223.079304
+e327333223.082125
 r1
 xTouch
 x/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/Debug-iphonesimulator/MayDemo.app
-lSLF07#2@100"Touch /Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/Debug-iphonesimulator/MayDemo.app326958871#326958871#0(0"0(0#0#0"8615703200#314"    cd "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/Debug-iphonesimulator/MayDemo.app"0#
+lSLF07#2@100"Touch /Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/Debug-iphonesimulator/MayDemo.app327333223#327333223#0(0"0(0#0#0"8675272128#314"    cd "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/build/Debug-iphonesimulator/MayDemo.app"0#
 

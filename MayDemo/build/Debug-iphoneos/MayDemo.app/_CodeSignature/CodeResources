@@ -8,13 +8,21 @@
 		<data>
 		Wx/bMIElx1mcOytK1c1YkRYr0KU=
 		</data>
+		<key>MapView.nib</key>
+		<data>
+		DZan6bEBoX+0au3geEITMIl9SJQ=
+		</data>
 		<key>MapViewController.nib</key>
 		<data>
-		TTWZNIOUhN83wFBEOzL8FGXii88=
+		CDPROz9XTwHhpD/h07zaQoqKRqk=
 		</data>
 		<key>MayDemoViewController.nib</key>
 		<data>
-		KNp0LXL9yEIAQrL3Ky6M9JsdvdU=
+		m2jDtCXWEeyDv34OBwxKWxoWSdc=
+		</data>
+		<key>Options.nib</key>
+		<data>
+		mvz2JgBNrDRHtaFf0IUy7iJGcbA=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -22,7 +30,7 @@
 		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
-		b3QlroBAWdbfNKIHAKNpDsUaH+U=
+		hEUWLR9lZ/0iNIXdDM9o8ExsNY4=
 		</data>
 	</dict>
 	<key>rules</key>

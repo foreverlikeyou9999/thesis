@@ -20,7 +20,6 @@
 	
 
 	NSLog(@"Should now push new view onto stack, giving map interface");
-	//[convert start];
 	//NSLog(@"Sources selected");
 	
 
