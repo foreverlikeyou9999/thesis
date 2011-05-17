@@ -12,24 +12,22 @@
 @implementation Annotation
 
 @synthesize latitude, longitude;
-//@synthesize coordinate;
+@synthesize coordinate;
 
 
-- (CLLocationCoordinate2D)setCoordinate 
+- (CLLocationCoordinate2D)setCoordinate
 {
-	//CLLocationCoordinate2D coord = {self.latitude, self.longitude};
-	CLLocationCoordinate2D coord;
-	coord.latitude = 40.75;
-	coord.longitude = -73.9844722;
-	return coord;
+    CLLocationCoordinate2D theCoordinate  = {self.latitude, self.longitude};
+
+	return theCoordinate; 
 }
 
 
 - (NSString *)subtitle{
-	return @"something about audio";
+	return @"128kbps audio stream";
 }
 - (NSString *)title{
-	return @"Times Square";
+	return @"Streaming Audio Source";
 }
 
 

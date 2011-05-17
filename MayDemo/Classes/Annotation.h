@@ -14,18 +14,18 @@
 
 {
 
-	NSNumber *latitude;
-	NSNumber *longitude;
-	//CLLocationCoordinate2D coordinate;
-	
+	float latitude;
+	float longitude;
+	CLLocationCoordinate2D coordinate;
+
 	
 }
 
-@property (nonatomic, retain) NSNumber *latitude;
-@property (nonatomic, retain) NSNumber *longitude;
+@property (nonatomic) float latitude;
+@property (nonatomic) float longitude;
 
 //2-axis coordinates, as only property of MKAnnotation.
-@property (nonatomic, readonly) CLLocationCoordinate2D coordinate;
+@property (nonatomic, assign) CLLocationCoordinate2D coordinate;
 
 - (NSString *)title;
 - (NSString *)subtitle;

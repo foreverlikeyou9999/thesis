@@ -10,6 +10,10 @@
 #include <Foundation/Foundation.h>
 #import "MayDemoAppDelegate.h"
 #import "MapViewController.h"
+#import "Annotation.h"
+
+
+@class MapViewController;
 
 @interface MayDemoViewController : UIViewController {
 

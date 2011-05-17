@@ -14,18 +14,19 @@
 @synthesize table, done;
 @synthesize arryData;
 
-
+ 
 
 - (IBAction) sourceSelect: (id)sender {
 	
-	///[self createConverter];
+
 	NSLog(@"Should now push new view onto stack, giving map interface");
 	//[convert start];
 	//NSLog(@"Sources selected");
 	
 
 
-		mapness = [[MapViewController alloc] initWithNibName: @"MapViewController" bundle: nil];
+	mapness = [[MapViewController alloc] initWithNibName: @"MapView" bundle: nil];
+	[mapness createConverter];
 	
 	[self.view addSubview:mapness.view];
 	

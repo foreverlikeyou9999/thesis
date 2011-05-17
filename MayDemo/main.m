@@ -7,11 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MapViewController.h"
+#import "MayDemoViewController.h"
+#import "MayDemoAppDelegate.h"
 
 int main(int argc, char *argv[]) {
     
     NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
-    int retVal = UIApplicationMain(argc, argv, nil, nil);
+   	NSLog(@"HEY!!!!!!");
+		
+	int retVal = UIApplicationMain(argc, argv, nil, nil);
+
     [pool release];
     return retVal;
 }

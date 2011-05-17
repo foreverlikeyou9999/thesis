@@ -16,17 +16,23 @@
 #import "MayDemoAppDelegate.h"
 #import "Annotation.h"
 #import <MapKit/MapKit.h>
+#import "MayDemoViewController.h"
 #import "AudioConversion.h"
+#import "Options.h"	
 	
-	
-	@interface MapViewController : UIViewController <CLLocationManagerDelegate, MKAnnotation> 
+	@interface MapViewController : UIViewController <CLLocationManagerDelegate, MKMapViewDelegate> 
 	
 	{
+
+	
 		
 		// ------------Map objects----------// 
 		
-		MKMapView *map;	
+		IBOutlet MKMapView *map;	
+		MKPinAnnotationView *pin;
 		NSMutableArray *coordinates;
+	
+
 		
 		
 		CLLocationManager *locationManager; //For location updates.
@@ -50,21 +56,42 @@
 		ALsizei freq;
 		int numBuffers;
 		UInt32 filterSize;
+	
+		// ----Options iVars------//
+		
+
 		float defaultGaussianC;
 		float defaultGainScale;
 		float gaussianC;
 		float defaultGainFloor;
 		float gainFloor;
 		
+		
+		IBOutlet UIBarButtonItem *optionsSelect;
+		IBOutlet UISlider *angleWidthSlider;
+		IBOutlet UILabel *angleWidthSliderValue;
+		IBOutlet UISlider *gainFloorSlider;
+		IBOutlet UILabel *gainFloorSliderValue;
+
+
+
 	}
+
+
+//----------- View methods------------//
+
 	
 
 	@property (nonatomic, retain) IBOutlet MKMapView *map;
+	@property (nonatomic, retain) MKPinAnnotationView *pin;
 	@property (nonatomic, retain) NSMutableArray *coordinates;
 	@property (nonatomic, readonly) CLLocationCoordinate2D coordinate;
 	
 	@property (nonatomic, retain) CLLocationManager *locationManager;
-	
+
+	@property (nonatomic, retain) IBOutlet UIBarButtonItem *optionsSelect;	
+
+
 	
 	//----------- View methods------------//
 	
@@ -89,7 +116,7 @@
 	- (void)playLongSoundFromRecord:(NSMutableDictionary*)record;
 	- (void)cleanUpOpenAL:(id)sender; //Close up OpenAL
 	
-	- (IBAction)toggleTracking;
+	//- (IBAction)toggleTracking;
 	
 	- (IBAction)updateAngleWidth; //Shadel method for updating angle width from a slider. 
 	- (IBAction)updateGainFloor; //Shadel method for gain scaling. 
@@ -97,8 +124,21 @@
 	//- (unsigned char)convolve:(unsigned char*)outData forHeading:(float)heading;
 	//- (unsigned char *)convolve:(unsigned char *)outData withFilter:(unsigned char *)filter forRecord:(NSMutableDictionary*)record;
 	
-	- (IBAction)showInfo:(id)sender; //?
+	//- (IBAction)showInfo:(id)sender; //?
 	- (float)gaussianBellCurve:(float)difference; //Bell curve method for gain scaling
 	- (void)convolve:(unsigned char *)outData withFilter:(unsigned char *)filter;
+
+	- (IBAction)showOptions:(id)sender;
+
+//	- (IBAction) sourceSelect: (id)sender;
+
+
 	
 	@end
+
+
+
+
+
+
+

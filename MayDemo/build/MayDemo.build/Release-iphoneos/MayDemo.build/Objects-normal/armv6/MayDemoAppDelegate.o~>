@@ -1,0 +1,5 @@
+In file included from /Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/MayDemoViewController.h:12,
+                 from /Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/MayDemoAppDelegate.m:10:
+/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/MapViewController.h:123: error: expected identifier or '(' before '}' token
+/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/MayDemoAppDelegate.m:91: warning: property 'options' requires method '-options' to be defined - use @synthesize, @dynamic or provide a method implementation
+/Users/moosamus/Desktop/nyu/Thesis 2011/thesis/MayDemo/Classes/MayDemoAppDelegate.m:91: warning: property 'options' requires the method 'setOptions:' to be defined - use @synthesize, @dynamic or provide a method implementation

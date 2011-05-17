@@ -55,7 +55,8 @@ OSStatus audioConverterCallback (AudioConverterRef converter, UInt32 *ioNumberDa
 	[convert
 	 provideAudio:converter 
 	 inputData:ioData
-	 numberPackets:ioNumberDataPackets]; //the audio converter calls an instance method, which has access to instance variables, etc...)	
+	// numberPackets:ioNumberDataPackets
+	 ]; //the audio converter calls an instance method, which has access to instance variables, etc...)	
 	
 	/*
 	
@@ -865,22 +866,22 @@ void interruptionListenerCallback (void *inUserData, UInt32 interruptionState) {
 - (void) provideAudio:(AudioConverterRef) converter 
 				inputData:(AudioBufferList)ioData
 				numberPackets:(UInt32)ioNumberDataPackets
-			  outASPD:(AudioStreamPacketDescription)outDataPacketDescription
 
 
 {
+	NSLog(@"Provide audio method called");
 	
 	UInt32 ioPackets = 2048 / bytesPerPacket;
 	NSLog(@"packet size is %i", ioPackets);
 	
-	ioNumberDataPackets = &ioPackets;
+	ioNumberDataPackets = ioPackets;
 	
 	ioData.mBuffers[0].mData = sourceBuffer;
 	
 	// use a static instance of ASPD for callback input
 	AudioStreamPacketDescription aspdesc;
    //	outDataPacketDescription = &aspdesc;
-   	aspdesc.mDataByteSize = &bytesPerPacket;
+   	aspdesc.mDataByteSize = bytesPerPacket;
    	//aspdesc.mStartOffset = &AudioConversion.offset;
 	aspdesc.mStartOffset = 0;
    	aspdesc.mVariableFramesInPacket = 1;

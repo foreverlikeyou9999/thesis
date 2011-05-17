@@ -12,7 +12,7 @@
 		</object>
 		<object class="NSMutableArray" key="IBDocument.EditedObjectIDs">
 			<bool key="EncodedWithXMLCoder">YES</bool>
-			<integer value="6"/>
+			<integer value="10"/>
 		</object>
 		<object class="NSArray" key="IBDocument.PluginDependencies">
 			<bool key="EncodedWithXMLCoder">YES</bool>
@@ -45,7 +45,7 @@
 					<object class="IBUITableView" id="877551979">
 						<reference key="NSNextResponder" ref="774585933"/>
 						<int key="NSvFlags">274</int>
-						<string key="NSFrame">{{0, 53}, {320, 416}}</string>
+						<string key="NSFrame">{{0, 59}, {320, 422}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
 						<object class="NSColor" key="IBUIBackgroundColor">
 							<int key="NSColorSpace">3</int>
@@ -64,7 +64,7 @@
 					<object class="IBUINavigationBar" id="790408398">
 						<reference key="NSNextResponder" ref="774585933"/>
 						<int key="NSvFlags">290</int>
-						<string key="NSFrame">{{0, 9}, {320, 44}}</string>
+						<string key="NSFrame">{{0, 15}, {320, 44}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<object class="NSArray" key="IBUIItems">
@@ -72,12 +72,6 @@
 							<object class="IBUINavigationItem" id="201862989">
 								<reference key="IBUINavigationBar" ref="790408398"/>
 								<string key="IBUITitle">Streamscape</string>
-								<object class="IBUIBarButtonItem" key="IBUILeftBarButtonItem" id="933937548">
-									<string key="IBUITitle">Options</string>
-									<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-									<int key="IBUIStyle">1</int>
-									<reference key="IBUINavigationItem" ref="201862989"/>
-								</object>
 								<object class="IBUIBarButtonItem" key="IBUIRightBarButtonItem" id="648784647">
 									<string key="IBUITitle">Done</string>
 									<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
@@ -205,18 +199,12 @@
 						<object class="NSMutableArray" key="children">
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<reference ref="648784647"/>
-							<reference ref="933937548"/>
 						</object>
 						<reference key="parent" ref="790408398"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">11</int>
 						<reference key="object" ref="648784647"/>
-						<reference key="parent" ref="201862989"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">12</int>
-						<reference key="object" ref="933937548"/>
 						<reference key="parent" ref="201862989"/>
 					</object>
 				</object>
@@ -229,7 +217,6 @@
 					<string>-2.CustomClassName</string>
 					<string>10.IBPluginDependency</string>
 					<string>11.IBPluginDependency</string>
-					<string>12.IBPluginDependency</string>
 					<string>6.IBEditorWindowLastContentRect</string>
 					<string>6.IBPluginDependency</string>
 					<string>8.IBPluginDependency</string>
@@ -243,16 +230,15 @@
 					<string>UIResponder</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>{{276, 153}, {320, 480}}</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<object class="NSAffineTransform">
-						<bytes key="NSTransformStruct">P4AAAL+AAAAAAAAAw+UAAA</bytes>
+						<bytes key="NSTransformStruct">P4AAAL+AAAAAAAAAw+mAAA</bytes>
 					</object>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<object class="NSAffineTransform">
-						<bytes key="NSTransformStruct">P4AAAL+AAAAAAAAAwigAAA</bytes>
+						<bytes key="NSTransformStruct">P4AAAL+AAAAAAAAAwnwAAA</bytes>
 					</object>
 				</object>
 			</object>

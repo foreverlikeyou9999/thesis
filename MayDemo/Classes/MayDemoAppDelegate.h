@@ -3,18 +3,23 @@
 //  MayDemo
 //
 //  Created by Russell de Moose on 5/13/11.
-//  Copyright 2011 __MyCompanyName__. All rights reserved.
+//  Copyright 2011 __MyCompanyName__. All rights reserved. 
 //
 
-#import <UIKit/UIKit.h>
+#import <UIKit/UIKit.h> 
 
 
 @class MayDemoViewController;
 
+
 @interface MayDemoAppDelegate : NSObject <UIApplicationDelegate> {
 	
+
+   MayDemoViewController *viewController;
+
     UIWindow *window;
-    MayDemoViewController *viewController;
+	
+
 	//UINavigationController *navigationController;
 }
 

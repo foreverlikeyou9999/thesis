@@ -11,31 +11,11 @@
 
 @implementation MapViewController
 
-@synthesize map, coordinates, coordinate;
+@synthesize map, coordinates, coordinate, optionsSelect, pin;
 @synthesize locationManager;
 
 
-//----------------Above methods are from AudioStreamer project----------------------------------------------------------------------//
-
-- (IBAction) sourceSelect: (id)sender {
-	
-	[self createConverter];
-	[convert start];
-	NSLog(@"Sources selected");
-	
-	
-	
-}
-
-- (IBAction) annotate: (id)sender
-{
-	
-	[map addAnnotation:[coordinates objectAtIndex:1]]; 
-	
-}
-
 // add map annotations
-
 
 - (void)createConverter
 {
@@ -44,19 +24,26 @@
 		return;
 	}
 	
-	
+	else {
+		
 	NSString *escapedValue =
 	[(NSString *)CFURLCreateStringByAddingPercentEscapes(
 														 nil,
 														 //(CFStringRef)@"http://www.jiwok.com/uploads/staticworkouts/french/AE_RUN_30_8L_1000000.mp3",
-														 (CFStringRef)@"http://204.93.192.135:80/q2.aac",											 
+														 //(CFStringRef)@"http://204.93.192.135:80/q2.aac",
+														 (CFStringRef)@"http://wfuv-onair.streamguys.org:80/onair-hi",
 														 NULL,
 														 NULL,
-														 kCFStringEncodingUTF8)
-	 autorelease];
+														 kCFStringEncodingUTF8) 
+														autorelease];
 	
 	NSURL *url = [[NSURL URLWithString:escapedValue] retain];
 	convert = [[AudioConversion alloc] initWithURL:url];
+		if(convert) {
+			NSLog(@"Conversion object created");
+	
+		}
+	}
 	
 }	
 
@@ -64,15 +51,9 @@
 - (void) viewDidLoad 
 
 {
+
 	
-	//---------ARRAY FOR TABLE VIEW TEST-----------//
-	
-	//arryData = [[NSArray alloc] initWithObjects:@"WNYC - FM: New York Public Radio",@"Carnegie Hall:Spring for Music",@"WFUV 128K",nil];
-	
-	
-	
-	//-----------------------------------END TABLE TEST-------------------------//
-	
+
 	
 	self.locationManager = [[[CLLocationManager alloc] init] autorelease]; //for retain count 
 	//adds one to retain count with alloc; then we autorelease to decrement retain count 
@@ -170,27 +151,34 @@
 	
 	//------------------------Annotations-----------------------------//
 	
+	CLLocationCoordinate2D cHall;
+    cHall.latitude = 40.76;
+    cHall.longitude = -73.980735;
 	
+	CLLocationCoordinate2D fuv;
+    fuv.latitude = 40.8614;
+    fuv.longitude = -73.890057;
 	
-	
-	[coordinates initWithCapacity:1];
-	
-	Annotation *testAnnotation = [[Annotation alloc] init];
-	//testAnnotation.latitude = 40.75;
-	//testAnnotation.longitude = -73.9844722;
-	//[testAnnotation setcoordinate]
+	CLLocationCoordinate2D nyc;
+    nyc.latitude = 40.727072;
+    nyc.longitude = -74.005516;
 	
 	//Use NSMutableArray if annotating more than one location
 	
-	[coordinates insertObject:testAnnotation atIndex:1];
-	NSLog(@" you're here: %@", coordinates);
+	coordinates = [[NSMutableArray array] retain];
+	Annotation *Carnegie = [[Annotation alloc] init];
+	Annotation *WFUV = [[Annotation alloc] init];
+	Annotation *WNYC = [[Annotation alloc] init];
+
+	Carnegie.coordinate = cHall;
+	WFUV.coordinate = fuv;
+	WNYC.coordinate = nyc;
 	
-	//Right now is just a single annotation. When using the addAnnotations method, takes an array as argument. 
-	//[map addAnnotations:coordinates];
+	[coordinates addObject:Carnegie];
+	[coordinates addObject:WFUV];
+	[coordinates addObject:WNYC];
 	
-	
-	//return YES;
-	
+	[map addAnnotations:coordinates];
 }
 
 
@@ -219,6 +207,9 @@
 	
 	[map setRegion:region animated:YES]; //animates to map
 	map.showsUserLocation = YES; //shows a dot
+
+	
+
 	
 }
 
@@ -1255,9 +1246,9 @@
 	// e.g. self.myOutlet = nil;
 }
 
-//March 9 removal for test
 
 /*
+
  
  - (IBAction)updateAngleWidth
  {
@@ -1272,6 +1263,27 @@
  }
  
  */
+
+- (IBAction)showOptions:(id)sender
+
+{
+	
+	
+	NSLog(@"Should now move to options screen");
+
+	Options *option = [[Options alloc] initWithNibName:@"Options" bundle:nil];
+	
+	if(option)
+	{
+		NSLog (@"option allocated");
+	}
+		
+    [self.view addSubview:option.view];
+	self.wantsFullScreenLayout = YES;
+	
+}
+
+
 
 /**
  - (IBAction)updateGainScale
@@ -1324,6 +1336,18 @@
 	}
 }
 
+
+- (IBAction)updateAngleWidth
+{
+	angleWidthSliderValue.text = [NSString stringWithFormat:@"%.02f",angleWidthSlider.value];
+	gaussianC = angleWidthSlider.value;
+}
+
+- (IBAction)updateGainFloor
+{
+	gainFloorSliderValue.text = [NSString stringWithFormat:@"%.02f",gainFloorSlider.value];
+	gainFloor = gainFloorSlider.value;
+}
 
 
 @end

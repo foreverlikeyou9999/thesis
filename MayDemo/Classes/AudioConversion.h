@@ -101,10 +101,9 @@ typedef struct MyAudioConverterSettings {
 - (id) initWithURL:(NSURL *) someURL;
 
 
-//- (void)provideAudio: (AudioConverterRef)converter 					  
-//		    inputData:(AudioBufferList) ioData
-//		    numberPackets:(UInt32) ioNumberDataPackets
-//			outASPD:(AudioStreamPacketDescription *) outDataPacketDescription;
+- (void)provideAudio: (AudioConverterRef)converter 					  
+		    inputData:(AudioBufferList) ioData
+			numberPackets:(UInt32)ioNumberDataPackets;
 
 - (void)audioToConverter:(const void *)inInputData
 			 numberBytes:(UInt32)inNumberBytes
@@ -115,6 +114,7 @@ typedef struct MyAudioConverterSettings {
 	fileStreamPropertyID:(AudioFileStreamPropertyID)inPropertyID
 				 ioFlags:(UInt32 *)ioFlags; 
 
- 
+- (void) handleReadFromStream:(CFReadStreamRef)aStream 
+					eventType:(CFStreamEventType)eventType; 
 
 @end
