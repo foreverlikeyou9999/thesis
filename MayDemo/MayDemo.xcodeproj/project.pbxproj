@@ -17,8 +17,10 @@
 		28D7ACF80DDB3853001CB0EB /* MayDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* MayDemoViewController.m */; };
 		714F01E71380CB6200653F8E /* MapView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 714F01E61380CB6200653F8E /* MapView.xib */; };
 		714F02131380CF4300653F8E /* Options.xib in Resources */ = {isa = PBXBuildFile; fileRef = 714F02121380CF4300653F8E /* Options.xib */; };
+		7179E50E1382CEED002412CA /* softguy.aif in Resources */ = {isa = PBXBuildFile; fileRef = 7179E50D1382CEED002412CA /* softguy.aif */; };
 		7192CD241380BC5D00B3E6DC /* Options.m in Sources */ = {isa = PBXBuildFile; fileRef = 7192CD231380BC5D00B3E6DC /* Options.m */; };
-		71D16AC6137CE93E00B30C68 /* AudioConversion.m in Sources */ = {isa = PBXBuildFile; fileRef = 71D16AC3137CE93E00B30C68 /* AudioConversion.m */; };
+		719DFEA81382F88A00C92628 /* AudioStreamer.m in Sources */ = {isa = PBXBuildFile; fileRef = 719DFEA61382F88A00C92628 /* AudioStreamer.m */; };
+		71D16AC6137CE93E00B30C68 /* AudioConversion.mm in Sources */ = {isa = PBXBuildFile; fileRef = 71D16AC3137CE93E00B30C68 /* AudioConversion.mm */; };
 		71D16AC7137CE93E00B30C68 /* Annotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 71D16AC4137CE93E00B30C68 /* Annotation.m */; };
 		71D16AD1137CE95800B30C68 /* AudioTourAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 71D16ACC137CE95800B30C68 /* AudioTourAppDelegate.m */; };
 		71D16AD2137CE95800B30C68 /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71D16ACE137CE95800B30C68 /* FlipsideViewController.m */; };
@@ -32,6 +34,15 @@
 		71D16AEF137CED9700B30C68 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71D16AEE137CED9700B30C68 /* CFNetwork.framework */; };
 		71D16AF1137CEDA200B30C68 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71D16AF0137CEDA200B30C68 /* QuartzCore.framework */; };
 		71D16AF5137CEDB100B30C68 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71D16AF4137CEDB100B30C68 /* CoreAudio.framework */; };
+		71D58EB513F0B0550063F76F /* libfmodex.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 71D58EAC13F0B0540063F76F /* libfmodex.dylib */; };
+		71D58EB613F0B0550063F76F /* libfmodex_iphoneos.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 71D58EAD13F0B0540063F76F /* libfmodex_iphoneos.a */; };
+		71D58EB713F0B0550063F76F /* libfmodex_iphonesimulator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 71D58EAE13F0B0540063F76F /* libfmodex_iphonesimulator.a */; };
+		71D58EB813F0B0550063F76F /* libfmodex_reduced_iphoneos.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 71D58EAF13F0B0540063F76F /* libfmodex_reduced_iphoneos.a */; };
+		71D58EB913F0B0550063F76F /* libfmodex_reduced_iphonesimulator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 71D58EB013F0B0540063F76F /* libfmodex_reduced_iphonesimulator.a */; };
+		71D58EBA13F0B0550063F76F /* libfmodexL_iphoneos.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 71D58EB113F0B0550063F76F /* libfmodexL_iphoneos.a */; };
+		71D58EBB13F0B0550063F76F /* libfmodexL_iphonesimulator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 71D58EB213F0B0550063F76F /* libfmodexL_iphonesimulator.a */; };
+		71D58EBC13F0B0550063F76F /* libfmodexL_reduced_iphoneos.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 71D58EB313F0B0550063F76F /* libfmodexL_reduced_iphoneos.a */; };
+		71D58EBD13F0B0550063F76F /* libfmodexL_reduced_iphonesimulator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 71D58EB413F0B0550063F76F /* libfmodexL_reduced_iphonesimulator.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,10 +60,13 @@
 		32CA4F630368D1EE00C91783 /* MayDemo_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MayDemo_Prefix.pch; sourceTree = "<group>"; };
 		714F01E61380CB6200653F8E /* MapView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MapView.xib; path = Classes/MapView.xib; sourceTree = "<group>"; };
 		714F02121380CF4300653F8E /* Options.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Options.xib; path = Classes/Options.xib; sourceTree = "<group>"; };
+		7179E50D1382CEED002412CA /* softguy.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = softguy.aif; sourceTree = "<group>"; };
 		7192CD221380BC5D00B3E6DC /* Options.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Options.h; sourceTree = "<group>"; };
 		7192CD231380BC5D00B3E6DC /* Options.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Options.m; sourceTree = "<group>"; };
+		719DFEA61382F88A00C92628 /* AudioStreamer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioStreamer.m; sourceTree = "<group>"; };
+		719DFEA71382F88A00C92628 /* AudioStreamer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioStreamer.h; sourceTree = "<group>"; };
 		71D16AC2137CE93E00B30C68 /* AudioConversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioConversion.h; sourceTree = "<group>"; };
-		71D16AC3137CE93E00B30C68 /* AudioConversion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioConversion.m; sourceTree = "<group>"; };
+		71D16AC3137CE93E00B30C68 /* AudioConversion.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AudioConversion.mm; sourceTree = "<group>"; };
 		71D16AC4137CE93E00B30C68 /* Annotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Annotation.m; sourceTree = "<group>"; };
 		71D16AC5137CE93E00B30C68 /* Annotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Annotation.h; sourceTree = "<group>"; };
 		71D16ACB137CE95800B30C68 /* AudioTourAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioTourAppDelegate.h; sourceTree = "<group>"; };
@@ -71,6 +85,23 @@
 		71D16AEE137CED9700B30C68 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		71D16AF0137CEDA200B30C68 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		71D16AF4137CEDB100B30C68 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		71D58E9313F0AF990063F76F /* fmod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fmod.h; sourceTree = "<group>"; };
+		71D58E9413F0AF990063F76F /* fmod.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = fmod.hpp; sourceTree = "<group>"; };
+		71D58E9513F0AF990063F76F /* fmod_codec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fmod_codec.h; sourceTree = "<group>"; };
+		71D58E9613F0AF990063F76F /* fmod_dsp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fmod_dsp.h; sourceTree = "<group>"; };
+		71D58E9713F0AF990063F76F /* fmod_errors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fmod_errors.h; sourceTree = "<group>"; };
+		71D58E9813F0AF990063F76F /* fmod_memoryinfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fmod_memoryinfo.h; sourceTree = "<group>"; };
+		71D58E9913F0AF990063F76F /* fmod_output.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fmod_output.h; sourceTree = "<group>"; };
+		71D58E9A13F0AF990063F76F /* fmodiphone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fmodiphone.h; sourceTree = "<group>"; };
+		71D58EAC13F0B0540063F76F /* libfmodex.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libfmodex.dylib; sourceTree = "<group>"; };
+		71D58EAD13F0B0540063F76F /* libfmodex_iphoneos.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libfmodex_iphoneos.a; sourceTree = "<group>"; };
+		71D58EAE13F0B0540063F76F /* libfmodex_iphonesimulator.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libfmodex_iphonesimulator.a; sourceTree = "<group>"; };
+		71D58EAF13F0B0540063F76F /* libfmodex_reduced_iphoneos.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libfmodex_reduced_iphoneos.a; sourceTree = "<group>"; };
+		71D58EB013F0B0540063F76F /* libfmodex_reduced_iphonesimulator.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libfmodex_reduced_iphonesimulator.a; sourceTree = "<group>"; };
+		71D58EB113F0B0550063F76F /* libfmodexL_iphoneos.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libfmodexL_iphoneos.a; sourceTree = "<group>"; };
+		71D58EB213F0B0550063F76F /* libfmodexL_iphonesimulator.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libfmodexL_iphonesimulator.a; sourceTree = "<group>"; };
+		71D58EB313F0B0550063F76F /* libfmodexL_reduced_iphoneos.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libfmodexL_reduced_iphoneos.a; sourceTree = "<group>"; };
+		71D58EB413F0B0550063F76F /* libfmodexL_reduced_iphonesimulator.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libfmodexL_reduced_iphonesimulator.a; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* MayDemo-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "MayDemo-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -89,6 +120,15 @@
 				71D16AEF137CED9700B30C68 /* CFNetwork.framework in Frameworks */,
 				71D16AF1137CEDA200B30C68 /* QuartzCore.framework in Frameworks */,
 				71D16AF5137CEDB100B30C68 /* CoreAudio.framework in Frameworks */,
+				71D58EB513F0B0550063F76F /* libfmodex.dylib in Frameworks */,
+				71D58EB613F0B0550063F76F /* libfmodex_iphoneos.a in Frameworks */,
+				71D58EB713F0B0550063F76F /* libfmodex_iphonesimulator.a in Frameworks */,
+				71D58EB813F0B0550063F76F /* libfmodex_reduced_iphoneos.a in Frameworks */,
+				71D58EB913F0B0550063F76F /* libfmodex_reduced_iphonesimulator.a in Frameworks */,
+				71D58EBA13F0B0550063F76F /* libfmodexL_iphoneos.a in Frameworks */,
+				71D58EBB13F0B0550063F76F /* libfmodexL_iphonesimulator.a in Frameworks */,
+				71D58EBC13F0B0550063F76F /* libfmodexL_reduced_iphoneos.a in Frameworks */,
+				71D58EBD13F0B0550063F76F /* libfmodexL_reduced_iphonesimulator.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,9 +138,12 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				71D58E9213F0AF990063F76F /* inc */,
+				719DFEA61382F88A00C92628 /* AudioStreamer.m */,
+				719DFEA71382F88A00C92628 /* AudioStreamer.h */,
 				71D16ACA137CE95800B30C68 /* Classes */,
 				71D16AC2137CE93E00B30C68 /* AudioConversion.h */,
-				71D16AC3137CE93E00B30C68 /* AudioConversion.m */,
+				71D16AC3137CE93E00B30C68 /* AudioConversion.mm */,
 				71D16AC4137CE93E00B30C68 /* Annotation.m */,
 				71D16AC5137CE93E00B30C68 /* Annotation.h */,
 				1D3623240D0F684500981E51 /* MayDemoAppDelegate.h */,
@@ -147,6 +190,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				7179E50D1382CEED002412CA /* softguy.aif */,
 				714F02121380CF4300653F8E /* Options.xib */,
 				714F01E61380CB6200653F8E /* MapView.xib */,
 				71D16AD6137CE97000B30C68 /* MapViewController.xib */,
@@ -185,6 +229,38 @@
 				71D16AD0137CE95800B30C68 /* MainViewController.m */,
 			);
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		71D58E9213F0AF990063F76F /* inc */ = {
+			isa = PBXGroup;
+			children = (
+				71D58EAB13F0B0540063F76F /* lib */,
+				71D58E9313F0AF990063F76F /* fmod.h */,
+				71D58E9413F0AF990063F76F /* fmod.hpp */,
+				71D58E9513F0AF990063F76F /* fmod_codec.h */,
+				71D58E9613F0AF990063F76F /* fmod_dsp.h */,
+				71D58E9713F0AF990063F76F /* fmod_errors.h */,
+				71D58E9813F0AF990063F76F /* fmod_memoryinfo.h */,
+				71D58E9913F0AF990063F76F /* fmod_output.h */,
+				71D58E9A13F0AF990063F76F /* fmodiphone.h */,
+			);
+			path = inc;
+			sourceTree = "<group>";
+		};
+		71D58EAB13F0B0540063F76F /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				71D58EAC13F0B0540063F76F /* libfmodex.dylib */,
+				71D58EAD13F0B0540063F76F /* libfmodex_iphoneos.a */,
+				71D58EAE13F0B0540063F76F /* libfmodex_iphonesimulator.a */,
+				71D58EAF13F0B0540063F76F /* libfmodex_reduced_iphoneos.a */,
+				71D58EB013F0B0540063F76F /* libfmodex_reduced_iphonesimulator.a */,
+				71D58EB113F0B0550063F76F /* libfmodexL_iphoneos.a */,
+				71D58EB213F0B0550063F76F /* libfmodexL_iphonesimulator.a */,
+				71D58EB313F0B0550063F76F /* libfmodexL_reduced_iphoneos.a */,
+				71D58EB413F0B0550063F76F /* libfmodexL_reduced_iphonesimulator.a */,
+			);
+			path = lib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,6 +317,7 @@
 				71D16AD8137CE97000B30C68 /* MapViewController.xib in Resources */,
 				714F01E71380CB6200653F8E /* MapView.xib in Resources */,
 				714F02131380CF4300653F8E /* Options.xib in Resources */,
+				7179E50E1382CEED002412CA /* softguy.aif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,13 +331,14 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* MayDemoAppDelegate.m in Sources */,
 				28D7ACF80DDB3853001CB0EB /* MayDemoViewController.m in Sources */,
-				71D16AC6137CE93E00B30C68 /* AudioConversion.m in Sources */,
+				71D16AC6137CE93E00B30C68 /* AudioConversion.mm in Sources */,
 				71D16AC7137CE93E00B30C68 /* Annotation.m in Sources */,
 				71D16AD1137CE95800B30C68 /* AudioTourAppDelegate.m in Sources */,
 				71D16AD2137CE95800B30C68 /* FlipsideViewController.m in Sources */,
 				71D16AD3137CE95800B30C68 /* MainViewController.m in Sources */,
 				71D16AD7137CE97000B30C68 /* MapViewController.m in Sources */,
 				7192CD241380BC5D00B3E6DC /* Options.m in Sources */,
+				719DFEA81382F88A00C92628 /* AudioStreamer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +355,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = MayDemo_Prefix.pch;
 				INFOPLIST_FILE = "MayDemo-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Classes/inc/lib\"",
+				);
 				PRODUCT_NAME = MayDemo;
 			};
 			name = Debug;
@@ -289,6 +371,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = MayDemo_Prefix.pch;
 				INFOPLIST_FILE = "MayDemo-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Classes/inc/lib\"",
+				);
 				PRODUCT_NAME = MayDemo;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -302,7 +388,20 @@
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					/Developer/FMOD,
+					Programmers,
+					API,
+					iPhone/api/inc,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/Developer/FMOD,
+					Programmers,
+					API,
+					iPhone/api/lib,
+				);
 				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-lfmodexL_$PLATFORM_NAME";
 				PREBINDING = NO;
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "5A6A12D1-4E56-4094-A3CF-974C2BC71362";
 				SDKROOT = iphoneos;
@@ -317,8 +416,21 @@
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					/Developer/FMOD,
+					Programmers,
+					API,
+					iPhone/api/inc,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/Developer/FMOD,
+					Programmers,
+					API,
+					iPhone/api/lib,
+				);
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = "-lfmodexL_$PLATFORM_NAME";
 				PREBINDING = NO;
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "5A6A12D1-4E56-4094-A3CF-974C2BC71362";
 				SDKROOT = iphoneos;

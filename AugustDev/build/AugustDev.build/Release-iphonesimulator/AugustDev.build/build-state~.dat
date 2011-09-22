@@ -1,0 +1,637 @@
+TAugustDev
+v7
+r0
+t338164845.644982
+cCheck dependencies
+cProcessInfoPlistFile /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/Release-iphonesimulator/AugustDev.app/Info.plist AugustDev-Info.plist
+cCompileXIB /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/MainWindow.xib
+cCompileXIB /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/AugustDevViewController.xib
+cCpResource build/Release-iphonesimulator/AugustDev.app/SnowWhite.m4a SnowWhite.m4a
+cProcessPCH /var/folders/MK/MKNp4XzsHt47X4XBj-6yME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AugustDev_Prefix-ehqrcuzzkxkufvcaerwubdggvyrr/AugustDev_Prefix.pch.gch AugustDev_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH++ /var/folders/MK/MKNp4XzsHt47X4XBj-6yME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AugustDev_Prefix-cnbedzfztovbvbgtlaxhtbfzxxxq/AugustDev_Prefix.pch.gch AugustDev_Prefix.pch normal i386 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC build/AugustDev.build/Release-iphonesimulator/AugustDev.build/Objects-normal/i386/main.o /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AugustDev.build/Release-iphonesimulator/AugustDev.build/Objects-normal/i386/AugustDevAppDelegate.o /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AugustDevAppDelegate.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC build/AugustDev.build/Release-iphonesimulator/AugustDev.build/Objects-normal/i386/AugustDevViewController.o /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AugustDevViewController.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC build/AugustDev.build/Release-iphonesimulator/AugustDev.build/Objects-normal/i386/AudioStreamer_Sept.o /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer_Sept.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC build/AugustDev.build/Release-iphonesimulator/AugustDev.build/Objects-normal/i386/Options.o /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/Options.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AugustDev.build/Release-iphonesimulator/AugustDev.build/Objects-normal/i386/Annotation.o /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/Annotation.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AugustDev.build/Release-iphonesimulator/AugustDev.build/Objects-normal/i386/MapView.o /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/MapView.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+cLd /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/Release-iphonesimulator/AugustDev.app/AugustDev normal i386
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004CC1224600000000001EA9C0
+t1287725638
+s2009536
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.h
+c000000004CC1222F0000000000000A23
+t1287725615
+s2595
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+c000000004CC1224400000000001C3D40
+t1287725636
+s1850688
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CFNetwork.framework/Headers/CFNetwork.h
+c000000004CC1221800000000000004CF
+t1287725592
+s1231
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreAudio.framework/CoreAudio
+c000000004CC1220900000000000A8450
+t1287725577
+s689232
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c000000004CC127E80000000000074190
+t1287727080
+s475536
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.h
+c000000004CC1294D00000000000002FE
+t1287727437
+s766
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/MapKit.framework/MapKit
+c000000004CC12977000000000017E7F0
+t1287727479
+s1566704
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/pthread.h
+c000000004CB3E48600000000000038F0
+t1286857862
+s14576
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/AugustDevViewController.xib
+c000000004E65B4DE0000000000006BE6
+t1315288286
+s27622
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/AugustDev_Prefix.pch
+c000000004E45388700000000000000BB
+t1313159303
+s187
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/Annotation.h
+c000000004DD1D686000000000000027A
+t1305597574
+s634
+i<Foundation/Foundation.h>
+i<MapKit/MapKit.h>
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/Annotation.m
+c000000004DD1DC680000000000000214
+t1305599080
+s532
+i"Annotation.h"
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.h
+c000000004E76ED580000000000001432
+t1316416856
+s5170
+i<UIKit/UIKit.h>
+i<Cocoa/Cocoa.h>
+i<pthread.h>
+i<AudioToolbox/AudioToolbox.h>
+i"fmod.hpp"
+i"fmod_errors.h"
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.m
+c000000004E76D0CA000000000000978B
+t1316409546
+s38795
+i"AudioStreamer.h"
+i<CFNetwork/CFNetwork.h>
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.mm
+c000000004E77BBF70000000000009FF5
+t1316469751
+s40949
+i"AudioStreamer.h"
+i<CFNetwork/CFNetwork.h>
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer_Sept.h
+c000000004E77C4EA000000000000143B
+t1316472042
+s5179
+i<UIKit/UIKit.h>
+i<Cocoa/Cocoa.h>
+i<pthread.h>
+i<AudioToolbox/AudioToolbox.h>
+i"fmod.hpp"
+i"fmod_errors.h"
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer_Sept.mm
+c000000004E77C24F000000000000A047
+t1316471375
+s41031
+i"AudioStreamer_Sept.h"
+i<CFNetwork/CFNetwork.h>
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AugustDevAppDelegate.h
+c000000004E77BF5E00000000000001F1
+t1316470622
+s497
+i<UIKit/UIKit.h>
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AugustDevAppDelegate.mm
+c000000004E453EE80000000000000AA3
+t1313160936
+s2723
+i"AugustDevAppDelegate.h"
+i"AugustDevViewController.h"
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AugustDevViewController.h
+c000000004E77C0DE00000000000003F6
+t1316471006
+s1014
+i<UIKit/UIKit.h>
+i"fmod.hpp"
+i"fmod_errors.h"
+i"AudioStreamer_Sept.h"
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AugustDevViewController.mm
+c000000004E77C1000000000000000386
+t1316471040
+s902
+i"AugustDevViewController.h"
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/MapView.h
+c000000004E455AED00000000000000D8
+t1313168109
+s216
+i<UIKit/UIKit.h>
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/MapView.mm
+c000000004E455AED000000000000060A
+t1313168109
+s1546
+i"MapView.h"
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/Options.h
+c000000004DD092A30000000000000304
+t1305514659
+s772
+i<UIKit/UIKit.h>
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/Options.m
+c000000004DD09A2400000000000007FA
+t1305516580
+s2042
+i"Options.h"
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/fmod.h
+c000000004E453AD1000000000002B52A
+t1313159889
+s177450
+i"fmod_codec.h"
+i"fmod_dsp.h"
+i"fmod_memoryinfo.h"
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/fmod.hpp
+c000000004E453AD100000000000092C9
+t1313159889
+s37577
+i"fmod.h"
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/fmod_codec.h
+c000000004E453AD10000000000003332
+t1313159889
+s13106
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/fmod_dsp.h
+c000000004E453AD100000000000099B2
+t1313159889
+s39346
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/fmod_errors.h
+c000000004E453AD10000000000003831
+t1313159889
+s14385
+i"fmod.h"
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/fmod_memoryinfo.h
+c000000004E453AD100000000000035D2
+t1313159889
+s13778
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/MainWindow.xib
+c000000004E4538870000000000004E41
+t1313159303
+s20033
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Snow White.m4a
+c000000004D23B4680000000000864226
+t1294185576
+s8798758
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/SnowWhite.m4a
+c000000004D23B4680000000000864226
+t1294185576
+s8798758
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/AugustDev.build/Release-iphonesimulator/AugustDev.build/Objects-normal/i386/Annotation.o
+t1316472045
+s12964
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/AugustDev.build/Release-iphonesimulator/AugustDev.build/Objects-normal/i386/AudioStreamer.o
+t1316469844
+s163976
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/AugustDev.build/Release-iphonesimulator/AugustDev.build/Objects-normal/i386/AudioStreamer_Sept.o
+t1316472044
+s164672
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/AugustDev.build/Release-iphonesimulator/AugustDev.build/Objects-normal/i386/AugustDev.LinkFileList
+c000000004E77C4EB000000000000043B
+t1316472043
+s1083
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/AugustDev.build/Release-iphonesimulator/AugustDev.build/Objects-normal/i386/AugustDevAppDelegate.o
+t1316472043
+s104136
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/AugustDev.build/Release-iphonesimulator/AugustDev.build/Objects-normal/i386/AugustDevViewController.o
+t1316472043
+s115284
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/AugustDev.build/Release-iphonesimulator/AugustDev.build/Objects-normal/i386/MapView.o
+t1316472045
+s37088
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/AugustDev.build/Release-iphonesimulator/AugustDev.build/Objects-normal/i386/Options.o
+t1316472045
+s43224
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/AugustDev.build/Release-iphonesimulator/AugustDev.build/Objects-normal/i386/main.o
+t1316472045
+s6324
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/Release-iphonesimulator/AugustDev.app
+t1316457502
+s272
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/Release-iphonesimulator/AugustDev.app.dSYM
+t1316410947
+s102
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/Release-iphonesimulator/AugustDev.app/AugustDev
+t2
+s0
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/Release-iphonesimulator/AugustDev.app/AugustDevViewController.nib
+t1315288291
+s2350
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/Release-iphonesimulator/AugustDev.app/Info.plist
+t1313708287
+s599
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/Release-iphonesimulator/AugustDev.app/MainWindow.nib
+t1313708288
+s1127
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/Release-iphonesimulator/AugustDev.app/PkgInfo
+t1313708288
+s8
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/Release-iphonesimulator/AugustDev.app/Snow White.m4a
+t1315284778
+s8798758
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/Release-iphonesimulator/AugustDev.app/SnowWhite.m4a
+t1315285069
+s8798758
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/main.m
+c000000004E453887000000000000016F
+t1313159303
+s367
+i<UIKit/UIKit.h>
+
+N/var/folders/MK/MKNp4XzsHt47X4XBj-6yME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AugustDev_Prefix-cnbedzfztovbvbgtlaxhtbfzxxxq/AugustDev_Prefix.pch.gch
+t1313708294
+s16518224
+
+N/var/folders/MK/MKNp4XzsHt47X4XBj-6yME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AugustDev_Prefix-ehqrcuzzkxkufvcaerwubdggvyrr/AugustDev_Prefix.pch.gch
+t1313708293
+s15113424
+
+NAugustDev-Info.plist
+c000000004E453887000000000000038D
+t1313159303
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies338164843#338164843#0(0"0(0#1#0"8615674272#0"0#
+
+CCompileC build/AugustDev.build/Release-iphonesimulator/AugustDev.build/Objects-normal/i386/Annotation.o /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/Annotation.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s338164845.224535
+e338164845.441955
+r1
+xCompileC
+xbuild/AugustDev.build/Release-iphonesimulator/AugustDev.build/Objects-normal/i386/Annotation.o
+x/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/Annotation.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@85"Compile /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/Annotation.m338164845#338164845#0(0"0(0#0#77"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/Annotation.m8615044384#2288"    cd /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/AugustDev.build/Release-iphonesimulator/AugustDev.build/AugustDev-generated-files.hmap -I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/AugustDev.build/Release-iphonesimulator/AugustDev.build/AugustDev-own-target-headers.hmap -I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/AugustDev.build/Release-iphonesimulator/AugustDev.build/AugustDev-all-target-headers.hmap -iquote /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/AugustDev.build/Release-iphonesimulator/AugustDev.build/AugustDev-project-headers.hmap -F/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/Release-iphonesimulator -I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/Release-iphonesimulator/include -I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/api/inc -I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/AugustDev.build/Release-iphonesimulator/AugustDev.build/DerivedSources/i386 -I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/AugustDev.build/Release-iphonesimulator/AugustDev.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/MK/MKNp4XzsHt47X4XBj-6yME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AugustDev_Prefix-ehqrcuzzkxkufvcaerwubdggvyrr/AugustDev_Prefix.pch -c /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/Annotation.m -o /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/AugustDev.build/Release-iphonesimulator/AugustDev.build/Objects-normal/i386/Annotation.o0#
+
+CCompileC build/AugustDev.build/Release-iphonesimulator/AugustDev.build/Objects-normal/i386/AudioStreamer.o /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s338102361.101873
+e338102361.280239
+r0
+xCompileC
+xbuild/AugustDev.build/Release-iphonesimulator/AugustDev.build/Objects-normal/i386/AudioStreamer.o
+x/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.h:19,
+o                 from /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.m:1:
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/fmod.hpp:20: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'FMOD'
+oIn file included from /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.m:1:
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.h:143: error: expected specifier-qualifier-list before 'FMOD'
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.h:144: error: expected specifier-qualifier-list before 'FMOD'
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.h:145: error: expected specifier-qualifier-list before 'FMOD'
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.m: In function '-[AudioStreamer startInternal]':
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.m:762: error: lvalue required as left operand of assignment
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.m:763: error: 'sound' undeclared (first use in this function)
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.m:763: error: (Each undeclared identifier is reported only once
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.m:763: error: for each function it appears in.)
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.m:764: error: 'channel' undeclared (first use in this function)
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.m: In function '-[AudioStreamer progress]':
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.m:963: error: expected expression before ';' token
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.m:962: warning: unused variable 'discontinuity'
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.m: In function '-[AudioStreamer pause]':
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.m:996: error: expected expression before ';' token
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.m:1007: error: 'audioQueue' undeclared (first use in this function)
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.m: In function '-[AudioStreamer handleReadFromStream:eventType:]':
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.m:1110: warning: 'AudioStreamer' may not respond to '-enqueueBuffer'
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.m:1110: warning: (Messages without a matching method signature
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.m:1110: warning: will be assumed to return 'id' and accept
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.m:1110: warning: '...' as arguments.)
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.m:1127: error: 'audioQueue' undeclared (first use in this function)
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.m: In function '-[AudioStreamer handlePropertyChangeForFileStream:fileStreamPropertyID:ioFlags:]':
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.m:1288: error: expected expression before ']' token
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.m:1294: error: 'audioQueue' undeclared (first use in this function)
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.m:1294: error: 'MyAudioQueueIsRunningCallback' undeclared (first use in this function)
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.m:1302: error: 'kNumAQBufs' undeclared (first use in this function)
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.m:1304: error: 'audioQueueBuffer' undeclared (first use in this function)
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.m: In function '-[AudioStreamer handleAudioPackets:numberBytes:numberPackets:packetDescriptions:]':
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.m:1462: error: 'audioQueueBuffer' undeclared (first use in this function)
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.m:1474: error: 'kAQMaxPacketDescs' undeclared (first use in this function)
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.m:1486: error: 'kAQBufSize' undeclared (first use in this function)
+lSLF07#2@88"Compile /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.m338102361#338102361#0(4881"In file included from /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.h:19,                 from /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.m:1:/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/fmod.hpp:20: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'FMOD'In file included from /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.m:1:/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.h:143: error: expected specifier-qualifier-list before 'FMOD'/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.h:144: error: expected specifier-qualifier-list before 'FMOD'/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.h:145: error: expected specifier-qualifier-list before 'FMOD'/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.m: In function '-[AudioStreamer startInternal]':/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.m:762: error: lvalue required as left operand of assignment/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.m:763: error: 'sound' undeclared (first use in this function)/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.m:763: error: (Each undeclared identifier is reported only once/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.m:763: error: for each function it appears in.)/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.m:764: error: 'channel' undeclared (first use in this function)/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.m: In function '-[AudioStreamer progress]':/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.m:963: error: expected expression before ';' token/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.m:962: warning: unused variable 'discontinuity'/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.m: In function '-[AudioStreamer pause]':/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.m:996: error: expected expression before ';' token/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.m:1007: error: 'audioQueue' undeclared (first use in this function)/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.m: In function '-[AudioStreamer handleReadFromStream:eventType:]':/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.m:1110: warning: 'AudioStreamer' may not respond to '-enqueueBuffer'/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.m:1110: warning: (Messages without a matching method signature/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.m:1110: warning: will be assumed to return 'id' and accept/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.m:1110: warning: '...' as arguments.)/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.m:1127: error: 'audioQueue' undeclared (first use in this function)/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.m: In function '-[AudioStreamer handlePropertyChangeForFileStream:fileStreamPropertyID:ioFlags:]':/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.m:1288: error: expected expression before ']' token/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.m:1294: error: 'audioQueue' undeclared (first use in this function)/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.m:1294: error: 'MyAudioQueueIsRunningCallback' undeclared (first use in this function)/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.m:1302: error: 'kNumAQBufs' undeclared (first use in this function)/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.m:1304: error: 'audioQueueBuffer' undeclared (first use in this function)/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.m: In function '-[AudioStreamer handleAudioPackets:numberBytes:numberPackets:packetDescriptions:]':/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.m:1462: error: 'audioQueueBuffer' undeclared (first use in this function)/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.m:1474: error: 'kAQMaxPacketDescs' undeclared (first use in this function)/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.m:1486: error: 'kAQBufSize' undeclared (first use in this function)22(4@62"Expected '=', ',', ';', 'asm' or '__attribute__' before 'FMOD'338102361#213#148#3(7@102"In file included from /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.m338102361#18446744073709551615#0#0(6@80"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.m338102346#1#0#1#0#0"0(7@102"In file included from /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.h338102361#18446744073709551615#0#0(6@80"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.h338102254#19#0#19#0#0"0(13@139"Expected '=', ',', ';', 'asm' or '__attribute__' before 'FMOD' in /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/fmod.hpp338102361#18446744073709551615#0#0(6@73"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/fmod.hpp334852689#20#0#20#0#0"0(6@73"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/fmod.hpp334852689#20#0#20#0#19"expected * before *0(4@47"Expected specifier-qualifier-list before 'FMOD'338102361#467#141#2(7@102"In file included from /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.m338102361#18446744073709551615#0#0(6@80"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.m338102346#1#0#1#0#0"0(13@131"Expected specifier-qualifier-list before 'FMOD' in /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.h338102361#18446744073709551615#0#0(6@80"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.h338102254#143#0#143#0#0"0(6@80"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.h338102254#143#0#143#0#19"expected * before *0(4@47"Expected specifier-qualifier-list before 'FMOD'338102361#608#141#2(7@102"In file included from /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.m338102361#18446744073709551615#0#0(6@80"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.m338102346#1#0#1#0#0"0(13@131"Expected specifier-qualifier-list before 'FMOD' in /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.h338102361#18446744073709551615#0#0(6@80"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.h338102254#144#0#144#0#0"0(6@80"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.h338102254#144#0#144#0#19"expected * before *0(4@47"Expected specifier-qualifier-list before 'FMOD'338102361#749#141#2(7@102"In file included from /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.m338102361#18446744073709551615#0#0(6@80"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.m338102346#1#0#1#0#0"0(13@131"Expected specifier-qualifier-list before 'FMOD' in /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.h338102361#18446744073709551615#0#0(6@80"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.h338102254#145#0#145#0#0"0(6@80"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.h338102254#145#0#145#0#19"expected * before *0(4@45"Lvalue required as left operand of assignment338102361#1018#139#0(6@80"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.m338102346#762#0#762#0#0"0(4@47"'sound' undeclared (first use in this function)338102361#1157#141#0(6@80"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.m338102346#763#0#763#0#43"'*' undeclared (first use in this function)0(4@49"'channel' undeclared (first use in this function)338102361#1568#143#0(6@80"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.m338102346#764#0#764#0#43"'*' undeclared (first use in this function)0(4@36"Expected expression before ';' token338102361#1834#130#0(6@80"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.m338102346#963#0#963#0#19"expected * before *0(22@31"Unused variable 'discontinuity'338102361#1964#127#0(6@80"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.m338102346#962#0#962#0#19"unused variable '*'0(4@36"Expected expression before ';' token338102361#2211#130#0(6@80"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.m338102346#996#0#996#0#19"expected * before *0(4@52"'audioQueue' undeclared (first use in this function)338102361#2341#147#0(6@80"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.m338102346#1007#0#1007#0#43"'*' undeclared (first use in this function)0(22@51"'AudioStreamer' may not respond to '-enqueueBuffer'338102361#2634#148#0(6@80"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.m338102346#1110#0#1110#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)338102361#2782#142#0(6@80"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.m338102346#1110#0#1110#0#0"0(4@52"'audioQueue' undeclared (first use in this function)338102361#3179#147#0(6@80"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.m338102346#1127#0#1127#0#43"'*' undeclared (first use in this function)0(4@36"Expected expression before ']' token338102361#3504#131#0(6@80"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.m338102346#1288#0#1288#0#19"expected * before *0(4@52"'audioQueue' undeclared (first use in this function)338102361#3635#147#0(6@80"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.m338102346#1294#0#1294#0#43"'*' undeclared (first use in this function)0(4@71"'MyAudioQueueIsRunningCallback' undeclared (first use in this function)338102361#3782#166#0(6@80"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.m338102346#1294#0#1294#0#43"'*' undeclared (first use in this function)0(4@52"'kNumAQBufs' undeclared (first use in this function)338102361#3948#147#0(6@80"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.m338102346#1302#0#1302#0#43"'*' undeclared (first use in this function)0(4@58"'audioQueueBuffer' undeclared (first use in this function)338102361#4095#153#0(6@80"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.m338102346#1304#0#1304#0#43"'*' undeclared (first use in this function)0(4@58"'audioQueueBuffer' undeclared (first use in this function)338102361#4427#153#0(6@80"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.m338102346#1462#0#1462#0#43"'*' undeclared (first use in this function)0(4@59"'kAQMaxPacketDescs' undeclared (first use in this function)338102361#4580#154#0(6@80"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.m338102346#1474#0#1474#0#43"'*' undeclared (first use in this function)0(4@52"'kAQBufSize' undeclared (first use in this function)338102361#4734#147#0(6@80"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.m338102346#1486#0#1486#0#43"'*' undeclared (first use in this function)0(0#0#80"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.m8618387904#2294"    cd /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/AugustDev.build/Release-iphonesimulator/AugustDev.build/AugustDev-generated-files.hmap -I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/AugustDev.build/Release-iphonesimulator/AugustDev.build/AugustDev-own-target-headers.hmap -I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/AugustDev.build/Release-iphonesimulator/AugustDev.build/AugustDev-all-target-headers.hmap -iquote /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/AugustDev.build/Release-iphonesimulator/AugustDev.build/AugustDev-project-headers.hmap -F/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/Release-iphonesimulator -I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/Release-iphonesimulator/include -I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/api/inc -I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/AugustDev.build/Release-iphonesimulator/AugustDev.build/DerivedSources/i386 -I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/AugustDev.build/Release-iphonesimulator/AugustDev.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/MK/MKNp4XzsHt47X4XBj-6yME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AugustDev_Prefix-ehqrcuzzkxkufvcaerwubdggvyrr/AugustDev_Prefix.pch -c /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.m -o /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/AugustDev.build/Release-iphonesimulator/AugustDev.build/Objects-normal/i386/AudioStreamer.o1#
+
+CCompileC build/AugustDev.build/Release-iphonesimulator/AugustDev.build/Objects-normal/i386/AudioStreamer.o /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s338162643.703286
+e338162644.392502
+r1
+xCompileC
+xbuild/AugustDev.build/Release-iphonesimulator/AugustDev.build/Objects-normal/i386/AudioStreamer.o
+x/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.mm: In function 'void -[AudioStreamer startStream](AudioStreamer*, objc_selector*)':
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.mm:262: warning: unused variable 'pos'
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.mm:263: warning: unused variable 'vel'
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.mm: In function 'double -[AudioStreamer progress](AudioStreamer*, objc_selector*)':
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.mm:1074: warning: unused variable 'discontinuity'
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.mm: In function 'void -[AudioStreamer handleReadFromStream:eventType:](AudioStreamer*, objc_selector*, __CFReadStream*, CFStreamEventType)':
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.mm:1232: warning: 'AudioStreamer' may not respond to '-enqueueBuffer'
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.mm:1232: warning: (Messages without a matching method signature
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.mm:1232: warning: will be assumed to return 'id' and accept
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.mm:1232: warning: '...' as arguments.)
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.mm: In function 'void -[AudioStreamer handleAudioPackets:numberBytes:numberPackets:packetDescriptions:](AudioStreamer*, objc_selector*, const void*, UInt32, UInt32, AudioStreamPacketDescription*)':
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.mm:1534: warning: unused variable 'packetOffset'
+lSLF07#2@89"Compile /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.mm338162643#338162644#0(1866"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.mm: In function 'void -[AudioStreamer startStream](AudioStreamer*, objc_selector*)':/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.mm:262: warning: unused variable 'pos'/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.mm:263: warning: unused variable 'vel'/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.mm: In function 'double -[AudioStreamer progress](AudioStreamer*, objc_selector*)':/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.mm:1074: warning: unused variable 'discontinuity'/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.mm: In function 'void -[AudioStreamer handleReadFromStream:eventType:](AudioStreamer*, objc_selector*, __CFReadStream*, CFStreamEventType)':/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.mm:1232: warning: 'AudioStreamer' may not respond to '-enqueueBuffer'/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.mm:1232: warning: (Messages without a matching method signature/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.mm:1232: warning: will be assumed to return 'id' and accept/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.mm:1232: warning: '...' as arguments.)/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.mm: In function 'void -[AudioStreamer handleAudioPackets:numberBytes:numberPackets:packetDescriptions:](AudioStreamer*, objc_selector*, const void*, UInt32, UInt32, AudioStreamPacketDescription*)':/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.mm:1534: warning: unused variable 'packetOffset'6(22@21"Unused variable 'pos'338162643#164#118#0(6@81"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.mm338162551#262#0#262#0#19"unused variable '*'0(22@21"Unused variable 'vel'338162643#282#118#0(6@81"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.mm338162551#263#0#263#0#19"unused variable '*'0(22@31"Unused variable 'discontinuity'338162643#563#129#0(6@81"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.mm338162551#1074#0#1074#0#19"unused variable '*'0(22@51"'AudioStreamer' may not respond to '-enqueueBuffer'338162643#912#149#0(6@81"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.mm338162551#1232#0#1232#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)338162643#1061#143#0(6@81"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.mm338162551#1232#0#1232#0#0"0(22@30"Unused variable 'packetOffset'338162643#1738#128#0(6@81"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.mm338162551#1534#0#1534#0#19"unused variable '*'0(0#0#81"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.mm8628314720#2316"    cd /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/AugustDev.build/Release-iphonesimulator/AugustDev.build/AugustDev-generated-files.hmap -I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/AugustDev.build/Release-iphonesimulator/AugustDev.build/AugustDev-own-target-headers.hmap -I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/AugustDev.build/Release-iphonesimulator/AugustDev.build/AugustDev-all-target-headers.hmap -iquote /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/AugustDev.build/Release-iphonesimulator/AugustDev.build/AugustDev-project-headers.hmap -F/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/Release-iphonesimulator -I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/Release-iphonesimulator/include -I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/api/inc -I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/AugustDev.build/Release-iphonesimulator/AugustDev.build/DerivedSources/i386 -I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/AugustDev.build/Release-iphonesimulator/AugustDev.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/MK/MKNp4XzsHt47X4XBj-6yME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AugustDev_Prefix-cnbedzfztovbvbgtlaxhtbfzxxxq/AugustDev_Prefix.pch -c /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer.mm -o /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/AugustDev.build/Release-iphonesimulator/AugustDev.build/Objects-normal/i386/AudioStreamer.o0#
+
+CCompileC build/AugustDev.build/Release-iphonesimulator/AugustDev.build/Objects-normal/i386/AudioStreamer_Sept.o /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer_Sept.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s338164843.811870
+e338164844.471919
+r1
+xCompileC
+xbuild/AugustDev.build/Release-iphonesimulator/AugustDev.build/Objects-normal/i386/AudioStreamer_Sept.o
+x/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer_Sept.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer_Sept.mm: In function 'void -[AudioStreamer_Sept startStream](AudioStreamer_Sept*, objc_selector*)':
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer_Sept.mm:263: warning: unused variable 'pos'
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer_Sept.mm:264: warning: unused variable 'vel'
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer_Sept.mm: In function 'double -[AudioStreamer_Sept progress](AudioStreamer_Sept*, objc_selector*)':
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer_Sept.mm:1075: warning: unused variable 'discontinuity'
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer_Sept.mm: In function 'void -[AudioStreamer_Sept handleReadFromStream:eventType:](AudioStreamer_Sept*, objc_selector*, __CFReadStream*, CFStreamEventType)':
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer_Sept.mm:1233: warning: 'AudioStreamer_Sept' may not respond to '-enqueueBuffer'
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer_Sept.mm:1233: warning: (Messages without a matching method signature
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer_Sept.mm:1233: warning: will be assumed to return 'id' and accept
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer_Sept.mm:1233: warning: '...' as arguments.)
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer_Sept.mm: In function 'void -[AudioStreamer_Sept handleAudioPackets:numberBytes:numberPackets:packetDescriptions:](AudioStreamer_Sept*, objc_selector*, const void*, UInt32, UInt32, AudioStreamPacketDescription*)':
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer_Sept.mm:1535: warning: unused variable 'packetOffset'
+lSLF07#2@94"Compile /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer_Sept.mm338164843#338164844#0(1971"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer_Sept.mm: In function 'void -[AudioStreamer_Sept startStream](AudioStreamer_Sept*, objc_selector*)':/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer_Sept.mm:263: warning: unused variable 'pos'/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer_Sept.mm:264: warning: unused variable 'vel'/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer_Sept.mm: In function 'double -[AudioStreamer_Sept progress](AudioStreamer_Sept*, objc_selector*)':/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer_Sept.mm:1075: warning: unused variable 'discontinuity'/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer_Sept.mm: In function 'void -[AudioStreamer_Sept handleReadFromStream:eventType:](AudioStreamer_Sept*, objc_selector*, __CFReadStream*, CFStreamEventType)':/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer_Sept.mm:1233: warning: 'AudioStreamer_Sept' may not respond to '-enqueueBuffer'/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer_Sept.mm:1233: warning: (Messages without a matching method signature/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer_Sept.mm:1233: warning: will be assumed to return 'id' and accept/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer_Sept.mm:1233: warning: '...' as arguments.)/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer_Sept.mm: In function 'void -[AudioStreamer_Sept handleAudioPackets:numberBytes:numberPackets:packetDescriptions:](AudioStreamer_Sept*, objc_selector*, const void*, UInt32, UInt32, AudioStreamPacketDescription*)':/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer_Sept.mm:1535: warning: unused variable 'packetOffset'6(22@21"Unused variable 'pos'338164843#179#123#0(6@86"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer_Sept.mm338164175#263#0#263#0#19"unused variable '*'0(22@21"Unused variable 'vel'338164843#302#123#0(6@86"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer_Sept.mm338164175#264#0#264#0#19"unused variable '*'0(22@31"Unused variable 'discontinuity'338164843#603#134#0(6@86"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer_Sept.mm338164175#1075#0#1075#0#19"unused variable '*'0(22@56"'AudioStreamer_Sept' may not respond to '-enqueueBuffer'338164843#972#159#0(6@86"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer_Sept.mm338164175#1233#0#1233#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)338164843#1131#148#0(6@86"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer_Sept.mm338164175#1233#0#1233#0#0"0(22@30"Unused variable 'packetOffset'338164843#1838#133#0(6@86"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer_Sept.mm338164175#1535#0#1535#0#19"unused variable '*'0(0#0#86"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer_Sept.mm8606560800#2326"    cd /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/AugustDev.build/Release-iphonesimulator/AugustDev.build/AugustDev-generated-files.hmap -I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/AugustDev.build/Release-iphonesimulator/AugustDev.build/AugustDev-own-target-headers.hmap -I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/AugustDev.build/Release-iphonesimulator/AugustDev.build/AugustDev-all-target-headers.hmap -iquote /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/AugustDev.build/Release-iphonesimulator/AugustDev.build/AugustDev-project-headers.hmap -F/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/Release-iphonesimulator -I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/Release-iphonesimulator/include -I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/api/inc -I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/AugustDev.build/Release-iphonesimulator/AugustDev.build/DerivedSources/i386 -I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/AugustDev.build/Release-iphonesimulator/AugustDev.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/MK/MKNp4XzsHt47X4XBj-6yME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AugustDev_Prefix-cnbedzfztovbvbgtlaxhtbfzxxxq/AugustDev_Prefix.pch -c /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer_Sept.mm -o /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/AugustDev.build/Release-iphonesimulator/AugustDev.build/Objects-normal/i386/AudioStreamer_Sept.o0#
+
+CCompileC build/AugustDev.build/Release-iphonesimulator/AugustDev.build/Objects-normal/i386/AugustDevAppDelegate.o /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AugustDevAppDelegate.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s338164843.325545
+e338164843.519475
+r1
+xCompileC
+xbuild/AugustDev.build/Release-iphonesimulator/AugustDev.build/Objects-normal/i386/AugustDevAppDelegate.o
+x/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AugustDevAppDelegate.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@96"Compile /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AugustDevAppDelegate.mm338164843#338164843#0(0"0(0#0#88"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AugustDevAppDelegate.mm8602713408#2330"    cd /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/AugustDev.build/Release-iphonesimulator/AugustDev.build/AugustDev-generated-files.hmap -I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/AugustDev.build/Release-iphonesimulator/AugustDev.build/AugustDev-own-target-headers.hmap -I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/AugustDev.build/Release-iphonesimulator/AugustDev.build/AugustDev-all-target-headers.hmap -iquote /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/AugustDev.build/Release-iphonesimulator/AugustDev.build/AugustDev-project-headers.hmap -F/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/Release-iphonesimulator -I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/Release-iphonesimulator/include -I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/api/inc -I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/AugustDev.build/Release-iphonesimulator/AugustDev.build/DerivedSources/i386 -I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/AugustDev.build/Release-iphonesimulator/AugustDev.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/MK/MKNp4XzsHt47X4XBj-6yME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AugustDev_Prefix-cnbedzfztovbvbgtlaxhtbfzxxxq/AugustDev_Prefix.pch -c /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AugustDevAppDelegate.mm -o /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/AugustDev.build/Release-iphonesimulator/AugustDev.build/Objects-normal/i386/AugustDevAppDelegate.o0#
+
+CCompileC build/AugustDev.build/Release-iphonesimulator/AugustDev.build/Objects-normal/i386/AugustDevViewController.o /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AugustDevViewController.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s338164843.519585
+e338164843.811771
+r1
+xCompileC
+xbuild/AugustDev.build/Release-iphonesimulator/AugustDev.build/Objects-normal/i386/AugustDevViewController.o
+x/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AugustDevViewController.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AugustDevViewController.mm:69: warning: incomplete implementation of class 'AugustDevViewController'
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AugustDevViewController.mm:69: warning: method definition for '-timerUpdate:' not found
+lSLF07#2@99"Compile /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AugustDevViewController.mm338164843#338164843#0(319"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AugustDevViewController.mm:69: warning: incomplete implementation of class 'AugustDevViewController'/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AugustDevViewController.mm:69: warning: method definition for '-timerUpdate:' not found2(22@60"Incomplete implementation of class 'AugustDevViewController'338164843#0#166#0(6@91"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AugustDevViewController.mm338163840#69#0#69#0#38"incomplete implementation of class '*'0(22@47"Method definition for '-timerUpdate:' not found338164843#166#153#0(6@91"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AugustDevViewController.mm338163840#69#0#69#0#35"method definition for '*' not found0(0#0#91"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AugustDevViewController.mm8615816096#2336"    cd /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/AugustDev.build/Release-iphonesimulator/AugustDev.build/AugustDev-generated-files.hmap -I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/AugustDev.build/Release-iphonesimulator/AugustDev.build/AugustDev-own-target-headers.hmap -I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/AugustDev.build/Release-iphonesimulator/AugustDev.build/AugustDev-all-target-headers.hmap -iquote /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/AugustDev.build/Release-iphonesimulator/AugustDev.build/AugustDev-project-headers.hmap -F/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/Release-iphonesimulator -I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/Release-iphonesimulator/include -I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/api/inc -I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/AugustDev.build/Release-iphonesimulator/AugustDev.build/DerivedSources/i386 -I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/AugustDev.build/Release-iphonesimulator/AugustDev.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/MK/MKNp4XzsHt47X4XBj-6yME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AugustDev_Prefix-cnbedzfztovbvbgtlaxhtbfzxxxq/AugustDev_Prefix.pch -c /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AugustDevViewController.mm -o /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/AugustDev.build/Release-iphonesimulator/AugustDev.build/Objects-normal/i386/AugustDevViewController.o0#
+
+CCompileC build/AugustDev.build/Release-iphonesimulator/AugustDev.build/Objects-normal/i386/MapView.o /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/MapView.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s338164845.294939
+e338164845.358273
+r1
+xCompileC
+xbuild/AugustDev.build/Release-iphonesimulator/AugustDev.build/Objects-normal/i386/MapView.o
+x/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/MapView.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@83"Compile /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/MapView.mm338164845#338164845#0(0"0(0#0#75"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/MapView.mm8599220736#2304"    cd /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/AugustDev.build/Release-iphonesimulator/AugustDev.build/AugustDev-generated-files.hmap -I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/AugustDev.build/Release-iphonesimulator/AugustDev.build/AugustDev-own-target-headers.hmap -I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/AugustDev.build/Release-iphonesimulator/AugustDev.build/AugustDev-all-target-headers.hmap -iquote /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/AugustDev.build/Release-iphonesimulator/AugustDev.build/AugustDev-project-headers.hmap -F/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/Release-iphonesimulator -I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/Release-iphonesimulator/include -I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/api/inc -I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/AugustDev.build/Release-iphonesimulator/AugustDev.build/DerivedSources/i386 -I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/AugustDev.build/Release-iphonesimulator/AugustDev.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/MK/MKNp4XzsHt47X4XBj-6yME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AugustDev_Prefix-cnbedzfztovbvbgtlaxhtbfzxxxq/AugustDev_Prefix.pch -c /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/MapView.mm -o /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/AugustDev.build/Release-iphonesimulator/AugustDev.build/Objects-normal/i386/MapView.o0#
+
+CCompileC build/AugustDev.build/Release-iphonesimulator/AugustDev.build/Objects-normal/i386/Options.o /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/Options.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s338164844.472014
+e338164845.294842
+r1
+xCompileC
+xbuild/AugustDev.build/Release-iphonesimulator/AugustDev.build/Objects-normal/i386/Options.o
+x/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/Options.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@82"Compile /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/Options.m338164844#338164845#0(0"0(0#0#74"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/Options.m8614685888#2282"    cd /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/AugustDev.build/Release-iphonesimulator/AugustDev.build/AugustDev-generated-files.hmap -I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/AugustDev.build/Release-iphonesimulator/AugustDev.build/AugustDev-own-target-headers.hmap -I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/AugustDev.build/Release-iphonesimulator/AugustDev.build/AugustDev-all-target-headers.hmap -iquote /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/AugustDev.build/Release-iphonesimulator/AugustDev.build/AugustDev-project-headers.hmap -F/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/Release-iphonesimulator -I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/Release-iphonesimulator/include -I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/api/inc -I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/AugustDev.build/Release-iphonesimulator/AugustDev.build/DerivedSources/i386 -I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/AugustDev.build/Release-iphonesimulator/AugustDev.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/MK/MKNp4XzsHt47X4XBj-6yME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AugustDev_Prefix-ehqrcuzzkxkufvcaerwubdggvyrr/AugustDev_Prefix.pch -c /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/Options.m -o /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/AugustDev.build/Release-iphonesimulator/AugustDev.build/Objects-normal/i386/Options.o0#
+
+CCompileC build/AugustDev.build/Release-iphonesimulator/AugustDev.build/Objects-normal/i386/main.o /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s338164843.324519
+e338164845.224346
+r1
+xCompileC
+xbuild/AugustDev.build/Release-iphonesimulator/AugustDev.build/Objects-normal/i386/main.o
+x/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/main.m338164843#338164845#0(0"0(0#0#63"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/main.m8605879424#2268"    cd /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/AugustDev.build/Release-iphonesimulator/AugustDev.build/AugustDev-generated-files.hmap -I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/AugustDev.build/Release-iphonesimulator/AugustDev.build/AugustDev-own-target-headers.hmap -I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/AugustDev.build/Release-iphonesimulator/AugustDev.build/AugustDev-all-target-headers.hmap -iquote /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/AugustDev.build/Release-iphonesimulator/AugustDev.build/AugustDev-project-headers.hmap -F/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/Release-iphonesimulator -I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/Release-iphonesimulator/include -I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/api/inc -I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/AugustDev.build/Release-iphonesimulator/AugustDev.build/DerivedSources/i386 -I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/AugustDev.build/Release-iphonesimulator/AugustDev.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/MK/MKNp4XzsHt47X4XBj-6yME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AugustDev_Prefix-ehqrcuzzkxkufvcaerwubdggvyrr/AugustDev_Prefix.pch -c /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/main.m -o /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/AugustDev.build/Release-iphonesimulator/AugustDev.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/AugustDevViewController.xib
+s336981091.287392
+e336981091.724644
+r1
+xCompileXIB
+x/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/AugustDevViewController.xib
+lSLF07#2@38"CompileXIB AugustDevViewController.xib336981091#336981091#0(0"0(0#0#84"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/AugustDevViewController.xib8611063712#654"    cd /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/Release-iphonesimulator/AugustDev.app/AugustDevViewController.nib /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/AugustDevViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/MainWindow.xib
+s335401088.031572
+e335401088.509339
+r1
+xCompileXIB
+x/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib335401088#335401088#0(0"0(0#0#71"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/MainWindow.xib8640762944#628"    cd /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/Release-iphonesimulator/AugustDev.app/MainWindow.nib /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCpResource "build/Release-iphonesimulator/AugustDev.app/Snow White.m4a" "Snow White.m4a"
+s336977578.403644
+e336977578.685343
+r1
+xCpResource
+xbuild/Release-iphonesimulator/AugustDev.app/Snow White.m4a
+xSnow White.m4a
+lSLF07#2@19"Copy Snow White.m4a336977578#336977578#0(0"0(0#0#71"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Snow White.m4a8609272896#553"    cd /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Snow White.m4a" /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/Release-iphonesimulator/AugustDev.app0#
+
+CCpResource build/Release-iphonesimulator/AugustDev.app/SnowWhite.m4a SnowWhite.m4a
+s336977869.166974
+e336977869.361403
+r1
+xCpResource
+xbuild/Release-iphonesimulator/AugustDev.app/SnowWhite.m4a
+xSnowWhite.m4a
+lSLF07#2@18"Copy SnowWhite.m4a336977869#336977869#0(0"0(0#0#70"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/SnowWhite.m4a8620138848#550"    cd /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/SnowWhite.m4a /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/Release-iphonesimulator/AugustDev.app0#
+
+CGenerateDSYMFile /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/Release-iphonesimulator/AugustDev.app.dSYM /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/Release-iphonesimulator/AugustDev.app/AugustDev
+s338103747.938143
+e338103747.977836
+r1
+xGenerateDSYMFile
+x/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/Release-iphonesimulator/AugustDev.app.dSYM
+x/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/Release-iphonesimulator/AugustDev.app/AugustDev
+lSLF07#2@119"GenerateDSYMFile build/Release-iphonesimulator/AugustDev.app.dSYM build/Release-iphonesimulator/AugustDev.app/AugustDev338103747#338103747#0(0"0(0#0#110"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/Release-iphonesimulator/AugustDev.app/AugustDev8621699904#447"    cd /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/Release-iphonesimulator/AugustDev.app/AugustDev -o /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/Release-iphonesimulator/AugustDev.app.dSYM0#
+
+CLd /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/Release-iphonesimulator/AugustDev.app/AugustDev normal i386
+s338164845.442036
+e338164845.644889
+r0
+xLd
+x/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/Release-iphonesimulator/AugustDev.app/AugustDev
+xnormal
+xi386
+old: duplicate symbol _interruptedOnPlayback in /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/AugustDev.build/Release-iphonesimulator/AugustDev.build/Objects-normal/i386/AugustDevViewController.o and /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/AugustDev.build/Release-iphonesimulator/AugustDev.build/Objects-normal/i386/AugustDevAppDelegate.o
+ocollect2: ld returned 1 exit status
+lSLF07#2@115"Link /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/Release-iphonesimulator/AugustDev.app/AugustDev338164845#338164845#0(518"ld: duplicate symbol _interruptedOnPlayback in /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/AugustDev.build/Release-iphonesimulator/AugustDev.build/Objects-normal/i386/AugustDevViewController.o and /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/AugustDev.build/Release-iphonesimulator/AugustDev.build/Objects-normal/i386/AugustDevAppDelegate.ocollect2: ld returned 1 exit statusCommand /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/g++-4.2 failed with exit code 12(13@373"Duplicate symbol _interruptedOnPlayback in /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/AugustDev.build/Release-iphonesimulator/AugustDev.build/Objects-normal/i386/AugustDevViewController.o and /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/AugustDev.build/Release-iphonesimulator/AugustDev.build/Objects-normal/i386/AugustDevAppDelegate.o338164845#0#378#0(6@0"338164845#0#0#0#0#0"0(4@103"Command /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/g++-4.2 failed with exit code 1338164845#18446744073709551615#0#0(1@0"0(0#0#0"8615846592#1265"    cd /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/g++-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/Release-iphonesimulator -L/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/api/lib -L/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes -F/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/Release-iphonesimulator -filelist /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/AugustDev.build/Release-iphonesimulator/AugustDev.build/Objects-normal/i386/AugustDev.LinkFileList -mmacosx-version-min=10.6 -lfmodex_iphonesimulator -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework AudioToolbox -framework CoreAudio -framework CFNetwork -framework CoreLocation -framework MapKit -o /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/Release-iphonesimulator/AugustDev.app/AugustDev1#
+
+CProcessInfoPlistFile /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/Release-iphonesimulator/AugustDev.app/Info.plist AugustDev-Info.plist
+s335401087.987613
+e335401088.031481
+r1
+xProcessInfoPlistFile
+x/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/Release-iphonesimulator/AugustDev.app/Info.plist
+xAugustDev-Info.plist
+lSLF07#2@28"Process AugustDev-Info.plist335401087#335401088#0(0"0(0#0#77"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/AugustDev-Info.plist8605470080#543"    cd /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility AugustDev-Info.plist -genpkginfo /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/Release-iphonesimulator/AugustDev.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/Release-iphonesimulator/AugustDev.app/Info.plist0#
+
+CProcessPCH /var/folders/MK/MKNp4XzsHt47X4XBj-6yME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AugustDev_Prefix-ehqrcuzzkxkufvcaerwubdggvyrr/AugustDev_Prefix.pch.gch AugustDev_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s335401088.509470
+e335401094.300935
+r1
+xProcessPCH
+x/var/folders/MK/MKNp4XzsHt47X4XBj-6yME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AugustDev_Prefix-ehqrcuzzkxkufvcaerwubdggvyrr/AugustDev_Prefix.pch.gch
+xAugustDev_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@31"Precompile AugustDev_Prefix.pch335401088#335401094#0(0"0(0#0#77"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/AugustDev_Prefix.pch8637580256#2138"    cd /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/AugustDev.build/Release-iphonesimulator/AugustDev.build/AugustDev-generated-files.hmap -I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/AugustDev.build/Release-iphonesimulator/AugustDev.build/AugustDev-own-target-headers.hmap -I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/AugustDev.build/Release-iphonesimulator/AugustDev.build/AugustDev-all-target-headers.hmap -iquote /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/AugustDev.build/Release-iphonesimulator/AugustDev.build/AugustDev-project-headers.hmap -F/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/Release-iphonesimulator -I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/Release-iphonesimulator/include -I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/api/inc -I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/AugustDev.build/Release-iphonesimulator/AugustDev.build/DerivedSources/i386 -I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/AugustDev.build/Release-iphonesimulator/AugustDev.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -c /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/AugustDev_Prefix.pch -o /var/folders/MK/MKNp4XzsHt47X4XBj-6yME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AugustDev_Prefix-ehqrcuzzkxkufvcaerwubdggvyrr/AugustDev_Prefix.pch.gch0#
+
+CProcessPCH++ /var/folders/MK/MKNp4XzsHt47X4XBj-6yME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AugustDev_Prefix-cnbedzfztovbvbgtlaxhtbfzxxxq/AugustDev_Prefix.pch.gch AugustDev_Prefix.pch normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s335401088.510426
+e335401094.579312
+r1
+xProcessPCH++
+x/var/folders/MK/MKNp4XzsHt47X4XBj-6yME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AugustDev_Prefix-cnbedzfztovbvbgtlaxhtbfzxxxq/AugustDev_Prefix.pch.gch
+xAugustDev_Prefix.pch
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@31"Precompile AugustDev_Prefix.pch335401088#335401094#0(0"0(0#0#77"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/AugustDev_Prefix.pch8637312000#2159"    cd /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++-header -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/AugustDev.build/Release-iphonesimulator/AugustDev.build/AugustDev-generated-files.hmap -I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/AugustDev.build/Release-iphonesimulator/AugustDev.build/AugustDev-own-target-headers.hmap -I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/AugustDev.build/Release-iphonesimulator/AugustDev.build/AugustDev-all-target-headers.hmap -iquote /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/AugustDev.build/Release-iphonesimulator/AugustDev.build/AugustDev-project-headers.hmap -F/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/Release-iphonesimulator -I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/Release-iphonesimulator/include -I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/api/inc -I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/AugustDev.build/Release-iphonesimulator/AugustDev.build/DerivedSources/i386 -I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/AugustDev.build/Release-iphonesimulator/AugustDev.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -c /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/AugustDev_Prefix.pch -o /var/folders/MK/MKNp4XzsHt47X4XBj-6yME+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AugustDev_Prefix-cnbedzfztovbvbgtlaxhtbfzxxxq/AugustDev_Prefix.pch.gch0#
+
+CTouch /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/Release-iphonesimulator/AugustDev.app
+s338103747.977926
+e338103747.980653
+r1
+xTouch
+x/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/Release-iphonesimulator/AugustDev.app
+lSLF07#2@106"Touch /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/Release-iphonesimulator/AugustDev.app338103747#338103747#0(0"0(0#0#0"8619885504#318"    cd /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/build/Release-iphonesimulator/AugustDev.app0#
+

@@ -17,8 +17,9 @@
 #import "Annotation.h"
 #import <MapKit/MapKit.h>
 #import "MayDemoViewController.h"
-#import "AudioConversion.h"
+//#import "AudioConversion.h"
 #import "Options.h"	
+#import "AudioStreamer.h"
 	
 	@interface MapViewController : UIViewController <CLLocationManagerDelegate, MKMapViewDelegate> 
 	
@@ -47,7 +48,10 @@
 		NSMutableArray *bufferStorageArray;
 		NSMutableArray *soundLibrary; //Library of NSDictionaries, each describing a track.
 		
-		AudioConversion *convert;
+	//	AudioConversion *convert;
+		void *convert;
+		AudioStreamer *streamer;
+		AudioStreamer *streamer2;
 		
 		BOOL tracking;
 		BOOL soundsLoaded;
@@ -102,8 +106,9 @@
 	//---------- OpenAL and audio methods------------//
 	
 	- (void)initOpenAL; //Necessary OpenAL initializer method.
-	- (IBAction)loadSounds:(NSString*)activeCategory; //Shadel-specific. Should not be needed. 
-	- (AudioFileID)openAudioFile:(NSString *)filePath; //Opens audio file in OpenAL from NSString, returns an ID. 
+	//- (IBAction)loadSounds:(NSString*)activeCategory; //Shadel-specific. Should not be needed. 
+	-(void) loadSounds;
+	- (AudioFileID)openAudioFile; //Opens audio file in OpenAL from NSString, returns an ID. 
 	- (UInt32)audioFileSize:(AudioFileID)fileDescriptor; //Takes in Audio file and gives size
 	- (BOOL)loadNextStreamingBufferForSound:(NSMutableDictionary*)record intoBuffer:(NSUInteger)bufferID; //loads next buffer for a given sound, which is an NSDictionary, into bufferID int.
 	- (void)rotateBufferThread:(NSMutableDictionary*)record;
@@ -115,6 +120,7 @@
 	- (IBAction)stopAllSounds;
 	- (void)playLongSoundFromRecord:(NSMutableDictionary*)record;
 	- (void)cleanUpOpenAL:(id)sender; //Close up OpenAL
+	- (void)loadSounds;
 	
 	//- (IBAction)toggleTracking;
 	
@@ -132,7 +138,7 @@
 
 //	- (IBAction) sourceSelect: (id)sender;
 
-
+	- (void)createStreamer;
 	
 	@end
 

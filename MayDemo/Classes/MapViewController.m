@@ -30,15 +30,19 @@
 	[(NSString *)CFURLCreateStringByAddingPercentEscapes(
 														 nil,
 														 //(CFStringRef)@"http://www.jiwok.com/uploads/staticworkouts/french/AE_RUN_30_8L_1000000.mp3",
-														 (CFStringRef)@"http://204.93.192.135:80/q2.aac",
+														// (CFStringRef)@"http://204.93.192.135:80/q2.aac",
+														 (CFStringRef)@"http://wnycfm.streamguys.com:80/wnycfm.aac",
 														 //(CFStringRef)@"http://wfuv-onair.streamguys.org:80/onair-hi",
 														 NULL,
 														 NULL,
 														 kCFStringEncodingUTF8) 
 														autorelease];
-	
+
 	NSURL *url = [[NSURL URLWithString:escapedValue] retain];
-	convert = [[AudioConversion alloc] initWithURL:url];
+
+		
+//	convert = [[AudioConversion alloc] initWithURL:url];
+
 		if(convert) {
 			NSLog(@"Conversion object created");
 	
@@ -54,8 +58,12 @@
 
 {
 
-	
+	[self createStreamer];
+	[streamer start];
+	[streamer2 start];
 
+//////////---------------------------------------------/////////////
+	
 	
 	self.locationManager = [[[CLLocationManager alloc] init] autorelease]; //for retain count 
 	//adds one to retain count with alloc; then we autorelease to decrement retain count 
@@ -176,11 +184,17 @@
 	WFUV.coordinate = fuv;
 	WNYC.coordinate = nyc;
 	
-	[coordinates addObject:Carnegie];
+	//[coordinates addObject:Carnegie];
 	[coordinates addObject:WFUV];
 	[coordinates addObject:WNYC];
 	
 	[map addAnnotations:coordinates];
+	
+	[self initOpenAL];
+	NSLog(@"Now calling loadSounds.");
+	[self loadSounds];
+	NSLog(@"Now calling playAllSounds.");
+	[self playAllSounds];
 }
 
 
@@ -295,25 +309,6 @@
 	gainFloor = 0;
 	defaultGainFloor = 0;
 	
-	//angleWidthSlider.value = defaultAngleWidth;
-	//gainScaleSlider.value = defaultGainScale;
-	//angleWidthSliderValue = [NSString stringWithFormat:@"%.02f",defaultAngleWidth];
-	//gainScaleSliderValue = [NSString stringWithFormat:@"%.02f",defaultGainScale];
-	
-	
-	
-	/**
-	 // set initial values for listener object (may be unnecessary)
-	 ALfloat listenerPos[] = {0.0, 0.0, 0.0};
-	 ALfloat listenerVel[] = {0.0, 0.0, 0.0};
-	 // this default orientation is for a listener pointed straight ahead
-	 ALfloat listenerOri[] = {0.0, 0.0, -1.0, 0.0, 1.0, 0.0};
-	 
-	 alListenerfv(AL_ORIENTATION, listenerOri);
-	 alListenerfv(AL_VELOCITY, listenerVel);
-	 alListenerfv(AL_POSITION, listenerPos);
-	 **/
-	
 	/**
 	 // initialize fileNames
 	 // this NSMutableArray holds the file names of each sound to play
@@ -338,20 +333,10 @@
 	 [fileNames addObject:fileName7];
 	 **/
 	
-	
-	// code used for testing on xcode simulator
-	/**
-	 [fileNames addObject:@"/Users/brentshadel/Desktop/dynsym.caf"];
-	 [fileNames addObject:@"/Users/brentshadel/Desktop/intloc.caf"];
-	 [fileNames addObject:@"/Users/brentshadel/Desktop/1618.caf"];
-	 [fileNames addObject:@"/Users/brentshadel/Desktop/cu.caf"];
-	 [fileNames addObject:@"/Users/brentshadel/Desktop/anhkmech.caf"];
-	 [fileNames addObject:@"/Users/brentshadel/Desktop/gmk.caf"];
-	 **/
-	
-	
 	// initialize OpenAL
-	[self initOpenAL];
+	//[self initOpenAL];
+	//[self loadSounds];
+	//[self playAllSounds];
 }
 
 
@@ -375,11 +360,15 @@
 
 // function to load all sounds
 // takes NSString which is the name of the category to load sounds from
--(IBAction)loadSounds:(NSString*)activeCategory
+//-(IBAction)loadSounds:(NSString*)activeCategory
+-(void)loadSounds
 {
-	NSLog(@"loading sounds for category: %@",activeCategory);
-	NSArray *fileNames = [[NSBundle mainBundle] pathsForResourcesOfType:@"aif" inDirectory:activeCategory];
+	NSString *activeCategory;
+	NSLog(@"loading sounds for category");
+	NSMutableArray *fileNames = [[NSMutableArray alloc] init];// [[NSBundle mainBundle] pathsForResourcesOfType:@"aif" inDirectory:activeCategory];
 	NSLog(@"fileNames initialized");
+	NSString* sound = [[NSBundle mainBundle] pathForResource:@"softguy" ofType:@"aif"];
+	 [fileNames addObject:sound];
 	
 	if (!soundsLoaded)
 	{
@@ -400,7 +389,13 @@
 			ALfloat defaultSourcePosition[] = {x, y, z};
 			
 			// open audio file
-			AudioFileID fileID = [self openAudioFile:fileName];
+			
+			//AudioFileID fileID = [self openAudioFile:fileName];
+			
+			//For Defense Demo
+			AudioFileID fileID = [self openAudioFile];
+			
+			
 			// get file size
 			UInt32 fileSize = [self audioFileSize:fileID];
 			// initialize bufferIndex to 0
@@ -473,19 +468,29 @@
 
 
 
--(AudioFileID)openAudioFile:(NSString *)filePath
+//-(AudioFileID)openAudioFile:(NSString *)filePath
+
+-(AudioFileID)openAudioFile
+
 {
 	AudioFileID outAFID;
+	NSString *path = [[NSString alloc] init];
+	path = @"softguy.aif";
 	
-	NSURL *afUrl = [NSURL fileURLWithPath:filePath];
+	NSURL *afUrl = [NSURL fileURLWithPath:path];
 	
 #if TARGET_OS_IPHONE
 	OSStatus result = AudioFileOpenURL((CFURLRef)afUrl, kAudioFileReadPermission, 0, &outAFID);
 #else
 	OSStatus result = AudioFileOpenURL((CFURLRef)afUrl, fsRdPerm, 0, &outAFID);
 #endif
-	if (result != 0) NSLog(@"cannot open file: %@",filePath);
+	if (result != 0) NSLog(@"cannot open file");
+		else {
+		NSLog(@"File opened correctly.");
+	}
+	
 	return outAFID;
+
 }
 
 
@@ -639,14 +644,7 @@
 		free(outData);
 		return NO; // no more file!
 	}
-	
-	
-	
-	
-	
-	
-	
-	
+
 	
 	
 	/**
@@ -1351,5 +1349,57 @@
 	gainFloor = gainFloorSlider.value;
 }
 
+
+
+
+
+// ------for May demo --------------//
+
+- (void)createStreamer
+{
+	if (streamer)
+	{
+		return;
+	}
+	
+	//[self destroyStreamer]; 
+	
+	NSString *escapedValue =
+	[(NSString *)CFURLCreateStringByAddingPercentEscapes(
+														 nil,
+														 //(CFStringRef)@"http://www.jiwok.com/uploads/staticworkouts/french/AE_RUN_30_8L_1000000.mp3",
+														(CFStringRef)@"http://wfuv-onair.streamguys.org:80/onair-hi",											 
+														 NULL,
+														 NULL,
+														 kCFStringEncodingUTF8)
+	 autorelease];
+	
+	NSString *escapedValue2 = 
+	[(NSString *)CFURLCreateStringByAddingPercentEscapes(
+														 nil,
+														 //(CFStringRef)@"http://www.jiwok.com/uploads/staticworkouts/french/AE_RUN_30_8L_1000000.mp3",
+														 // (CFStringRef)@"http://204.93.192.135:80/q2.aac",
+														 (CFStringRef)@"http://wnycfm.streamguys.com:80/wnycfm.aac",
+														 //(CFStringRef)@"http://wfuv-onair.streamguys.org:80/onair-hi",
+														 NULL,
+														 NULL,
+														 kCFStringEncodingUTF8) 
+	 autorelease];
+	
+	
+	NSURL *url = [NSURL URLWithString:escapedValue];
+	NSURL *url2 = [NSURL URLWithString:escapedValue2];
+	streamer = [[AudioStreamer alloc] initWithURL:url];
+	streamer2 =[[AudioStreamer alloc] initWithURL:url2];
+}
+
+- (IBAction)buttonPressed:(id)sender
+{
+		
+		[self createStreamer];
+		[streamer start];
+		//[streamer2 start];
+	
+}
 
 @end

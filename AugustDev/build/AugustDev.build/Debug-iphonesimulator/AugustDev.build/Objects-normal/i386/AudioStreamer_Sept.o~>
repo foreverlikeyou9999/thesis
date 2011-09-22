@@ -1,0 +1,5 @@
+/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer_Sept.mm: In function 'void -[AudioStreamer_Sept startStream](AudioStreamer_Sept*, objc_selector*)':
+/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer_Sept.mm:263: warning: unused variable 'pos'
+/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer_Sept.mm:264: warning: unused variable 'vel'
+/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer_Sept.mm: In function 'double -[AudioStreamer_Sept progress](AudioStreamer_Sept*, objc_selector*)':
+/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AudioStreamer_Sept.mm:1087: warning: unused variable 'discontinuity'
