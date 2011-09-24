@@ -39,6 +39,7 @@
 	NSURL *url = [NSURL URLWithString:escapedValue];
 	stream = [[AudioStreamer_Sept alloc] initWithURL:url];
 	[stream start];
+	NSLog(@"Stream started called");
 }
 
 -(IBAction)pannerMoved:(id)sender {
@@ -60,7 +61,7 @@
 }
 
 
-- (IBAction)pauseResume:(id)sender
+- (IBAction)pauseResume:(id)sender 
 {
     [stream pause];		
 }

@@ -1,0 +1,563 @@
+Tnetstream
+v7
+r0
+t338517728.095918
+cCheck dependencies
+cProcessInfoPlistFile "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphonesimulator/netstream.app/Info.plist" ../common/Info.plist
+cCompileXIB "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/Example.xib"
+cCompileXIB "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/../common/MainWindow.xib"
+cCpResource build/Debug-iphonesimulator/netstream.app/background.png ../media/background.png
+cCpResource build/Debug-iphonesimulator/netstream.app/icon.png ../media/icon.png
+cCompileC build/septDev.build/Debug-iphonesimulator/netstream.build/Objects-normal/i386/main.o "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/../common/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/septDev.build/Debug-iphonesimulator/netstream.build/Objects-normal/i386/Annotation.o "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/Annotation.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/septDev.build/Debug-iphonesimulator/netstream.build/Objects-normal/i386/AudioStreamer_Sept.o "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm" normal i386 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC build/septDev.build/Debug-iphonesimulator/netstream.build/Objects-normal/i386/AugustDevAppDelegate.o "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AugustDevAppDelegate.mm" normal i386 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC build/septDev.build/Debug-iphonesimulator/netstream.build/Objects-normal/i386/AugustDevViewController.o "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AugustDevViewController.mm" normal i386 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC build/septDev.build/Debug-iphonesimulator/netstream.build/Objects-normal/i386/MapView.o "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/MapView.mm" normal i386 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC build/septDev.build/Debug-iphonesimulator/netstream.build/Objects-normal/i386/Options.o "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/Options.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+
+N../common/Info.plist
+c000000004E71569C0000000000000377
+t1316050588
+s887
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004CC1224600000000001EA9C0
+t1287725638
+s2009536
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.h
+c000000004CC1222F0000000000000A23
+t1287725615
+s2595
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CFNetwork.framework/Headers/CFNetwork.h
+c000000004CC1221800000000000004CF
+t1287725592
+s1231
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreAudio.framework/CoreAudio
+c000000004CC1220900000000000A8450
+t1287725577
+s689232
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.h
+c000000004CC1294D00000000000002FE
+t1287727437
+s766
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/pthread.h
+c000000004CB3E48600000000000038F0
+t1286857862
+s14576
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/api/inc/fmod.h
+c000000004E71569C0000000000028BEC
+t1316050588
+s166892
+i"fmod_codec.h"
+i"fmod_dsp.h"
+i"fmod_memoryinfo.h"
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/api/inc/fmod.hpp
+c000000004E71569C0000000000009370
+t1316050588
+s37744
+i"fmod.h"
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/api/inc/fmod_codec.h
+c000000004E71569C000000000000333E
+t1316050588
+s13118
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/api/inc/fmod_dsp.h
+c000000004E71569C00000000000097DD
+t1316050588
+s38877
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/api/inc/fmod_errors.h
+c000000004E71569C0000000000003706
+t1316050588
+s14086
+i"fmod.h"
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/api/inc/fmod_memoryinfo.h
+c000000004E71569C00000000000035BB
+t1316050588
+s13755
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/common/ExampleAppDelegate.h
+c000000004E71569C000000000000012D
+t1316050588
+s301
+i<UIKit/UIKit.h>
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/../common/ExampleAppDelegate.mm
+c000000004E71569C000000000000034B
+t1316050588
+s843
+i"ExampleAppDelegate.h"
+i"ViewController.h"
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/../common/MainWindow.xib
+c000000004E71569C0000000000001BEC
+t1316050588
+s7148
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/../common/main.m
+c000000004E71569C0000000000000123
+t1316050588
+s291
+i<UIKit/UIKit.h>
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/../media/background.png
+c000000004E71569C0000000000027313
+t1316050588
+s160531
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/../media/icon.png
+c000000004E71569C000000000000194A
+t1316050588
+s6474
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/Annotation.h
+c000000004DD1D686000000000000027A
+t1305597574
+s634
+i<Foundation/Foundation.h>
+i<MapKit/MapKit.h>
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/Annotation.m
+c000000004DD1DC680000000000000214
+t1305599080
+s532
+i"Annotation.h"
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h
+c000000004E79D2E400000000000014A8
+t1316606692
+s5288
+i<UIKit/UIKit.h>
+i<Cocoa/Cocoa.h>
+i<pthread.h>
+i<AudioToolbox/AudioToolbox.h>
+i"fmod.hpp"
+i"fmod_errors.h"
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm
+c000000004E79DC49000000000000A34F
+t1316609097
+s41807
+i"AudioStreamer_Sept.h"
+i<CFNetwork/CFNetwork.h>
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AugustDevAppDelegate.h
+c000000004E77BF5E00000000000001F1
+t1316470622
+s497
+i<UIKit/UIKit.h>
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AugustDevAppDelegate.mm
+c000000004E453EE80000000000000AA3
+t1313160936
+s2723
+i"AugustDevAppDelegate.h"
+i"AugustDevViewController.h"
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AugustDevViewController.h
+c000000004E79D24B00000000000003E4
+t1316606539
+s996
+i<UIKit/UIKit.h>
+i"AudioStreamer_Sept.h"
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AugustDevViewController.mm
+c000000004E79D27400000000000004EB
+t1316606580
+s1259
+i"AugustDevViewController.h"
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/Example.xib
+c000000004E71569C0000000000006648
+t1316050588
+s26184
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/MapView.h
+c000000004E455AED00000000000000D8
+t1313168109
+s216
+i<UIKit/UIKit.h>
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/MapView.mm
+c000000004E455AED000000000000060A
+t1313168109
+s1546
+i"MapView.h"
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/Options.h
+c000000004DD092A30000000000000304
+t1305514659
+s772
+i<UIKit/UIKit.h>
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/Options.m
+c000000004DD09A2400000000000007FA
+t1305516580
+s2042
+i"Options.h"
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/ViewController.h
+c000000004E71569C0000000000000461
+t1316050588
+s1121
+i"fmod.hpp"
+i"fmod_errors.h"
+i<UIKit/UIKit.h>
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/ViewController.mm
+c000000004E7D23550000000000001591
+t1316823893
+s5521
+i"ViewController.h"
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphonesimulator/netstream.app
+t1316823895
+s306
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphonesimulator/netstream.app.dSYM
+t1316823895
+s102
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphonesimulator/netstream.app/Example.nib
+t1316823655
+s6660
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphonesimulator/netstream.app/Info.plist
+t1316823642
+s621
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphonesimulator/netstream.app/MainWindow.nib
+t1316823654
+s1500
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphonesimulator/netstream.app/PkgInfo
+t1316823642
+s8
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphonesimulator/netstream.app/background.png
+t1316823654
+s160531
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphonesimulator/netstream.app/icon.png
+t1316823654
+s6474
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphonesimulator/netstream.app/netstream
+t1316823895
+s1336108
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphonesimulator/netstream.build/Objects-normal/i386/Annotation.o
+t1316824926
+s13216
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphonesimulator/netstream.build/Objects-normal/i386/AudioStreamer_Sept.o
+t2
+s0
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphonesimulator/netstream.build/Objects-normal/i386/AugustDevAppDelegate.o
+t1316824927
+s115224
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphonesimulator/netstream.build/Objects-normal/i386/AugustDevViewController.o
+t1316824927
+s115396
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphonesimulator/netstream.build/Objects-normal/i386/ExampleAppDelegate.o
+t2
+s0
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphonesimulator/netstream.build/Objects-normal/i386/MapView.o
+t1316824928
+s37124
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphonesimulator/netstream.build/Objects-normal/i386/Options.o
+t1316824928
+s43480
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphonesimulator/netstream.build/Objects-normal/i386/ViewController.o
+t2
+s0
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphonesimulator/netstream.build/Objects-normal/i386/main.o
+t1316824926
+s6364
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphonesimulator/netstream.build/Objects-normal/i386/netstream.LinkFileList
+c000000004E7D275E00000000000004F1
+t1316824926
+s1265
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/fmod.h
+c000000004E453AD1000000000002B52A
+t1313159889
+s177450
+i"fmod_codec.h"
+i"fmod_dsp.h"
+i"fmod_memoryinfo.h"
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/fmod.hpp
+c000000004E453AD100000000000092C9
+t1313159889
+s37577
+i"fmod.h"
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/fmod_codec.h
+c000000004E453AD10000000000003332
+t1313159889
+s13106
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/fmod_dsp.h
+c000000004E453AD100000000000099B2
+t1313159889
+s39346
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/fmod_errors.h
+c000000004E453AD10000000000003831
+t1313159889
+s14385
+i"fmod.h"
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/fmod_memoryinfo.h
+c000000004E453AD100000000000035D2
+t1313159889
+s13778
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/libfmodex.dylib
+c000000004E453AA100000000002C83F4
+t1313159841
+s2917364
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies338517726#338517726#0(0"0(0#1#0"8628525728#0"0#
+
+CCompileC build/septDev.build/Debug-iphonesimulator/netstream.build/Objects-normal/i386/Annotation.o "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/Annotation.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s338517726.128267
+e338517726.861078
+r1
+xCompileC
+xbuild/septDev.build/Debug-iphonesimulator/netstream.build/Objects-normal/i386/Annotation.o
+x/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/Annotation.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@107"Compile /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/Annotation.m338517726#338517726#0(0"0(0#0#99"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/Annotation.m8621262560#1746"    cd "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 "-I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphonesimulator/netstream.build/netstream.hmap" "-F/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphonesimulator" "-I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphonesimulator/include" -I../../api/inc "-I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphonesimulator/netstream.build/DerivedSources/i386" "-I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphonesimulator/netstream.build/DerivedSources" -c "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/Annotation.m" -o "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphonesimulator/netstream.build/Objects-normal/i386/Annotation.o"0#
+
+CCompileC build/septDev.build/Debug-iphonesimulator/netstream.build/Objects-normal/i386/AudioStreamer_Sept.o "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm" normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s338517726.756061
+e338517727.076170
+r0
+xCompileC
+xbuild/septDev.build/Debug-iphonesimulator/netstream.build/Objects-normal/i386/AudioStreamer_Sept.o
+x/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm:1:
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h:14:24: error: Cocoa/Cocoa.h: No such file or directory
+oIn file included from /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm:1:
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h:100: error: expected initializer before '*' token
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h:102: error: cannot find interface declaration for 'NSObject', superclass of 'AudioStreamer_Sept'
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h:104: error: ISO C++ forbids declaration of 'NSURL' with no type
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h:104: error: expected `;' before '*' token
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h:119: error: ISO C++ forbids declaration of 'NSInteger' with no type
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h:119: error: expected `;' before 'buffersUsed'
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h:133: error: ISO C++ forbids declaration of 'NSNotificationCenter' with no type
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h:133: error: expected `;' before '*' token
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h:135: error: ISO C++ forbids declaration of 'NSUInteger' with no type
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h:135: error: expected `;' before 'dataOffset'
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h:158: error: expected type-specifier before 'NSURL'
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h:158: error: expected `)' before 'NSURL'
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h:158: error: expected `;' before '*' token
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h:162: error: expected type-specifier before 'BOOL'
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h:162: error: expected `)' before 'BOOL'
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h:162: error: expected `;' before ')' token
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h:163: error: expected type-specifier before 'BOOL'
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h:163: error: expected `)' before 'BOOL'
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h:163: error: expected `;' before ')' token
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h:164: error: expected type-specifier before 'BOOL'
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h:164: error: expected `)' before 'BOOL'
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h:164: error: expected `;' before ')' token
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h:165: error: expected type-specifier before 'BOOL'
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h:165: error: expected `)' before 'BOOL'
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h:165: error: expected `;' before ')' token
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm:6: error: expected constructor, destructor, or type conversion before '*' token
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm:7: error: expected constructor, destructor, or type conversion before '*' token
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm:8: error: expected constructor, destructor, or type conversion before '*' token
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm:9: error: expected constructor, destructor, or type conversion before '*' token
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm:10: error: expected constructor, destructor, or type conversion before '*' token
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm:11: error: expected constructor, destructor, or type conversion before '*' token
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm:12: error: expected constructor, destructor, or type conversion before '*' token
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm:13: error: expected constructor, destructor, or type conversion before '*' token
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm:14: error: expected constructor, destructor, or type conversion before '*' token
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm:15: error: expected constructor, destructor, or type conversion before '*' token
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm:16: error: expected constructor, destructor, or type conversion before '*' token
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm:21: error: expected constructor, destructor, or type conversion before '*' token
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm: In function 'void MyAudioSessionInterruptionListener(void*, UInt32)':
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm:109: error: 'NSLog' was not declared in this scope
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm: In function 'void interruptionListenerCallback(void*, UInt32)':
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm:123: error: 'NSLog' was not declared in this scope
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm:127: error: 'YES' was not declared in this scope
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm:132: error: 'NSLog' was not declared in this scope
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm:137: error: 'NO' was not declared in this scope
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm: In function 'void -[AudioStreamer_Sept startStream](AudioStreamer_Sept*, objc_selector*)':
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm:261: error: 'NSLog' was not declared in this scope
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm: In function 'void -[AudioStreamer_Sept fmodKill](AudioStreamer_Sept*, objc_selector*)':
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm:288: error: 'NSLog' was not declared in this scope
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm: In function 'void -[AudioStreamer_Sept soundKill](AudioStreamer_Sept*, objc_selector*)':
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm:311: error: 'NSLog' was not declared in this scope
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm: At global scope:
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm:347: error: expected type-specifier before 'NSURL'
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm:347: error: expected `)' before 'NSURL'
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm: In function 'objc_object* -[AudioStreamer_Sept initWithURL:](AudioStreamer_Sept*, objc_selector*, <type error>)':
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm:347: error: expected `{' before '*' token
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm:347: error: expected unqualified-id before ')' token
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm:347: error: expected constructor, destructor, or type conversion before ')' token
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm:1729: error: expected `@end' at end of input
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm: At global scope:
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm:1729: warning: incomplete implementation of class 'AudioStreamer_Sept'
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm:1729: warning: method definition for '-enqueueBuffer' not found
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm:1729: warning: method definition for '-handleReadFromStream:eventType:' not found
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm:1729: warning: method definition for '-handleInterruptionChangeToState:' not found
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm:1729: warning: method definition for '-handleAudioPackets:numberBytes:numberPackets:packetDescriptions:' not found
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm:1729: warning: method definition for '-handlePropertyChangeForFileStream:fileStreamPropertyID:ioFlags:' not found
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm:1729: warning: method definition for '-BOOL' not found
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm:1729: warning: method definition for '-pause' not found
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm:1729: warning: method definition for '-stop' not found
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm:1729: warning: method definition for '-start' not found
+lSLF07#2@116"Compile /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm338517726#338517727#0(12179"In file included from /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm:1:/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h:14:24: error: Cocoa/Cocoa.h: No such file or directoryIn file included from /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm:1:/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h:100: error: expected initializer before '*' token/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h:102: error: cannot find interface declaration for 'NSObject', superclass of 'AudioStreamer_Sept'/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h:104: error: ISO C++ forbids declaration of 'NSURL' with no type/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h:104: error: expected `;' before '*' token/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h:119: error: ISO C++ forbids declaration of 'NSInteger' with no type/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h:119: error: expected `;' before 'buffersUsed'/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h:133: error: ISO C++ forbids declaration of 'NSNotificationCenter' with no type/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h:133: error: expected `;' before '*' token/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h:135: error: ISO C++ forbids declaration of 'NSUInteger' with no type/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h:135: error: expected `;' before 'dataOffset'/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h:158: error: expected type-specifier before 'NSURL'/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h:158: error: expected `)' before 'NSURL'/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h:158: error: expected `;' before '*' token/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h:162: error: expected type-specifier before 'BOOL'/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h:162: error: expected `)' before 'BOOL'/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h:162: error: expected `;' before ')' token/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h:163: error: expected type-specifier before 'BOOL'/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h:163: error: expected `)' before 'BOOL'/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h:163: error: expected `;' before ')' token/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h:164: error: expected type-specifier before 'BOOL'/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h:164: error: expected `)' before 'BOOL'/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h:164: error: expected `;' before ')' token/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h:165: error: expected type-specifier before 'BOOL'/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h:165: error: expected `)' before 'BOOL'/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h:165: error: expected `;' before ')' token/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm:6: error: expected constructor, destructor, or type conversion before '*' token/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm:7: error: expected constructor, destructor, or type conversion before '*' token/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm:8: error: expected constructor, destructor, or type conversion before '*' token/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm:9: error: expected constructor, destructor, or type conversion before '*' token/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm:10: error: expected constructor, destructor, or type conversion before '*' token/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm:11: error: expected constructor, destructor, or type conversion before '*' token/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm:12: error: expected constructor, destructor, or type conversion before '*' token/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm:13: error: expected constructor, destructor, or type conversion before '*' token/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm:14: error: expected constructor, destructor, or type conversion before '*' token/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm:15: error: expected constructor, destructor, or type conversion before '*' token/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm:16: error: expected constructor, destructor, or type conversion before '*' token/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm:21: error: expected constructor, destructor, or type conversion before '*' token/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm: In function 'void MyAudioSessionInterruptionListener(void*, UInt32)':/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm:109: error: 'NSLog' was not declared in this scope/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm: In function 'void interruptionListenerCallback(void*, UInt32)':/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm:123: error: 'NSLog' was not declared in this scope/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm:127: error: 'YES' was not declared in this scope/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm:132: error: 'NSLog' was not declared in this scope/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm:137: error: 'NO' was not declared in this scope/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm: In function 'void -[AudioStreamer_Sept startStream](AudioStreamer_Sept*, objc_selector*)':/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm:261: error: 'NSLog' was not declared in this scope/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm: In function 'void -[AudioStreamer_Sept fmodKill](AudioStreamer_Sept*, objc_selector*)':/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm:288: error: 'NSLog' was not declared in this scope/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm: In function 'void -[AudioStreamer_Sept soundKill](AudioStreamer_Sept*, objc_selector*)':/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm:311: error: 'NSLog' was not declared in this scope/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm: At global scope:/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm:347: error: expected type-specifier before 'NSURL'/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm:347: error: expected `)' before 'NSURL'/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm: In function 'objc_object* -[AudioStreamer_Sept initWithURL:](AudioStreamer_Sept*, objc_selector*, <type error>)':/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm:347: error: expected `{' before '*' token/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm:347: error: expected unqualified-id before ')' token/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm:347: error: expected constructor, destructor, or type conversion before ')' token/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm:1729: error: expected `@end' at end of input/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm: At global scope:/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm:1729: warning: incomplete implementation of class 'AudioStreamer_Sept'/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm:1729: warning: method definition for '-enqueueBuffer' not found/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm:1729: warning: method definition for '-handleReadFromStream:eventType:' not found/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm:1729: warning: method definition for '-handleInterruptionChangeToState:' not found/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm:1729: warning: method definition for '-handleAudioPackets:numberBytes:numberPackets:packetDescriptions:' not found/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm:1729: warning: method definition for '-handlePropertyChangeForFileStream:fileStreamPropertyID:ioFlags:' not found/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm:1729: warning: method definition for '-BOOL' not found/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm:1729: warning: method definition for '-pause' not found/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm:1729: warning: method definition for '-stop' not found/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm:1729: warning: method definition for '-start' not found64(4@40"Cocoa/Cocoa.h: No such file or directory338517726#134#163#2(7@130"In file included from /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm338517726#18446744073709551615#0#0(6@108"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm338301897#1#0#1#0#0"0(13@151"Cocoa/Cocoa.h: No such file or directory in /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h338517726#18446744073709551615#0#0(6@107"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h338299492#14#0#14#0#0"0(6@107"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h338299492#14#0#14#0#28"*: No such file or directory0(4@37"Expected initializer before '*' token338517727#431#158#2(7@130"In file included from /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm338517727#18446744073709551615#0#0(6@108"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm338301897#1#0#1#0#0"0(13@148"Expected initializer before '*' token in /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h338517727#18446744073709551615#0#0(6@107"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h338299492#100#0#100#0#0"0(6@107"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h338299492#100#0#100#0#19"expected * before *0(4@84"Cannot find interface declaration for 'NSObject', superclass of 'AudioStreamer_Sept'338517727#589#205#2(7@130"In file included from /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm338517727#18446744073709551615#0#0(6@108"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm338301897#1#0#1#0#0"0(13@195"Cannot find interface declaration for 'NSObject', superclass of 'AudioStreamer_Sept' in /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h338517727#18446744073709551615#0#0(6@107"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h338299492#102#0#102#0#0"0(6@107"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h338299492#102#0#102#0#60"cannot find interface declaration for '*', superclass of '*'0(4@51"ISO C++ forbids declaration of 'NSURL' with no type338517727#794#172#2(7@130"In file included from /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm338517727#18446744073709551615#0#0(6@108"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm338301897#1#0#1#0#0"0(13@162"ISO C++ forbids declaration of 'NSURL' with no type in /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h338517727#18446744073709551615#0#0(6@107"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h338299492#104#0#104#0#0"0(6@107"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h338299492#104#0#104#0#47"ISO C++ forbids declaration of '*' with no type0(4@29"Expected `;' before '*' token338517727#966#150#2(7@130"In file included from /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm338517727#18446744073709551615#0#0(6@108"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm338301897#1#0#1#0#0"0(13@140"Expected `;' before '*' token in /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h338517727#18446744073709551615#0#0(6@107"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h338299492#104#0#104#0#0"0(6@107"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h338299492#104#0#104#0#19"expected * before *0(4@55"ISO C++ forbids declaration of 'NSInteger' with no type338517727#1116#176#2(7@130"In file included from /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm338517727#18446744073709551615#0#0(6@108"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm338301897#1#0#1#0#0"0(13@166"ISO C++ forbids declaration of 'NSInteger' with no type in /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h338517727#18446744073709551615#0#0(6@107"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h338299492#119#0#119#0#0"0(6@107"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h338299492#119#0#119#0#47"ISO C++ forbids declaration of '*' with no type0(4@33"Expected `;' before 'buffersUsed'338517727#1292#154#2(7@130"In file included from /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm338517727#18446744073709551615#0#0(6@108"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm338301897#1#0#1#0#0"0(13@144"Expected `;' before 'buffersUsed' in /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h338517727#18446744073709551615#0#0(6@107"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h338299492#119#0#119#0#0"0(6@107"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h338299492#119#0#119#0#19"expected * before *0(4@66"ISO C++ forbids declaration of 'NSNotificationCenter' with no type338517727#1446#187#2(7@130"In file included from /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm338517727#18446744073709551615#0#0(6@108"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm338301897#1#0#1#0#0"0(13@177"ISO C++ forbids declaration of 'NSNotificationCenter' with no type in /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h338517727#18446744073709551615#0#0(6@107"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h338299492#133#0#133#0#0"0(6@107"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h338299492#133#0#133#0#47"ISO C++ forbids declaration of '*' with no type0(4@29"Expected `;' before '*' token338517727#1633#150#2(7@130"In file included from /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm338517727#18446744073709551615#0#0(6@108"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm338301897#1#0#1#0#0"0(13@140"Expected `;' before '*' token in /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h338517727#18446744073709551615#0#0(6@107"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h338299492#133#0#133#0#0"0(6@107"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h338299492#133#0#133#0#19"expected * before *0(4@56"ISO C++ forbids declaration of 'NSUInteger' with no type338517727#1783#177#2(7@130"In file included from /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm338517727#18446744073709551615#0#0(6@108"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm338301897#1#0#1#0#0"0(13@167"ISO C++ forbids declaration of 'NSUInteger' with no type in /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h338517727#18446744073709551615#0#0(6@107"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h338299492#135#0#135#0#0"0(6@107"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h338299492#135#0#135#0#47"ISO C++ forbids declaration of '*' with no type0(4@32"Expected `;' before 'dataOffset'338517727#1960#153#2(7@130"In file included from /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm338517727#18446744073709551615#0#0(6@108"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm338301897#1#0#1#0#0"0(13@143"Expected `;' before 'dataOffset' in /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h338517727#18446744073709551615#0#0(6@107"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h338299492#135#0#135#0#0"0(6@107"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h338299492#135#0#135#0#19"expected * before *0(4@38"Expected type-specifier before 'NSURL'338517727#2113#159#2(7@130"In file included from /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm338517727#18446744073709551615#0#0(6@108"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm338301897#1#0#1#0#0"0(13@149"Expected type-specifier before 'NSURL' in /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h338517727#18446744073709551615#0#0(6@107"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h338299492#158#0#158#0#0"0(6@107"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h338299492#158#0#158#0#19"expected * before *0(4@27"Expected `)' before 'NSURL'338517727#2272#148#2(7@130"In file included from /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm338517727#18446744073709551615#0#0(6@108"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm338301897#1#0#1#0#0"0(13@138"Expected `)' before 'NSURL' in /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h338517727#18446744073709551615#0#0(6@107"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h338299492#158#0#158#0#0"0(6@107"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h338299492#158#0#158#0#19"expected * before *0(4@29"Expected `;' before '*' token338517727#2420#150#2(7@130"In file included from /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm338517727#18446744073709551615#0#0(6@108"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm338301897#1#0#1#0#0"0(13@140"Expected `;' before '*' token in /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h338517727#18446744073709551615#0#0(6@107"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h338299492#158#0#158#0#0"0(6@107"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h338299492#158#0#158#0#19"expected * before *0(4@37"Expected type-specifier before 'BOOL'338517727#2570#158#2(7@130"In file included from /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm338517727#18446744073709551615#0#0(6@108"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm338301897#1#0#1#0#0"0(13@148"Expected type-specifier before 'BOOL' in /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h338517727#18446744073709551615#0#0(6@107"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h338299492#162#0#162#0#0"0(6@107"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h338299492#162#0#162#0#19"expected * before *0(4@26"Expected `)' before 'BOOL'338517727#2728#147#2(7@130"In file included from /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm338517727#18446744073709551615#0#0(6@108"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm338301897#1#0#1#0#0"0(13@137"Expected `)' before 'BOOL' in /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h338517727#18446744073709551615#0#0(6@107"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h338299492#162#0#162#0#0"0(6@107"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h338299492#162#0#162#0#19"expected * before *0(4@29"Expected `;' before ')' token338517727#2875#150#2(7@130"In file included from /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm338517727#18446744073709551615#0#0(6@108"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm338301897#1#0#1#0#0"0(13@140"Expected `;' before ')' token in /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h338517727#18446744073709551615#0#0(6@107"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h338299492#162#0#162#0#0"0(6@107"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h338299492#162#0#162#0#19"expected * before *0(4@37"Expected type-specifier before 'BOOL'338517727#3025#158#2(7@130"In file included from /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm338517727#18446744073709551615#0#0(6@108"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm338301897#1#0#1#0#0"0(13@148"Expected type-specifier before 'BOOL' in /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h338517727#18446744073709551615#0#0(6@107"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h338299492#163#0#163#0#0"0(6@107"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h338299492#163#0#163#0#19"expected * before *0(4@26"Expected `)' before 'BOOL'338517727#3183#147#2(7@130"In file included from /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm338517727#18446744073709551615#0#0(6@108"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm338301897#1#0#1#0#0"0(13@137"Expected `)' before 'BOOL' in /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h338517727#18446744073709551615#0#0(6@107"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h338299492#163#0#163#0#0"0(6@107"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h338299492#163#0#163#0#19"expected * before *0(4@29"Expected `;' before ')' token338517727#3330#150#2(7@130"In file included from /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm338517727#18446744073709551615#0#0(6@108"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm338301897#1#0#1#0#0"0(13@140"Expected `;' before ')' token in /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h338517727#18446744073709551615#0#0(6@107"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h338299492#163#0#163#0#0"0(6@107"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h338299492#163#0#163#0#19"expected * before *0(4@37"Expected type-specifier before 'BOOL'338517727#3480#158#2(7@130"In file included from /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm338517727#18446744073709551615#0#0(6@108"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm338301897#1#0#1#0#0"0(13@148"Expected type-specifier before 'BOOL' in /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h338517727#18446744073709551615#0#0(6@107"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h338299492#164#0#164#0#0"0(6@107"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h338299492#164#0#164#0#19"expected * before *0(4@26"Expected `)' before 'BOOL'338517727#3638#147#2(7@130"In file included from /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm338517727#18446744073709551615#0#0(6@108"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm338301897#1#0#1#0#0"0(13@137"Expected `)' before 'BOOL' in /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h338517727#18446744073709551615#0#0(6@107"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h338299492#164#0#164#0#0"0(6@107"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h338299492#164#0#164#0#19"expected * before *0(4@29"Expected `;' before ')' token338517727#3785#150#2(7@130"In file included from /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm338517727#18446744073709551615#0#0(6@108"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm338301897#1#0#1#0#0"0(13@140"Expected `;' before ')' token in /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h338517727#18446744073709551615#0#0(6@107"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h338299492#164#0#164#0#0"0(6@107"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h338299492#164#0#164#0#19"expected * before *0(4@37"Expected type-specifier before 'BOOL'338517727#3935#158#2(7@130"In file included from /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm338517727#18446744073709551615#0#0(6@108"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm338301897#1#0#1#0#0"0(13@148"Expected type-specifier before 'BOOL' in /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h338517727#18446744073709551615#0#0(6@107"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h338299492#165#0#165#0#0"0(6@107"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h338299492#165#0#165#0#19"expected * before *0(4@26"Expected `)' before 'BOOL'338517727#4093#147#2(7@130"In file included from /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm338517727#18446744073709551615#0#0(6@108"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm338301897#1#0#1#0#0"0(13@137"Expected `)' before 'BOOL' in /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h338517727#18446744073709551615#0#0(6@107"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h338299492#165#0#165#0#0"0(6@107"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h338299492#165#0#165#0#19"expected * before *0(4@29"Expected `;' before ')' token338517727#4240#150#2(7@130"In file included from /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm338517727#18446744073709551615#0#0(6@108"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm338301897#1#0#1#0#0"0(13@140"Expected `;' before ')' token in /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h338517727#18446744073709551615#0#0(6@107"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h338299492#165#0#165#0#0"0(6@107"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h338299492#165#0#165#0#19"expected * before *0(4@69"Expected constructor, destructor, or type conversion before '*' token338517727#4390#189#0(6@108"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm338301897#6#0#6#0#19"expected * before *0(4@69"Expected constructor, destructor, or type conversion before '*' token338517727#4579#189#0(6@108"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm338301897#7#0#7#0#19"expected * before *0(4@69"Expected constructor, destructor, or type conversion before '*' token338517727#4768#189#0(6@108"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm338301897#8#0#8#0#19"expected * before *0(4@69"Expected constructor, destructor, or type conversion before '*' token338517727#4957#189#0(6@108"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm338301897#9#0#9#0#19"expected * before *0(4@69"Expected constructor, destructor, or type conversion before '*' token338517727#5146#190#0(6@108"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm338301897#10#0#10#0#19"expected * before *0(4@69"Expected constructor, destructor, or type conversion before '*' token338517727#5336#190#0(6@108"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm338301897#11#0#11#0#19"expected * before *0(4@69"Expected constructor, destructor, or type conversion before '*' token338517727#5526#190#0(6@108"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm338301897#12#0#12#0#19"expected * before *0(4@69"Expected constructor, destructor, or type conversion before '*' token338517727#5716#190#0(6@108"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm338301897#13#0#13#0#19"expected * before *0(4@69"Expected constructor, destructor, or type conversion before '*' token338517727#5906#190#0(6@108"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm338301897#14#0#14#0#19"expected * before *0(4@69"Expected constructor, destructor, or type conversion before '*' token338517727#6096#190#0(6@108"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm338301897#15#0#15#0#19"expected * before *0(4@69"Expected constructor, destructor, or type conversion before '*' token338517727#6286#190#0(6@108"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm338301897#16#0#16#0#19"expected * before *0(4@69"Expected constructor, destructor, or type conversion before '*' token338517727#6476#190#0(6@108"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm338301897#21#0#21#0#19"expected * before *0(4@38"'NSLog' was not declared in this scope338517727#6846#160#0(6@108"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm338301897#109#0#109#0#34"'*' was not declared in this scope0(4@38"'NSLog' was not declared in this scope338517727#7180#160#0(6@108"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm338301897#123#0#123#0#34"'*' was not declared in this scope0(4@36"'YES' was not declared in this scope338517727#7340#158#0(6@108"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm338301897#127#0#127#0#34"'*' was not declared in this scope0(4@38"'NSLog' was not declared in this scope338517727#7498#160#0(6@108"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm338301897#132#0#132#0#34"'*' was not declared in this scope0(4@35"'NO' was not declared in this scope338517727#7658#157#0(6@108"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm338301897#137#0#137#0#34"'*' was not declared in this scope0(4@38"'NSLog' was not declared in this scope338517727#8016#160#0(6@108"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm338301897#261#0#261#0#34"'*' was not declared in this scope0(4@38"'NSLog' was not declared in this scope338517727#8374#160#0(6@108"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm338301897#288#0#288#0#34"'*' was not declared in this scope0(4@38"'NSLog' was not declared in this scope338517727#8733#160#0(6@108"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm338301897#311#0#311#0#34"'*' was not declared in this scope0(23@16"At global scope:338517727#8893#127#0(6@108"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm338301897#0#0#0#0#0"0(4@38"Expected type-specifier before 'NSURL'338517727#9020#160#0(6@108"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm338301897#347#0#347#0#19"expected * before *0(4@27"Expected `)' before 'NSURL'338517727#9180#149#0(6@108"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm338301897#347#0#347#0#19"expected * before *0(4@29"Expected `{' before '*' token338517727#9553#151#0(6@108"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm338301897#347#0#347#0#19"expected * before *0(4@40"Expected unqualified-id before ')' token338517727#9704#162#0(6@108"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm338301897#347#0#347#0#19"expected * before *0(4@69"Expected constructor, destructor, or type conversion before ')' token338517727#9866#191#0(6@108"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm338301897#347#0#347#0#19"expected * before *0(4@31"Expected `@end' at end of input338517727#10057#154#0(6@108"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm338301897#1729#0#1729#0#0"0(23@16"At global scope:338517727#10211#127#0(6@108"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm338301897#0#0#0#0#0"0(22@55"Incomplete implementation of class 'AudioStreamer_Sept'338517727#10338#180#0(6@108"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm338301897#1729#0#1729#0#38"incomplete implementation of class '*'0(22@48"Method definition for '-enqueueBuffer' not found338517727#10518#173#0(6@108"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm338301897#1729#0#1729#0#35"method definition for '*' not found0(22@66"Method definition for '-handleReadFromStream:eventType:' not found338517727#10691#191#0(6@108"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm338301897#1729#0#1729#0#35"method definition for '*' not found0(22@67"Method definition for '-handleInterruptionChangeToState:' not found338517727#10882#192#0(6@108"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm338301897#1729#0#1729#0#35"method definition for '*' not found0(22@99"Method definition for '-handleAudioPackets:numberBytes:numberPackets:packetDescriptions:' not found338517727#11074#224#0(6@108"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm338301897#1729#0#1729#0#35"method definition for '*' not found0(22@98"Method definition for '-handlePropertyChangeForFileStream:fileStreamPropertyID:ioFlags:' not found338517727#11298#223#0(6@108"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm338301897#1729#0#1729#0#35"method definition for '*' not found0(22@39"Method definition for '-BOOL' not found338517727#11521#164#0(6@108"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm338301897#1729#0#1729#0#35"method definition for '*' not found0(22@40"Method definition for '-pause' not found338517727#11685#165#0(6@108"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm338301897#1729#0#1729#0#35"method definition for '*' not found0(22@39"Method definition for '-stop' not found338517727#11850#164#0(6@108"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm338301897#1729#0#1729#0#35"method definition for '*' not found0(22@40"Method definition for '-start' not found338517727#12014#165#0(6@108"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm338301897#1729#0#1729#0#35"method definition for '*' not found0(0#0#108"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm8628634464#1793"    cd "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 "-I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphonesimulator/netstream.build/netstream.hmap" "-F/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphonesimulator" "-I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphonesimulator/include" -I../../api/inc "-I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphonesimulator/netstream.build/DerivedSources/i386" "-I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphonesimulator/netstream.build/DerivedSources" -c "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm" -o "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphonesimulator/netstream.build/Objects-normal/i386/AudioStreamer_Sept.o"1#
+
+CCompileC build/septDev.build/Debug-iphonesimulator/netstream.build/Objects-normal/i386/AugustDevAppDelegate.o "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AugustDevAppDelegate.mm" normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s338517726.861183
+e338517727.612512
+r1
+xCompileC
+xbuild/septDev.build/Debug-iphonesimulator/netstream.build/Objects-normal/i386/AugustDevAppDelegate.o
+x/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AugustDevAppDelegate.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@118"Compile /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AugustDevAppDelegate.mm338517726#338517727#0(0"0(0#0#110"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AugustDevAppDelegate.mm8622954976#1797"    cd "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 "-I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphonesimulator/netstream.build/netstream.hmap" "-F/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphonesimulator" "-I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphonesimulator/include" -I../../api/inc "-I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphonesimulator/netstream.build/DerivedSources/i386" "-I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphonesimulator/netstream.build/DerivedSources" -c "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AugustDevAppDelegate.mm" -o "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphonesimulator/netstream.build/Objects-normal/i386/AugustDevAppDelegate.o"0#
+
+CCompileC build/septDev.build/Debug-iphonesimulator/netstream.build/Objects-normal/i386/AugustDevViewController.o "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AugustDevViewController.mm" normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s338517727.076263
+e338517727.782101
+r1
+xCompileC
+xbuild/septDev.build/Debug-iphonesimulator/netstream.build/Objects-normal/i386/AugustDevViewController.o
+x/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AugustDevViewController.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AugustDevViewController.mm:79: warning: incomplete implementation of class 'AugustDevViewController'
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AugustDevViewController.mm:79: warning: method definition for '-timerUpdate:' not found
+lSLF07#2@121"Compile /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AugustDevViewController.mm338517727#338517727#0(363"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AugustDevViewController.mm:79: warning: incomplete implementation of class 'AugustDevViewController'/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AugustDevViewController.mm:79: warning: method definition for '-timerUpdate:' not found2(22@60"Incomplete implementation of class 'AugustDevViewController'338517727#0#188#0(6@113"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AugustDevViewController.mm338299380#79#0#79#0#38"incomplete implementation of class '*'0(22@47"Method definition for '-timerUpdate:' not found338517727#188#175#0(6@113"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AugustDevViewController.mm338299380#79#0#79#0#35"method definition for '*' not found0(0#0#113"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AugustDevViewController.mm8601770976#1803"    cd "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 "-I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphonesimulator/netstream.build/netstream.hmap" "-F/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphonesimulator" "-I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphonesimulator/include" -I../../api/inc "-I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphonesimulator/netstream.build/DerivedSources/i386" "-I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphonesimulator/netstream.build/DerivedSources" -c "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AugustDevViewController.mm" -o "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphonesimulator/netstream.build/Objects-normal/i386/AugustDevViewController.o"0#
+
+CCompileC build/septDev.build/Debug-iphonesimulator/netstream.build/Objects-normal/i386/ExampleAppDelegate.o "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/../common/ExampleAppDelegate.mm" normal i386 objective-c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/septDev.build/Debug-iphonesimulator/netstream.build/Objects-normal/i386/MapView.o "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/MapView.mm" normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s338517727.612618
+e338517728.095843
+r1
+xCompileC
+xbuild/septDev.build/Debug-iphonesimulator/netstream.build/Objects-normal/i386/MapView.o
+x/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/MapView.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@105"Compile /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/MapView.mm338517727#338517728#0(0"0(0#0#97"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/MapView.mm8632667584#1771"    cd "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 "-I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphonesimulator/netstream.build/netstream.hmap" "-F/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphonesimulator" "-I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphonesimulator/include" -I../../api/inc "-I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphonesimulator/netstream.build/DerivedSources/i386" "-I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphonesimulator/netstream.build/DerivedSources" -c "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/MapView.mm" -o "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphonesimulator/netstream.build/Objects-normal/i386/MapView.o"0#
+
+CCompileC build/septDev.build/Debug-iphonesimulator/netstream.build/Objects-normal/i386/Options.o "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/Options.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s338517727.782321
+e338517728.074041
+r1
+xCompileC
+xbuild/septDev.build/Debug-iphonesimulator/netstream.build/Objects-normal/i386/Options.o
+x/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/Options.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@104"Compile /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/Options.m338517727#338517728#0(0"0(0#0#96"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/Options.m8629319616#1740"    cd "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 "-I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphonesimulator/netstream.build/netstream.hmap" "-F/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphonesimulator" "-I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphonesimulator/include" -I../../api/inc "-I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphonesimulator/netstream.build/DerivedSources/i386" "-I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphonesimulator/netstream.build/DerivedSources" -c "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/Options.m" -o "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphonesimulator/netstream.build/Objects-normal/i386/Options.o"0#
+
+CCompileC build/septDev.build/Debug-iphonesimulator/netstream.build/Objects-normal/i386/ViewController.o "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/ViewController.mm" normal i386 objective-c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/septDev.build/Debug-iphonesimulator/netstream.build/Objects-normal/i386/main.o "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/../common/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s338517726.127150
+e338517726.755959
+r1
+xCompileC
+xbuild/septDev.build/Debug-iphonesimulator/netstream.build/Objects-normal/i386/main.o
+x/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/../common/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@111"Compile /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/../common/main.m338517726#338517726#0(0"0(0#0#103"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/../common/main.m8622912480#1744"    cd "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 "-I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphonesimulator/netstream.build/netstream.hmap" "-F/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphonesimulator" "-I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphonesimulator/include" -I../../api/inc "-I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphonesimulator/netstream.build/DerivedSources/i386" "-I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphonesimulator/netstream.build/DerivedSources" -c "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/../common/main.m" -o "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphonesimulator/netstream.build/Objects-normal/i386/main.o"0#
+
+CCompileXIB "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/../common/MainWindow.xib"
+r0
+
+CCompileXIB "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/Example.xib"
+r0
+
+CCpResource build/Debug-iphonesimulator/netstream.app/background.png ../media/background.png
+r0
+
+CCpResource build/Debug-iphonesimulator/netstream.app/icon.png ../media/icon.png
+r0
+
+CGenerateDSYMFile "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphonesimulator/netstream.app.dSYM" "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphonesimulator/netstream.app/netstream"
+r0
+
+CLd "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphonesimulator/netstream.app/netstream" normal i386
+r0
+
+CProcessInfoPlistFile "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphonesimulator/netstream.app/Info.plist" ../common/Info.plist
+r0
+
+CTouch "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphonesimulator/netstream.app"
+r0
+

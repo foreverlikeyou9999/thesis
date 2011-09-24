@@ -11,7 +11,7 @@ NSString * const AS_FILE_STREAM_PARSE_BYTES_FAILED_STRING = @"Parse bytes failed
 NSString * const AS_FILE_STREAM_OPEN_FAILED_STRING = @"Open audio file stream failed.";
 NSString * const AS_FILE_STREAM_CLOSE_FAILED_STRING = @"Close audio file stream failed.";
 NSString * const AS_GET_AUDIO_TIME_FAILED_STRING = @"Audio queue get current time failed.";
-NSString * const AS_AUDIO_STREAMER_FAILED_STRING = @"Audio playback failed";
+NSString * const AS_AUDIO_STREAMER_FAILED_STRING = @"Audio playback failed"; 
 NSString * const AS_NETWORK_CONNECTION_FAILED_STRING = @"Network connection failed";
 NSString * const AS_AUDIO_BUFFER_TOO_SMALL_STRING = @"Audio packets are larger than kAQBufSize.";
 
@@ -229,6 +229,9 @@ void ERRCHECK(FMOD_RESULT result)
 	
     result = system->init(1, FMOD_INIT_NORMAL | FMOD_INIT_ENABLE_PROFILE, NULL);
     ERRCHECK(result);
+	
+	
+	NSLog(@"FMOD system started");
     
     /*
 	 Bump up the file buffer size a little bit for netstreams (to account for lag)
@@ -238,22 +241,24 @@ void ERRCHECK(FMOD_RESULT result)
 	 result = system->setStreamBufferSize(64 * 1024, FMOD_TIMEUNIT_RAWBYTES); 
 	 */
 	
-	result = system->setStreamBufferSize(2048, FMOD_TIMEUNIT_RAWBYTES);
+	result = system->setStreamBufferSize(64 * 2048, FMOD_TIMEUNIT_RAWBYTES);
     ERRCHECK(result); 
 		
 	/*
 	 Set the distance units. (meters/feet etc)
 	 */
-    result = system->set3DSettings(1.0, distanceFactor, 1.0f);
-    ERRCHECK(result);   
+   // result = system->set3DSettings(1.0, distanceFactor, 1.0f);
+    //.\ERRCHECK(result);   
 	
 	
 	// Play sounds.
 	
 	//[[NSString stringWithFormat:@"%@/SnowWhite.m4a", [[NSBundle mainBundle] resourcePath]] getCString:buffer maxLength:200 encoding:NSASCIIStringEncoding];
 	//result = system->createSound(buffer, FMOD_SOFTWARE | FMOD_3D | FMOD_LOOP_NORMAL, NULL, &sound);
+	
 	//result = system->createSound(buffer, FMOD_SOFTWARE | FMOD_2D | FMOD_LOOP_NORMAL, NULL, &sound);
 	//ERRCHECK(result);
+	
 	
 	//result = system->playSound(FMOD_CHANNEL_FREE, sound, true, &channel);
 	//ERRCHECK(result);
@@ -272,7 +277,7 @@ void ERRCHECK(FMOD_RESULT result)
 	
 	result = channel->setPaused(false);
 	ERRCHECK(result);
-	paused  = false;
+	paused = false;
 	state == AS_PLAYING;
 	
 }
@@ -887,6 +892,34 @@ void ERRCHECK(FMOD_RESULT result)
 //
 - (void)startInternal
 {
+	/* Call FMOD methods nice and early */
+	/*
+	 Create a System object and initialize
+	 */ 
+	
+	result = FMOD_OK;
+    unsigned int  version       = 0;
+	
+    result = FMOD::System_Create(&system); 
+    ERRCHECK(result);
+    
+    result = system->getVersion(&version);
+    ERRCHECK(result);
+    
+    if (version < FMOD_VERSION)
+    {
+        fprintf(stderr, "You are using an old version of FMOD %08x.  This program requires %08x\n", version, FMOD_VERSION);
+        exit(-1);
+    }
+	
+    result = system->init(1, FMOD_INIT_NORMAL | FMOD_INIT_ENABLE_PROFILE, NULL);
+    ERRCHECK(result);
+	
+	NSLog(@"FMOD system started");
+	
+	//--------------------------------------------//
+	
+	
 	NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
 	
 	BOOL isRunning;
@@ -1036,6 +1069,8 @@ cleanup:
 	system  = NULL;
 	sound   = NULL;
 	channel = NULL;
+	
+	
 	
 	NSLog(@"starting");
 	
@@ -1364,17 +1399,41 @@ cleanup:
 		buffersUsed++;
 		
 		result = FMOD_OK;
+		
 
-		result = system->createSound(buffer, FMOD_SOFTWARE | FMOD_2D | FMOD_CREATESTREAM | FMOD_NONBLOCKING, NULL, &sound);
-		ERRCHECK(result);
-		NSLog(@"Buffer queued from enqueueBuffer. Duh.");
+			//result = system->createSound(buffer, FMOD_SOFTWARE | FMOD_2D | FMOD_CREATESTREAM | FMOD_NONBLOCKING, NULL, &sound);
+			//ERRCHECK(result);
+			NSLog(@"Buffer queued from enqueueBuffer. Duh.");
+		
+		result = system->playSound(FMOD_CHANNEL_FREE, sound, false, &channel);
+		bool isPlaying;
+		result = channel->isPlaying(&isPlaying);
+        ERRCHECK(result);
+	
+		if (channel != NULL)
+		{
+			result = channel->getPaused(&paused);
+			NSLog(@"paused = %d", paused);
+			ERRCHECK(result);
+		}
+		else {
+			NSLog(@"Channel is null. wtf?");
+			result = channel->setPaused(false);
+		}
+
 		
 		// go to next buffer
-		if (++fillBufferIndex >= kNumFMODBufs) fillBufferIndex = 0;
+		if (++fillBufferIndex >= kNumFMODBufs) 
+		fillBufferIndex = 0;
 		bytesFilled = 0;		// reset bytes filled
 		packetsFilled = 0;		// reset packets filled
+		NSLog(@"Bytes and packets filled are reset");
 	}
 
+	
+	NSLog(@"Wait until next buffer is not in use");
+	
+	/*
 	// wait until next buffer is not in use
 	pthread_mutex_lock(&queueBuffersMutex); 
 	while (inuse[fillBufferIndex])
@@ -1382,6 +1441,8 @@ cleanup:
 		pthread_cond_wait(&queueBufferReadyCondition, &queueBuffersMutex);
 	}
 	pthread_mutex_unlock(&queueBuffersMutex);
+	 */
+	NSLog(@"Mutex unlocked.");
 }
 
 //
@@ -1547,6 +1608,8 @@ cleanup:
 	// the following code assumes we're streaming VBR data. for CBR data, the second branch is used.
 	if (inPacketDescriptions)
 	{
+		NSLog(@"VBR data.");
+		
 		for (int i = 0; i < inNumberPackets; ++i)
 		{
 			SInt64 packetOffset = inPacketDescriptions[i].mStartOffset;
@@ -1607,17 +1670,24 @@ cleanup:
 				//AudioQueueBufferRef fillBuf = audioQueueBuffer[fillBufferIndex];
 
 			
-				//Copy to FMOD buffer, from data passed in callback
+				//Copy to FMOD buffer, from data passed in callback 
 				
-			
-				memcpy((char*)buffer + bytesFilled, (const char*)inInputData + packetOffset, packetSize);
-				NSLog(@"Yep, memcpy.");
 				
-				result = system->createSound(buffer, FMOD_SOFTWARE | FMOD_2D | FMOD_LOOP_NORMAL, NULL, &sound);
+				//int i = 0;
+				//for (i=0 ; i<=4; i++) 
+				//{
+					//memcpy((char*)buffer + bytesFilled, (const char*)inInputData + packetOffset, packetSize);
+					memcpy(buffer + bytesFilled, (const char*)inInputData + packetOffset, packetSize);
+					NSLog(@"Yep, memcpy %i.", i);
+					result = system->createSound(buffer, FMOD_SOFTWARE | FMOD_MPEGSEARCH | FMOD_2D | FMOD_LOOP_NORMAL | FMOD_IGNORETAGS | FMOD_NONBLOCKING, NULL, &sound);
+				//}
+	
+				//result = system->createSound(buffer, FMOD_SOFTWARE | FMOD_2D | FMOD_NONBLOCKING | FMOD_LOOP_NORMAL, NULL, &sound);
+				//result = system->createSound(buffer, FMOD_SOFTWARE | FMOD_2D | FMOD_LOOP_NORMAL, NULL, &sound);
 				ERRCHECK(result);
 				NSLog(@"FMOD sound created in handleAudioPackets.");
 				
-				result = system->playSound(FMOD_CHANNEL_FREE, sound, true, &channel);
+				//result = system->playSound(FMOD_CHANNEL_FREE, sound, true, &channel);
 				ERRCHECK(result);
 				}
 				
@@ -1633,11 +1703,14 @@ cleanup:
 			size_t packetsDescsRemaining = kFMODMaxPacketDescs - packetsFilled;
 			if (packetsDescsRemaining == 0) {
 				[self enqueueBuffer];
+				NSLog(@"Buffer queueing.");
 			}
 		}	
 	}
 	else
 	{
+		NSLog(@"CBR data.");
+		
 		size_t offset = 0;
 		while (inNumberBytes)
 		{
@@ -1681,7 +1754,7 @@ cleanup:
 				{
 					copySize = inNumberBytes;
 				}
-				//memcpy((char*)buffer + bytesFilled, (const char*)(inInputData + offset), copySize);
+				memcpy((char*)buffer + bytesFilled, (const char*)inInputData + offset, copySize);
 				
 				result = system->createSound(buffer, FMOD_SOFTWARE | FMOD_2D | FMOD_LOOP_NORMAL, NULL, &sound);
 				ERRCHECK(result);

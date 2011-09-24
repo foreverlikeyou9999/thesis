@@ -1,0 +1,715 @@
+Tnetstream
+v7
+r0
+t338521776.776911
+cCheck dependencies
+cCpResource build/Debug-iphoneos/netstream.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+cProcessInfoPlistFile "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphoneos/netstream.app/Info.plist" ../common/Info.plist
+cCompileXIB "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/Example.xib"
+cCompileXIB "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/../common/MainWindow.xib"
+cCopyPNGFile "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphoneos/netstream.app/background.png" ../media/background.png
+cCopyPNGFile "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphoneos/netstream.app/icon.png" ../media/icon.png
+cCompileC build/septDev.build/Debug-iphoneos/netstream.build/Objects-normal/armv6/main.o "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/../common/main.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/septDev.build/Debug-iphoneos/netstream.build/Objects-normal/armv6/Annotation.o "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/Annotation.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/septDev.build/Debug-iphoneos/netstream.build/Objects-normal/armv6/AudioStreamer_Sept.o "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm" normal armv6 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC build/septDev.build/Debug-iphoneos/netstream.build/Objects-normal/armv6/AugustDevAppDelegate.o "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AugustDevAppDelegate.mm" normal armv6 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC build/septDev.build/Debug-iphoneos/netstream.build/Objects-normal/armv6/AugustDevViewController.o "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AugustDevViewController.mm" normal armv6 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC build/septDev.build/Debug-iphoneos/netstream.build/Objects-normal/armv6/MapView.o "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/MapView.mm" normal armv6 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC build/septDev.build/Debug-iphoneos/netstream.build/Objects-normal/armv6/Options.o "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/Options.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/septDev.build/Debug-iphoneos/netstream.build/Objects-normal/armv7/main.o "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/../common/main.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphoneos/netstream.build/Objects-normal/armv6/netstream" normal armv6
+cCompileC build/septDev.build/Debug-iphoneos/netstream.build/Objects-normal/armv7/Annotation.o "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/Annotation.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/septDev.build/Debug-iphoneos/netstream.build/Objects-normal/armv7/AudioStreamer_Sept.o "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm" normal armv7 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC build/septDev.build/Debug-iphoneos/netstream.build/Objects-normal/armv7/AugustDevAppDelegate.o "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AugustDevAppDelegate.mm" normal armv7 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC build/septDev.build/Debug-iphoneos/netstream.build/Objects-normal/armv7/AugustDevViewController.o "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AugustDevViewController.mm" normal armv7 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC build/septDev.build/Debug-iphoneos/netstream.build/Objects-normal/armv7/MapView.o "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/MapView.mm" normal armv7 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC build/septDev.build/Debug-iphoneos/netstream.build/Objects-normal/armv7/Options.o "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/Options.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphoneos/netstream.build/Objects-normal/armv7/netstream" normal armv7
+cCreateUniversalBinary "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphoneos/netstream.app/netstream" normal "armv6 armv7"
+cGenerateDSYMFile "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphoneos/netstream.app.dSYM" "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphoneos/netstream.app/netstream"
+cProcessProductPackaging "/Users/moosamus/Library/MobileDevice/Provisioning Profiles/854F6047-FCD8-4139-9D96-BB98A12AFE66.mobileprovision" "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphoneos/netstream.app/embedded.mobileprovision"
+cTouch "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphoneos/netstream.app"
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphoneos/netstream.build/netstream.xcent"
+cCodeSign "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphoneos/netstream.app"
+
+N../common/Info.plist
+c000000004E71569C0000000000000377
+t1316050588
+s887
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk
+c000000004CC7DC9E0000000000000110
+t1288166558
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+c000000004CB3DFCF00000000000001A7
+t1286856655
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+c000000004CB3DFCF00000000000001E5
+t1286856655
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004CC10EF400000000003B8CB0
+t1287720692
+s3902640
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.h
+c000000004CC10EB60000000000000A23
+t1287720630
+s2595
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+c000000004CC10EEE00000000002C9710
+t1287720686
+s2922256
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CFNetwork.framework/Headers/CFNetwork.h
+c000000004CC10EAD00000000000004CF
+t1287720621
+s1231
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreAudio.framework/CoreAudio
+c000000004CC10E3200000000000D5860
+t1287720498
+s874592
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC10EF500000000003532B0
+t1287720693
+s3486384
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c000000004CC11B5300000000000D96F0
+t1287723859
+s890608
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC10F4700000000003E1F20
+t1287720775
+s4071200
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC10F1C0000000000001466
+t1287720732
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.h
+c000000004CC11D4800000000000002FE
+t1287724360
+s766
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/MapKit.framework/MapKit
+c000000004CC11D62000000000029CFA0
+t1287724386
+s2740128
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC11AE60000000000000AA1
+t1287723750
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC11B750000000000C769F0
+t1287723893
+s13068784
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/pthread.h
+c000000004CB3E4B800000000000038F0
+t1286857912
+s14576
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/../common/MainWindow.xib
+c000000004E71569C0000000000001BEC
+t1316050588
+s7148
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/../common/main.m
+c000000004E71569C0000000000000123
+t1316050588
+s291
+i<UIKit/UIKit.h>
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/../media/background.png
+c000000004E71569C0000000000027313
+t1316050588
+s160531
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/../media/icon.png
+c000000004E71569C000000000000194A
+t1316050588
+s6474
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/Annotation.h
+c000000004DD1D686000000000000027A
+t1305597574
+s634
+i<Foundation/Foundation.h>
+i<MapKit/MapKit.h>
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/Annotation.m
+c000000004E7D29ED0000000000000215
+t1316825581
+s533
+i"Annotation.h"
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.h
+c000000004E7D2A31000000000000147D
+t1316825649
+s5245
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+i<pthread.h>
+i<AudioToolbox/AudioToolbox.h>
+i"fmod.hpp"
+i"fmod_errors.h"
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm
+c000000004E7D372A000000000000A335
+t1316828970
+s41781
+i"AudioStreamer_Sept.h"
+i<CFNetwork/CFNetwork.h>
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AugustDevAppDelegate.h
+c000000004E77BF5E00000000000001F1
+t1316470622
+s497
+i<UIKit/UIKit.h>
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AugustDevAppDelegate.mm
+c000000004E453EE80000000000000AA3
+t1313160936
+s2723
+i"AugustDevAppDelegate.h"
+i"AugustDevViewController.h"
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AugustDevViewController.h
+c000000004E79D24B00000000000003E4
+t1316606539
+s996
+i<UIKit/UIKit.h>
+i"AudioStreamer_Sept.h"
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AugustDevViewController.mm
+c000000004E79D27400000000000004EB
+t1316606580
+s1259
+i"AugustDevViewController.h"
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/Example.xib
+c000000004E71569C0000000000006648
+t1316050588
+s26184
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/MapView.h
+c000000004E455AED00000000000000D8
+t1313168109
+s216
+i<UIKit/UIKit.h>
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/MapView.mm
+c000000004E455AED000000000000060A
+t1313168109
+s1546
+i"MapView.h"
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/Options.h
+c000000004DD092A30000000000000304
+t1305514659
+s772
+i<UIKit/UIKit.h>
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/Options.m
+c000000004DD09A2400000000000007FA
+t1305516580
+s2042
+i"Options.h"
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphoneos/netstream.app
+t1316828976
+s442
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphoneos/netstream.app.dSYM
+t1316828976
+s102
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphoneos/netstream.app/Example.nib
+t1316828971
+s6660
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphoneos/netstream.app/Info.plist
+t1316828970
+s817
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphoneos/netstream.app/MainWindow.nib
+t1316828971
+s1500
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphoneos/netstream.app/PkgInfo
+t1316828970
+s8
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphoneos/netstream.app/ResourceRules.plist
+t1316828970
+s485
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphoneos/netstream.app/background.png
+t1316828973
+s182914
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphoneos/netstream.app/embedded.mobileprovision
+t1316828976
+s7435
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphoneos/netstream.app/icon.png
+t1316828972
+s6200
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphoneos/netstream.app/netstream
+t1316828976
+s2331124
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphoneos/netstream.build/Objects-normal/armv6/Annotation.o
+t1316828973
+s13588
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphoneos/netstream.build/Objects-normal/armv6/AudioStreamer_Sept.o
+t1316828972
+s186284
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphoneos/netstream.build/Objects-normal/armv6/AugustDevAppDelegate.o
+t1316828973
+s117520
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphoneos/netstream.build/Objects-normal/armv6/AugustDevViewController.o
+t1316828974
+s117412
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphoneos/netstream.build/Objects-normal/armv6/MapView.o
+t1316828974
+s37068
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphoneos/netstream.build/Objects-normal/armv6/Options.o
+t1316828974
+s43780
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphoneos/netstream.build/Objects-normal/armv6/main.o
+t1316828973
+s6576
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphoneos/netstream.build/Objects-normal/armv6/netstream
+t1316828974
+s1164060
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphoneos/netstream.build/Objects-normal/armv6/netstream.LinkFileList
+c000000004E7D372A00000000000004C7
+t1316828970
+s1223
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphoneos/netstream.build/Objects-normal/armv7/Annotation.o
+t1316828974
+s13396
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphoneos/netstream.build/Objects-normal/armv7/AudioStreamer_Sept.o
+t1316828975
+s180924
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphoneos/netstream.build/Objects-normal/armv7/AugustDevAppDelegate.o
+t1316828975
+s115148
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphoneos/netstream.build/Objects-normal/armv7/AugustDevViewController.o
+t1316828975
+s114928
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphoneos/netstream.build/Objects-normal/armv7/MapView.o
+t1316828975
+s37044
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphoneos/netstream.build/Objects-normal/armv7/Options.o
+t1316828976
+s43568
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphoneos/netstream.build/Objects-normal/armv7/main.o
+t1316828974
+s6560
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphoneos/netstream.build/Objects-normal/armv7/netstream
+t1316828976
+s1159668
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphoneos/netstream.build/Objects-normal/armv7/netstream.LinkFileList
+c000000004E7D372A00000000000004C7
+t1316828970
+s1223
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphoneos/netstream.build/netstream.xcent
+t1316828976
+s615
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/fmod.h
+c000000004E453AD1000000000002B52A
+t1313159889
+s177450
+i"fmod_codec.h"
+i"fmod_dsp.h"
+i"fmod_memoryinfo.h"
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/fmod.hpp
+c000000004E453AD100000000000092C9
+t1313159889
+s37577
+i"fmod.h"
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/fmod_codec.h
+c000000004E453AD10000000000003332
+t1313159889
+s13106
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/fmod_dsp.h
+c000000004E453AD100000000000099B2
+t1313159889
+s39346
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/fmod_errors.h
+c000000004E453AD10000000000003831
+t1313159889
+s14385
+i"fmod.h"
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/fmod_memoryinfo.h
+c000000004E453AD100000000000035D2
+t1313159889
+s13778
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/libfmodex.dylib
+c000000004E453AA100000000002C83F4
+t1313159841
+s2917364
+
+N/Users/moosamus/Library/MobileDevice/Provisioning Profiles/854F6047-FCD8-4139-9D96-BB98A12AFE66.mobileprovision
+c000000004E7D36960000000000001D0B
+t1316828822
+s7435
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies338521770#338521771#0(0"0(0#1#0"8604827392#0"0#
+
+CCodeSign "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphoneos/netstream.app"
+s338521776.472669
+e338521776.776743
+r1
+xCodeSign
+x/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphoneos/netstream.app
+lSLF07#2@43"CodeSign build/Debug-iphoneos/netstream.app338521776#338521776#0(0"0(0#0#121"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphoneos/netstream.app8609176480#860"    cd "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Russell de Moose (836LU648FA)" "--resource-rules=/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphoneos/netstream.app/ResourceRules.plist" --entitlements "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphoneos/netstream.build/netstream.xcent" "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphoneos/netstream.app"0#
+
+CCompileC build/septDev.build/Debug-iphoneos/netstream.build/Objects-normal/armv6/Annotation.o "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/Annotation.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s338521773.210577
+e338521773.451172
+r1
+xCompileC
+xbuild/septDev.build/Debug-iphoneos/netstream.build/Objects-normal/armv6/Annotation.o
+x/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/Annotation.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@107"Compile /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/Annotation.m338521773#338521773#0(0"0(0#0#99"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/Annotation.m8608866880#1560"    cd "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 "-I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphoneos/netstream.build/netstream.hmap" "-F/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphoneos" "-I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphoneos/include" -I../../api/inc "-I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphoneos/netstream.build/DerivedSources/armv6" "-I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphoneos/netstream.build/DerivedSources" -c "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/Annotation.m" -o "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphoneos/netstream.build/Objects-normal/armv6/Annotation.o"0#
+
+CCompileC build/septDev.build/Debug-iphoneos/netstream.build/Objects-normal/armv6/AudioStreamer_Sept.o "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm" normal armv6 objective-c++ com.apple.compilers.gcc.4_2
+s338521773.421960
+e338521773.426484
+r1
+xCompileC
+xbuild/septDev.build/Debug-iphoneos/netstream.build/Objects-normal/armv6/AudioStreamer_Sept.o
+x/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm
+xnormal
+xarmv6
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@116"Compile /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm338521773#338521773#0(0"0(0#0#108"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm8612186400#1607"    cd "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch armv6 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 "-I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphoneos/netstream.build/netstream.hmap" "-F/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphoneos" "-I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphoneos/include" -I../../api/inc "-I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphoneos/netstream.build/DerivedSources/armv6" "-I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphoneos/netstream.build/DerivedSources" -c "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm" -o "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphoneos/netstream.build/Objects-normal/armv6/AudioStreamer_Sept.o"0#
+
+CCompileC build/septDev.build/Debug-iphoneos/netstream.build/Objects-normal/armv6/AugustDevAppDelegate.o "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AugustDevAppDelegate.mm" normal armv6 objective-c++ com.apple.compilers.gcc.4_2
+s338521773.426565
+e338521773.994779
+r1
+xCompileC
+xbuild/septDev.build/Debug-iphoneos/netstream.build/Objects-normal/armv6/AugustDevAppDelegate.o
+x/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AugustDevAppDelegate.mm
+xnormal
+xarmv6
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@118"Compile /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AugustDevAppDelegate.mm338521773#338521773#0(0"0(0#0#110"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AugustDevAppDelegate.mm8607675008#1611"    cd "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch armv6 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 "-I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphoneos/netstream.build/netstream.hmap" "-F/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphoneos" "-I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphoneos/include" -I../../api/inc "-I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphoneos/netstream.build/DerivedSources/armv6" "-I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphoneos/netstream.build/DerivedSources" -c "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AugustDevAppDelegate.mm" -o "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphoneos/netstream.build/Objects-normal/armv6/AugustDevAppDelegate.o"0#
+
+CCompileC build/septDev.build/Debug-iphoneos/netstream.build/Objects-normal/armv6/AugustDevViewController.o "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AugustDevViewController.mm" normal armv6 objective-c++ com.apple.compilers.gcc.4_2
+s338521773.451278
+e338521774.015004
+r1
+xCompileC
+xbuild/septDev.build/Debug-iphoneos/netstream.build/Objects-normal/armv6/AugustDevViewController.o
+x/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AugustDevViewController.mm
+xnormal
+xarmv6
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AugustDevViewController.mm:79: warning: incomplete implementation of class 'AugustDevViewController'
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AugustDevViewController.mm:79: warning: method definition for '-timerUpdate:' not found
+lSLF07#2@121"Compile /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AugustDevViewController.mm338521773#338521774#0(363"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AugustDevViewController.mm:79: warning: incomplete implementation of class 'AugustDevViewController'/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AugustDevViewController.mm:79: warning: method definition for '-timerUpdate:' not found2(22@60"Incomplete implementation of class 'AugustDevViewController'338521773#0#188#0(6@113"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AugustDevViewController.mm338299380#79#0#79#0#38"incomplete implementation of class '*'0(22@47"Method definition for '-timerUpdate:' not found338521773#188#175#0(6@113"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AugustDevViewController.mm338299380#79#0#79#0#35"method definition for '*' not found0(0#0#113"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AugustDevViewController.mm8614731840#1617"    cd "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch armv6 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 "-I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphoneos/netstream.build/netstream.hmap" "-F/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphoneos" "-I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphoneos/include" -I../../api/inc "-I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphoneos/netstream.build/DerivedSources/armv6" "-I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphoneos/netstream.build/DerivedSources" -c "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AugustDevViewController.mm" -o "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphoneos/netstream.build/Objects-normal/armv6/AugustDevViewController.o"0#
+
+CCompileC build/septDev.build/Debug-iphoneos/netstream.build/Objects-normal/armv6/MapView.o "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/MapView.mm" normal armv6 objective-c++ com.apple.compilers.gcc.4_2
+s338521773.994893
+e338521774.402735
+r1
+xCompileC
+xbuild/septDev.build/Debug-iphoneos/netstream.build/Objects-normal/armv6/MapView.o
+x/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/MapView.mm
+xnormal
+xarmv6
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@105"Compile /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/MapView.mm338521773#338521774#0(0"0(0#0#97"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/MapView.mm8614762688#1585"    cd "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch armv6 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 "-I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphoneos/netstream.build/netstream.hmap" "-F/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphoneos" "-I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphoneos/include" -I../../api/inc "-I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphoneos/netstream.build/DerivedSources/armv6" "-I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphoneos/netstream.build/DerivedSources" -c "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/MapView.mm" -o "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphoneos/netstream.build/Objects-normal/armv6/MapView.o"0#
+
+CCompileC build/septDev.build/Debug-iphoneos/netstream.build/Objects-normal/armv6/Options.o "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/Options.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s338521774.015109
+e338521774.263317
+r1
+xCompileC
+xbuild/septDev.build/Debug-iphoneos/netstream.build/Objects-normal/armv6/Options.o
+x/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/Options.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@104"Compile /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/Options.m338521774#338521774#0(0"0(0#0#96"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/Options.m8610569120#1554"    cd "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 "-I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphoneos/netstream.build/netstream.hmap" "-F/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphoneos" "-I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphoneos/include" -I../../api/inc "-I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphoneos/netstream.build/DerivedSources/armv6" "-I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphoneos/netstream.build/DerivedSources" -c "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/Options.m" -o "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphoneos/netstream.build/Objects-normal/armv6/Options.o"0#
+
+CCompileC build/septDev.build/Debug-iphoneos/netstream.build/Objects-normal/armv6/main.o "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/../common/main.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s338521773.209583
+e338521773.421854
+r1
+xCompileC
+xbuild/septDev.build/Debug-iphoneos/netstream.build/Objects-normal/armv6/main.o
+x/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/../common/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@111"Compile /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/../common/main.m338521773#338521773#0(0"0(0#0#103"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/../common/main.m8615644320#1558"    cd "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 "-I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphoneos/netstream.build/netstream.hmap" "-F/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphoneos" "-I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphoneos/include" -I../../api/inc "-I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphoneos/netstream.build/DerivedSources/armv6" "-I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphoneos/netstream.build/DerivedSources" -c "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/../common/main.m" -o "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphoneos/netstream.build/Objects-normal/armv6/main.o"0#
+
+CCompileC build/septDev.build/Debug-iphoneos/netstream.build/Objects-normal/armv7/Annotation.o "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/Annotation.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s338521774.476454
+e338521774.686052
+r1
+xCompileC
+xbuild/septDev.build/Debug-iphoneos/netstream.build/Objects-normal/armv7/Annotation.o
+x/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/Annotation.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@107"Compile /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/Annotation.m338521774#338521774#0(0"0(0#0#99"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/Annotation.m8604757472#1560"    cd "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 "-I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphoneos/netstream.build/netstream.hmap" "-F/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphoneos" "-I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphoneos/include" -I../../api/inc "-I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphoneos/netstream.build/DerivedSources/armv7" "-I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphoneos/netstream.build/DerivedSources" -c "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/Annotation.m" -o "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphoneos/netstream.build/Objects-normal/armv7/Annotation.o"0#
+
+CCompileC build/septDev.build/Debug-iphoneos/netstream.build/Objects-normal/armv7/AudioStreamer_Sept.o "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm" normal armv7 objective-c++ com.apple.compilers.gcc.4_2
+s338521774.686154
+e338521775.350417
+r1
+xCompileC
+xbuild/septDev.build/Debug-iphoneos/netstream.build/Objects-normal/armv7/AudioStreamer_Sept.o
+x/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm
+xnormal
+xarmv7
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@116"Compile /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm338521774#338521775#0(0"0(0#0#108"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm8614919328#1607"    cd "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 "-I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphoneos/netstream.build/netstream.hmap" "-F/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphoneos" "-I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphoneos/include" -I../../api/inc "-I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphoneos/netstream.build/DerivedSources/armv7" "-I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphoneos/netstream.build/DerivedSources" -c "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AudioStreamer_Sept.mm" -o "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphoneos/netstream.build/Objects-normal/armv7/AudioStreamer_Sept.o"0#
+
+CCompileC build/septDev.build/Debug-iphoneos/netstream.build/Objects-normal/armv7/AugustDevAppDelegate.o "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AugustDevAppDelegate.mm" normal armv7 objective-c++ com.apple.compilers.gcc.4_2
+s338521774.965156
+e338521775.456482
+r1
+xCompileC
+xbuild/septDev.build/Debug-iphoneos/netstream.build/Objects-normal/armv7/AugustDevAppDelegate.o
+x/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AugustDevAppDelegate.mm
+xnormal
+xarmv7
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@118"Compile /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AugustDevAppDelegate.mm338521774#338521775#0(0"0(0#0#110"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AugustDevAppDelegate.mm8604865440#1611"    cd "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 "-I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphoneos/netstream.build/netstream.hmap" "-F/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphoneos" "-I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphoneos/include" -I../../api/inc "-I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphoneos/netstream.build/DerivedSources/armv7" "-I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphoneos/netstream.build/DerivedSources" -c "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AugustDevAppDelegate.mm" -o "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphoneos/netstream.build/Objects-normal/armv7/AugustDevAppDelegate.o"0#
+
+CCompileC build/septDev.build/Debug-iphoneos/netstream.build/Objects-normal/armv7/AugustDevViewController.o "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AugustDevViewController.mm" normal armv7 objective-c++ com.apple.compilers.gcc.4_2
+s338521775.350516
+e338521775.893233
+r1
+xCompileC
+xbuild/septDev.build/Debug-iphoneos/netstream.build/Objects-normal/armv7/AugustDevViewController.o
+x/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AugustDevViewController.mm
+xnormal
+xarmv7
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AugustDevViewController.mm:79: warning: incomplete implementation of class 'AugustDevViewController'
+o/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AugustDevViewController.mm:79: warning: method definition for '-timerUpdate:' not found
+lSLF07#2@121"Compile /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AugustDevViewController.mm338521775#338521775#0(363"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AugustDevViewController.mm:79: warning: incomplete implementation of class 'AugustDevViewController'/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AugustDevViewController.mm:79: warning: method definition for '-timerUpdate:' not found2(22@60"Incomplete implementation of class 'AugustDevViewController'338521775#0#188#0(6@113"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AugustDevViewController.mm338299380#79#0#79#0#38"incomplete implementation of class '*'0(22@47"Method definition for '-timerUpdate:' not found338521775#188#175#0(6@113"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AugustDevViewController.mm338299380#79#0#79#0#35"method definition for '*' not found0(0#0#113"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AugustDevViewController.mm8605586400#1617"    cd "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 "-I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphoneos/netstream.build/netstream.hmap" "-F/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphoneos" "-I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphoneos/include" -I../../api/inc "-I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphoneos/netstream.build/DerivedSources/armv7" "-I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphoneos/netstream.build/DerivedSources" -c "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/AugustDevViewController.mm" -o "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphoneos/netstream.build/Objects-normal/armv7/AugustDevViewController.o"0#
+
+CCompileC build/septDev.build/Debug-iphoneos/netstream.build/Objects-normal/armv7/MapView.o "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/MapView.mm" normal armv7 objective-c++ com.apple.compilers.gcc.4_2
+s338521775.456588
+e338521775.802626
+r1
+xCompileC
+xbuild/septDev.build/Debug-iphoneos/netstream.build/Objects-normal/armv7/MapView.o
+x/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/MapView.mm
+xnormal
+xarmv7
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@105"Compile /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/MapView.mm338521775#338521775#0(0"0(0#0#97"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/MapView.mm8602309920#1585"    cd "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 "-I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphoneos/netstream.build/netstream.hmap" "-F/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphoneos" "-I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphoneos/include" -I../../api/inc "-I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphoneos/netstream.build/DerivedSources/armv7" "-I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphoneos/netstream.build/DerivedSources" -c "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/MapView.mm" -o "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphoneos/netstream.build/Objects-normal/armv7/MapView.o"0#
+
+CCompileC build/septDev.build/Debug-iphoneos/netstream.build/Objects-normal/armv7/Options.o "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/Options.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s338521775.802730
+e338521776.016185
+r1
+xCompileC
+xbuild/septDev.build/Debug-iphoneos/netstream.build/Objects-normal/armv7/Options.o
+x/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/Options.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@104"Compile /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/Options.m338521775#338521776#0(0"0(0#0#96"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/Options.m8615284480#1554"    cd "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 "-I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphoneos/netstream.build/netstream.hmap" "-F/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphoneos" "-I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphoneos/include" -I../../api/inc "-I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphoneos/netstream.build/DerivedSources/armv7" "-I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphoneos/netstream.build/DerivedSources" -c "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/Options.m" -o "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphoneos/netstream.build/Objects-normal/armv7/Options.o"0#
+
+CCompileC build/septDev.build/Debug-iphoneos/netstream.build/Objects-normal/armv7/main.o "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/../common/main.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s338521774.263416
+e338521774.476347
+r1
+xCompileC
+xbuild/septDev.build/Debug-iphoneos/netstream.build/Objects-normal/armv7/main.o
+x/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/../common/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@111"Compile /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/../common/main.m338521774#338521774#0(0"0(0#0#103"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/../common/main.m8614919680#1558"    cd "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 "-I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphoneos/netstream.build/netstream.hmap" "-F/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphoneos" "-I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphoneos/include" -I../../api/inc "-I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphoneos/netstream.build/DerivedSources/armv7" "-I/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphoneos/netstream.build/DerivedSources" -c "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/../common/main.m" -o "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphoneos/netstream.build/Objects-normal/armv7/main.o"0#
+
+CCompileXIB "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/../common/MainWindow.xib"
+s338521770.992468
+e338521771.678212
+r1
+xCompileXIB
+x/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/../common/MainWindow.xib
+lSLF07#2@35"CompileXIB ../common/MainWindow.xib338521770#338521771#0(0"0(0#0#111"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/../common/MainWindow.xib8615455872#704"    cd "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphoneos/netstream.app/MainWindow.nib" "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/../common/MainWindow.xib" --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/Example.xib"
+s338521770.989477
+e338521771.999153
+r1
+xCompileXIB
+x/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/Example.xib
+lSLF07#2@22"CompileXIB Example.xib338521770#338521771#0(0"0(0#0#98"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/Example.xib8610700256#688"    cd "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphoneos/netstream.app/Example.nib" "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/Example.xib" --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCopyPNGFile "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphoneos/netstream.app/background.png" ../media/background.png
+s338521771.678307
+e338521773.209437
+r1
+xCopyPNGFile
+x/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphoneos/netstream.app/background.png
+x../media/background.png
+lSLF07#2@85"CopyPNGFile build/Debug-iphoneos/netstream.app/background.png ../media/background.png338521771#338521773#0(0"0(0#0#110"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/../media/background.png8615726944#729"    cd "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream"    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/../media/background.png" "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphoneos/netstream.app/background.png"0#
+
+CCopyPNGFile "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphoneos/netstream.app/icon.png" ../media/icon.png
+s338521771.999252
+e338521772.047898
+r1
+xCopyPNGFile
+x/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphoneos/netstream.app/icon.png
+x../media/icon.png
+lSLF07#2@73"CopyPNGFile build/Debug-iphoneos/netstream.app/icon.png ../media/icon.png338521771#338521772#0(0"0(0#0#104"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/../media/icon.png8615592544#717"    cd "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream"    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/../media/icon.png" "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphoneos/netstream.app/icon.png"0#
+
+CCpResource build/Debug-iphoneos/netstream.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+s338521770.968079
+e338521770.974315
+r1
+xCpResource
+xbuild/Debug-iphoneos/netstream.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist338521770#338521771#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist8614840032#617"    cd "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphoneos/netstream.app"0#
+
+CCreateUniversalBinary "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphoneos/netstream.app/netstream" normal "armv6 armv7"
+s338521776.250118
+e338521776.327038
+r1
+xCreateUniversalBinary
+x/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphoneos/netstream.app/netstream
+xnormal
+xarmv6 armv7
+lSLF07#2@87"CreateUniversalBinary build/Debug-iphoneos/netstream.app/netstream normal "armv6 armv7"338521776#338521776#0(0"0(0#0#98"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/armv6 armv78604353344#730"    cd "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphoneos/netstream.build/Objects-normal/armv6/netstream" "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphoneos/netstream.build/Objects-normal/armv7/netstream" -output "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphoneos/netstream.app/netstream"0#
+
+CGenerateDSYMFile "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphoneos/netstream.app.dSYM" "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphoneos/netstream.app/netstream"
+s338521776.327138
+e338521776.425530
+r1
+xGenerateDSYMFile
+x/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphoneos/netstream.app.dSYM
+x/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphoneos/netstream.app/netstream
+lSLF07#2@101"GenerateDSYMFile build/Debug-iphoneos/netstream.app.dSYM build/Debug-iphoneos/netstream.app/netstream338521776#338521776#0(0"0(0#0#131"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphoneos/netstream.app/netstream8615657760#518"    cd "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphoneos/netstream.app/netstream" -o "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphoneos/netstream.app.dSYM"0#
+
+CLd "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphoneos/netstream.build/Objects-normal/armv6/netstream" normal armv6
+s338521774.402853
+e338521774.964933
+r1
+xLd
+x/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphoneos/netstream.build/Objects-normal/armv6/netstream
+xnormal
+xarmv6
+old: warning: in ../../api/lib/libfmodex.dylib, missing required architecture armv6 in file
+lSLF07#2@173"Link /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphoneos/netstream.build/Objects-normal/armv6/netstream338521774#338521774#0(91"ld: warning: in ../../api/lib/libfmodex.dylib, missing required architecture armv6 in file1(22@77"In ../../api/lib/libfmodex.dylib, missing required architecture armv6 in file338521774#0#91#0(6@0"338521774#0#0#0#0#0"0(0#0#0"8609782496#1348"    cd "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream"    setenv IPHONEOS_DEPLOYMENT_TARGET 3.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/g++-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk "-L/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphoneos" -L../../api/lib "-L/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream" "-F/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphoneos" -filelist "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphoneos/netstream.build/Objects-normal/armv6/netstream.LinkFileList" -lfmodexL_iphoneos -miphoneos-version-min=3.0 -framework Foundation -framework UIKit -framework CoreAudio -framework AudioToolbox -lfmodex -framework CoreLocation -framework CFNetwork -framework CoreGraphics -framework MapKit -o "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphoneos/netstream.build/Objects-normal/armv6/netstream"0#
+
+CLd "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphoneos/netstream.build/Objects-normal/armv7/netstream" normal armv7
+s338521776.016304
+e338521776.250020
+r1
+xLd
+x/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphoneos/netstream.build/Objects-normal/armv7/netstream
+xnormal
+xarmv7
+old: warning: in ../../api/lib/libfmodex.dylib, missing required architecture armv7 in file
+lSLF07#2@173"Link /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphoneos/netstream.build/Objects-normal/armv7/netstream338521776#338521776#0(91"ld: warning: in ../../api/lib/libfmodex.dylib, missing required architecture armv7 in file1(22@77"In ../../api/lib/libfmodex.dylib, missing required architecture armv7 in file338521776#0#91#0(6@0"338521776#0#0#0#0#0"0(0#0#0"8612566752#1348"    cd "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream"    setenv IPHONEOS_DEPLOYMENT_TARGET 3.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/g++-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk "-L/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphoneos" -L../../api/lib "-L/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream" "-F/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphoneos" -filelist "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphoneos/netstream.build/Objects-normal/armv7/netstream.LinkFileList" -lfmodexL_iphoneos -miphoneos-version-min=3.0 -framework Foundation -framework UIKit -framework CoreAudio -framework AudioToolbox -lfmodex -framework CoreLocation -framework CFNetwork -framework CoreGraphics -framework MapKit -o "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphoneos/netstream.build/Objects-normal/armv7/netstream"0#
+
+CProcessInfoPlistFile "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphoneos/netstream.app/Info.plist" ../common/Info.plist
+s338521770.970383
+e338521770.989393
+r1
+xProcessInfoPlistFile
+x/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphoneos/netstream.app/Info.plist
+x../common/Info.plist
+lSLF07#2@28"Process ../common/Info.plist338521770#338521771#0(0"0(0#0#107"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/../common/Info.plist8614717856#770"    cd "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility ../common/Info.plist -genpkginfo "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphoneos/netstream.app/PkgInfo" -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphoneos/netstream.app/ResourceRules.plist" -o "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphoneos/netstream.app/Info.plist"0#
+
+CProcessProductPackaging "/Users/moosamus/Library/MobileDevice/Provisioning Profiles/854F6047-FCD8-4139-9D96-BB98A12AFE66.mobileprovision" "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphoneos/netstream.app/embedded.mobileprovision"
+s338521776.425639
+e338521776.427050
+r1
+xProcessProductPackaging
+x/Users/moosamus/Library/MobileDevice/Provisioning Profiles/854F6047-FCD8-4139-9D96-BB98A12AFE66.mobileprovision
+x/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphoneos/netstream.app/embedded.mobileprovision
+lSLF07#2@197"ProcessProductPackaging "/Users/moosamus/Library/MobileDevice/Provisioning Profiles/854F6047-FCD8-4139-9D96-BB98A12AFE66.mobileprovision" build/Debug-iphoneos/netstream.app/embedded.mobileprovision338521776#338521776#0(0"0(0#0#146"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphoneos/netstream.app/embedded.mobileprovision8614607296#528"    cd "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/moosamus/Library/MobileDevice/Provisioning Profiles/854F6047-FCD8-4139-9D96-BB98A12AFE66.mobileprovision" -o "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphoneos/netstream.app/embedded.mobileprovision"0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphoneos/netstream.build/netstream.xcent"
+s338521776.431444
+e338521776.472595
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+x/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphoneos/netstream.build/netstream.xcent
+lSLF07#2@179"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist build/septDev.build/Debug-iphoneos/netstream.build/netstream.xcent338521776#338521776#0(0"0(0#0#153"/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphoneos/netstream.build/netstream.xcent8610890368#536"    cd "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist -entitlements -format xml -o "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/septDev.build/Debug-iphoneos/netstream.build/netstream.xcent"0#
+
+CTouch "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphoneos/netstream.app"
+s338521776.427124
+e338521776.431342
+r1
+xTouch
+x/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphoneos/netstream.app
+lSLF07#2@127"Touch /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphoneos/netstream.app338521776#338521776#0(0"0(0#0#0"8612883680#366"    cd "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphoneos/netstream.app"0#
+

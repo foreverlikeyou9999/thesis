@@ -1,0 +1,265 @@
+Tnetstream
+v7
+r1
+
+N../common/Info.plist
+c000000004E71569C0000000000000377
+t1316050588
+s887
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk
+c000000004CC7DC9E0000000000000110
+t1288166558
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+c000000004CB3DFCF00000000000001E5
+t1286856655
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004CC10EF400000000003B8CB0
+t1287720692
+s3902640
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreAudio.framework/CoreAudio
+c000000004CC10E3200000000000D5860
+t1287720498
+s874592
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC10F4700000000003E1F20
+t1287720775
+s4071200
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC11AE60000000000000AA1
+t1287723750
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC11B750000000000C769F0
+t1287723893
+s13068784
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/api/inc/fmod.h
+c000000004E71569C0000000000028BEC
+t1316050588
+s166892
+i"fmod_codec.h"
+i"fmod_dsp.h"
+i"fmod_memoryinfo.h"
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/api/inc/fmod.hpp
+c000000004E71569C0000000000009370
+t1316050588
+s37744
+i"fmod.h"
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/api/inc/fmod_codec.h
+c000000004E71569C000000000000333E
+t1316050588
+s13118
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/api/inc/fmod_dsp.h
+c000000004E71569C00000000000097DD
+t1316050588
+s38877
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/api/inc/fmod_errors.h
+c000000004E71569C0000000000003706
+t1316050588
+s14086
+i"fmod.h"
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/api/inc/fmod_memoryinfo.h
+c000000004E71569C00000000000035BB
+t1316050588
+s13755
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/common/ExampleAppDelegate.h
+c000000004E71569C000000000000012D
+t1316050588
+s301
+i<UIKit/UIKit.h>
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/../common/ExampleAppDelegate.mm
+c000000004E71569C000000000000034B
+t1316050588
+s843
+i"ExampleAppDelegate.h"
+i"ViewController.h"
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/../common/MainWindow.xib
+c000000004E71569C0000000000001BEC
+t1316050588
+s7148
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/../common/main.m
+c000000004E71569C0000000000000123
+t1316050588
+s291
+i<UIKit/UIKit.h>
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/../media/background.png
+c000000004E71569C0000000000027313
+t1316050588
+s160531
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/../media/icon.png
+c000000004E71569C000000000000194A
+t1316050588
+s6474
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/Example.xib
+c000000004E71569C0000000000006648
+t1316050588
+s26184
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/ViewController.h
+c000000004E71569C0000000000000461
+t1316050588
+s1121
+i"fmod.hpp"
+i"fmod_errors.h"
+i<UIKit/UIKit.h>
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/ViewController.mm
+c000000004E71569C000000000000153C
+t1316050588
+s5436
+i"ViewController.h"
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphoneos/netstream.app
+t2
+s0
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphoneos/netstream.app.dSYM
+t2
+s0
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphoneos/netstream.app/Example.nib
+t2
+s0
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphoneos/netstream.app/Info.plist
+t2
+s0
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphoneos/netstream.app/MainWindow.nib
+t2
+s0
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphoneos/netstream.app/PkgInfo
+t2
+s0
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphoneos/netstream.app/ResourceRules.plist
+t2
+s0
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphoneos/netstream.app/background.png
+t2
+s0
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphoneos/netstream.app/icon.png
+t2
+s0
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphoneos/netstream.app/netstream
+t2
+s0
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/netstream.build/Debug-iphoneos/netstream.build/Objects-normal/armv6/ExampleAppDelegate.o
+t2
+s0
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/netstream.build/Debug-iphoneos/netstream.build/Objects-normal/armv6/ViewController.o
+t2
+s0
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/netstream.build/Debug-iphoneos/netstream.build/Objects-normal/armv6/main.o
+t2
+s0
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/netstream.build/Debug-iphoneos/netstream.build/Objects-normal/armv6/netstream
+t2
+s0
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/netstream.build/Debug-iphoneos/netstream.build/Objects-normal/armv6/netstream.LinkFileList
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/netstream.build/Debug-iphoneos/netstream.build/Objects-normal/armv7/ExampleAppDelegate.o
+t2
+s0
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/netstream.build/Debug-iphoneos/netstream.build/Objects-normal/armv7/ViewController.o
+t2
+s0
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/netstream.build/Debug-iphoneos/netstream.build/Objects-normal/armv7/main.o
+t2
+s0
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/netstream.build/Debug-iphoneos/netstream.build/Objects-normal/armv7/netstream
+t2
+s0
+
+N/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/netstream.build/Debug-iphoneos/netstream.build/Objects-normal/armv7/netstream.LinkFileList
+c00000000000000000000000000000000
+t2
+s0
+
+CCompileC build/netstream.build/Debug-iphoneos/netstream.build/Objects-normal/armv6/ExampleAppDelegate.o "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/../common/ExampleAppDelegate.mm" normal armv6 objective-c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/netstream.build/Debug-iphoneos/netstream.build/Objects-normal/armv6/ViewController.o "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/ViewController.mm" normal armv6 objective-c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/netstream.build/Debug-iphoneos/netstream.build/Objects-normal/armv6/main.o "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/../common/main.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/netstream.build/Debug-iphoneos/netstream.build/Objects-normal/armv7/ExampleAppDelegate.o "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/../common/ExampleAppDelegate.mm" normal armv7 objective-c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/netstream.build/Debug-iphoneos/netstream.build/Objects-normal/armv7/ViewController.o "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/ViewController.mm" normal armv7 objective-c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/netstream.build/Debug-iphoneos/netstream.build/Objects-normal/armv7/main.o "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/../common/main.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileXIB "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/../common/MainWindow.xib"
+r0
+
+CCompileXIB "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/Example.xib"
+r0
+
+CCopyPNGFile "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphoneos/netstream.app/background.png" ../media/background.png
+r0
+
+CCopyPNGFile "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphoneos/netstream.app/icon.png" ../media/icon.png
+r0
+
+CCpResource build/Debug-iphoneos/netstream.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+r0
+
+CCreateUniversalBinary "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphoneos/netstream.app/netstream" normal "armv6 armv7"
+r0
+
+CGenerateDSYMFile "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphoneos/netstream.app.dSYM" "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphoneos/netstream.app/netstream"
+r0
+
+CLd "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/netstream.build/Debug-iphoneos/netstream.build/Objects-normal/armv6/netstream" normal armv6
+r0
+
+CLd "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/netstream.build/Debug-iphoneos/netstream.build/Objects-normal/armv7/netstream" normal armv7
+r0
+
+CProcessInfoPlistFile "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphoneos/netstream.app/Info.plist" ../common/Info.plist
+r0
+
+CTouch "/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/FMOD Programmers API/examples/netstream/build/Debug-iphoneos/netstream.app"
+r0
+
