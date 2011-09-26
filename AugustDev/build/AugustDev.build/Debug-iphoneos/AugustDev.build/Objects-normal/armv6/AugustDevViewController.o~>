@@ -1,0 +1,3 @@
+/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AugustDevViewController.mm:74: warning: incomplete implementation of class 'AugustDevViewController'
+/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AugustDevViewController.mm:74: warning: method definition for '-sourceSelect:' not found
+/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AugustDevViewController.mm:74: warning: method definition for '-timerUpdate:' not found

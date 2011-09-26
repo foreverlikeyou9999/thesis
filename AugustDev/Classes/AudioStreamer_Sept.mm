@@ -190,7 +190,7 @@ void ERRCHECK(FMOD_RESULT result)
 
 
 //-----------------------------------------//
-- (void)startStream 
+- (void)startStream:(id)sender
 {
 	
 	/* From previous viewDidLoad method. Moved in an attempt to MVC this billy. */
@@ -204,12 +204,8 @@ void ERRCHECK(FMOD_RESULT result)
 	
 	
     result = FMOD_OK;
+	char          buffer[200]   = {0};
 	
-	/* --------Changing buffer to match audioStreamer buffer object size---------
-	 char          buffer[200]   = {0};
-	 */ 
-	
-	//char buffer[2048] = {0};
     unsigned int  version       = 0;
 	
     /*
@@ -233,10 +229,7 @@ void ERRCHECK(FMOD_RESULT result)
 	
 	NSLog(@"FMOD system started");
     
-    /*
-	 Bump up the file buffer size a little bit for netstreams (to account for lag)
-	 */
-	
+    	
 	/*----Change to match audioStreamer buffer size
 	 result = system->setStreamBufferSize(64 * 1024, FMOD_TIMEUNIT_RAWBYTES); 
 	 */
@@ -248,35 +241,71 @@ void ERRCHECK(FMOD_RESULT result)
 	 Set the distance units. (meters/feet etc)
 	 */
    // result = system->set3DSettings(1.0, distanceFactor, 1.0f);
-    //.\ERRCHECK(result);   
+	//ERRCHECK(result);   
+
 	
+	//FMOD_VECTOR pos = { 1.0f * distanceFactor, 0.0f, 0.0f };
+	//FMOD_VECTOR vel = {  0.0f, 0.0f, 0.0f };
 	
-	// Play sounds.
+	FMOD_CREATESOUNDEXINFO info;
 	
-	//[[NSString stringWithFormat:@"%@/SnowWhite.m4a", [[NSBundle mainBundle] resourcePath]] getCString:buffer maxLength:200 encoding:NSASCIIStringEncoding];
-	//result = system->createSound(buffer, FMOD_SOFTWARE | FMOD_3D | FMOD_LOOP_NORMAL, NULL, &sound);
+	info.suggestedsoundtype = FMOD_SOUND_TYPE_MPEG;
+	memset(&info, 0, sizeof(FMOD_CREATESOUNDEXINFO));
+	info.cbsize = sizeof(FMOD_CREATESOUNDEXINFO);
+	info.suggestedsoundtype = FMOD_SOUND_TYPE_MPEG;
 	
-	//result = system->createSound(buffer, FMOD_SOFTWARE | FMOD_2D | FMOD_LOOP_NORMAL, NULL, &sound);
-	//ERRCHECK(result);
+
+	[sender getCString:buffer maxLength:200 encoding:NSASCIIStringEncoding];     
+	result = system->createSound(buffer, FMOD_SOFTWARE | FMOD_2D | FMOD_CREATESTREAM | FMOD_MPEGSEARCH | FMOD_IGNORETAGS | FMOD_NONBLOCKING, &info, &sound);
 	
-	
-	//result = system->playSound(FMOD_CHANNEL_FREE, sound, true, &channel);
-	//ERRCHECK(result);
-	
-	NSLog(@"FMOD system started");
-	
-	FMOD_VECTOR pos = { 1.0f * distanceFactor, 0.0f, 0.0f };
-	FMOD_VECTOR vel = {  0.0f, 0.0f, 0.0f };
-	
-	
+	ERRCHECK(result);    
 	
 	//result = channel->set3DAttributes(&pos, &vel);
 	//ERRCHECK(result);
 	
-	result = channel->setPan(20.0f);
 	
-	result = channel->setPaused(false);
+	/*
+	 Main loop 
+	 */    
+
+    FMOD_OPENSTATE  openstate       = (FMOD_OPENSTATE)0;
+    unsigned int    percentbuffered = 0;
+    bool            starving        = false;
+    bool            playing         = false;
+    unsigned int    ms              = 0;    
+    
+    if (sound != NULL)
+    {
+        //result = sound->getOpenState(&openstate, &percentbuffered, &starving);
+		result = sound->getOpenState(&openstate, &percentbuffered, &starving, &playing);
+        if (result == FMOD_ERR_FILE_NOTFOUND)
+        {
+            sound->release();
+            sound = NULL; 
+            
+            UIAlertView *errorAlert = [[UIAlertView alloc] initWithTitle:@"Location Not Found" message:@"The URL specified could not be found." delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
+            [errorAlert show];
+            [errorAlert release];
+        }
+        else
+        {
+            ERRCHECK(result);
+			NSLog(@"URL Found?");
+        }
+        
+        if ((openstate == FMOD_OPENSTATE_READY) && (channel == NULL))
+        {
+            result = system->playSound(FMOD_CHANNEL_FREE, sound, false, &channel);
+            ERRCHECK(result);
+			
+        }
+	}	
+	
+	result = channel->setPan(20.0f);
 	ERRCHECK(result);
+
+ //--Flags for later stop/start conditions--// 
+
 	paused = false;
 	state == AS_PLAYING;
 	
@@ -305,30 +334,10 @@ void ERRCHECK(FMOD_RESULT result)
 	}    
 
 	
+	
 }
 //-----------------------------------------//
 
-
-//-----------------------------------------//
-- (void) soundKill 
-{
-	
-	NSLog(@"Killing sound? Jerk.");
-	
-	if (channel != NULL)
-	{
-		channel->stop();
-		channel = NULL;
-	}
-	
-	if (sound != NULL)
-	{
-		sound->release();
-		sound = NULL;
-	}
-	   
-}
-//-----------------------------------------//
 
 
 //-----------------------------------------//
@@ -339,6 +348,25 @@ void ERRCHECK(FMOD_RESULT result)
 	ERRCHECK(result);
 	
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* End FMOD methods */
@@ -1406,9 +1434,6 @@ cleanup:
 			NSLog(@"Buffer queued from enqueueBuffer. Duh.");
 		
 		result = system->playSound(FMOD_CHANNEL_FREE, sound, false, &channel);
-		bool isPlaying;
-		result = channel->isPlaying(&isPlaying);
-        ERRCHECK(result);
 	
 		if (channel != NULL)
 		{

@@ -16,12 +16,13 @@
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		28D7ACF80DDB3853001CB0EB /* AugustDevViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* AugustDevViewController.mm */; };
 		711282971415DE71002D2CA4 /* SnowWhite.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 711282961415DE71002D2CA4 /* SnowWhite.m4a */; };
+		715EC7B3142E502B0071B615 /* fmodStreamer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 715EC7B2142E502B0071B615 /* fmodStreamer.mm */; };
+		719EA8EA142FE2A100532724 /* MapViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 719EA8E9142FE2A100532724 /* MapViewController.mm */; };
+		719EA8EC142FE40A00532724 /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 719EA8EB142FE40A00532724 /* MapViewController.xib */; };
 		71D58F8613F5705E0063F76F /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71D58F8513F5705E0063F76F /* AudioToolbox.framework */; };
 		71D58F8813F5705E0063F76F /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71D58F8713F5705E0063F76F /* CoreAudio.framework */; };
-		71D5901813F58FE50063F76F /* AudioStreamer_Sept.mm in Sources */ = {isa = PBXBuildFile; fileRef = 71D5901613F58FE50063F76F /* AudioStreamer_Sept.mm */; };
 		71D5901C13F58FF70063F76F /* Options.m in Sources */ = {isa = PBXBuildFile; fileRef = 71D5901B13F58FF70063F76F /* Options.m */; };
 		71D5901F13F590020063F76F /* Annotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 71D5901D13F590020063F76F /* Annotation.m */; };
-		71D5902D13F5926D0063F76F /* MapView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 71D5902C13F5926D0063F76F /* MapView.mm */; };
 		71D5903C13F593F10063F76F /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71D5903B13F593F10063F76F /* CFNetwork.framework */; };
 		71D5903E13F593F10063F76F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71D5903D13F593F10063F76F /* CoreLocation.framework */; };
 		71D5904013F593F10063F76F /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71D5903F13F593F10063F76F /* MapKit.framework */; };
@@ -41,16 +42,17 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* AugustDev_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AugustDev_Prefix.pch; sourceTree = "<group>"; };
 		711282961415DE71002D2CA4 /* SnowWhite.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = SnowWhite.m4a; sourceTree = "<group>"; };
+		715EC7B1142E502B0071B615 /* fmodStreamer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fmodStreamer.h; sourceTree = "<group>"; };
+		715EC7B2142E502B0071B615 /* fmodStreamer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = fmodStreamer.mm; sourceTree = "<group>"; };
+		719EA8E8142FE2A100532724 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		719EA8E9142FE2A100532724 /* MapViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MapViewController.mm; sourceTree = "<group>"; };
+		719EA8EB142FE40A00532724 /* MapViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MapViewController.xib; sourceTree = "<group>"; };
 		71D58F8513F5705E0063F76F /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		71D58F8713F5705E0063F76F /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
-		71D5901613F58FE50063F76F /* AudioStreamer_Sept.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AudioStreamer_Sept.mm; sourceTree = "<group>"; };
-		71D5901713F58FE50063F76F /* AudioStreamer_Sept.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioStreamer_Sept.h; sourceTree = "<group>"; };
 		71D5901A13F58FF70063F76F /* Options.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Options.h; sourceTree = "<group>"; };
 		71D5901B13F58FF70063F76F /* Options.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Options.m; sourceTree = "<group>"; };
 		71D5901D13F590020063F76F /* Annotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Annotation.m; sourceTree = "<group>"; };
 		71D5901E13F590020063F76F /* Annotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Annotation.h; sourceTree = "<group>"; };
-		71D5902B13F5926D0063F76F /* MapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapView.h; sourceTree = "<group>"; };
-		71D5902C13F5926D0063F76F /* MapView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MapView.mm; sourceTree = "<group>"; };
 		71D5903B13F593F10063F76F /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		71D5903D13F593F10063F76F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		71D5903F13F593F10063F76F /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
@@ -81,8 +83,8 @@
 			children = (
 				71D5901E13F590020063F76F /* Annotation.h */,
 				71D5901D13F590020063F76F /* Annotation.m */,
-				71D5901613F58FE50063F76F /* AudioStreamer_Sept.mm */,
-				71D5901713F58FE50063F76F /* AudioStreamer_Sept.h */,
+				715EC7B1142E502B0071B615 /* fmodStreamer.h */,
+				715EC7B2142E502B0071B615 /* fmodStreamer.mm */,
 				71D5900A13F58FC40063F76F /* Views */,
 				1D3623240D0F684500981E51 /* AugustDevAppDelegate.h */,
 				1D3623250D0F684500981E51 /* AugustDevAppDelegate.mm */,
@@ -126,6 +128,7 @@
 				2899E5210DE3E06400AC0155 /* AugustDevViewController.xib */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* AugustDev-Info.plist */,
+				719EA8EB142FE40A00532724 /* MapViewController.xib */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -148,8 +151,8 @@
 		71D5900A13F58FC40063F76F /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				71D5902B13F5926D0063F76F /* MapView.h */,
-				71D5902C13F5926D0063F76F /* MapView.mm */,
+				719EA8E8142FE2A100532724 /* MapViewController.h */,
+				719EA8E9142FE2A100532724 /* MapViewController.mm */,
 				28D7ACF60DDB3853001CB0EB /* AugustDevViewController.h */,
 				28D7ACF70DDB3853001CB0EB /* AugustDevViewController.mm */,
 				71D5901A13F58FF70063F76F /* Options.h */,
@@ -210,6 +213,7 @@
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
 				2899E5220DE3E06400AC0155 /* AugustDevViewController.xib in Resources */,
 				711282971415DE71002D2CA4 /* SnowWhite.m4a in Resources */,
+				719EA8EC142FE40A00532724 /* MapViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,10 +227,10 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* AugustDevAppDelegate.mm in Sources */,
 				28D7ACF80DDB3853001CB0EB /* AugustDevViewController.mm in Sources */,
-				71D5901813F58FE50063F76F /* AudioStreamer_Sept.mm in Sources */,
 				71D5901C13F58FF70063F76F /* Options.m in Sources */,
 				71D5901F13F590020063F76F /* Annotation.m in Sources */,
-				71D5902D13F5926D0063F76F /* MapView.mm in Sources */,
+				715EC7B3142E502B0071B615 /* fmodStreamer.mm in Sources */,
+				719EA8EA142FE2A100532724 /* MapViewController.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

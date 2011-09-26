@@ -7,31 +7,44 @@
 //
 
 #import <UIKit/UIKit.h> 
-#import "AudioStreamer_Sept.h" 
+#import <Foundation/Foundation.h>
+#import "fmodStreamer.h"
+#import "MapViewController.h"
 
-@interface AugustDevViewController : UIViewController <UITextFieldDelegate>
+@class MapViewController;
+
+@interface AugustDevViewController : UIViewController 
+
 {
-	UILabel        *time;
-    UILabel        *status;
-	UILabel        *buffered;
-    UILabel        *lasttag;
-    UITextField    *urltext;
-    NSTimer        *timer;
+	//----------Audio Variables---------//
 	
-	AudioStreamer_Sept *stream;
+	fmodStreamer *stream;
+	UISlider	   *panner;
+	
+	//---------------------------------//
+	
+	// --------View and Picker Variables----------//
+	
+	MapViewController *mapness;
+	UIBarButtonItem *done;
+	NSArray	*arryData;
+	UITableView *table;
+	
+	//---------------------------------//
 }
 
-@property (nonatomic, retain) IBOutlet UILabel      *time;
-@property (nonatomic, retain) IBOutlet UILabel      *status;
-@property (nonatomic, retain) IBOutlet UILabel      *buffered;
-@property (nonatomic, retain) IBOutlet UILabel      *lasttag;
-@property (nonatomic, retain) IBOutlet UITextField  *urltext;
 
-@property (nonatomic, retain) IBOutlet UISlider	*panner;
+@property (nonatomic, retain) IBOutlet UISlider		*panner;
+@property (nonatomic, retain) IBOutlet UIBarButtonItem *done;
+@property (nonatomic, retain) IBOutlet UITableView *table;
+@property (nonatomic, retain) NSArray *arryData;
+
+
 
 - (IBAction)pauseResume:(id)sender;
 - (IBAction)pannerMoved:(id)sender;
-- (void)timerUpdate:(NSTimer *)timer;
 - (void)createStreamer;
+
+- (IBAction) sourceSelect: (id)sender;
 
 @end

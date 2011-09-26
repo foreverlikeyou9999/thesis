@@ -155,7 +155,7 @@ extern NSString * const ASStatusChangedNotification;
 @property (readwrite) UInt32 bitRate;
 
 
-- (id)initWithURL:(NSURL *)aURL;
+//- (id)initWithURL:(NSURL *)aURL;
 - (void)start;
 - (void)stop;
 - (void)pause;
@@ -167,7 +167,7 @@ extern NSString * const ASStatusChangedNotification;
 
 /* FMOD Methods */
 
-- (void)startStream;
+- (void)startStream:(id)sender;
 - (void)pause;
 - (void)fmodKill;
 - (void)soundKill; 

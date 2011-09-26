@@ -1,0 +1,7 @@
+/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AugustDevViewController.mm: In function 'UITableViewCell* -[AugustDevViewController tableView:cellForRowAtIndexPath:](AugustDevViewController*, objc_selector*, UITableView*, NSIndexPath*)':
+/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AugustDevViewController.mm:124: warning: 'setText:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:211)
+/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AugustDevViewController.mm: In function 'void -[AugustDevViewController dealloc](AugustDevViewController*, objc_selector*)':
+/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AugustDevViewController.mm:164: warning: invalid receiver type ''
+/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AugustDevViewController.mm:165: error: 'status' was not declared in this scope
+/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AugustDevViewController.mm:166: error: 'buffered' was not declared in this scope
+/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/AugustDevViewController.mm:167: error: 'lasttag' was not declared in this scope
