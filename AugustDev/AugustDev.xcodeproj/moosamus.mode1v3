@@ -202,24 +202,24 @@
 			<key>Content</key>
 			<dict>
 				<key>PBXProjectModuleGUID</key>
-				<string>719EACD61434910E00532724</string>
+				<string>719EADE81434B27C00532724</string>
 				<key>PBXProjectModuleLabel</key>
-				<string>fmodStreamer.mm</string>
+				<string>fmod.hpp</string>
 				<key>PBXSplitModuleInNavigatorKey</key>
 				<dict>
 					<key>Split0</key>
 					<dict>
 						<key>PBXProjectModuleGUID</key>
-						<string>719EACD71434910E00532724</string>
+						<string>719EADE91434B27C00532724</string>
 						<key>PBXProjectModuleLabel</key>
-						<string>fmodStreamer.mm</string>
+						<string>fmod.hpp</string>
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>719EAD75143497C800532724</string>
+						<string>719EAF7D1434E4BF00532724</string>
 						<key>history</key>
 						<array>
-							<string>719EACD0143490F500532724</string>
+							<string>719EADEA1434B27C00532724</string>
 						</array>
 					</dict>
 					<key>SplitCount</key>
@@ -235,7 +235,7 @@
 				<key>PBXModuleWindowStatusBarHidden2</key>
 				<false/>
 				<key>RubberWindowFrame</key>
-				<string>1318 119 729 655 1280 -100 1440 900 </string>
+				<string>1433 14 729 655 1280 -100 1440 900 </string>
 			</dict>
 		</dict>
 	</array>
@@ -318,6 +318,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
+									<integer>6</integer>
 									<integer>1</integer>
 									<integer>0</integer>
 								</array>
@@ -360,7 +361,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>fmodStreamer.mm</string>
+								<string>MapViewController.mm</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -368,15 +369,14 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>fmodStreamer.mm</string>
+										<string>MapViewController.mm</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>719EAD74143497C800532724</string>
+										<string>719EAF7C1434E4BF00532724</string>
 										<key>history</key>
 										<array>
 											<string>71CAB4601427FC7E004AC52E</string>
-											<string>71CAB4611427FC7E004AC52E</string>
 											<string>71CAB46A1427FC7E004AC52E</string>
 											<string>71CAB6DA142D6213004AC52E</string>
 											<string>715EC7FF142E5D850071B615</string>
@@ -387,12 +387,13 @@
 											<string>719EA9C1143046AD00532724</string>
 											<string>719EA9C2143046AD00532724</string>
 											<string>719EAACC143187D400532724</string>
-											<string>719EACCC143490B000532724</string>
-											<string>719EAD421434959E00532724</string>
-											<string>719EAD70143497C800532724</string>
-											<string>719EAD71143497C800532724</string>
-											<string>719EAD72143497C800532724</string>
-											<string>719EAD73143497C800532724</string>
+											<string>719EAD7F143499D600532724</string>
+											<string>719EAEF41434D24F00532724</string>
+											<string>719EAEF71434D24F00532724</string>
+											<string>719EAF741434E2FC00532724</string>
+											<string>719EAF751434E2FC00532724</string>
+											<string>719EAF761434E2FC00532724</string>
+											<string>719EAF771434E2FC00532724</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -590,12 +591,11 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>719EAD76143497C800532724</string>
 		<string>719EA92B143028D300532724</string>
 		<string>719EA92C143028D300532724</string>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>71D58F8013F5701E0063F76F</string>
-		<string>719EACD61434910E00532724</string>
+		<string>719EADE81434B27C00532724</string>
 		<string>1C78EAAD065D492600B07095</string>
 		<string>/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/AugustDev.xcodeproj</string>
 	</array>
@@ -621,7 +621,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>AugustDevViewController.mm</string>
+								<string>MapViewController.mm</string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>

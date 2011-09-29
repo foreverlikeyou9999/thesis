@@ -14,9 +14,11 @@
 @synthesize panner;
 @synthesize map, coordinates, coordinate, pin;
 @synthesize locationManager; 
-@synthesize allStations, selectedStations, tempSelection;
+@synthesize allStations, selectedStations, tempSelection, reversePanArray;
 
 BOOL wasAlreadyPlaying = false;
+int panInt;
+
 
 - (void)setupStations 
 {
@@ -24,7 +26,15 @@ BOOL wasAlreadyPlaying = false;
 	
 	allStations = [NSArray arrayWithObjects:@"http://wfuv-onair.streamguys.org:80/onair-hi", @"http://wnycfm.streamguys.com/", @"Others", nil];	
 	selectedStations = [NSMutableArray arrayWithCapacity:1];
-	
+	reversePanArray = [NSMutableArray arrayWithCapacity:90];
+	float c = 270;
+	for ( int i = 360 ; i <= 270 ; i=i-1 )
+	{
+		[reversePanArray insertObject: [NSNumber numberWithInt:i] atIndex:c];
+
+		c++;
+	}
+
 	//--------------------------------------//
 }
 
@@ -49,18 +59,48 @@ BOOL wasAlreadyPlaying = false;
 	
 		//[stream startStream:selectedStations];
 		[stream startStream:tempSelection];
-	
+		
 		
 	}
+}
+//--------------------------------------//
+
+//--------------------------------------//
+
+-(IBAction)startPan:(id) sender
+{
+	panTimer= [NSTimer scheduledTimerWithTimeInterval:0.1 target:self selector:@selector(pannerMoved:) userInfo:nil repeats:YES];
 }
 //--------------------------------------//
 
 
 
 //--------------------------------------//
--(IBAction)pannerMoved:(id)sender {
+-(void) pannerMoved: (NSTimer *)panTimer {
+
+
+	//if  (orientation.trueHeading >= 0 && orientation.trueHeading <= 90 )
+		
+		//orientation.trueHeading = (heading.trueHeading / -90);
+
+	NSLog(@"%f", panski);
+	[stream changePan:panski];
 	
-	[stream changePan:panner.value];
+		//[stream changePan: value];
+
+	
+	///else if (orientation.trueHeading >= 90 && orientation.trueHeading <= 180)
+		
+		
+		//[stream changePan: 1.00];
+	
+	//else if (orientation.trueHeading >= 180 && orientation.trueHeading <= 270)
+		
+			//[stream changePan: -1];
+	
+	//else if (orientation.trueHeading >= 270 && orientation.trueHeading <= 360)
+				//[stream changePan: (orientation.trueHeading / -90)];
+
 	
 }
 //--------------------------------------//
@@ -90,6 +130,7 @@ BOOL wasAlreadyPlaying = false;
 {
 
 	[self createStreamer];
+
 	
 //////////---------------------------------------------/////////////
 	
@@ -112,7 +153,11 @@ BOOL wasAlreadyPlaying = false;
 		
 		[self.locationManager startUpdatingLocation]; //get location, send back to delegate 
 		
+		//-----------PAN TEST----------------------
 		
+		
+		
+		//-----------------------------------------------//
 	}
 	
 	else {
@@ -257,9 +302,31 @@ BOOL wasAlreadyPlaying = false;
 - (void)locationManager:(CLLocationManager *)locationManager didUpdateHeading:(CLHeading *)heading 
 	
 	{
-	
-	
-	
+		if  (heading.trueHeading >= 0 && heading.trueHeading <= 90 )
+		
+			panski = (heading.trueHeading / 90);
+
+		else if (heading.trueHeading >= 90 && heading.trueHeading <= 180)
+		
+			panski = 1;
+		
+		else if (heading.trueHeading >= 180 && heading.trueHeading <= 270)
+		
+			panski = -1;
+		
+		else if (heading.trueHeading >= 270 && heading.trueHeading <= 285)
+			panski = -0.8;
+			
+		else if (heading.trueHeading >= 285 && heading.trueHeading <= 300)
+			panski = -0.6;
+		else if (heading.trueHeading >= 300 && heading.trueHeading <= 315)
+			panski = -0.4;
+		else if (heading.trueHeading >= 315 && heading.trueHeading <= 330)
+			panski = -0.2;
+		else if (heading.trueHeading >= 330 && heading.trueHeading <= 360)
+			panski = -0.1;
+		
+		
 	[map setTransform:CGAffineTransformMakeRotation(-1 * heading.magneticHeading * 3.14159 / 180)];
 	
 	// From stack overflow example. The heading information should be passed by this method, and the transform should be a rotation 

@@ -115,6 +115,9 @@ void ERRORCHECK(FMOD_RESULT result)
 	
 	[url getCString:audioBuffer maxLength:200 encoding:NSASCIIStringEncoding];     
 	result = system->createSound(audioBuffer, FMOD_SOFTWARE | FMOD_2D | FMOD_CREATESTREAM | FMOD_MPEGSEARCH | FMOD_IGNORETAGS | FMOD_NONBLOCKING, &info, &sound);
+	//result = system->createSound(audioBuffer, FMOD_SOFTWARE | FMOD_3D | FMOD_CREATESTREAM | FMOD_MPEGSEARCH | FMOD_IGNORETAGS | FMOD_NONBLOCKING, &info, &sound);
+
+	
 	
 	ERRORCHECK(result); 
 	
@@ -206,6 +209,9 @@ void ERRORCHECK(FMOD_RESULT result)
 	
 	[url getCString:audioBuffer maxLength:200 encoding:NSASCIIStringEncoding];     
 	result = system->createSound(audioBuffer, FMOD_SOFTWARE | FMOD_2D | FMOD_CREATESTREAM | FMOD_MPEGSEARCH | FMOD_IGNORETAGS | FMOD_NONBLOCKING, &info, &sound);
+	//result = system->createSound(audioBuffer, FMOD_SOFTWARE | FMOD_3D | FMOD_CREATESTREAM | FMOD_MPEGSEARCH | FMOD_IGNORETAGS | FMOD_NONBLOCKING, &info, &sound);
+
+	
 	
 	ERRORCHECK(result); 
 	
@@ -359,7 +365,11 @@ void ERRORCHECK(FMOD_RESULT result)
 - (void)changePan:(float)panRatio
 {
 	
+
+	NSLog(@"pan is %f",panRatio);
+	//result = channel->setPan(panRatio);
 	result = channel->setPan(panRatio);
+
 	ERRORCHECK(result);
 	
 } 

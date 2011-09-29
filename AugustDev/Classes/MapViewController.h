@@ -26,6 +26,9 @@
 		NSArray *allStations;
 		NSMutableArray *selectedStations;
 		NSString *tempSelection;
+		float panski;
+		NSTimer  *panTimer;
+		NSMutableArray *reversePanArray;
 		
 		// ------------Map objects----------// 
 		
@@ -36,15 +39,17 @@
  
 		
 		CLLocationManager *locationManager; //For location updates.
-		CLHeading *heading; //For compass readings
+		CLHeading *orientation; //For compass readings
 		
 	}
 
 	@property (nonatomic, retain) IBOutlet UISlider	*panner;
 	@property (nonatomic, retain) NSArray *allStations;
+	@property (nonatomic, retain) NSMutableArray *reversePanArray;
 	@property (nonatomic, retain) NSMutableArray *selectedStations;
 	@property (nonatomic, retain) NSString *tempSelection;
 
+ 
 	@property (nonatomic, retain) IBOutlet MKMapView *map;
 	@property (nonatomic, retain) MKPinAnnotationView *pin;
 	@property (nonatomic, retain) NSMutableArray *coordinates;
@@ -56,13 +61,13 @@
 	
 	//----------- View methods------------//
 	
-- (IBAction) annotate: (id)sender;
 - (void)createStreamer;
 - (IBAction)pauseResume:(id)sender;
-- (IBAction)pannerMoved:(id)sender;
+- (void)pannerMoved;
 - (void)goToMenu:(id)sender;
 - (void)captureStations:(NSUInteger)selection;
 - (void)setupStations;
+- (IBAction)startPan:(id)sender;
 
 
 	
