@@ -33,12 +33,17 @@
 		unsigned int  version;
 	}
 
+@property (nonatomic, retain) NSString *url;
 	
-	- (void)startStream;
+//	- (void)startStream:(NSMutableArray *)whichStation;
+	- (void)startStream:(NSString *)whichStation;
+
+	- (void)restartStream;
 	- (void)play:(NSTimer *)urlStream;
 	- (void)pause;
 	- (void)fmodKill;
 	- (void)changePan:(float)panRatio;
+	- (void) killSoundForMenu;
 
 
 

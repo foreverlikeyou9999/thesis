@@ -22,27 +22,36 @@
 	{
  
 		fmodStreamer *stream;
-		UISlider	   *panner;
+		UISlider *panner;
+		NSArray *allStations;
+		NSMutableArray *selectedStations;
+		NSString *tempSelection;
 		
 		// ------------Map objects----------// 
 		
 		IBOutlet MKMapView *map;	
 		MKPinAnnotationView *pin;
 		NSMutableArray *coordinates;
-
+		
+ 
 		
 		CLLocationManager *locationManager; //For location updates.
 		CLHeading *heading; //For compass readings
 		
 	}
 
-	@property (nonatomic, retain) IBOutlet UISlider		*panner;
+	@property (nonatomic, retain) IBOutlet UISlider	*panner;
+	@property (nonatomic, retain) NSArray *allStations;
+	@property (nonatomic, retain) NSMutableArray *selectedStations;
+	@property (nonatomic, retain) NSString *tempSelection;
+
 	@property (nonatomic, retain) IBOutlet MKMapView *map;
 	@property (nonatomic, retain) MKPinAnnotationView *pin;
 	@property (nonatomic, retain) NSMutableArray *coordinates;
 	@property (nonatomic, readonly) CLLocationCoordinate2D coordinate;
 	
 	@property (nonatomic, retain) CLLocationManager *locationManager;
+
 
 	
 	//----------- View methods------------//
@@ -51,6 +60,10 @@
 - (void)createStreamer;
 - (IBAction)pauseResume:(id)sender;
 - (IBAction)pannerMoved:(id)sender;
+- (void)goToMenu:(id)sender;
+- (void)captureStations:(NSUInteger)selection;
+- (void)setupStations;
+
 
 	
 

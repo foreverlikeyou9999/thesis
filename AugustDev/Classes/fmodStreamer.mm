@@ -11,6 +11,8 @@
 
 @implementation fmodStreamer
 
+@synthesize url;
+
 
 const float distanceFactor = 1.0f;
 char audioBuffer[2000] = {0};
@@ -34,7 +36,9 @@ void ERRORCHECK(FMOD_RESULT result)
 
 
 //-----------------------------------------//
-- (void)startStream
+//- (void)startStream:(NSMutableArray *)whichStation
+- (void)startStream:(NSString *)whichStation
+
 {
 	
 	/* From previous viewDidLoad method. Moved in an attempt to MVC this billy. */
@@ -104,7 +108,10 @@ void ERRORCHECK(FMOD_RESULT result)
 	
 	//url = @"http://www.jiwok.com/uploads/staticworkouts/french/AE_RUN_30_8L_1000000.mp3";
 	//url = @"http://www.fmod.org/stream.mp3";
-	url = @"http://wfuv-onair.streamguys.org:80/onair-hi";
+	//url = @"http://wfuv-onair.streamguys.org:80/onair-hi";
+	url = whichStation;
+	//url = [whichStation objectAtIndex:0];
+	NSLog(@"%@", url);
 	
 	[url getCString:audioBuffer maxLength:200 encoding:NSASCIIStringEncoding];     
 	result = system->createSound(audioBuffer, FMOD_SOFTWARE | FMOD_2D | FMOD_CREATESTREAM | FMOD_MPEGSEARCH | FMOD_IGNORETAGS | FMOD_NONBLOCKING, &info, &sound);
@@ -118,6 +125,97 @@ void ERRORCHECK(FMOD_RESULT result)
 
 }
 //-----------------------------------------//
+
+
+
+//-----------------------------------------//
+- (void)restartStream
+{
+	NSLog(@"System restarting.");
+	
+	
+	/* From previous viewDidLoad method. Moved in an attempt to MVC this billy. */
+	
+	system  = NULL;
+    sound   = NULL;
+    channel = NULL;
+	version = 0;
+	
+	listenerpos.x = 30.0f;
+	listenerpos.y = 0.0f;
+	listenerpos.z = -1.0f * distanceFactor;
+	
+	/* End MVC change. */
+	
+	
+	
+    /*
+	 Create a System object and initialize
+	 */  
+	
+	result = FMOD::System_Create(&system); 
+    ERRORCHECK(result);
+	
+	result = system->init(1, FMOD_INIT_NORMAL | FMOD_INIT_ENABLE_PROFILE, NULL);
+    ERRORCHECK(result);
+       
+    result = system->getVersion(&version);
+    ERRORCHECK(result);
+    
+    if (version < FMOD_VERSION)
+    {
+        fprintf(stderr, "You are using an old version of FMOD %08x.  This program requires %08x\n", version, FMOD_VERSION);
+        exit(-1);
+    }
+	
+   	NSLog(@"FMOD system restarted");
+    
+	
+	/*----Change to match audioStreamer buffer size
+	 result = system->setStreamBufferSize(64 * 1024, FMOD_TIMEUNIT_RAWBYTES); 
+	 */
+	
+	result = system->setStreamBufferSize(64 * 2048, FMOD_TIMEUNIT_RAWBYTES);
+    ERRORCHECK(result); 
+	
+	NSLog(@"FMOD stream size set");
+	/*
+	 Set the distance units. (meters/feet etc)
+	 */
+	// result = system->set3DSettings(1.0, distanceFactor, 1.0f);
+	//ERRCHECK(result);   
+	
+	urlStream= [NSTimer scheduledTimerWithTimeInterval:0.05 target:self selector:@selector(play:) userInfo:nil repeats:YES];
+	
+	
+	
+	//--------------------------------------------------------------//
+	
+	
+	FMOD_CREATESOUNDEXINFO info;
+	
+	info.suggestedsoundtype = FMOD_SOUND_TYPE_MPEG;
+	memset(&info, 0, sizeof(FMOD_CREATESOUNDEXINFO));
+	info.cbsize = sizeof(FMOD_CREATESOUNDEXINFO);
+	info.suggestedsoundtype = FMOD_SOUND_TYPE_MPEG;
+	
+	//url = @"http://www.jiwok.com/uploads/staticworkouts/french/AE_RUN_30_8L_1000000.mp3";
+	//url = @"http://www.fmod.org/stream.mp3";
+	//url = @"http://wfuv-onair.streamguys.org:80/onair-hi";
+	url = @"http://wnycfm.streamguys.com/";
+	
+	[url getCString:audioBuffer maxLength:200 encoding:NSASCIIStringEncoding];     
+	result = system->createSound(audioBuffer, FMOD_SOFTWARE | FMOD_2D | FMOD_CREATESTREAM | FMOD_MPEGSEARCH | FMOD_IGNORETAGS | FMOD_NONBLOCKING, &info, &sound);
+	
+	ERRORCHECK(result); 
+	
+	NSLog(@"Sound created");
+	
+	//result = channel->set3DAttributes(&pos, &vel);
+	//ERRORCHECK(result);
+	
+}
+
 
 
 - (void) play:(NSTimer *)urlStream
@@ -196,13 +294,20 @@ void ERRORCHECK(FMOD_RESULT result)
 
 {
 	
-	NSLog(@"Killing FMOD? Bigger jerk.");
+	NSLog(@"Killing FMOD? Big jerk.");
+	
+	if (channel != NULL)
+	{
+		channel->stop();
+		channel = NULL;
+	}
 	
 	if (sound)
 	{
 		sound->release();
 		sound = NULL;
 	}
+
 	
 	if (system)
 	{
@@ -215,6 +320,39 @@ void ERRORCHECK(FMOD_RESULT result)
 }
 //-----------------------------------------//
 
+//-----------------------------------------//
+
+- (void) killSoundForMenu
+
+{
+	
+	NSLog(@"Don't like this station? Bigger jerk.");
+	
+	if (channel != NULL)
+	{
+		channel->stop();
+		channel = NULL;
+	}
+	
+	if (sound)
+	{
+		sound->release();
+		sound = NULL;
+	}
+	
+	[urlStream invalidate];
+	
+	
+	/*
+	 if (system)
+	 {
+	 system->release();
+	 system = NULL;
+	 }    
+	 
+	 */
+	
+}
 
 
 //-----------------------------------------//

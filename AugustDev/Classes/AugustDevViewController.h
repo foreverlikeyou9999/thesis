@@ -18,7 +18,7 @@
 {
 	//----------Audio Variables---------//
 	
-	fmodStreamer *stream;
+	//fmodStreamer *stream;
 	UISlider	   *panner;
 	
 	//---------------------------------//
@@ -28,22 +28,26 @@
 	MapViewController *mapness;
 	UIBarButtonItem *done;
 	NSArray	*arryData;
-	UITableView *table;
+	UITableView *table; 
+	UIImageView *imageView;
 	
 	//---------------------------------//
 }
 
-
+@property (nonatomic, retain) IBOutlet UIImageView	*imageView;
 @property (nonatomic, retain) IBOutlet UISlider		*panner;
 @property (nonatomic, retain) IBOutlet UIBarButtonItem *done;
 @property (nonatomic, retain) IBOutlet UITableView *table;
 @property (nonatomic, retain) NSArray *arryData;
 
 
+/*
 
 - (IBAction)pauseResume:(id)sender;
 - (IBAction)pannerMoved:(id)sender;
 - (void)createStreamer;
+ 
+ */
 
 - (IBAction) sourceSelect: (id)sender;
 

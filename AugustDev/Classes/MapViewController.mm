@@ -13,25 +13,45 @@
 
 @synthesize panner;
 @synthesize map, coordinates, coordinate, pin;
-@synthesize locationManager;
+@synthesize locationManager; 
+@synthesize allStations, selectedStations, tempSelection;
+
+BOOL wasAlreadyPlaying = false;
+
+- (void)setupStations 
+{
+	//-----------Temp station dictionary----------------//
+	
+	allStations = [NSArray arrayWithObjects:@"http://wfuv-onair.streamguys.org:80/onair-hi", @"http://wnycfm.streamguys.com/", @"Others", nil];	
+	selectedStations = [NSMutableArray arrayWithCapacity:1];
+	
+	//--------------------------------------//
+}
 
 //------Audio methods-------------------//
 
 //--------------------------------------//
 - (void)createStreamer
 {
-	if (stream)
+	if (wasAlreadyPlaying == true)
 	{
-		return;
+		NSLog(@"Calling restartStream.");
+		
+		//[stream startStream:selectedStations];
+		
 	}
+	else
+	{
+		NSLog(@"Calling startStream.");
+		//[stream fmodKill];
 	
-	[stream fmodKill];
+		stream = [[fmodStreamer alloc] init];
 	
-	stream = [[fmodStreamer alloc] init];
+		//[stream startStream:selectedStations];
+		[stream startStream:tempSelection];
 	
-	[stream startStream];
-	
-	NSLog(@"Stream started called");
+		
+	}
 }
 //--------------------------------------//
 
@@ -55,6 +75,15 @@
 
 //----------------------End audio methods-------------------//
 
+
+- (void)captureStations:(NSUInteger)selection
+
+{
+	[selectedStations addObject:[allStations objectAtIndex:selection]];
+	NSLog(@"%@", selectedStations);
+	tempSelection = [allStations objectAtIndex:selection];
+	
+}	
 
 - (void) viewDidLoad 
 
@@ -279,6 +308,7 @@
 	// Release any retained subviews of the main view.
 	// e.g. self.myOutlet = nil;
 	
+	
 }
 
 //--------------------------------------//
@@ -292,6 +322,14 @@
 	
 }
 //--------------------------------------//
+
+- (void) goToMenu:(id)sender
+{
+	[stream killSoundForMenu];
+	wasAlreadyPlaying = true;
+	[self.view removeFromSuperview];
+	NSLog(@"Back to menu.");
+}
 
 
 @end

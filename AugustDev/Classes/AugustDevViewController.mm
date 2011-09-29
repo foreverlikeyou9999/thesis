@@ -4,20 +4,30 @@
 
 
 
-@synthesize panner, done, table, arryData; 
+@synthesize panner, done, table, arryData, imageView; 
  
 
 
-//-----------------------------------------//
+//-----------------------------------------// 
 - (void)viewDidLoad
-{
-	[self createStreamer];
+{ 
 	
+	mapness = [[MapViewController alloc] initWithNibName: @"MapViewController" bundle: nil];
 	
+		
 	//---------ARRAY FOR TABLE VIEW TEST-----------//
-	arryData = [[NSArray alloc] initWithObjects:@"WNYC - FM: New York Public Radio",@"Carnegie Hall:Spring for Muzak", @"WFUV 128K", nil];
+	
+	
+	NSString *wfuv = @"WFUV 128K"; 
+	NSString *wnyc = @"WNYC - FM: New York Public Radio";
+	NSString *other = @"Another station - not currently active";
+	
+		
+	arryData = [[NSArray alloc] initWithObjects:wfuv, wnyc, other, nil];
+
 	if(arryData){
 		NSLog (@"viewDidLoad");
+		
 	}
 
 }
@@ -30,66 +40,12 @@
 	
 	NSLog(@"Should now push new view onto stack, giving map interface");
 	//NSLog(@"Sources selected");
-	
 
-	mapness = [[MapViewController alloc] initWithNibName: @"MapViewController" bundle: nil];
 	
 	[self.view addSubview:mapness.view];
+
 	
 	
-}
-//--------------------------------------//
-
-
-//--------------------------------------//
-- (void)createStreamer
-{
-	if (stream)
-	{
-		return;
-	}
-
-	[stream fmodKill];
-	
-	stream = [[fmodStreamer alloc] init];
-	
-	[stream startStream];
-	
-	NSLog(@"Stream started called");
-}
-//--------------------------------------//
-
-
-
-//--------------------------------------//
--(IBAction)pannerMoved:(id)sender {
-	
-	[stream changePan:panner.value];
-
-}
-//--------------------------------------//
-
-
-
-//--------------------------------------//
-- (void)viewWillDisappear:(BOOL)animated
-{
-    /*
-	 Shut down
-	 */    
-   // [timer invalidate];
-    
-    [stream fmodKill];
-
-}
-//--------------------------------------//
-
-
-
-//--------------------------------------//
-- (IBAction)pauseResume:(id)sender 
-{
-    [stream pause];		
 }
 //--------------------------------------//
 
@@ -107,7 +63,11 @@
 }
 //--------------------------------------//
 
-
+//--------------------------------------//
+- (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section {
+ 
+    return @"Streamscape";
+}
 
 //--------------------------------------//
 // Customize the appearance of table view cells.
@@ -121,6 +81,7 @@
 	}
 	
 	// Set up the cell...
+	
 	cell.text = [arryData objectAtIndex:indexPath.row];
 	return cell;
 }
@@ -132,9 +93,8 @@
 // Adds a checkmark to selected cells
 
 - (void)tableView:(UITableView *)theTableView didSelectRowAtIndexPath:(NSIndexPath *)newIndexPath {
-	
-	
-	
+
+		
     [theTableView deselectRowAtIndexPath:[theTableView indexPathForSelectedRow] animated:NO];
 	
     UITableViewCell *cell = [theTableView cellForRowAtIndexPath:newIndexPath];
@@ -142,6 +102,9 @@
     if (cell.accessoryType == UITableViewCellAccessoryNone) {
 		
         cell.accessoryType = UITableViewCellAccessoryCheckmark;
+		[mapness setupStations];
+		 [mapness captureStations:newIndexPath.row];
+	
 		
         // Reflect selection in data model
 		
@@ -161,11 +124,7 @@
 
 - (void)dealloc 
 {  
-	[time release];
-	[status release];
-	[buffered release];
-	[lasttag release]; 
-	[stream release];
+
 	[super dealloc];
 }
 

@@ -1,9 +1,10 @@
-/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/MapViewController.mm:14: error: no declaration of property 'panner' found in the interface
+/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/MapViewController.mm: In function 'void -[MapViewController createStreamer](MapViewController*, objc_selector*)':
+/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/MapViewController.mm:51: warning: incompatible Objective-C types 'NSString*', expected 'NSMutableArray*' when passing argument 1 of 'startStream:' from distinct Objective-C type
 /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/MapViewController.mm: In function 'void -[MapViewController viewDidLoad](MapViewController*, objc_selector*)':
-/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/MapViewController.mm:124: warning: 'headingAvailable' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CLLocationManager.h:173)
-/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/MapViewController.mm:71: warning: 'locationServicesEnabled' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CLLocationManager.h:124)
+/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/MapViewController.mm:153: warning: 'headingAvailable' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CLLocationManager.h:173)
+/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/MapViewController.mm:100: warning: 'locationServicesEnabled' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CLLocationManager.h:124)
 /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/MapViewController.mm: In function 'void -[MapViewController locationManager:didUpdateHeading:](MapViewController*, objc_selector*, CLLocationManager*, CLHeading*)':
-/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/MapViewController.mm:234: warning: local declaration of 'heading' hides instance variable
+/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/MapViewController.mm:263: warning: local declaration of 'heading' hides instance variable
 /Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/MapViewController.mm: At global scope:
-/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/MapViewController.mm:297: warning: incomplete implementation of class 'MapViewController'
-/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/MapViewController.mm:297: warning: method definition for '-annotate:' not found
+/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/MapViewController.mm:335: warning: incomplete implementation of class 'MapViewController'
+/Users/moosamus/Desktop/nyu/Thesis_2011/thesis/AugustDev/Classes/MapViewController.mm:335: warning: method definition for '-annotate:' not found

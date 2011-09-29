@@ -6,7 +6,7 @@
 	<dict>
 		<key>AugustDevViewController.nib</key>
 		<data>
-		v6NsVZu8bX/z1rrjXHv4t3hD0R0=
+		w1J8HIceHizcUkdWvaQEG0HF1Bg=
 		</data>
 		<key>MainWindow.nib</key>
 		<data>
@@ -14,7 +14,7 @@
 		</data>
 		<key>MapViewController.nib</key>
 		<data>
-		ISYEyscWXNukX3cM4GSITCaIqE8=
+		jT8qq2MKDcIBduQEw7hE19+u8So=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -27,6 +27,14 @@
 		<key>embedded.mobileprovision</key>
 		<data>
 		bT0r4AAOurH7SQcs6Q9x36AFZkU=
+		</data>
+		<key>old-school-radio-image.jpg</key>
+		<data>
+		d1j0zZ7VOMiJvvPfC3gGywlnpCA=
+		</data>
+		<key>radioBack.jpg</key>
+		<data>
+		yem8sbYKCOwoHlICXDb1i4SMQAA=
 		</data>
 	</dict>
 	<key>rules</key>
