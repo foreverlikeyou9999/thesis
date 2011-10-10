@@ -146,7 +146,7 @@ int panInt;
 
 {
 	// Create streaming object 
-	[self createStreamer];
+	//[self createStreamer];
 
 	
 //////////---------------------------------------------/////////////

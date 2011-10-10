@@ -408,12 +408,22 @@ void ERRORCHECK(FMOD_RESULT result)
 
 {
 	
-	NSLog(@"Don't like this station? Bigger jerk.");
+	NSLog(@"Don't like these station? Big jerk.");
 	
 	if (channel != NULL)
 	{
 		channel->stop();
 		channel = NULL;
+	}
+    if (channel2 != NULL)
+	{
+		channel2->stop();
+		channel2 = NULL;
+	}
+    if (channel3 != NULL)
+	{
+		channel3->stop();
+		channel3 = NULL;
 	}
 	
 	if (sound)
@@ -421,8 +431,24 @@ void ERRORCHECK(FMOD_RESULT result)
 		sound->release();
 		sound = NULL;
 	}
+    if (sound2)
+	{
+		sound2->release();
+		sound2 = NULL;
+	}
+    if (sound3)
+	{
+		sound3->release();
+		sound3 = NULL;
+	}
 	
+    urlStream = nil;
+    urlStream2 = nil;
+    urlStream3 = nil;
+    
 	[urlStream invalidate];
+    [urlStream2 invalidate];
+    [urlStream3 invalidate];
 	
 	
 	/*
@@ -470,48 +496,60 @@ void ERRORCHECK(FMOD_RESULT result)
 	if (paused == false)
 		
 	{
+        NSLog(@"system paused");
 		
-		result = channel->getPaused(&paused);
-		ERRORCHECK(result);
-		
+        if (channel != NULL)
+        {
+        result = channel->getPaused(&paused);
+        ERRORCHECK(result);
+            
 		result = channel->setPaused(!paused);
 		ERRORCHECK(result);
-		NSLog(@"system paused");
+        }
 
        if (channel2 != NULL)
        {
+        result = channel2->getPaused(&paused);
+        ERRORCHECK(result);
+           
         result = channel2->setPaused(!paused);
 		ERRORCHECK(result);
-		NSLog(@"system paused");
        }
         if (channel3 != NULL)
         {
-            result = channel2->setPaused(!paused);
-            ERRORCHECK(result);
-            NSLog(@"system paused");
+        result = channel3->getPaused(&paused);
+        ERRORCHECK(result);
+            
+        result = channel3->setPaused(!paused);
+        ERRORCHECK(result);
         }
 	}
 	else 
 	{
 		NSLog(@"play again");
 		
+        if (channel != NULL)
+        {
 		result = channel->getPaused(&paused);
 		ERRORCHECK(result);
-		
-		result = channel->setPaused(!paused);
-		ERRORCHECK(result);
+            
+        result = channel->setPaused(!paused);
+        ERRORCHECK(result);    
+		}
         
         if (channel2 != NULL)
         {
+            result = channel2->getPaused(&paused);
+            ERRORCHECK(result);
             result = channel2->setPaused(!paused);
             ERRORCHECK(result);
-            NSLog(@"system paused");
         }
         if (channel3 != NULL)
         {
-            result = channel2->setPaused(!paused);
+            result = channel3->getPaused(&paused);
             ERRORCHECK(result);
-            NSLog(@"system paused");
+            result = channel3->setPaused(!paused);
+            ERRORCHECK(result);
         }
 
 	}

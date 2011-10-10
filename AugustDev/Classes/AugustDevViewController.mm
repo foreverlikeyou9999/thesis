@@ -46,11 +46,16 @@
 	NSLog(@"Should now push new view onto stack, giving map interface");
 	//NSLog(@"Sources selected");
 
-	
-	[self.view addSubview:mapness.view];
 
+	[mapness createStreamer];
+	[self.view addSubview:mapness.view];
+    
+
+    for (UITableViewCell *cell in [table visibleCells]) {
+        cell.accessoryType = UITableViewCellAccessoryNone;
+    }
 	
-	
+    [mapness resetStations];
 }
 //--------------------------------------//
 
