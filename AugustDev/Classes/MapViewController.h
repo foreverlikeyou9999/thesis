@@ -21,12 +21,18 @@
 	
 	{
  
-		fmodStreamer *stream;
+		fmodStreamer *stream; 
+		fmodStreamer *stream2;
 		UISlider *panner;
-		NSArray *allStations;
+		NSMutableArray *allStations;
 		NSMutableArray *selectedStations;
 		NSString *tempSelection;
+        NSString *firstStation;
+        NSString *secondStation;
+        NSString *thirdStation;
+        
 		float panski;
+		float volumeski;
 		NSTimer  *panTimer;
 		NSMutableArray *reversePanArray;
 		
@@ -44,10 +50,13 @@
 	}
 
 	@property (nonatomic, retain) IBOutlet UISlider	*panner;
-	@property (nonatomic, retain) NSArray *allStations;
+	@property (nonatomic, retain) NSMutableArray *allStations;
 	@property (nonatomic, retain) NSMutableArray *reversePanArray;
 	@property (nonatomic, retain) NSMutableArray *selectedStations;
 	@property (nonatomic, retain) NSString *tempSelection;
+	@property (nonatomic, retain) NSString *firstStation;
+	@property (nonatomic, retain) NSString *secondStation;
+	@property (nonatomic, retain) NSString *thirdStation;
 
  
 	@property (nonatomic, retain) IBOutlet MKMapView *map;
@@ -63,11 +72,13 @@
 	
 - (void)createStreamer;
 - (IBAction)pauseResume:(id)sender;
-- (void)pannerMoved;
+- (void)pannerMoved: (NSTimer *)panTimer;
 - (void)goToMenu:(id)sender;
 - (void)captureStations:(NSUInteger)selection;
 - (void)setupStations;
 - (IBAction)startPan:(id)sender;
+- (void)resetStations;
+//- (IBAction)setVolumeManually:(id) sender;
 
 
 	

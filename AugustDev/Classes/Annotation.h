@@ -15,7 +15,7 @@
 {
 
 	float latitude;
-	float longitude;
+	float longitude; 
 	CLLocationCoordinate2D coordinate;
 
 	

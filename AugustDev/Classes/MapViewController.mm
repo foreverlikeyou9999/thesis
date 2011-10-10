@@ -14,29 +14,34 @@
 @synthesize panner;
 @synthesize map, coordinates, coordinate, pin;
 @synthesize locationManager; 
-@synthesize allStations, selectedStations, tempSelection, reversePanArray;
+@synthesize allStations; 
+@synthesize selectedStations, tempSelection, reversePanArray;
+@synthesize firstStation, secondStation, thirdStation;
 
 BOOL wasAlreadyPlaying = false;
 int panInt;
 
-
 - (void)setupStations 
 {
-	//-----------Temp station dictionary----------------//
+	//-----------Temp station array----------------//
 	
-	allStations = [NSArray arrayWithObjects:@"http://wfuv-onair.streamguys.org:80/onair-hi", @"http://wnycfm.streamguys.com/", @"Others", nil];	
-	selectedStations = [NSMutableArray arrayWithCapacity:1];
-	reversePanArray = [NSMutableArray arrayWithCapacity:90];
-	float c = 270;
-	for ( int i = 360 ; i <= 270 ; i=i-1 )
-	{
-		[reversePanArray insertObject: [NSNumber numberWithInt:i] atIndex:c];
-
-		c++;
-	}
+	allStations = [NSMutableArray arrayWithObjects:@"http://wfuv-onair.streamguys.org:80/onair-hi", @"http://wnycfm.streamguys.com/", @"http://wbgo.streamguys.net/wbgo96", nil];	
+    
+    NSLog(@"Station array created.");
 
 	//--------------------------------------//
 }
+
+- (void)resetStations 
+{
+    firstStation = @"one";
+    secondStation = @"two";
+    thirdStation = @"three";
+    
+    NSLog(@"Stations reset");
+    
+}
+
 
 //------Audio methods-------------------//
 
@@ -47,20 +52,21 @@ int panInt;
 	{
 		NSLog(@"Calling restartStream.");
 		
-		//[stream startStream:selectedStations];
+		[stream startStream:firstStation andAlso:secondStation andAlso:thirdStation];       
+        //[stream startStream:tempSelection];
+
 		
 	}
 	else
 	{
 		NSLog(@"Calling startStream.");
-		//[stream fmodKill];
 	
 		stream = [[fmodStreamer alloc] init];
 	
-		//[stream startStream:selectedStations];
-		[stream startStream:tempSelection];
-		
-		
+		[stream createSystem];
+		[stream startStream:firstStation andAlso:secondStation andAlso:thirdStation];
+	//	[stream startStream:tempSelection];
+      
 	}
 }
 //--------------------------------------//
@@ -73,35 +79,24 @@ int panInt;
 }
 //--------------------------------------//
 
+//--------------------------------------//
+
+//-(IBAction)setVolumeManually:(id) sender
+//{
+//	[stream setVolume:panner.value];
+//}
+//--------------------------------------//
+
+
 
 
 //--------------------------------------//
 -(void) pannerMoved: (NSTimer *)panTimer {
 
 
-	//if  (orientation.trueHeading >= 0 && orientation.trueHeading <= 90 )
-		
-		//orientation.trueHeading = (heading.trueHeading / -90);
-
-	NSLog(@"%f", panski);
 	[stream changePan:panski];
-	
-		//[stream changePan: value];
+	[stream setVolume:volumeski];
 
-	
-	///else if (orientation.trueHeading >= 90 && orientation.trueHeading <= 180)
-		
-		
-		//[stream changePan: 1.00];
-	
-	//else if (orientation.trueHeading >= 180 && orientation.trueHeading <= 270)
-		
-			//[stream changePan: -1];
-	
-	//else if (orientation.trueHeading >= 270 && orientation.trueHeading <= 360)
-				//[stream changePan: (orientation.trueHeading / -90)];
-
-	
 }
 //--------------------------------------//
 
@@ -119,16 +114,38 @@ int panInt;
 - (void)captureStations:(NSUInteger)selection
 
 {
-	[selectedStations addObject:[allStations objectAtIndex:selection]];
-	NSLog(@"%@", selectedStations);
-	tempSelection = [allStations objectAtIndex:selection];
+	//Adds user selection to Array, reading from master array, at specified index. 
+
+	//Pseudocode e.g. Add WSOU, which comes from master station list, 
+	//to my station variable, using the row of the selection as an index for the switch.
+    
+    switch (selection)
+    {
+    
+    case (0):
+        firstStation = [allStations objectAtIndex:selection]; 
+        NSLog(@"First station written to variable. It is %@", firstStation);	
+        break;
+    case (1):
+        secondStation = [allStations objectAtIndex:selection];
+        NSLog(@"Second station written to variable. It is %@", secondStation);
+        break;
+    case (2):
+        thirdStation = [allStations objectAtIndex:selection];
+        NSLog(@"Third station written to variable. It is %@", thirdStation);
+        break;
+    default:
+        break;
+    }
+	
+	//tempSelection = [allStations objectAtIndex:selection];
 	
 }	
 
 - (void) viewDidLoad 
 
 {
-
+	// Create streaming object 
 	[self createStreamer];
 
 	
@@ -168,9 +185,7 @@ int panInt;
 		alert.cancelButtonIndex = 0; 
 		[alert show];
 		[alert release];
-		
-		//.applicationWillTerminate;
-		//exit(0);
+
 	}
 	
 	
@@ -184,7 +199,7 @@ int panInt;
 	double y = where.longitude;
 	int o = position.course; 
 	
-	NSLog(@"%s %d,%d","You are at coordinates", x, y);
+	NSLog(@"%s %g,%f","You are at coordinates", x, y);
 	NSLog(@"%s %i %s", "Your orientation is", o, "degrees."); 
 	
 	
@@ -235,10 +250,6 @@ int panInt;
 	
 	//------------------------Annotations-----------------------------//
 	
-	CLLocationCoordinate2D cHall;
-    cHall.latitude = 40.76;
-    cHall.longitude = -73.980735;
-	
 	CLLocationCoordinate2D fuv;
     fuv.latitude = 40.8614;
     fuv.longitude = -73.890057;
@@ -250,11 +261,10 @@ int panInt;
 	//Use NSMutableArray if annotating more than one location
 	
 	coordinates = [[NSMutableArray array] retain];
-	Annotation *Carnegie = [[Annotation alloc] init];
+
 	Annotation *WFUV = [[Annotation alloc] init];
 	Annotation *WNYC = [[Annotation alloc] init];
 
-	Carnegie.coordinate = cHall;
 	WFUV.coordinate = fuv;
 	WNYC.coordinate = nyc;
 	
@@ -301,31 +311,72 @@ int panInt;
 
 - (void)locationManager:(CLLocationManager *)locationManager didUpdateHeading:(CLHeading *)heading 
 	
-	{
-		if  (heading.trueHeading >= 0 && heading.trueHeading <= 90 )
-		
-			panski = (heading.trueHeading / 90);
-
+	{	
+		if  (heading.trueHeading >= 1 && heading.trueHeading <= 15 )	
+		{
+			panski = (heading.trueHeading / -90);
+			volumeski = 0.9;
+		}
+		else if  (heading.trueHeading >= 15 && heading.trueHeading <= 30 )	
+		{
+			panski = (heading.trueHeading / -90);
+			volumeski = 0.8;
+		}
+		else if  (heading.trueHeading >= 30 && heading.trueHeading <= 45 )	
+		{
+			panski = (heading.trueHeading / -90);
+			volumeski = 0.7;
+		}
+		else if  (heading.trueHeading >= 45 && heading.trueHeading <= 60 )	
+		{
+			panski = (heading.trueHeading / -90);
+			volumeski = 0.5;
+		}
+		else if  (heading.trueHeading >= 60 && heading.trueHeading <= 75 )	
+		{
+			panski = (heading.trueHeading / -90);
+			volumeski = 0.4;
+		}
+		else if  (heading.trueHeading >= 75 && heading.trueHeading <= 90 )	
+		{
+			panski = (heading.trueHeading / -90);
+			volumeski = 0.2;
+		}
 		else if (heading.trueHeading >= 90 && heading.trueHeading <= 180)
-		
-			panski = 1;
-		
-		else if (heading.trueHeading >= 180 && heading.trueHeading <= 270)
-		
+		{
 			panski = -1;
-		
+			volumeski = 0.2;
+		}
+		else if (heading.trueHeading >= 180 && heading.trueHeading <= 270)
+		{
+			panski = 1;
+			volumeski = 0.2;
+		}
 		else if (heading.trueHeading >= 270 && heading.trueHeading <= 285)
-			panski = -0.8;
-			
+		{
+			panski = 0.8;
+			volumeski = 0.4;
+		}
 		else if (heading.trueHeading >= 285 && heading.trueHeading <= 300)
-			panski = -0.6;
+		{
+			panski = 0.6;
+			volumeski = 0.5;
+		}
 		else if (heading.trueHeading >= 300 && heading.trueHeading <= 315)
-			panski = -0.4;
+		{
+			panski = 0.4;
+			volumeski = 0.7;
+		}
 		else if (heading.trueHeading >= 315 && heading.trueHeading <= 330)
-			panski = -0.2;
+		{
+			panski = 0.2;
+			volumeski = 0.8;
+		}
 		else if (heading.trueHeading >= 330 && heading.trueHeading <= 360)
-			panski = -0.1;
-		
+		{
+			panski = 0.1;
+			volumeski = 0.9;
+		}
 		
 	[map setTransform:CGAffineTransformMakeRotation(-1 * heading.magneticHeading * 3.14159 / 180)];
 	
@@ -396,6 +447,7 @@ int panInt;
 	wasAlreadyPlaying = true;
 	[self.view removeFromSuperview];
 	NSLog(@"Back to menu.");
+	[panTimer invalidate];
 }
 
 

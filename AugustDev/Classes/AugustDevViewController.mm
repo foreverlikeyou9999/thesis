@@ -13,17 +13,22 @@
 { 
 	
 	mapness = [[MapViewController alloc] initWithNibName: @"MapViewController" bundle: nil];
-	
+    [mapness resetStations];
+  
+	UIAlertView *errorAlert = [[UIAlertView alloc] initWithTitle:@"Hi there, explorer!" message:@"Please select up to three simultaneous sources." delegate:nil cancelButtonTitle:@"Hey, ok!" otherButtonTitles:nil];
+	[errorAlert show];
+	[errorAlert release]; 
+		
 		
 	//---------ARRAY FOR TABLE VIEW TEST-----------//
 	
 	
 	NSString *wfuv = @"WFUV 128K"; 
 	NSString *wnyc = @"WNYC - FM: New York Public Radio";
-	NSString *other = @"Another station - not currently active";
+	NSString *wbgo = @"WBGO Newark Public Radio";
 	
 		
-	arryData = [[NSArray alloc] initWithObjects:wfuv, wnyc, other, nil];
+	arryData = [[NSArray alloc] initWithObjects:wfuv, wnyc, wbgo, nil];
 
 	if(arryData){
 		NSLog (@"viewDidLoad");
@@ -59,14 +64,14 @@
 
 // Customize the number of rows in the table view.
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-	return 3;
-}
+	return 3; 
+} 
 //--------------------------------------//
 
 //--------------------------------------//
 - (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section {
  
-    return @"Streamscape";
+    return @"Streamscape: select a source."; 
 }
 
 //--------------------------------------//
@@ -103,6 +108,7 @@
 		
         cell.accessoryType = UITableViewCellAccessoryCheckmark;
 		[mapness setupStations];
+        NSLog(@"selection is %i", newIndexPath.row);
 		 [mapness captureStations:newIndexPath.row];
 	
 		
